@@ -1,5 +1,5 @@
 # Variables
-With values and variables, the computer can do work for us.
+With values and operators, the computer can do work for us.
 
 Let's calculate the cost of a road trip.
 If we're driving 300 miles in a car that gets 30 MPG and gas costs $2.50 per gallon:
@@ -53,9 +53,9 @@ Remember, variable names are for you.
 The computer doesn't understand them.
 It just follows instructions.
 
-## Naming Rules
+## Basic Naming
 Variable names can only be upper case letters, lower case letters, underscores, and numbers.
 Numbers cannot begin a variable name.
 
-Convention says variables are in `snake_case`:
+Proper Python style has variables in `snake_case`:
 words are all lowercase and separated by underscores.

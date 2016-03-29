@@ -7,10 +7,11 @@
 1. [Command Line Interface](cli.md)
 1. [Values](values.md)
 1. [Operators and Expressions](operators.md)
-1. [Imperative Computer](imperative.md)
 1. [Variables](variables.md)
+1. [Imperative Programming](imperative.md)
 1. [Calling Functions](callingfunctions.md)
-1. [Practice: Madlib](practice-madlib.md)
+1. Practice: [Madlib](practice-madlib.md)
+1. Optional: Practice: [Taxes](practice-taxes.md)
 
 ## Hot Tips
 * [2016-03-24](2016-03-24-tips.md)

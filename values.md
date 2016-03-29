@@ -2,6 +2,7 @@
 Programming is transforming data, so we need some way of representing data.
 A **value** is an abstract individual piece of data or fact or idea.
 It has no meaning on it's own.
+Values are the _concrete nouns_ of programming.
 
 **Literals** are when you _literally write_ some values in code:
 ```python

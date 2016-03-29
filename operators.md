@@ -2,12 +2,13 @@
 Programming is giving instructions to the computer to transform some input data into different output data.
 
 The most basic way is via an **operator**.
-Operators take in _multiple_ **input values** and make a _single_ new **output value**.
+Operators take in _multiple_ input **arguments** and **returns** a _single_ output value.
+Operators are the _basic verbs_ of programming.
 
 ```
-value -\
-        >-- operator --> value
-value -/
+argument value -\
+                 >-- operator --> return value
+argument value -/
 ```
 
 You've seen operators in math class:
@@ -16,10 +17,10 @@ You've seen operators in math class:
 100 - 200 is -100
 ```
 
-_Anything_ that outputs or results in a value is called an **expression**.
+_Anything_ that returns a value is called an **expression**.
 Both literals and operators with inputs are expressions.
 
-In these notes, whenever you see `#>` I'm showing you the output value of the preceding expression.
+In these notes, whenever you see `#>` I'm showing you the return value of the preceding expression.
 
 Python gives you all of the usual math operators that work on ints and floats:
 ```python
