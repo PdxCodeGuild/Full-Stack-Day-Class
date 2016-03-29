@@ -16,7 +16,7 @@ You've seen operators in math class:
 100 - 200 is -100
 ```
 
-_Anything_ that outputs a value is called an **expression**.
+_Anything_ that outputs or results in a value is called an **expression**.
 Both literals and operators with inputs are expressions.
 
 In these notes, whenever you see `#>` I'm showing you the output value of the preceding expression.
@@ -39,4 +39,3 @@ As a rule of thumb, operators only make sense on like types, so avoid:
 ```python
 'Hi' + 6.0  #> TypeError
 ```
- 
