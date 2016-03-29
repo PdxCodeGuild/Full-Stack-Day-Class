@@ -1,4 +1,4 @@
-# High-Level Structure
+# Basic High-Level Structure
 It starts out intimidating to write code from scratch to solve a problem.
 Use the following rubric to help:
 

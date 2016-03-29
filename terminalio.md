@@ -1,4 +1,4 @@
-# Basic IO
+# Terminal IO
 Thus far we've only been moving values _invisibly_ inside the program.
 
 The following Python outputs _nothing_:
