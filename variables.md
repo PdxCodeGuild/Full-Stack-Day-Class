@@ -39,6 +39,13 @@ You can **assign** the result of an expression to a variable:
 miles = 30.5
 ```
 
+Variables are free!
+If the meaning of a value has changed, even a little, make a new variable with a different name so you remember the different meaning.
+```python
+distance_miles = 100
+distance_feet = 5280 * 100
+```
+
 Variables are _also_ expressions, like literals and the operators with inputs.
 When you **reference** a variable in an expression, out pops the _last assigned_ value.
 

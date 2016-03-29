@@ -1,6 +1,7 @@
-# Command Line Interface
+# Terminal Interface
 We're going to learn a new interface to our computer.
-No icons, no menus, just **text**.
+No icons, no menus, just _text_.
+It's called the **terminal**.
 
 The computer outputs appends new text to a history of output.
 You can type and supply new text as input.

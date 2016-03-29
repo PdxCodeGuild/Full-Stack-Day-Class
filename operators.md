@@ -38,5 +38,5 @@ It also gives you operators that work on strings:
 
 As a rule of thumb, operators only make sense on like types, so avoid:
 ```python
-'Hi' + 6.0  #> TypeError
+'Hi' + 6.0  #> throws TypeError
 ```
