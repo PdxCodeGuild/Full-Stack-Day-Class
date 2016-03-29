@@ -36,7 +36,7 @@ It also gives you operators that work on strings:
 'Hi, ' + 'David'  #> 'Hi, David'
 ```
 
-As a rule of thumb, operators only make sense on like types, so avoid:
+As a rule-of-thumb, operators only make sense on like types, so avoid:
 ```python
 'Hi' + 6.0  #> throws TypeError
 ```

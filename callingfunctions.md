@@ -5,9 +5,9 @@ But there are only so many symbols.
 **Functions** give a name to a set of instructions that transform multiple input arguments to a single return value.
 
 ```
-value -\
-value --+- function --> value
-value -/
+argument value -\
+argument value --+- function --> return value
+argument value -/
 ```
 
 Python gives us a function called `max`.

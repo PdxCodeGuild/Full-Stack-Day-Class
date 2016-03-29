@@ -17,6 +17,6 @@ road_trip_cost = gallons_needed * cost_per_gallon_of_gas
 ```
 
 The list of previously-stored variables that you can access is called the **current scope**.
-
-You can only access values that you've stored _previously_.
+_All_ of your variable and function names must have values by the time the code runs.
+Thus, you can only access values that you've stored _previously_.
 You can't look into the future.
