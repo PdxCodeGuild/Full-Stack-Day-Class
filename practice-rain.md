@@ -13,7 +13,7 @@ import urllib.request
 with urllib.request.urlopen('http://www.gutenberg.org/ebooks/1342.txt.utf-8') as pride_and_prejudice_file:
   lines = [byte_line.decode('utf-8') for byte_line in pride_and_prejudice_file]
 ```
-Adapt it to read [the history of the gauge at Sunnyside School](http://or.water.usgs.gov/non-usgs/bes/sunnyside.rain). It looks like:
+Adapt it to read [the history of the gauge at Sunnyside School](https://raw.githubusercontent.com/selassid/codeguild/master/sunnyside.rain). It looks like:
 ```
 TEXT HEADER...
 
@@ -25,6 +25,8 @@ TEXT HEADER...
 MORE...
 ```
 The amounts are in hundredths of inches.
+
+Please use the following URL to access a copy of the data: `https://raw.githubusercontent.com/selassid/codeguild/master/sunnyside.rain`.
 
 * Parse and store the _daily total_ data for each day in a dict from date string to daily total.
 * From that dict, print out the specific date with the most rain.
