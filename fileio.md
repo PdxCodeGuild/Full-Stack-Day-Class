@@ -27,7 +27,7 @@ You can use the following operations while the file is open.
 
 To get all lines as a list of strings:
 ```python
-f.readlines() -> ['First line\n', 'Second line\n']
+f.readlines()  #> ['First line\n', 'Second line\n']
 ```
 
 Lines include the newline character, which is represented in strings by `"\n"`.

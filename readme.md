@@ -21,9 +21,15 @@
 1. Practice: [Madlib](practice-madlib.md)
 1. Optional: Practice: [Wall Painting](practice-wallpainting.md)
 1. Optional: Practice:
+1. [Source Control](sourcecontrol.md)
+1. [Basic Git](basicgit.md)
+1. Demo: Git
+1. [Class Portfolio](classportfolio.md)
+1. Practice: Basic Git
 1. [Booleans](booleans.md)
 1. [Comparison Operators](comparison.md)
 1. [Branching and Blocks](branchingandblocks.md)
+1. [Git Remotes and GitHub](remotegit.md)
 1. Demo:
 1. Optional: Practice: [21](practice-21.md)
 1. Optional: Practice:
@@ -43,10 +49,12 @@
 1. Optional: Practice:
 1. Optional: Practice:
 1. Optional: Practice:
+1. Git Branching and Merging
 1. Functions as Structure
 1. Demo:
 1. Optional: Practice:
 1. Practice: Function Refactor
+1. Optional: Practice: Merge Refactor
 1. Lists
 1. List Comprehensions
 1. Tuples
