@@ -1,7 +1,11 @@
-# Python Course
-## Class Syllabus
+# PDX Code Guild Syllabus
+## Intro
 1. Class Expectations
+1. [Class Portfolio](classportfolio.md)
 1. Programming Philosophy
+1. High-Level Structure of a Web App
+
+## Programming in Python
 1. Filesystem
 1. Stored Program Computer
 1. [Command Line Interface](cli.md)
@@ -24,7 +28,6 @@
 1. [Source Control](sourcecontrol.md)
 1. [Basic Git](basicgit.md)
 1. Demo: Git
-1. [Class Portfolio](classportfolio.md)
 1. Practice: Basic Git
 1. [Booleans](booleans.md)
 1. [Comparison Operators](comparison.md)
@@ -75,6 +78,22 @@
 1. Modules
 1. Practice: [Word Count](practice-wordcount.md)
 1. Practice: [Rain](practice-rain.md)
+1. [Basic Classes](basicclasses.md)
+
+## Interfaces with HTML and CSS
+1. Front End Principles
+1. HTML Structure
+1. Text
+1. Images
+1. Style Principles
+1. Sections
+1. Forms
+
+## Client Side in Javascript
+
+## Building a Web App
+1. Mid-Level Structure of a Web App
+1. In
 
 ## Hot Tips
 * [2016-03-24](tips-2016-03-24.md)
