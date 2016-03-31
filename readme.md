@@ -1,7 +1,7 @@
 # PDX Code Guild Syllabus
 ## Intro
-1. Class Expectations
-1. [Class Portfolio](classportfolio.md)
+1. Course Expectations
+1. [Course Portfolio](courseportfolio.md)
 1. Programming Philosophy
 1. High-Level Structure of a Web App
 
@@ -63,10 +63,11 @@
 1. Tuples
 1. Advanced String Methods
 1. Sequence Functions
+1. Step-by-Step Debugging
 1. Demo:
 1. Optional: Practice:
 1. Optional: Practice:
-1. Optional: Practice:
+1. Optional: Practice: [Sum Pairs](practice-sumpairs.md)
 1. Dicts
 1. Dict Comprehensions
 1. [Function Values](functionvalues.md)
@@ -77,8 +78,17 @@
 1. [File IO](fileio.md)
 1. Modules
 1. Practice: [Word Count](practice-wordcount.md)
-1. Practice: [Rain](practice-rain.md)
+1. Checkpoint Practice: [Rain](practice-rain.md)
 1. [Basic Classes](basicclasses.md)
+1. [Class Init](classinit.md)
+1. [Value Types](valuetypes.md)
+1. [Class String Casting](classstringcasting.md)
+1. Immutability
+1. Demo: [Geometry](demo-geometry.md)
+1. Practice: [ATM](practice-atm.md)
+1. Practice: 
+1. Group Practice: Blackjack
+1. Checked Practice: Connect Four
 
 ## Interfaces with HTML and CSS
 1. Front End Principles

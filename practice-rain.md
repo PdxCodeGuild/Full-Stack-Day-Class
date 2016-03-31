@@ -42,3 +42,5 @@ You will also have to slice out the date and daily total from each of those list
 * Find and print the day of the year with the most rain on average.
 E.g. December 30th has 1" of rain on average.
 * Allow someone to type in a date in the future and, using the average value for that day of the year, predict the amount of rain.
+* URL open the [main listing website](http://or.water.usgs.gov/non-usgs/bes/).
+Parse it and allow the user to select statistics from the available rain gauges.

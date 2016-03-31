@@ -1,4 +1,4 @@
-# Class Portfolio
+# Course Portfolio
 You should save all of the code you write in this class.
 Employers will want to look at it to see examples of your work when hiring you.
 
