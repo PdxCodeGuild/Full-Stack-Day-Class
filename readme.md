@@ -87,11 +87,12 @@
 1. Immutability
 1. Demo: [Geometry](demo-geometry.md)
 1. Practice: [ATM](practice-atm.md)
-1. Practice: [Blackjack](practice-blackjack.md)
+1. Practice: [Blackjack Hand](practice-blackjackhand.md)
 1. Git Branching and Merging
 1. Dividing Work with Interfaces
-1. Checked Practice: Connect Four
+1. Checked Group Practice: Connect Four
 1. Checked Practice: [Restaurant Reviews](practice-reviews.md)
+1. Practice: [Blackjack Game](practice-blackjackgame.md)
 
 ## Interfaces with HTML and CSS
 1. Front End Principles
