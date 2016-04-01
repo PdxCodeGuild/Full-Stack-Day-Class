@@ -11,7 +11,8 @@ print(me)  # <__main__.AddressBookEntry object at 0x1043772e8>
 ```
 
 Write a **magic str** function in your class to define how to cast to a string.
-It must have the signature `__str__(self)` and return a string.
+It must have the signature `__str__(self)` and _return_ a string.
+It _must not print_.
 ```python
 class AddressBookEntry:
   def __init__(self, name, phone_number):

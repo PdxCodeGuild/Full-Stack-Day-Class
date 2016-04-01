@@ -1,4 +1,4 @@
-# Value Types
+# Value Classes
 All the Python built-in types are interpreted as **value types**:
 if the contents are the same, they are equal.
 ```python
@@ -14,7 +14,7 @@ You _should_ make them work that way, though.
 It's _much_ easier to think about.
 
 Write a **magic eq** function in your class to define equality.
-It must have the signature `__eq__(self, other)` and return a bool.
+It must have the signature `__eq__(self, other)` and _return_ a bool.
 ```python
 class AddressBookEntry:
   def __init__(self, name, phone_number):

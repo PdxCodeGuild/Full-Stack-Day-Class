@@ -76,11 +76,11 @@
 1. Practice: Voting Booth
 1. Optional: Practice:
 1. [File IO](fileio.md)
+1. For Loops
 1. Modules
 1. Practice: [Word Count](practice-wordcount.md)
 1. Checkpoint Practice: [Rain](practice-rain.md)
-1. [Objects](objects.md)
-1. [Basic Classes](basicclasses.md)
+1. [Basic Objects and Classes](basicobjectsclasses.md)
 1. [Class Init](classinit.md)
 1. [Value Classes](valueclasses.md)
 1. [Class String Casting](classstringcasting.md)
