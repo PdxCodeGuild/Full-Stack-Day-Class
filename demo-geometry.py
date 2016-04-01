@@ -10,7 +10,8 @@ class Point:
         ) ** 0.5
 
     def move_to(self, dx, dy):
-        return Point(self.x + dx, self.y + dy)
+        self.x += dx
+        self.y += dy
 
     def __eq__(self, other_point):
         return self.x == other_point.x and self.y == other_point.y
@@ -72,5 +73,5 @@ print('My cat\'s house and mine are equal:', house == cats_house)
 print('Two identical cities are equal:', city == identical_city)
 print('Two different cities are equal:', city == different_city)
 
-moved_house = house.move_to(1, -1)
-print('After moving my house:', moved_house)
+house.move_to(1, -1)
+print('After moving my house:', house)
