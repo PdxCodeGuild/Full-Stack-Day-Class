@@ -79,16 +79,19 @@
 1. Modules
 1. Practice: [Word Count](practice-wordcount.md)
 1. Checkpoint Practice: [Rain](practice-rain.md)
+1. [Objects](objects.md)
 1. [Basic Classes](basicclasses.md)
 1. [Class Init](classinit.md)
-1. [Value Types](valuetypes.md)
+1. [Value Classes](valueclasses.md)
 1. [Class String Casting](classstringcasting.md)
 1. Immutability
 1. Demo: [Geometry](demo-geometry.md)
 1. Practice: [ATM](practice-atm.md)
-1. Practice: 
-1. Group Practice: Blackjack
+1. Practice: [Blackjack](practice-blackjack.md)
+1. Git Branching and Merging
+1. Dividing Work with Interfaces
 1. Checked Practice: Connect Four
+1. Checked Practice: [Restaurant Reviews](practice-reviews.md)
 
 ## Interfaces with HTML and CSS
 1. Front End Principles
@@ -111,3 +114,4 @@
 * [2016-03-28](tips-2016-03-28.md)
 * [2016-03-29](tips-2016-03-29.md)
 * [2016-03-30](tips-2016-03-30.md)
+* [2016-04-01](tips-2016-04-01.md)
