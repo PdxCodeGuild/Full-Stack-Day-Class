@@ -89,8 +89,8 @@
 1. Demo: [Geometry](demo-geometry.md)
 1. Practice: [ATM](practice-atm.md)
 1. Practice: [Blackjack Hand](practice-blackjackhand.md)
-1. Checked Group Practice: [Connect Four](practice-connectfour.md)
 1. Checked Group Practice: [Restaurant Reviews](practice-reviews.md)
+1. Checked Group Practice: [Connect Four](practice-connectfour.md)
 1. Practice: [Blackjack Game](practice-blackjackgame.md)
 1. Dividing Work with Interfaces
 
