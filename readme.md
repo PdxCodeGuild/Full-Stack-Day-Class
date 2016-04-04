@@ -78,6 +78,7 @@
 1. [File IO](fileio.md)
 1. For Loops
 1. Modules
+1. [Naming](naming.md)
 1. Practice: [Word Count](practice-wordcount.md)
 1. Checkpoint Practice: [Rain](practice-rain.md)
 1. [Basic Objects and Classes](basicobjectsclasses.md)
@@ -88,11 +89,10 @@
 1. Demo: [Geometry](demo-geometry.md)
 1. Practice: [ATM](practice-atm.md)
 1. Practice: [Blackjack Hand](practice-blackjackhand.md)
-1. Git Branching and Merging
-1. Dividing Work with Interfaces
-1. Checked Group Practice: Connect Four
-1. Checked Practice: [Restaurant Reviews](practice-reviews.md)
+1. Checked Group Practice: [Connect Four](practice-connectfour.md)
+1. Checked Group Practice: [Restaurant Reviews](practice-reviews.md)
 1. Practice: [Blackjack Game](practice-blackjackgame.md)
+1. Dividing Work with Interfaces
 
 ## Interfaces with HTML and CSS
 1. Front End Principles
