@@ -3,7 +3,8 @@
 1. Course Expectations
 1. [Course Portfolio](courseportfolio.md)
 1. Programming Philosophy
-1. High-Level Structure of a Web App
+1. [Web Basics](webbasics.md)
+1. [High-Level Structure of a Web App](webappoverview.md)
 
 ## Programming in Python
 1. Filesystem
@@ -94,7 +95,11 @@
 1. Practice: [Blackjack Game](practice-blackjackgame.md)
 1. Dividing Work with Interfaces
 
-## Interfaces with HTML and CSS
+## Building a Web App
+1. Mid-Level Structure of a Web App
+1. In
+
+## Basic Interfaces with HTML and CSS
 1. Front End Principles
 1. HTML Structure
 1. Text
@@ -104,10 +109,6 @@
 1. Forms
 
 ## Client Side in Javascript
-
-## Building a Web App
-1. Mid-Level Structure of a Web App
-1. In
 
 ## Hot Tips
 * [2016-03-24](tips-2016-03-24.md)
