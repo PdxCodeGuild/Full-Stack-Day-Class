@@ -1,5 +1,5 @@
 # Class String Representation
-Python doesn't assume to know how to convert your type to a string.
+Python doesn't assume to know how to convert an instance of your class to a string.
 ```python
 class AddressBookEntry:
   def __init__(self, name, phone_number):
@@ -20,7 +20,7 @@ class AddressBookEntry:
     self.phone_number = phone_number
 
   def __repr__(self):
-    return 'AddressBookEntry({}, {})'.format(
+    return 'AddressBookEntry({!r}, {!r})'.format(
       self.name,
       self.phone_number
     )
@@ -37,3 +37,6 @@ It should be an unambiguous _literal_ representation of all the data in an insta
 I recommend it look like a call to your class' constructor.
 > AddressBookEntry('David', '507-555-9895')
 > AddressBookEntry(name='David', phone_number='507-555-9895')
+
+You should remember that any attributes you're interpolating into the string representation should be reprs themselves:
+use `{!r}` in your formatting string to have them be reprs.

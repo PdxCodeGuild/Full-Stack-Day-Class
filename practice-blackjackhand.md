@@ -10,3 +10,6 @@ An ace is worth 1 when the hand it's a part of would be over 21 if it was worth 
 * Make a class that represents a hand.
 * Add functions that adds a card to a hand, one that scores a hand, and one that returns if the score is over 21.
 * Allow a user to type in a hand and have it be converted into card objects and then scored.
+
+While you're working, use arbitrary cards that you enter.
+Don't worry about modeling a deck yet.

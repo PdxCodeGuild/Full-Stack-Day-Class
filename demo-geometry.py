@@ -5,8 +5,8 @@ class Point:
 
     def distance_to(self, other_point):
         return (
-            (self.x - other_point.x) ** 2
-            + (self.y - other_point.y) ** 2
+            (self.x - other_point.x) ** 2 +
+            (self.y - other_point.y) ** 2
         ) ** 0.5
 
     def move_to(self, dx, dy):
@@ -17,7 +17,7 @@ class Point:
         return self.x == other_point.x and self.y == other_point.y
 
     def __repr__(self):
-        return 'Point({}, {})'.format(self.x, self.y)
+        return 'Point({!r}, {!r})'.format(self.x, self.y)
 
 
 class Rectangle:
@@ -28,12 +28,12 @@ class Rectangle:
 
     def contains(self, point):
         x_is_inside = (
-            point.x >= self.bottom_left_corner.x
-            and point.x <= (self.bottom_left_corner.x + self.w)
+            point.x >= self.bottom_left_corner.x and
+            point.x <= (self.bottom_left_corner.x + self.w)
         )
         y_is_inside = (
-            point.y >= self.bottom_left_corner.y
-            and point.y <= (self.bottom_left_corner.y + self.h)
+            point.y >= self.bottom_left_corner.y and
+            point.y <= (self.bottom_left_corner.y + self.h)
         )
         return x_is_inside and y_is_inside
 
@@ -45,12 +45,12 @@ class Rectangle:
 
     def __eq__(self, other_rect):
         return (
-            self.bottom_left_corner == other_rect.bottom_left_corner
-            and self.w == other_rect.w and self.h == other_rect.h
+            self.bottom_left_corner == other_rect.bottom_left_corner and
+            self.w == other_rect.w and self.h == other_rect.h
         )
 
     def __repr__(self):
-        return 'Rectangle({}, {}, {})'.format(
+        return 'Rectangle({!r}, {!r}, {!r})'.format(
             self.bottom_left_corner,
             self.w,
             self.h

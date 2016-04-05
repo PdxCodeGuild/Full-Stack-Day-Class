@@ -1,5 +1,5 @@
 # Class Init
-Since classes store structured values, the most basic operation is setting up those values in a new instance.
+Since class instances store labeled, structured values, the most basic operation is setting up those values in a new instance.
 Python gives us a streamlined way to require us to have every instance have some values set.
 
 It's called a **constructor function**.
@@ -12,6 +12,9 @@ class AddressBookEntry:
 ```
 
 It should always take in a first argument named `self`, then any _other_ arguments you require as attributes on an instance.
+
+Think about what fields are required to represent the essence of an object, not just any data that is cursorily related to the object.
+Have those be your required data for the constructor.
 
 When you define a magic init for a class, it magically changes how you instantiate the class.
 You now _need_ to pass all of those _other_ arguments when you call the type name:

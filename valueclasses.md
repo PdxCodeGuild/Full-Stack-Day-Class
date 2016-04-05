@@ -10,8 +10,8 @@ if the contents are the same, they are equal.
 But the classes you make, _aren't_ by default.
 Python doesn't assume you have the same definition of equals.
 
-You _should_ make them work that way, though.
-It's _much_ easier to think about.
+You should make them work that way _if it makes sense_, though.
+It's much easier to think about.
 
 Write a **magic eq** function in your class to define equality.
 It must have the signature `__eq__(self, other)` and _return_ a bool.
@@ -45,3 +45,7 @@ me == 5  # throws AttributeError
 I think that's okay.
 You should _avoid_ comparing different types.
 An error will remind you.
+
+Not every class makes sense as a value type.
+Think about whether two instances should be equal if all their data is equal.
+Some types don't make sense like that; e.g. an `Account` class that _doesn't_ have a unique ID in it.

@@ -1,5 +1,5 @@
 # Basic Classes and Objects
-A **class** defines a template or **type** for a _structured value_ containing _inner values_ in your code.
+A **class** defines a template or **type** for a _complex structured value_ that is a collection of labeled _inner values_ in your code.
 For example:
 * A "playing card" value has a suit and a card number
 * An "address book entry" value has a name and a phone number
@@ -7,10 +7,10 @@ For example:
 * A "user" with a name and email address.
 
 Each of these could be represented as a class.
-The inner variables all have names and are called **attributes** or **fields**.
+The inner variables are labeled with names and are called **attributes** or **fields**.
 
 Why not use a tuple or dict for structured values?
-Named fields are easier to read and and you can enforce the structure is correct.
+Named attributes are easier to read and and you can enforce the structure is correct.
 
 The types you make are like the types you've seen already: strings, ints, etc.
 
@@ -23,13 +23,13 @@ class AddressBookEntry:
 
 ## Instantiating
 Similar to how defining functions doesn't run them, defining a class _doesn't_ make space for your structured value.
-To actually _make space_ for your values, you have to **instantiate** the class, which looks like calling the type as a function.
+To actually _make space_ for your value, you have to **instantiate** the class, which looks like calling the type as a function.
 The returned value is an **instance** or **object** of your type:
 ```python
 me = AddressBookEntry()
 ```
 
-Then you can actually set the attributes your structured value will have.
+Then you can actually fill the instance with data for each attribute name.
 You can then reach into them and set and get inner attributes with the dot operator `.`.
 Each instance has totally separate attributes:
 ```python
@@ -46,7 +46,7 @@ print(me.name, me.phone_number)  # David 507-555-9895
 print(you.name, you.phone_number)  # Helen 507-555-1234
 ```
 
-Remember, the class just defines the structure, the template.
+Remember, the class just defines the structure, the template, what labels are valid.
 Each _instance_ is where the values are held.
 You also have to store the instances in variables to remember what how they're supposed to be interpreted.
 

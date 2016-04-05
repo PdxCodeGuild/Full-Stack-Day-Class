@@ -89,14 +89,12 @@
 1. Demo:
 1. Practice:
 1. Practice:
-1. Practice:
-1. Private Attributes
+1. Checked Group Practice: [Restaurant Reviews](practice-reviews.md)
 1. [Type Methods](typemethods.md)
 1. [Value Classes](valueclasses.md)
 1. Demo: [Geometry](demo-geometry.md)
 1. Practice: [ATM](practice-atm.md)
 1. Practice: [Blackjack Hand](practice-blackjackhand.md)
-1. Checked Group Practice: [Restaurant Reviews](practice-reviews.md)
 1. Optional: Practice: [Blackjack Game](practice-blackjackgame.md)
 1. [Dividing Work with Interfaces]()
 1. Optional: Practice: [Connect Four](practice-connectfour.md)
