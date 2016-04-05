@@ -1,6 +1,6 @@
 # Class Init
-Since classes store structured values, the most basic operation is setting up those values.
-Python gives us a streamlined way to write a function that sets up initial values into an instance.
+Since classes store structured values, the most basic operation is setting up those values in a new instance.
+Python gives us a streamlined way to require us to have every instance have some values set.
 
 It's called a **constructor function**.
 It's a function with the name `__init__`, pronounced **magic init** (also called "double-under init" or "dunder init"):
@@ -11,9 +11,9 @@ class AddressBookEntry:
         self.phone_number = phone_number
 ```
 
-It should always take in a first argument named `self`, then any _other_ arguments you want to store as attributes in an instance.
+It should always take in a first argument named `self`, then any _other_ arguments you require as attributes on an instance.
 
-When you define a magic init for a class, it changes how you instantiate the class.
+When you define a magic init for a class, it magically changes how you instantiate the class.
 You now _need_ to pass all of those _other_ arguments when you call the type name:
 ```python
 me = AddressBookEntry()  # throws TypeError
@@ -23,8 +23,10 @@ you = AddressBookEntry('Helen', '507-555-1234')
 
 Magic init is called with an _empty instance_ passed in as `self`, and all the other arguments from the type name call.
 Magic init's job is to store all of those arguments inside this empty instance.
+It does _not_ return a value;
+it uses the passed-in instance to store the new data.
 
-So before we had:
+Before we had to write every time:
 ```python
 me = AddressBookEntry()
 me.name = 'David'

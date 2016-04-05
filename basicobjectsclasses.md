@@ -29,6 +29,7 @@ The returned value is an **instance** or **object** of your type:
 me = AddressBookEntry()
 ```
 
+Then you can actually set the attributes your structured value will have.
 You can then reach into them and set and get inner attributes with the dot operator `.`.
 Each instance has totally separate attributes:
 ```python
@@ -40,9 +41,9 @@ you = AddressBookEntry()
 me.name = 'David'
 me.phone_number = '507-555-9895'
 you.name = 'Helen'
-you.name = '507-555-1234'
-print(me.name)  # David
-print(you.name)  # Helen
+you.phone_number = '507-555-1234'
+print(me.name, me.phone_number)  # David 507-555-9895
+print(you.name, you.phone_number)  # Helen 507-555-1234
 ```
 
 Remember, the class just defines the structure, the template.

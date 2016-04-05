@@ -3,8 +3,6 @@
 1. Course Expectations
 1. [Course Portfolio](courseportfolio.md)
 1. Programming Philosophy
-1. [Web Basics](webbasics.md)
-1. [High-Level Structure of a Web App](webappoverview.md)
 
 ## Programming in Python
 1. Filesystem
@@ -21,8 +19,9 @@
 1. [Basic Casting](basiccasting.md)
 1. [Comments](comments.md)
 1. [Basic High-Level Structure](basichighlevelstructure.md)
+1. [Evaluation Order](evaluationorder.md)
 1. Demo: [Greeting](demo-greeting.md)
-1. [Basic Debugging](basicdebugging.md)
+1. [Basic Problem Solving](basicproblemsolving.md)
 1. Practice: [Madlib](practice-madlib.md)
 1. Optional: Practice: [Wall Painting](practice-wallpainting.md)
 1. Optional: Practice:
@@ -55,6 +54,7 @@
 1. Optional: Practice:
 1. Git Branching and Merging
 1. Functions as Structure
+1. [Advanced Problem Solving](advancedproblemsolving.md)
 1. Demo:
 1. Optional: Practice:
 1. Practice: Function Refactor
@@ -64,7 +64,6 @@
 1. Tuples
 1. Advanced String Methods
 1. Sequence Functions
-1. Step-by-Step Debugging
 1. Demo:
 1. Optional: Practice:
 1. Optional: Practice:
@@ -76,6 +75,7 @@
 1. Demo:
 1. Practice: Voting Booth
 1. Optional: Practice:
+1. Structured Data
 1. [File IO](fileio.md)
 1. For Loops
 1. Modules
@@ -84,20 +84,22 @@
 1. Checkpoint Practice: [Rain](practice-rain.md)
 1. [Basic Objects and Classes](basicobjectsclasses.md)
 1. [Class Init](classinit.md)
+1. [Class String Representation](classstringrepr.md)
+1. Demo:
+1. [Private Attributes](privateattributes.md)
+1. [Type Methods](typemethods.md)
 1. [Value Classes](valueclasses.md)
-1. [Class String Casting](classstringcasting.md)
-1. Immutability
 1. Demo: [Geometry](demo-geometry.md)
 1. Practice: [ATM](practice-atm.md)
 1. Practice: [Blackjack Hand](practice-blackjackhand.md)
 1. Checked Group Practice: [Restaurant Reviews](practice-reviews.md)
-1. Checked Group Practice: [Connect Four](practice-connectfour.md)
+1. Optional: Practice: [Connect Four](practice-connectfour.md)
 1. Practice: [Blackjack Game](practice-blackjackgame.md)
 1. Dividing Work with Interfaces
 
 ## Building a Web App
-1. Mid-Level Structure of a Web App
-1. In
+1. [Web Basics](webbasics.md)
+1. [High-Level Structure of a Web App](webappoverview.md)
 
 ## Basic Interfaces with HTML and CSS
 1. Front End Principles
@@ -117,3 +119,5 @@
 * [2016-03-29](tips-2016-03-29.md)
 * [2016-03-30](tips-2016-03-30.md)
 * [2016-04-01](tips-2016-04-01.md)
+* [2016-04-04](tips-2016-04-04.md)
+* [2016-04-05](tips-2016-04-05.md)
