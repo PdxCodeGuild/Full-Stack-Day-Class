@@ -52,7 +52,7 @@
 1. Optional: Practice:
 1. Optional: Practice:
 1. Optional: Practice:
-1. Git Branching and Merging
+1. [Git Branching and Merging](gitbranching.md)
 1. Functions as Structure
 1. [Advanced Problem Solving](advancedproblemsolving.md)
 1. Demo:
