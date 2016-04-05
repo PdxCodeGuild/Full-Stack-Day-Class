@@ -85,17 +85,21 @@
 1. [Basic Objects and Classes](basicobjectsclasses.md)
 1. [Class Init](classinit.md)
 1. [Class String Representation](classstringrepr.md)
+1. [Data Design](classdesign.md)
 1. Demo:
-1. [Private Attributes](privateattributes.md)
+1. Practice:
+1. Practice:
+1. Practice:
+1. Private Attributes
 1. [Type Methods](typemethods.md)
 1. [Value Classes](valueclasses.md)
 1. Demo: [Geometry](demo-geometry.md)
 1. Practice: [ATM](practice-atm.md)
 1. Practice: [Blackjack Hand](practice-blackjackhand.md)
 1. Checked Group Practice: [Restaurant Reviews](practice-reviews.md)
+1. Optional: Practice: [Blackjack Game](practice-blackjackgame.md)
+1. [Dividing Work with Interfaces]()
 1. Optional: Practice: [Connect Four](practice-connectfour.md)
-1. Practice: [Blackjack Game](practice-blackjackgame.md)
-1. Dividing Work with Interfaces
 
 ## Building a Web App
 1. [Web Basics](webbasics.md)
