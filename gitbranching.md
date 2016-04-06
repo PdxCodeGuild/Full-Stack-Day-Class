@@ -33,10 +33,12 @@ git branch
 ```
 
 ## Checking Out Branches
-Then to swap to a specific branch:
+Then to swap your _working directory_ to a specific branch:
 ```bash
 git checkout BRANCH
 ```
+
+This will give you an error if you have un-committed changes in your working directory, since it would overwrite them.
 
 ## Merging Branches
 Then, once some work is finalized, you can **merge** it back into the `master` branch.
@@ -108,14 +110,16 @@ Then remember to delete your finalized branch.
 1. Before you start some speculative work, make a feature branch using `git checkout -b BRANCH`.
 
 Now repeat until the speculative work is done:
+
 1. Make changes using your editor to the working directory.
 1. Stage those changes in the index using `git add FILES...`.
 1. Commit those staged changes to your history of the feature branch using `git commit -m"MESSAGE"`.
 
 Now that the feature branch is done:
-2. Checkout `master` with `git checkout master`.
-3. Merge in your changes from your feature branch `git merge BRANCH -m "Merging BRANCH."`.
-4. Delete the finalized feature branch with `git branch -d BRANCH`.
-5. Push those new commits in `master` to remote history using `git push`.
+
+1. Checkout `master` with `git checkout master`.
+1. Merge in your changes from your feature branch `git merge BRANCH -m "Merging BRANCH."`.
+1. Delete the finalized feature branch with `git branch -d BRANCH`.
+1. Push those new commits in `master` to remote history using `git push`.
 
 Make a new branch for each practice problem you work on from now on.
