@@ -71,3 +71,9 @@ Working Directory <-- git diff --> Index <-- git diff --cached --> HEAD of Histo
 ```bash
 git log
 ```
+
+## Basic Workflow
+If you're the only person working on a repo just on your computer, you can have a simple, one-way workflow:
+1. Make changes using your editor to the working directory.
+1. Stage those changes in the index using `git add FILES...`.
+1. Commit those staged changes in the index to your local history using `git commit -m"MESSAGE"`.

@@ -10,19 +10,9 @@ class AddressBookEntry:
         self.name = name
         self.phone_number = phone_number
 ```
-
 It should always take in a first argument named `self`, then any _other_ arguments you require as attributes on an instance.
 
-Think about what fields are required to represent the essence of an object, not just any data that is cursorily related to the object.
-Have those be your required data for the constructor.
-
-When you define a magic init for a class, it magically changes how you instantiate the class.
-You now _need_ to pass all of those _other_ arguments when you call the type name:
-```python
-me = AddressBookEntry()  # throws TypeError
-me = AddressBookEntry('David', '507-555-9895')
-you = AddressBookEntry('Helen', '507-555-1234')
-```
+Think about what fields are required to represent the _essence of an object_, not just any data that is cursorily related to the object.
 
 Magic init is called with an _empty instance_ passed in as `self`, and all the other arguments from the type name call.
 Magic init's job is to store all of those arguments inside this empty instance.
@@ -42,6 +32,13 @@ me = AddressBookEntry('David', '507-555-9895')
 you = AddressBookEntry('Helen', '507-555-1234')
 print(me.name)  # David
 print(you.name)  # Helen
+```
+
+When you define a magic init for a class, it changes how you must instantiate the class.
+You now _need_ to pass all of those _other_ arguments when you call the type name:
+```python
+me = AddressBookEntry()  # throws TypeError
+you = AddressBookEntry('Helen', '507-555-1234')
 ```
 
 Magic functions are called "magic" because Python has them fill magical roles.

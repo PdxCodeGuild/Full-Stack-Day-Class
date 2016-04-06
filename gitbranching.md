@@ -16,23 +16,29 @@ C1 - C2 - C3 - C4
 The main branch of every repository is called `master`.
 It should contain all finalized work.
 
+## Making Branches
 A branch should be made _before_ you start some speculative work.
+This is called a **feature branch**.
 ```bash
 git checkout -b BRANCH
 ```
 `git status` will then show you what branch you're working on.
 You can add commits to any current branch with `git commit`.
 
+## Listing Branches
 You can swap between branches so separate projects don't interfere with each other.
 To list all known branches:
 ```bash
 git branch
 ```
+
+## Checking Out Branches
 Then to swap to a specific branch:
 ```bash
 git checkout BRANCH
 ```
 
+## Merging Branches
 Then, once some work is finalized, you can **merge** it back into the `master` branch.
 ```
 Time --->
@@ -52,11 +58,13 @@ git merge BRANCH -m "Merging BRANCH."
 ```
 Merging _creates a commit_, so it needs a message.
 
+## Deleting Branches
 After you've successfully merged, delete the speculative branch, if it's fully merged into `master`:
 ```bash
 git branch -d BRANCH
 ```
 
+## Diff-ing Versions
 Your `git diff` [commands](basicgit.md) also work with branch names, in addition to commit hashes.
 
 ## Merge Conflicts
@@ -95,3 +103,19 @@ Run `git add FILE` to mark that you've resolved the conflict.
 Once `git status` shows only "changes to be committed" / all green, run `git commit -m"Merge BRANCH"`.
 
 Then remember to delete your finalized branch.
+
+## Basic Branching Workflow
+1. Before you start some speculative work, make a feature branch using `git checkout -b BRANCH`.
+
+Now repeat until the speculative work is done:
+1. Make changes using your editor to the working directory.
+1. Stage those changes in the index using `git add FILES...`.
+1. Commit those staged changes to your history of the feature branch using `git commit -m"MESSAGE"`.
+
+Now that the feature branch is done:
+2. Checkout `master` with `git checkout master`.
+3. Merge in your changes from your feature branch `git merge BRANCH -m "Merging BRANCH."`.
+4. Delete the finalized feature branch with `git branch -d BRANCH`.
+5. Push those new commits in `master` to remote history using `git push`.
+
+Make a new branch for each practice problem you work on from now on.

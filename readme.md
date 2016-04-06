@@ -84,8 +84,8 @@
 1. Checkpoint Practice: [Rain](practice-rain.md)
 1. [Basic Objects and Classes](basicobjectsclasses.md)
 1. [Class Init](classinit.md)
-1. [Class String Representation](classstringrepr.md)
 1. [Data Design](classdesign.md)
+1. [Class String Representation](classstringrepr.md)
 1. Demo:
 1. Practice:
 1. Practice:
@@ -97,7 +97,9 @@
 1. Practice: [Blackjack Hand](practice-blackjackhand.md)
 1. Optional: Practice: [Blackjack Game](practice-blackjackgame.md)
 1. [Dividing Work with Interfaces]()
-1. Optional: Practice: [Connect Four](practice-connectfour.md)
+1. Group Practice: Connect Four
+1. Inheritance
+1. The Magic of Short Form Type Methods
 
 ## Building a Web App
 1. [Web Basics](webbasics.md)
