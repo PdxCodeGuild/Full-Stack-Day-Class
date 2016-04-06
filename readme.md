@@ -86,7 +86,7 @@
 1. [Class Init](classinit.md)
 1. [Data Design](classdesign.md)
 1. [Class String Representation](classstringrepr.md)
-1. Demo:
+1. Demo: [Rosters](demo-rosters.md)
 1. Practice:
 1. Practice:
 1. Checked Group Practice: [Restaurant Reviews](practice-reviews.md)
