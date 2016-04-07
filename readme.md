@@ -44,7 +44,7 @@
 1. Slicing
 1. [Git Remotes and GitHub](remotegit.md)
 1. Demo:
-1. Optional: Practice: Make Initials
+1. Optional: Practice:
 1. Optional: Practice:
 1. Optional: Practice: Pig Latin
 1. Functions
@@ -66,9 +66,9 @@
 1. Advanced String Methods
 1. Sequence Functions
 1. Demo:
+1. Optional: Practice: Make Initials
 1. Optional: Practice:
 1. Optional: Practice:
-1. Optional: Practice: [Sum Pairs](practice-sumpairs.md)
 1. Dicts
 1. Dict Comprehensions
 1. [Function Values](functionvalues.md)
@@ -79,16 +79,16 @@
 1. [Searching for Solutions](googling.md)
 1. Structured Data
 1. [High-Level Data Operations](highleveldataops.md)
-1. Filtering
-1. Mapping
-1. For Loops
-1. Reducing
-1. Grouping
-1. Joining
+1. [Mapping](mapping.md)
+1. [Filtering](filtering.md)
+1. [For Loops](forloops.md)
+1. [Reducing](reducing.md)
+1. [Grouping](grouping.md)
+1. [Joining](joining.md)
 1. Demo:
 1. Group Practice:
 1. Practice:
-1. Optional Practice:
+1. Optional Practice: [Sum Pairs](practice-sumpairs.md)
 1. [File IO](fileio.md)
 1. Using Modules
 1. [Naming](naming.md)
@@ -119,13 +119,18 @@
 1. [High-Level Structure of a Web App](webappoverview.md)
 
 ## Basic Interfaces with HTML and CSS
-1. Front End Principles
-1. HTML Structure
+1. [Front End Principles](frontend.md)
+1. [HTML Structure](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction)
 1. Text
 1. Images
-1. Style Principles
 1. Sections
+1. Demo:
+1. Practice: Bio
 1. Forms
+1. Demo:
+1. Practice:
+1. Style Principles
+
 
 ## Client Side in Javascript
 

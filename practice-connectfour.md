@@ -10,6 +10,9 @@ Assume the playing board is made of columns numbered 1 through 7.
 The file will have one line for each move (players alternate).
 The number in that line is the column the current player placed a token in.
 
+You board should be represented as a class.
+Think about how to concisely store the tokens that have been dropped in the board.
+
 Use the following example move file.
 Save it in something like `4-moves.txt`
 ```
@@ -37,6 +40,5 @@ This moves file recreates [this game](https://en.wikipedia.org/wiki/File:Connect
 After each move, print out a representation of the board.
 You can use `R` and `Y` to represent the pieces.
 
-Once all moves are done, also print out what player, if any, won.
-
-You board should be represented as a class.
+## Advanced
+* Once all moves are done, also print out what player, if any, won.

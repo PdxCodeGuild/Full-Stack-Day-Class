@@ -1,5 +1,5 @@
 # High-Level Structure of a Web App
-Web applications have three big moving parts:
+A web application has three big moving parts:
 1. Database
 1. Back-End
 1. Front-End

@@ -23,8 +23,8 @@ class AddressBookEntry:
 
   def __eq__(self, other_entry):
     return (
-      self.name == other_entry.name
-      and self.phone_number == other_entry.phone_number
+      self.name == other_entry.name and
+      self.phone_number == other_entry.phone_number
     )
 ```
 
@@ -46,6 +46,7 @@ I think that's okay.
 You should _avoid_ comparing different types.
 An error will remind you.
 
+## Is that right?
 Not every class makes sense as a value type.
 Think about whether two instances should be equal if all their data is equal.
 Some types don't make sense like that; e.g. an `Account` class that _doesn't_ have a unique ID in it.

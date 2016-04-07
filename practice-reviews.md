@@ -2,80 +2,35 @@
 We're going to model a mini version of [Yelp](http://www.yelp.com/).
 There are local business listings and users can post reviews, with a rating (1 - 5 points) and some text, of each business.
 
-## Part 1
-Save in `reviews-nested.py`.
-
-* Make a class that represents a review: it will have "rating" and "review text" fields.
-* Write a magic repr for that class.
-* Write a function that can convert this data into an instance of the class.
-```python
-single_review_dict = {'rating': 5, 'text': 'Lucious ice cream!'}
-```
-* Make a class that represents a business: it will have "name" and a list of reviews fields.
-* Write a magic repr for that class.
-* Load the following data into those classes. Don't use these dicts or lists for any further operations.
+* Make a `user_name` class: it will have "user name" and "hometown" field.
+* Make a `Business` class: it will have "name" and "city" field.
+* Make a `Review` class: it will have "user name", "business name", "rating", and "review text" fields.
+* Create a list `businesses` with all instances of the Business class, a list `users` with all instances of the User class, and a list `reviews` with all instances of the Review class.
+Load the following data into instances and put in those lists:
 ```python
 raw_business_data = [
-  {
-    'business_name': 'Salt & Straw',
-    'reviews': [
-      {'rating': 5, 'text': 'Lucious ice cream!'},
-      {'rating': 4, 'text': 'Super tasty, but such a long line!'}
-      {'rating': 2, 'text': 'Overrated, but I like sugar.'}
-    ],
-  },
-  {
-    'business_name': 'Voodoo Donuts',
-    'reviews': [
-      {'rating': 1, 'text': 'I do not like bubblegum on my donuts.'},
-      {'rating': 5, 'text': 'Pink building is so cute!'}
-      {'rating': 2, 'text': 'Diabetes inducing.'}
-    ],
-  },
-]
-```
-* Add a function to the business class that returns the mean rating.
-* Implement top-level function for searching by name:
-Prompt for the a name of a business, and print out the average rating for that business and one review.
-* Implement a top-level function for searching for all reviews by a user:
-Prompt for the a name of a user, and print out all reviews for that user.
-
-# Part 2
-Did you notice how messy implementing searching for reviews by user was?
-
-Because it makes asking some questions difficult, data like this is _not modeled_ as hierarchical.
-This is so you can ask questions like "what are all the reviews I wrote?"
-Let's **denormalize** or break apart the hierarchy we currently have.
-
-Save in `reviews-flat.py`.
-
-* Add a user class: it will have a "user name" field.
-* Add a "user name" field to the review class.
-* Add a "business name" field to the review class.
-* Remove the list of reviews field from the business class.
-* Load the following data into those refactored classes. Don't use these dicts or lists for any further operations.
-```python
-raw_business_data = [
-  {
-    'business_name': 'Salt & Straw',
-  },
-  {
-    'business_name': 'Voodoo Donuts',
-  },
+  {'business_name': 'Dicks Burgers', 'Seattle'},
+  {'business_name': 'Voodoo Donuts', 'city': 'Portland'},
 ]
 raw_user_data = [
-  {'user_name': 'Abby'},
-  {'user_name': 'Helen'},
-  {'user_name': 'Bobby'},
+  {'user_name': 'Abby', 'hometown': 'Portland'},
+  {'user_name': 'Helen', 'hometown': 'Portland'},
+  {'user_name': 'Bobby', 'hometown': 'Chicago'},
+  {'user_name': 'Carmen', 'hometown': 'Portland'},
 ]
 raw_review_data = [
-  {'user_name': 'Abby', 'business_name': 'Salt & Straw', 'rating': 5, 'text': 'Lucious ice cream!'},
-  {'user_name': 'Bobby', 'business_name': 'Salt & Straw', 'rating': 4, 'text': 'Super tasty, but such a long line!'},
-  {'user_name': 'Abby', 'business_name': 'Salt & Straw', 'rating': 2, 'text': 'Overrated, but I like sugar.'},
+  {'user_name': 'Abby', 'business_name': 'Dicks Burgers', 'rating': 5, 'text': 'Open late night!'},
+  {'user_name': 'Bobby', 'business_name': 'Dicks Burgers', 'rating': 4, 'text': 'Super tasty, but such a long line!'},
+  {'user_name': 'Carmen', 'business_name': 'Dicks Burgers', 'rating': 2, 'text': 'Gross meat.'},
   {'user_name': 'Helen', 'business_name': 'Voodoo Donuts', 'rating': 1, 'text': 'I do not like bubblegum on my donuts.'},
   {'user_name': 'Bobby', 'business_name': 'Voodoo Donuts', 'rating': 5, 'text': 'Pink building is so cute!'},
   {'user_name': 'Abby', 'business_name': 'Voodoo Donuts', 'rating': 2, 'text': 'Diabetes inducing.'},
 ]
 ```
-* Re-implement the searching for a business by name and returning the mean rating and one review, like above.
-* re-implement searching for all reviews by a user, like above.
+
+Now, don't use these dicts or lists for any further operations.
+
+* Write a function that returns all reviews for a single business.
+* Write a function that returns the mean rating of a single business.
+* Write a function that returns all reviews from a single user.
+* Write a function that returns the mean rating of reviews from users from Portland.

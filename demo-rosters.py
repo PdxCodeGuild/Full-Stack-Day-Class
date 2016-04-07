@@ -17,10 +17,6 @@ class ClassRoster:
             self.instructor, self.students)
 
 
-you = Student('Helen')
-day_class = ClassRoster('David', [you])
-
-
 def calc_num_students(cgclass):
     return len(cgclass.stud)
 
@@ -35,3 +31,12 @@ def draft_email(cgclass):
         calc_num_students(cgclass),
         cgclass.instructor)
     return to_line + body
+
+
+def main():
+    you = Student('Helen')
+    day_class = ClassRoster('David', [you])
+    print(draft_email(day_class))
+
+
+main()
