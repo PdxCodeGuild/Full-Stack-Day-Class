@@ -32,22 +32,23 @@
 1. [Booleans](booleans.md)
 1. [Comparison Operators](comparison.md)
 1. [Branching and Blocks](branchingandblocks.md)
-1. [Git Remotes and GitHub](remotegit.md)
 1. Demo:
 1. Optional: Practice: [21](practice-21.md)
 1. Optional: Practice:
 1. Optional: Practice: [Taxes](practice-taxes.md)
-1. Type Methods
+1. Calling Type Methods
 1. Optional Arguments
 1. Basic String Methods
 1. Standard Library Docs and Function Signatures
 1. Indexing
 1. Slicing
+1. [Git Remotes and GitHub](remotegit.md)
 1. Demo:
 1. Optional: Practice: Make Initials
 1. Optional: Practice:
 1. Optional: Practice: Pig Latin
 1. Functions
+1. Main Function
 1. Demo:
 1. Optional: Practice:
 1. Optional: Practice:
@@ -75,10 +76,21 @@
 1. Demo:
 1. Practice: Voting Booth
 1. Optional: Practice:
+1. [Searching for Solutions](googling.md)
 1. Structured Data
-1. [File IO](fileio.md)
+1. [High-Level Data Operations](highleveldataops.md)
+1. Filtering
+1. Mapping
 1. For Loops
-1. Modules
+1. Reducing
+1. Grouping
+1. Joining
+1. Demo:
+1. Group Practice:
+1. Practice:
+1. Optional Practice:
+1. [File IO](fileio.md)
+1. Using Modules
 1. [Naming](naming.md)
 1. Practice: [Word Count](practice-wordcount.md)
 1. Checkpoint Practice: [Rain](practice-rain.md)
@@ -86,17 +98,18 @@
 1. [Class Init](classinit.md)
 1. [Data Design](classdesign.md)
 1. [Class String Representation](classstringrepr.md)
+1. [Value Classes](valueclasses.md)
 1. Demo: [Rosters](demo-rosters.md)
 1. Practice:
-1. Practice:
+1. Optional: Practice:
 1. Checked Group Practice: [Restaurant Reviews](practice-reviews.md)
 1. [Type Methods](typemethods.md)
-1. [Value Classes](valueclasses.md)
 1. Demo: [Geometry](demo-geometry.md)
 1. Practice: [ATM](practice-atm.md)
 1. Practice: [Blackjack Hand](practice-blackjackhand.md)
 1. Optional: Practice: [Blackjack Game](practice-blackjackgame.md)
-1. [Dividing Work with Interfaces]()
+1. Dividing Work with Interfaces
+1. [Modules](modules.md)
 1. Group Practice: Connect Four
 1. Inheritance
 1. The Magic of Short Form Type Methods
