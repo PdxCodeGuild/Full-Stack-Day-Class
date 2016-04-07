@@ -58,11 +58,16 @@ class Rectangle:
 
 
 house = Point(10, 9)
+print('House is at X:', house.x)
+print('House is at Y:', house.y)
 work = Point(5, 2)
 print('House to work distance:', house.distance_to(work))
 
 
 city = Rectangle(Point(5, 5), 10, 10)
+print('City corner is:', city.bottom_left_corner)
+print('City width:', city.w)
+print('City height:', city.h)
 print('House in city:', city.contains(house))
 print('Work in city:', city.contains(work))
 
