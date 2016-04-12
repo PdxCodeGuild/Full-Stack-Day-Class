@@ -12,7 +12,7 @@ print({x: 'y', y: x}['x'])
 
 ```python
 x = set('apple')
-print([4 > 5, 6 > 7, 9 > 8][-1] and 'a' in x)
+print([4 > 5, 6 > 7, 9 > 8][-1] and 'ap' in x)
 ```
 
 ```python
@@ -24,7 +24,7 @@ print(all([x in 'apple' or x in 'pear' for x in 'repl']))
 ```
 
 ```python
-print('?'.join(list(zip(['1', '2', '3'][1:], {'a': 5, 'b': 6, 'c':7}))[-2]))
+print('?'.join(list(zip(['1', '2', '3'][1:], {'a': 5, 'b': 6}))[-2]))
 ```
 
 ```python

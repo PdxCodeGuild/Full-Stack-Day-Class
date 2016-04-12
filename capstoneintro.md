@@ -1,0 +1,37 @@
+# Capstone Introduction
+Let me introduce the most exciting part of this course: the **capstone**!
+This is your _big final project_ for your portfolio.
+It will be the deliverable that you get to _show off to prospective employers_.
+
+**This is the most important part of this class.**
+Once it begins, the tone of the class will shift from being a standard classroom setting, to more of a co-working space with me as a resource.
+
+## Schedule
+The formal schedule for working on your project is as follows.
+* End of Week 6: Proposal due
+* Mid Week 7: Approved proposal
+* Week 9: Class becomes just capstone work
+* Last Day of Class: Capstone show-and-tell
+* Last Day of Class: Capstone due at midnight
+
+Even after the capstone has been "due", you should continue to work on it.
+PDX Code Guild will setup a demo day for recruiters at Portland area
+* 3-4 Weeks after Last Class: Demo Day for Recruiters
+
+Demo day for the previous day class will be on 2016-04-25.
+
+## Project Requirements
+Your capstone _must_ at least touch upon all of the major areas in the course that we cover.
+* Python
+* Django
+* Databases
+* JS
+* HTML
+* CSS
+* Documentation (docstrings, read me)
+* Proper language style
+
+I will reject project proposals that do not have the ability to touch upon all of these areas.
+
+You are encouraged to _dive deep_ in areas of your interest.
+Commitment and striving for mastery in a topic area is appreciated by prospective employers.

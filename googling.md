@@ -1,5 +1,5 @@
-# Searching for Solutions
-Before asking me for help, you should search on your own.
+# Googling for Solutions
+Before asking me for help, you should search the internet on your own for help.
 People have asked and answered many questions on the internet already.
 
 1. Think of an English description of your problem.

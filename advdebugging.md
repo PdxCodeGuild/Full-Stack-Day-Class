@@ -1,7 +1,7 @@
-# Advanced Problem Solving
-Use the following three ideas to help you solve problems.
+# Advanced Debugging
+Use the following three ideas to help you debug issues in your code.
 
-They seem to make problems become longer and more complex, but **I cannot stress strongly enough** that these techniques will help.
+They might seem to make problems become longer and more complex, but **I cannot stress strongly enough** that these techniques will help.
 
 ## Be Aggressively Reductionist
 Break every problem down into a hierarchy of _sub-problems_ until you're at a level where the solution exists.
@@ -21,7 +21,7 @@ def slice_initials_list_from_full_names(full_names):
   initials_list = []
   for full_name in full_names:
     first_last = full_name.split()
-    initials = first_last[0][0] + first_last[1][0]
+    initials = ''.join([name[0] for name in first_last])
     initials_list.append(initials)
   return initials_list
 
@@ -32,7 +32,7 @@ Instead, work on the "item-level" first, and use it on the "list-level"
 ```python
 def slice_initials_from_full_name(full_name):
   first_last = full_name.split()
-  return first_last[0][0] + first_last[1][0]
+  return ''.join([name[0] for name in first_last])
 
 def slice_initials_list_from_full_names(full_names):
   return [
@@ -49,17 +49,40 @@ Data is invisible unless you print it.
 _Print out_ the result of each individual operation to double check it is returning what you expect.
 
 * Ensure you can print out your data in a readable format; write a function to do so if necessary
-* Double check the operators and library functions are behaving as you expect
+* Double check that operators and library functions are behaving as you expect
+* Double check _inputs_, not just outputs; you can't get the right answer if you're starting with junk
 * Do this on an operation-by-operation basis
 * Avoid long strings of operations; assign to variables after each step to print
 
 Why doesn't this work?
 ```python
-def 
+if
+```
+
+Break out each part and inspect individually
+```python
+
 ```
 
 ## Test Isolated Pieces
 Test each sub-problem or instruction in a sub-problem _in isolation_.
 
-* Manually run and print out results of each sub-problem (easy since a function)
-* Copy and paste the exact input you want
+* Manually run and print out results of each sub-problem (easy, since each is a separate function)
+* Use input "literals" to test; avoid having to type in setup
+
+Instead of running your whole program
+```python
+input_str = input('Type a pig latin sentence: ')
+print(convert_sentence_to_pig_latin(input_str))
+```
+
+Test each part on it's own first
+```python
+print(convert_word_to_pig_latin('cat'))
+print(convert_word_to_pig_latin('apple'))
+```
+
+Then work up to testing the whole program
+```python
+print(convert_sentence_to_pig_latin('the cat jumps'))
+```

@@ -2,7 +2,7 @@
 ## Intro
 1. Course Expectations
 1. [Course Portfolio](courseportfolio.md)
-1. Programming Philosophy
+1. [Programming Philosophy](philosophy.md)
 
 ## Programming in Python
 1. Filesystem
@@ -50,16 +50,17 @@
 1. Demo:
 1. Optional: Practice:
 1. Optional: Practice:
-1. Optional: Practice: Pig Latin
-1. Functions
-1. Scope
-1. Main Function
+1. Optional: Practice: [Pig Latin](practice-piglatin.md)
+1. [Functions](functions.md)
+1. [Interfaces and Scope](scope.md)
+1. [Main Function](mainfunction.md)
 1. Demo:
 1. Demo:
 1. Optional: Practice:
 1. Optional: Practice:
 1. Optional: Practice:
 1. [Git Branching and Merging](gitbranching.md)
+1. Docstrings
 1. Functions as Structure
 1. [Advanced Problem Solving](advproblemsolving.md)
 1. [Advanced Debugging](advdebugging.md)
@@ -88,9 +89,10 @@
 1. Demo:
 1. Practice: Voting Booth
 1. Optional: Practice:
+1. [Googling for Solutions](googling.md)
 1. [Reducing](reducing.md)
 1. [Grouping](grouping.md)
-1. [Picking Data Structures](pickingdatastructures.md)
+1. Picking Data Structures
 1. Demo:
 1. Demo:
 1. Optional: Practice:
@@ -101,7 +103,7 @@
 1. [Joining](joining.md)
 1. Demo:
 1. Group Practice:
-1. Practice:
+1. Group Practice: [Connect Four](practice-connectfour.md)
 1. Optional Practice: [Sum Pairs](practice-sumpairs.md)
 1. [File IO](fileio.md)
 1. Using Modules
@@ -117,35 +119,43 @@
 1. Practice:
 1. Optional: Practice:
 1. Checked Group Practice: [Restaurant Reviews](practice-reviews.md)
-1. [Type Methods](typemethods.md)
 1. [Encapsulation](encapsulation.md)
+1. [Type Methods](typemethods.md)
 1. Demo: [Geometry](demo-geometry.md)
 1. Practice: [ATM](practice-atm.md)
 1. Practice: [Blackjack Hand](practice-blackjackhand.md)
 1. Optional: Practice: [Blackjack Game](practice-blackjackgame.md)
-1. Dividing Work with Interfaces
 1. [Modules](modules.md)
-1. Group Practice: [Connect Four](practice-connectfour.md)
 1. Demo:
 1. Practice: [Writing to Interface](practice-interface.md)
 
 ## Building a Web App
+1. [Capstone Introduction](capstoneintro.md)
 1. [Web Basics](webbasics.md)
 1. [High-Level Structure of a Web App](webappoverview.md)
 
 ## Basic Interfaces with HTML and CSS
 1. [Front End Principles](frontend.md)
 1. [HTML Basics](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction)
-1. Demo: Code Guild Homepage
+1. Demo: [Basic Tags](demo-basictags.md)
+1. [Tag Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 1. Practice: [Bio](practice-bio.md)
-1. [Forms](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/My_first_HTML_form)
+1. [Form Basics](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/My_first_HTML_form)
+1. Demo: [Basic Forms](demo-basicform.md)
+1. Practice:
+1. Basic CSS
+1. [CSS Selectors](cssselectors.md)
+1. Basic Attributes
+1. [Style Locations](stylelocations.md)
+1. Box Model
 1. Demo:
 1. Practice:
-1. [Style Principles](styleprinciples.md)
-1. [CSS Selectors](cssselectors.md)
 
+## Intro to Javascript
+1.
 
-## Client Side in Javascript
+## Django Backend Programming
+1. Testing
 
 ## Hot Tips
 * [2016-03-24](tips-2016-03-24.md)
@@ -157,3 +167,4 @@
 * [2016-04-04](tips-2016-04-04.md)
 * [2016-04-05](tips-2016-04-05.md)
 * [2016-04-08](tips-2016-04-08.md)
+* [2016-04-11](tips-2016-04-11.md)

@@ -1,5 +1,5 @@
 ## Mapping
-**Mapping** is taking a collection and doing _a single thing to each item_.
+**Mapping** is taking a collection and doing _a single same thing to each item_.
 
 E.g. Turning a list of `YYYY-MM-DD` dates into a list of `YYYY` years.
 Turn a mapping of ages into birth years.

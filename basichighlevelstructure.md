@@ -2,11 +2,11 @@
 It starts out intimidating to write code from scratch to solve a problem.
 Use the following rubric to help:
 
+1. Setup --
+Set any variables that are fixed with every run.
 1. Input --
 Get data from your user.
 Save it in variables.
-1. Setup --
-Set any variables that are fixed with every run.
 1. Transform --
 Do work!
 Solve your problem!

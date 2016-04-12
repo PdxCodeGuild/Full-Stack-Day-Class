@@ -35,7 +35,7 @@ Only files in _the same directory_ as the importing file can be imported.
 Be careful about **circular dependencies**.
 If `a.py` imports `b.py` which imports `a.py` will throw `NameError`s.
 
-## Sub Modules
+## Nested Modules
 You can also introduce more structure by using directories as modules.
 
 If your project looks like
