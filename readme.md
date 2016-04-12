@@ -14,7 +14,7 @@
 1. [Operators and Expressions](operatorsexpressions.md)
 1. [Variables](variables.md)
 1. [Imperative Programming](imperative.md)
-1. [Calling Functions](callingfunctions.md)
+1. [Function Calling](functioncalling.md)
 1. [Terminal IO](terminalio.md)
 1. [Basic Casting](basiccasting.md)
 1. [Comments](comments.md)
@@ -71,6 +71,7 @@
 1. Lists
 1. List Comprehensions
 1. Tuples
+1. [Advanced Function Calling](advfunctioncalling.md)
 1. Advanced String Methods
 1. Sequence Functions
 1. [Mapping](mapping.md)
@@ -87,7 +88,7 @@
 1. [Sorting](sorting.md)
 1. [For Loops](forloops.md)
 1. Demo:
-1. Practice: Voting Booth
+1. Practice:
 1. Optional: Practice:
 1. [Googling for Solutions](googling.md)
 1. [Reducing](reducing.md)
@@ -95,7 +96,7 @@
 1. Picking Data Structures
 1. Demo:
 1. Demo:
-1. Optional: Practice:
+1. Optional: Practice: [Voting Booth](practice-votingbooth.md)
 1. Optional: Practice:
 1. Optional: Practice:
 1. Structured Data
@@ -142,12 +143,13 @@
 1. Practice: [Bio](practice-bio.md)
 1. [Form Basics](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/My_first_HTML_form)
 1. Demo: [Basic Forms](demo-basicform.md)
-1. Practice:
+1. Practice: []
 1. Basic CSS
 1. [CSS Selectors](cssselectors.md)
 1. Basic Attributes
 1. [Style Locations](stylelocations.md)
 1. Box Model
+1. Web Inspector Basics
 1. Demo:
 1. Practice:
 

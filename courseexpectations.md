@@ -1,6 +1,4 @@
 # Class Expectations
-
-
 ## Attendance
 By taking this class, you're setting aside time to learn.
 **Keep it sacred. I cannot stress this enough.**
@@ -16,11 +14,18 @@ A bootcamp format is not the only way to learn these skills.
 With this in mind, keep a balanced life.
 Feel free to take breaks during the day.
 Take a lap around the building.
+If you need to go home sick for a day, go home.
 
 ## Attitude
-Seek me out, but learn to be independent.
-
+Seek out help, but learn to be independent.
 When you finish this course you will _not_ know everything.
+Being a software developer is a process of continually learning.
+
+You are paying for access to human power.
+Ask questions.
+Pick my brain.
+After-class tutoring can always be arranged with Chris Jones.
+He is super nice and helpful.
 
 Class will look like:
 1. Concept

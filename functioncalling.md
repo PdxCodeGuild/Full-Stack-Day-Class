@@ -1,4 +1,4 @@
-# Calling Functions
+# Function Calling
 Operators are the super basic verbs of programming represented by symbols.
 But there are only so many symbols.
 
