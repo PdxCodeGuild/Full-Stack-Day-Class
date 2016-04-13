@@ -20,7 +20,7 @@
 1. [Comments](comments.md)
 1. [Basic Problem Solving](basicproblemsolving.md)
 1. [Basic High-Level Structure](basichighlevelstructure.md)
-1. Basic Variable Naming
+1. [Basic Variable Naming](notes/basicvarnaming.md)
 1. [Evaluation Order](evaluationorder.md)
 1. Simple Math Functions
 1. Demo: [Greeting](demo-greeting.md)
@@ -55,7 +55,7 @@
 1. [Functions](functions.md)
 1. [Interfaces and Scope](scope.md)
 1. [Main Function](mainfunction.md)
-1. Function Naming
+1. [Function Naming](notes/functionnaming.md)
 1. Demo:
 1. Demo:
 1. Optional: Practice:
@@ -112,9 +112,9 @@
 1. Optional: Practice:
 1. Optional: Practice:
 1. Structured Data
+1. [Advanced Variable Naming](notes/advvarnaming.md)
 1. [Data Problem Solving](highleveldataops.md)
 1. [Joining](joining.md)
-1. Advanced Variable Naming
 1. Demo:
 1. Group Practice:
 1. Group Practice: [Connect Four](practice-connectfour.md)
@@ -140,9 +140,10 @@
 1. Practice: [ATM](practice-atm.md)
 1. Practice:
 1. Practice: [Connect Four Interface](practice-interface.md)
-1. PyCharm and Debuggers
+1. [Debuggers and PyCharm](notes/debuggers.md)
 1. [Modules](modules.md)
-1. Testing
+1. [Testing](notes/testing.md)
+1. Demo: Test Table Print
 1. Demo: Test Geometry
 1. Practice: Test Case Conversion
 1. Practice: Test Connect Four Interface
