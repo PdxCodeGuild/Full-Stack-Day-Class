@@ -18,7 +18,7 @@ class ClassRoster:
 
 
 def calc_num_students(cgclass):
-    return len(cgclass.stud)
+    return len(cgclass.students)
 
 
 def find_all_studen_emails(cgclass):
@@ -34,9 +34,8 @@ def draft_email(cgclass):
 
 
 def main():
-    you = Student('Helen')
+    you = Student('Helen', 'helen@helen.com')
     day_class = ClassRoster('David', [you])
     print(draft_email(day_class))
-
 
 main()

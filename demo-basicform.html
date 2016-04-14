@@ -1,9 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+    <title>Message Sending</title>
 </head>
 <body>
+    <form>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" />
+        </div>
+        <div>
+            <label for="msg">Message:</label>
+            <textarea id="msg"></textarea>
+        </div>
+        <div>
+            <label for="format">Format:</label>
+            <select id="format">
+                <option value="email">Email</option>
+                <option value="telegram">Telegram</option>
+                <option value="letter">Letter</option>
+            </select>
 
+        <div>
+            <button type="submit">Send your message</button>
+        </div>
+    </form>
 </body>
 </html>

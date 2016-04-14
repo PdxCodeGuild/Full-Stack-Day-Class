@@ -28,12 +28,23 @@ class ListListTTTBoard:
         0, 0 is the top-left.
         `player` is either 'X' or 'O'
         """
-        pass
+        self.rows[y][x] = player
 
     def won(self):
         """Return which token type won ('X' or 'O') or None if no one
         has won yet."""
-        pass
+        cols = zip(*self.rows)
+        diags = [
+            [self.rows[i][i] for i in range(3)],
+            [self.rows[i][3 - i] for i in range(3)],
+        ]
+        checks = self.rows + cols + diags
+        for seq in checks:
+            if seq.count('X') == 3:
+                return 'X'
+            elif seq.count('O') == 3:
+                return 'O'
+        return None
 
     def __str__(self):
         """Returns a string representation of the board.
@@ -44,7 +55,7 @@ class ListListTTTBoard:
          |X|O
          | |
         """
-        pass
+        return '\n'.join(['|'.join(row) for row in self.rows])
 
 
 class DictTTTBoard:
@@ -71,13 +82,21 @@ class DictTTTBoard:
             'a3': ' ', 'b3': ' ', 'c3': ' ',
         }
 
-    def place(self, x, y, player):
+    def place(self, x, y, token):
         """Places a token on the board at some given coordinates.
 
         0, 0 is the top-left.
         `player` is either 'X' or 'O'
         """
-        pass
+        if x == 0:
+            x_letter = 'a'
+        elif x == 1:
+            x_letter = 'b'
+        else:
+            x_letter = 'c'
+        y_letter = str(y + 1)
+        key = x_letter + y_letter
+        self.pos_to_token[key] = token
 
     def won(self):
         """Return which token type won ('X' or 'O') or None if no one
@@ -93,7 +112,7 @@ class DictTTTBoard:
          |X|O
          | |
         """
-        pass
+        return ""
 
 
 class CoordsTTTBoard:
@@ -114,13 +133,13 @@ class CoordsTTTBoard:
         """Initalizes an empty board."""
         self.x_y_token_triplets = []
 
-    def place(self, x, y, player):
+    def place(self, x, y, token):
         """Places a token on the board at some given coordinates.
 
         0, 0 is the top-left.
         `player` is either 'X' or 'O'
         """
-        pass
+        self.x_y_token_triplets.append((x, y, token))
 
     def won(self):
         """Return which token type won ('X' or 'O') or None if no one
@@ -149,7 +168,7 @@ def play(board):
     board.place(0, 0, 'O')
     print(board)
     board.place(1, 0, 'X')
-    assert str(board) == 'O|X| \n |X| \n | | \n'
+    assert str(board) == "O|X| \n |X| \n | | \n"
     print(board)
     board.place(0, 2, 'O')
     print(board)

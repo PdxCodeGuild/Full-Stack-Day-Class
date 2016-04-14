@@ -102,7 +102,7 @@
 1. Demo: Fizz Buzz
 1. Practice: [Programming Case Conversion](practice-case.md)
 1. Optional: Practice:
-1. [Googling for Solutions](googling.md)
+1. [Googling for Solutions](notes/googling.md)
 1. [Reducing](reducing.md)
 1. [Grouping](grouping.md)
 1. Picking Data Structures
@@ -120,7 +120,6 @@
 1. Group Practice: [Connect Four](practice-connectfour.md)
 1. Optional Practice: [Sum Pairs](practice-sumpairs.md)
 1. Using Modules
-1. [Naming](naming.md)
 1. Demo:
 1. Practice: [Word Count](practice-wordcount.md)
 1. Checkpoint Practice: [Rain](practice-rain.md)
@@ -141,7 +140,7 @@
 1. Practice:
 1. Practice: [Connect Four Interface](practice-interface.md)
 1. [Debuggers and PyCharm](notes/debuggers.md)
-1. [Modules](modules.md)
+1. [Modules](notes/modules.md)
 1. [Testing](notes/testing.md)
 1. Demo: Test Table Print
 1. Demo: Test Geometry

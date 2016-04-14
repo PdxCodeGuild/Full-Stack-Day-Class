@@ -10,9 +10,6 @@ We are learning just enough to code up a minimum interface for a web app.
 The **structure** of your interface is provided by HTML, **hypertext markup language**.
 Notice that name, it _marks up_ existing text; it's not a programming language.
 
-It is a way of providing **semantic structure** to your content.
-That's not the same thing as _layout_, but they are correlated.
-
 ## CSS
 The **presentation** of your interface is provided by CSS, **cascading style sheets**.
 
