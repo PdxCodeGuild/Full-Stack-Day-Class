@@ -143,9 +143,9 @@
 1. [Modules](notes/modules.md)
 1. [Testing](notes/testing.md)
 1. Demo: Test Table Print
-1. Demo: Test Geometry
-1. Practice: Test Case Conversion
-1. Practice: Test Connect Four Interface
+1. Demo: [Test Geometry](demo/testgeometry.md)
+1. Practice: [Test Case Conversion](practice/testcaseconversion.md)
+1. Practice: [Test Tic-Tac-Toe Interface](practice/testinterface.md)
 
 ## Building a Web App
 1. [Capstone Introduction](capstoneintro.md)

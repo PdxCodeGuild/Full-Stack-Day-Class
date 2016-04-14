@@ -53,11 +53,38 @@ Where `__init__.py` is a blank file that marks the directory as a module.
 Then from `main.py` you can then import those inner Python files
 ```python
 import logic.thinking
+answer = logic.thinking.think_hard()
 ```
 
 You _can not do_
 ```python
 import logic
-logic.thinking.think_hard()
+answer = logic.thinking.think_hard()
 ```
 Only individual _files_ can be imported.
+
+## Importing is Executing
+When you import a module, Python has to run that file to create all of the values.
+That means if you have a main function call at the bottom, it will run it _on import_!
+
+If you have an `a.py` that looks like
+```python
+print("I'm in A")
+```
+And a `b.py` that looks like
+```python
+import a
+
+print("I'm in B")
+```
+Then running `b.py` will print out
+> I'm in A
+> I'm in B
+
+To prevent this from happening, you can wrap any function calls at the bottom of your source in
+```python
+if __name__ == '__main__':
+    main()
+```
+That code will _not execute upon import_ but will run if you call the Python file directly.
+This is important during testing.

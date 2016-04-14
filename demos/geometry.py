@@ -9,7 +9,7 @@ class Point:
             (self.y - other_point.y) ** 2
         ) ** 0.5
 
-    def move_to(self, dx, dy):
+    def move_by(self, dx, dy):
         self.x += dx
         self.y += dy
 
@@ -81,8 +81,9 @@ def main():
     print('Two identical cities are equal:', city == identical_city)
     print('Two different cities are equal:', city == different_city)
 
-    house.move_to(1, -1)
+    house.move_by(1, -1)
     print('After moving my house:', house)
 
 
-main()
+if __name__ == '__main__':
+    main()
