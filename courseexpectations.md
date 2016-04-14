@@ -24,6 +24,7 @@ Being a software developer is a process of continually learning.
 You are paying for access to human power.
 Ask questions.
 Pick my brain.
+**Look at my demos.**
 After-class tutoring can always be arranged with Chris Jones.
 He is super nice and helpful.
 

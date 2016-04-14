@@ -82,8 +82,8 @@
 1. Demo:
 1. Demo: Tic-Tac-Toe
 1. Optional: Practice: Make Initials
+1. Optional: Practice: [Last Join](practice/lastjoin.md)
 1. Optional: Practice: Credit Card Number Validator
-1. Optional: Practice:
 1. [File IO](fileio.md)
 1. Demo:
 1. Demo:
@@ -94,13 +94,15 @@
 1. [Function Values](functionvalues.md)
 1. [Sorting](sorting.md)
 1. Demo:
-1. Demo:
-1. Practice:
+1. Demo: [Class Roster](demo/classroster.md)
+1. Practice: Phone Book
 1. Practice:
 1. Practice:
 1. [For Loops](forloops.md)
+1. While Loops
 1. Demo: Fizz Buzz
 1. Practice: [Programming Case Conversion](practice/case.md)
+1. Practice: Farkle
 1. Optional: Practice:
 1. [Googling for Solutions](notes/googling.md)
 1. [Reducing](reducing.md)
