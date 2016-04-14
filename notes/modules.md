@@ -35,6 +35,9 @@ Only files in _the same directory_ as the importing file can be imported.
 Be careful about **circular dependencies**.
 If `a.py` imports `b.py` which imports `a.py` will throw `NameError`s.
 
+Python style requires that files that are going to be imported as modules to be in `snake_case`.
+It's actually a little bit more than style, you _can't_ import files with any symbols other than underscore.
+
 ## Nested Modules
 You can also introduce more structure by using directories as modules.
 

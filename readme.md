@@ -100,7 +100,7 @@
 1. Practice:
 1. [For Loops](forloops.md)
 1. Demo: Fizz Buzz
-1. Practice: [Programming Case Conversion](practice-case.md)
+1. Practice: [Programming Case Conversion](practice/case.md)
 1. Optional: Practice:
 1. [Googling for Solutions](notes/googling.md)
 1. [Reducing](reducing.md)
@@ -138,13 +138,13 @@
 1. Demo:
 1. Practice: [ATM](practice-atm.md)
 1. Practice:
-1. Practice: [Connect Four Interface](practice-interface.md)
+1. Practice: [Tic-Tac-Toe Interface](practice/interface.md)
 1. [Debuggers and PyCharm](notes/debuggers.md)
 1. [Modules](notes/modules.md)
 1. [Testing](notes/testing.md)
 1. Demo: Test Table Print
 1. Demo: [Test Geometry](demos/testgeometry.md)
-1. Practice: [Test Case Conversion](practice/testcaseconversion.md)
+1. Practice: [Test Case Conversion](practice/testcase.md)
 1. Practice: [Test Tic-Tac-Toe Interface](practice/testinterface.md)
 
 ## Building a Web App

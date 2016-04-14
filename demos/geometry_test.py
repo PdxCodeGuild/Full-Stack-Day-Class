@@ -41,3 +41,7 @@ class PointTest(unittest.TestCase):
         found = repr(p)
         expected = 'Point(1, 2)'
         assert found == expected
+
+
+if __name__ == '__main__':
+    unittest.run()

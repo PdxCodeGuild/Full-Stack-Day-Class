@@ -29,6 +29,7 @@ Your capstone _must_ at least touch upon all of the major areas in the course th
 * HTML
 * CSS
 * Documentation (docstrings, read me)
+* Testing
 * Proper language style
 
 I will reject project proposals that do not have the ability to touch upon all of these areas.
