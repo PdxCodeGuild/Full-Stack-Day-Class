@@ -1,5 +1,8 @@
 # Class Expectations
 ## Attendance
+Class begins at 9:30 A.M. every week day and ends at 4:30 P.M.
+We will take an hour lunch every day from 12:30 P.M. to 1:30 P.M.
+
 By taking this class, you're setting aside time to learn.
 **Keep it sacred. I cannot stress this enough.**
 

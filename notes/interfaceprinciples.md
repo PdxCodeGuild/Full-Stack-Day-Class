@@ -1,4 +1,4 @@
-# Front End
+# Interface Principles
 In this class you will learn _basic_ HTML and CSS to format web pages.
 The results do _not have to be pretty_.
 The point of this part of the course is to learn the principles and structures,

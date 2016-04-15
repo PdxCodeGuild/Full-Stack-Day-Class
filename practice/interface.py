@@ -22,15 +22,16 @@ class ListListTTTBoard:
             [' ', ' ', ' '],
         ]
 
-    def place(self, x, y, player):
+    def place_token(self, x, y, player):
         """Places a token on the board at some given coordinates.
 
+        x is horizontal position, y is vertical position.
         0, 0 is the top-left.
         `player` is either 'X' or 'O'
         """
         pass
 
-    def won(self):
+    def calc_winner(self):
         """Return which token type won ('X' or 'O') or None if no one
         has won yet."""
         pass
@@ -71,15 +72,16 @@ class DictTTTBoard:
             'a3': ' ', 'b3': ' ', 'c3': ' ',
         }
 
-    def place(self, x, y, player):
+    def place_token(self, x, y, player):
         """Places a token on the board at some given coordinates.
 
+        x is horizontal position, y is vertical position.
         0, 0 is the top-left.
         `player` is either 'X' or 'O'
         """
         pass
 
-    def won(self):
+    def calc_winner(self):
         """Return which token type won ('X' or 'O') or None if no one
         has won yet."""
         pass
@@ -114,15 +116,16 @@ class CoordsTTTBoard:
         """Initalizes an empty board."""
         self.x_y_token_triplets = []
 
-    def place(self, x, y, player):
+    def place_token(self, x, y, player):
         """Places a token on the board at some given coordinates.
 
+        x is horizontal position, y is vertical position.
         0, 0 is the top-left.
         `player` is either 'X' or 'O'
         """
         pass
 
-    def won(self):
+    def calc_winner(self):
         """Return which token type won ('X' or 'O') or None if no one
         has won yet."""
         pass
@@ -139,33 +142,33 @@ class CoordsTTTBoard:
         pass
 
 
-def play(board):
+def test_board(board):
     """Plays a test game on an empty board.
 
     Asserts that the board is working properly.
     """
-    board.place(1, 1, 'X')
+    board.place_token(1, 1, 'X')
     print(board)
-    board.place(0, 0, 'O')
+    board.place_token(0, 0, 'O')
     print(board)
-    board.place(1, 0, 'X')
+    board.place_token(1, 0, 'X')
     assert str(board) == 'O|X| \n |X| \n | | \n'
     print(board)
-    board.place(0, 2, 'O')
+    board.place_token(0, 2, 'O')
     print(board)
-    assert board.won() is None
-    board.place(1, 2, 'X')
+    assert board.calc_winner() is None
+    board.place_token(1, 2, 'X')
     print(board)
-    assert board.won() == 'X'
+    assert board.calc_winner() == 'X'
 
 
 def main():
     board1 = DictTTTBoard()
-    play(board1)
+    test_board(board1)
     board2 = ListListTTTBoard()
-    play(board2)
+    test_board(board2)
     board3 = CoordsTTTBoard()
-    play(board3)
+    test_board(board3)
 
 
 main()

@@ -1,8 +1,7 @@
-import unittest
 import geometry
 
 
-class PointTest(unittest.TestCase):
+class TestPoint:
     def test_point_init(self):
         p = geometry.Point(1, 2)
         assert p.x == 1
@@ -20,12 +19,6 @@ class PointTest(unittest.TestCase):
         assert p.x == 2
         assert p.y == 3
 
-    def test_move_subtract(self):
-        p = geometry.Point(1, 2)
-        p.move_subtract(1, 1)
-        assert p.x == 0
-        assert p.y == 1
-
     def test_eq_not(self):
         p1 = geometry.Point(0, 0)
         p2 = geometry.Point(2, 0)
@@ -41,7 +34,3 @@ class PointTest(unittest.TestCase):
         found = repr(p)
         expected = 'Point(1, 2)'
         assert found == expected
-
-
-if __name__ == '__main__':
-    unittest.run()

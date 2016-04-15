@@ -36,10 +36,10 @@
 1. [Booleans](booleans.md)
 1. [Comparison Operators](comparison.md)
 1. [Branching and Blocks](branchingandblocks.md)
-1. Demo: Written-Out Numbers
-1. Optional: Practice: [21](practice-21.md)
-1. Optional: Practice: Unit Converter
-1. Optional: Practice: [Taxes](practice-taxes.md)
+1. Demo: [Written-Out Numbers](demos/writtennumbers.md)
+1. Group Practice: [Taxes](practice-taxes.md)
+1. Individual Practice: Unit Converter
+1. Checked Practice: [21](practice-21.md)
 1. Calling Type Methods
 1. Optional Arguments
 1. Basic String Methods
@@ -145,18 +145,20 @@
 1. Practice: [Tic-Tac-Toe Interface](practice/interface.md)
 1. [Debuggers and PyCharm](notes/debuggers.md)
 1. [Modules](notes/modules.md)
-1. [Testing](notes/testing.md)
+1. [Testing](notes/automatedtesting.md)
+1. [PyTest](notes/pytest.md)
+1. [Writing Good Tests](notes/writingtests.ms)
 1. Demo: Test Table Print
 1. Demo: [Test Geometry](demos/testgeometry.md)
 1. Practice: [Test Case Conversion](practice/testcase.md)
 1. Practice: [Test Tic-Tac-Toe Interface](practice/testinterface.md)
 
 ## Building a Web App
-1. [Capstone Introduction](capstoneintro.md)
-1. [High-Level Structure of a Web App](webappoverview.md)
+1. [Capstone Introduction](notes/capstoneintro.md)
+1. [High-Level Structure of a Web App](notes/webappoverview.md)
 
 ## Basic Interfaces with HTML and CSS
-1. [Front End Principles](frontend.md)
+1. [Interface Principles](notes/interfaceprinciples.md)
 1. [HTML Basics](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction)
 1. Demo: [Basic Tags](demo-basictags.md)
 1. [Tag Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
@@ -174,27 +176,27 @@
 1. Web Inspector Style Basics
 1. Practice: [Bio Style](practice-biostyle.md)
 1. Practice: [ID Card](https://developer.mozilla.org/en-US/Learn/CSS/Introduction_to_CSS/Fundamental_CSS_comprehension)
-
-## Python Tooling
-1. Libraries and PIP
+1. Practice:
 
 ## Intro to Javascript
 1. Front End Programming
 1. Javascript
 
 ## Django Backend Programming
+1. Libraries and PIP
 1. [Web Basics](webbasics.md)
-
+1. JSON
 
 ## Hot Tips
-* [2016-03-24](tips-2016-03-24.md)
-* [2016-03-25](tips-2016-03-25.md)
-* [2016-03-28](tips-2016-03-28.md)
-* [2016-03-29](tips-2016-03-29.md)
-* [2016-03-30](tips-2016-03-30.md)
-* [2016-04-01](tips-2016-04-01.md)
-* [2016-04-04](tips-2016-04-04.md)
-* [2016-04-05](tips-2016-04-05.md)
-* [2016-04-08](tips-2016-04-08.md)
-* [2016-04-11](tips-2016-04-11.md)
-* [2016-04-14](tips-2016-04-14.md)
+* [2016-03-24](tips/2016-03-24.md)
+* [2016-03-25](tips/2016-03-25.md)
+* [2016-03-28](tips/2016-03-28.md)
+* [2016-03-29](tips/2016-03-29.md)
+* [2016-03-30](tips/2016-03-30.md)
+* [2016-04-01](tips/2016-04-01.md)
+* [2016-04-04](tips/2016-04-04.md)
+* [2016-04-05](tips/2016-04-05.md)
+* [2016-04-08](tips/2016-04-08.md)
+* [2016-04-11](tips/2016-04-11.md)
+* [2016-04-14](tips/2016-04-14.md)
+* [2016-04-15](tips/2016-04-15.md)
