@@ -22,13 +22,13 @@
 1. [Basic High-Level Structure](basichighlevelstructure.md)
 1. [Basic Variable Naming](notes/basicvarnaming.md)
 1. [Evaluation Order](evaluationorder.md)
-1. Simple Math Functions
-1. Demo: [Greeting](demo-greeting.md)
-1. Demo: Simple Unit Converter
+1. [Basic Math](notes/basicmath.md)
+1. Demo: [Simple Unit Converter](demo/simpleunitconvert.md)
+1. Demo: [Greeting](demo/greeting.md)
 1. [Basic Debugging](basicdebugging.md)
-1. Practice: [Madlib](practice-madlib.md)
-1. Optional: Practice: [Wall Painting](practice-wallpainting.md)
-1. Optional: Practice: Change Return
+1. Group Practice: [Change Return](practice/changereturn.md)
+1. Individual Practice: [Madlib](practice/madlib.md)
+1. Checked Practice: [Wall Painting](practice/wallpainting.md)
 1. [Source Control](sourcecontrol.md)
 1. [Basic Git](basicgit.md)
 1. Demo: Git
@@ -89,6 +89,7 @@
 1. Demo:
 1. Practice: Sort File
 1. Practice: Tabs to Spaces
+1. Practice:
 1. [Dicts](dicts.md)
 1. Dict Comprehensions
 1. [Function Values](functionvalues.md)
@@ -101,22 +102,23 @@
 1. [For Loops](forloops.md)
 1. While Loops
 1. Demo: Fizz Buzz
+1. Demo:
 1. Practice: [Programming Case Conversion](practice/case.md)
 1. Practice: Farkle
 1. Optional: Practice:
 1. [Googling for Solutions](notes/googling.md)
 1. [Reducing](reducing.md)
 1. [Grouping](grouping.md)
-1. Picking Data Structures
+1. [Picking Data Structures](notes/datastructures.md)
+1. [Advanced Variable Naming](notes/advvarnaming.md)
 1. Demo:
 1. Demo:
 1. Optional: Practice: [Voting Booth](practice-votingbooth.md)
 1. Optional: Practice:
 1. Optional: Practice:
 1. Structured Data
-1. [Advanced Variable Naming](notes/advvarnaming.md)
-1. [Data Problem Solving](highleveldataops.md)
 1. [Joining](joining.md)
+1. [Data Problem Solving](highleveldataops.md)
 1. Demo:
 1. Group Practice:
 1. Group Practice: [Connect Four](practice-connectfour.md)
@@ -131,7 +133,7 @@
 1. [Class String Representation](classstringrepr.md)
 1. [Value Classes](valueclasses.md)
 1. Demo: [Rosters](demo-rosters.md)
-1. Demo: [Geometry](demo-geometry.py)
+1. Demo: [Geometry](demo/geometry.md)
 1. Practice: [Blackjack Hand](practice-blackjackhand.md)
 1. Checked Group Practice: [Restaurant Reviews](practice-reviews.md)
 1. [Encapsulation](encapsulation.md)
