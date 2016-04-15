@@ -1,0 +1,21 @@
+# Basic Math
+Python gives you all of the basic math operators.
+
+```python
+4 + 2  #> 6
+5 - 9  #> -4
+12 / 5  #> 2.4
+4 * 5  #> 20
+```
+
+It also gives you some stranger ones.
+
+Floor division divides then throws away the remainder.
+```python
+12 // 5  #> 2
+```
+
+Exponentiation takes a number to a power.
+```python
+3 ** 2  #> 9
+```
