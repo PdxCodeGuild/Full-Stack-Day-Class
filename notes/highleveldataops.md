@@ -7,6 +7,7 @@ If you can break your problem down into these kinds of steps, you'll have soluti
 
 * [Mapping](mapping.md)
 * [Filtering](filtering.md)
+* [Sorting](sorting.md)
 * [Reducing](reducing.md)
 * [Grouping](grouping.md)
 * [Joining](joining.md)
