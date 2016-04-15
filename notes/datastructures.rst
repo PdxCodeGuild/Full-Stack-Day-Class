@@ -10,7 +10,7 @@ Set    Yes    No       No
 ===== ======= ======== =======
 
 There is *no shame* in converting between data structures within a single problem.
-There is no perfect data structure that answers all of your questions, so
+There is no perfect data structure that answers all of your questions, so `testing`_.
 
 Think Dict When
 ---------------
