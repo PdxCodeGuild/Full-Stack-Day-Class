@@ -33,7 +33,10 @@ print([x[1].join((str(y[0]), y[1])) for y in enumerate(x)][1])
 ```
 
 ```python
-print(list(reversed([x[1] % 2 == 0 for x in zip(['a', 'b', 'c', 'd'], [1, 2, 3, 4])]))[0])
+x = ['a', 'b', 'c']
+y = [1, 2, 3, 4]
+z = [i[1] % 2 == 0 for i in zip(x, y)]
+print(list(reversed(z))[0])
 ```
 
 ```python
