@@ -163,7 +163,7 @@
 1. [Semantic Elements](notes/semanticelements.md)
 1. Demo: [Basic Elements](demos/basichtml.md)
 1. [Element Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
-1. Web Inspector Structure Basics
+1. [Web Inspector Structure Basics](http://ruby.bastardsbook.com/chapters/web-inspecting-html/)
 1. Practice: [Bio](practice/bio.md)
 1. [Form Basics](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/My_first_HTML_form)
 1. Demo: [Basic Forms](demos/basicform.md)
