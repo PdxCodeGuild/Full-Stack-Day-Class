@@ -163,7 +163,7 @@
 1. [HTML Basics](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction)
 1. [Semantic Elements](notes/semanticelements.md)
 1. Demo: [Basic Elements](demos/basichtml.md)
-1. [Element Reference](https://html.spec.whatwg.org/multipage/#toc-semantics)
+1. [Element Reference](https://developers.whatwg.org)
 1. [Web Inspector Structure Basics](http://ruby.bastardsbook.com/chapters/web-inspecting-html/)
 1. Practice: [Bio](practice/bio.md)
 1. [Form Basics](http://learn.shayhowe.com/html-css/building-forms/)
@@ -180,8 +180,10 @@
 1. Web Inspector Style Basics
 1. Practice: [Bio Style](practice/biostyle.md)
 1. Practice: [ID Card](https://developer.mozilla.org/en-US/Learn/CSS/Introduction_to_CSS/Fundamental_CSS_comprehension)
-1. Basic CSS Layout
-1. Practice:
+1. [Basic Layout](http://learn.shayhowe.com/html-css/positioning-content/)
+1. Demo: Layout
+1. Practice: Bio Layout
+1. Bootstrap
 
 ## Intro to Javascript
 1. Front End Programming
