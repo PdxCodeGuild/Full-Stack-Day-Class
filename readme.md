@@ -3,6 +3,7 @@
 1. Course Expectations
 1. [Course Portfolio](notes/courseportfolio.md)
 1. [Programming Philosophy](notes/philosophy.md)
+1. Group Work
 
 ## Programming in Python
 1. Filesystem
@@ -166,17 +167,21 @@
 1. [Web Inspector Structure Basics](http://ruby.bastardsbook.com/chapters/web-inspecting-html/)
 1. Practice: [Bio](practice/bio.md)
 1. [Form Basics](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/My_first_HTML_form)
-1. Demo: [Basic Forms](demos/basicform.md)
+1. Demo: [Basic Forms](http://learn.shayhowe.com/html-css/building-forms/#multple-choice-inputs)
+1. [Form Element Reference](notes/formelements.md)
 1. Practice: [Food Preferences](practice/food.md)
-1. [CSS Basics](https://developer.mozilla.org/en-US/Learn/CSS/Introduction_to_CSS/How_CSS_works)
+1. [CSS Basics](http://learn.shayhowe.com/html-css/getting-to-know-css/)
 1. [Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 1. [Style Locations](notes/stylelocations.md)
 1. [CSS Selectors](https://developer.mozilla.org/en-US/Learn/CSS/Introduction_to_CSS/Selectors)
-1. [Box Model](https://developer.mozilla.org/en-US/Learn/CSS/Introduction_to_CSS/Box_model)
+1. Inline vs Block Elements
+1. [Box Model](http://learn.shayhowe.com/html-css/opening-the-box-model/)
 1. Demo: Basic Style
 1. Web Inspector Style Basics
 1. Practice: [Bio Style](practice/biostyle.md)
 1. Practice: [ID Card](https://developer.mozilla.org/en-US/Learn/CSS/Introduction_to_CSS/Fundamental_CSS_comprehension)
+1. Basic CSS Layout
+1.
 1. Practice:
 
 ## Intro to Javascript

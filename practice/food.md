@@ -9,3 +9,6 @@ Provide:
 * A free-form text field where they can talk about their most memorable dinner ever.
 * A button to press if they're hungry.
 * A button to submit.
+
+## Advanced
+* Allow the user to upload an image of their best pair of chopsticks.

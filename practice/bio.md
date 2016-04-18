@@ -7,5 +7,7 @@ Include:
 * A quote from them
 * Proper structuring HTML elements
 
+The point of this project is _not_ to make something that looks pretty (and it won't), it is just to have good structure.
+
 ## Advanced
-* Peruse the [complete HTML element list](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) and try to incorporate some of them
+* Peruse the [complete HTML element list](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) and try to incorporate some of them.
