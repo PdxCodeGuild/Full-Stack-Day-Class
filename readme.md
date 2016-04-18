@@ -160,8 +160,8 @@
 ## Basic Interfaces with HTML and CSS
 1. [Interface Principles](notes/interfaceprinciples.md)
 1. [HTML Basics](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction)
-1. Demo: [Basic Tags](demos/basictags.md)
-1. [Tag Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+1. Demo: [Basic Elements](demos/basichtml.md)
+1. [Element Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 1. Web Inspector Structure Basics
 1. Practice: [Bio](practice/bio.md)
 1. [Form Basics](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/My_first_HTML_form)

@@ -6,7 +6,11 @@ A web application has three big moving parts:
 
 ## Database
 This is where your data is persistently stored.
-It is another program that has a very generic interface that lets you save and fetch data.
+It is another program that has a very generic interface (SQL language) that lets you save and fetch data.
+
+We're gonna be focusing on **SQL databases**.
+SQL stands for **structured query language**.
+It is a text-based interface for other programs to select and send and recieve data.
 
 You don't write this part.
 E.g. [PostgreSQL](http://www.postgresql.org).
@@ -14,7 +18,7 @@ E.g. [PostgreSQL](http://www.postgresql.org).
 ## Back-End
 This is your **web server**.
 It serves dynamically generated web pages.
-When someone goes to `www.yourwebsite.com/show/ponies`, it will figure out what's on that page, maybe by talking to the database or other web sites, and return the content associated with it for display.
+When someone goes to `www.yourwebsite.com/show/ponies`, it will figure out what's on `/show/ponies`, maybe by talking to the database or other web sites, and return the content associated with it for display.
 
 This is the code you write in **Python**.
 It contains your **business logic**.
