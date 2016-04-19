@@ -1,0 +1,20 @@
+h3 {
+    font-family: monospace;
+}
+
+#coolsec {
+    color: blue;
+}
+
+.hot {
+    color: red;
+}
+
+.spicy {
+    color: orange;
+    font-family: sans-serif;
+}
+
+ul > li {
+    text-shadow: 1px 1px 1px gray;
+}
