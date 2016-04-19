@@ -1,20 +1,32 @@
+/*You can select all elements of a type by writing the type name.*/
 h3 {
     font-family: monospace;
 }
 
+/*Select a specific unique ID by prefixing it by `#`.*/
 #coolsec {
     color: blue;
 }
 
+/*Select all elements in a class by prefixing the the name by `.`*/
 .hot {
     color: red;
 }
 
 .spicy {
+    /*Multiple properties can be assigned.*/
     color: orange;
     font-family: sans-serif;
 }
 
+/*Select elements that match a hierarchy by using the child-of operator `>`.*/
+/*This will only select all `li`s under a `ul`.*/
 ul > li {
     text-shadow: 1px 1px 1px gray;
+}
+
+/*You can combine these selectors with a space to "and" them.*/
+/*Select all `li` that are in both the spicy and hot classes and are under a `ul`.*/
+ul > li .spicy .hot {
+    color: blue;
 }

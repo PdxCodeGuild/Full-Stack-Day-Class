@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <title>Title</title>
+    <!-- You must link your external stylesheet in the header. -->
+    <!-- The kind of link is required to be "stylesheet". -->
     <link href="basicstyle.css" rel="stylesheet">
 </head>
 <body>
@@ -11,10 +13,14 @@
     <nav>
         <a href="otherpage.html">Link</a> in navigation section.
     </nav>
+    <!-- Specific elements in the HTML can have a unique ID. -->
+    <!-- IDs must not repeat. -->
     <section id="coolsec">
         <p>
             Normal paragraph in a cool ID.
         </p>
+        <!-- You can label elements as being part of a class. -->
+        <!-- Multiple elements can be in a class. -->
         <p class="hot">
             Hot paragraph.
         </p>
@@ -26,6 +32,11 @@
         </ol>
         <ul>
             <li>List element.</li>
+            <!-- Multiple classes can be specified by separating their names by spaces. -->
+            <!-- The last class is most specific. -->
+            <!-- All properties of selectors that match are unioned together and apply. -->
+            <!-- The "most specific" value for a property declared multiple times wins. -->
+            <li class="spicy hot">List element.</li>
         </ul>
     </section>
     <section>
