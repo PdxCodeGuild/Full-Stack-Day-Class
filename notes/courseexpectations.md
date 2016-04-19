@@ -22,7 +22,14 @@ If you need to go home sick for a day, go home.
 ## Attitude
 Seek out help, but learn to be independent.
 When you finish this course you will _not_ know everything.
+We will teach you the _basic building blocks_ but you have to be prepared to expand upon them.
 Being a software developer is a process of continually learning.
+
+This class is _immersive_.
+It is learning through doing.
+There is minimal lecture.
+I want you to **act** and not study.
+That is why I will be checking your problems.
 
 You are paying for access to human power.
 Ask questions.
@@ -49,6 +56,4 @@ They are to formally assess your progress.
 If you are seriously falling behind, you will have to drop the class.
 
 Many of our class projects will be **group practice**.
-I will be explicitly assigning you to groups of two or three.
-I will rotate the groups so you will work with everyone in the class.
-There are no exceptions to this.
+This class has [expectations about group work](groupwork.md).

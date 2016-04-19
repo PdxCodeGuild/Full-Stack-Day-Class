@@ -1,0 +1,12 @@
+.row {
+    display: flex;
+}
+
+section {
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+#bigsection {
+    flex-grow: 2;
+}
