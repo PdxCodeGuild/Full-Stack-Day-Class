@@ -3,7 +3,7 @@
 1. Course Expectations
 1. [Course Portfolio](notes/courseportfolio.md)
 1. [Programming Philosophy](notes/philosophy.md)
-1. Group Work
+1. [Group Work](notes/groupwork.md)
 
 ## Programming in Python
 1. Filesystem
@@ -158,7 +158,7 @@
 1. [Capstone Introduction](notes/capstoneintro.md)
 1. [High-Level Structure of a Web App](notes/webappoverview.md)
 
-## Basic Interfaces with HTML and CSS
+## Interface Structure with HTML
 1. [Interface Principles](notes/interfaceprinciples.md)
 1. [HTML Basics](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction)
 1. [Semantic Elements](notes/semanticelements.md)
@@ -170,19 +170,25 @@
 1. Demo: [Basic Forms](demos/basicform.md)
 1. [Form Element Reference](notes/formelements.md)
 1. Practice: [Food Preferences](practice/food.md)
-1. [CSS Basics](http://learn.shayhowe.com/html-css/getting-to-know-css/)
-1. [Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+
+## Styling and Layout with CSS
+1. [CSS Basics](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/CSS_basics)
+1. [CSS Property Examples](http://learn.shayhowe.com/html-css/getting-to-know-css/)
+1. [Property Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 1. [Style Locations](notes/stylelocations.md)
-1. [CSS Selectors](https://developer.mozilla.org/en-US/Learn/CSS/Introduction_to_CSS/Selectors)
-1. Inline vs Block Elements
-1. [Box Model](http://learn.shayhowe.com/html-css/opening-the-box-model/)
-1. Demo: Basic Style
+1. Demo: [Basic Style](demo/basicstyle.md)
 1. Web Inspector Style Basics
 1. Practice: [Bio Style](practice/biostyle.md)
-1. Practice: [ID Card](https://developer.mozilla.org/en-US/Learn/CSS/Introduction_to_CSS/Fundamental_CSS_comprehension)
-1. [Basic Layout](http://learn.shayhowe.com/html-css/positioning-content/)
-1. Demo: Layout
-1. Practice: Bio Layout
+1. [Box Model and Sizing](notes/boxmodel.md)
+1. [Auto Margins](notes/automargins.md)
+1. [Float](notes/float.md)
+1. [Flexbox](notes/flexbox.md)
+1. Demo: [Basic Layout](demo/basiclayout.md)
+1. Individual Practice:
+1. Group Practice: [ID Card](practice/idcard.md)
+1. Checked Practice: [Bio Layout](practice/biolayout.md)
+1. [Other Layout Techniques](notes/layout.md)
+1. [CSS Patterns](notes/csspatterns.md)
 1. Bootstrap
 
 ## Intro to Javascript

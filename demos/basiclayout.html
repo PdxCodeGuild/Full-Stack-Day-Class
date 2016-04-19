@@ -2,60 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Title</title>
+    <title>Elmo Page</title>
     <link rel="stylesheet" href="basiclayout.css">
 </head>
+<!-- Our body CSS is setup to put the content in a top-level centered column. -->
 <body>
+    <!-- This header will span the whole page width, as it's an unmodified block element. -->
     <header>
-        <h1>Big Heading</h1>
+        <h1>Elmo's Page</h1>
     </header>
-    <nav>
-        <a href="otherpage.html">Link</a> in navigation section.
-    </nav>
-    <article class="row">
-        <section id="bigsection">
-            <p>
-                Paragraph in an abstract section.
-
-                <em>Emphasized text.</em><br>
-                But you can put explicit breaks.
-                <strong>Bolded text.</strong>
-            </p>
-        </section>
-        <section>
-            <h2>Smaller Heading</h2>
-            <ol>
-                <li>Ordered list element.</li>
-            </ol>
+    <!-- This will be a flexbox container.
+    The things inside then can flex to the appropriate width. -->
+    <div class="flex">
+        <!-- Our nav has a fixed width in CSS. -->
+        <nav>
+            <h2>Nav</h2>
             <ul>
-                <li>List element.</li>
+                <li><a href="otherpage.html">Link 1</a></li>
+                <li><a href="otherpage.html">Link 2</a></li>
+                <li><a href="otherpage.html">Link 3</a></li>
+                <li><a href="otherpage.html">Link 4</a></li>
             </ul>
-        </section>
-    </article>
-    <article class="row">
-        <section>
-            <h3>Smaller-er Heading</h3>
-            <img src="elmo3.gif">
-            <img src="elmo3.gif">
-            <img src="elmo3.gif">
-            Here is a lot of text pertaining to Elmo.
-            Here is a lot of text pertaining to Elmo.
-            Here is a lot of text pertaining to Elmo.
-            Here is a lot of text pertaining to Elmo.
-            Here is a lot of text pertaining to Elmo.
-            Here is a lot of text pertaining to Elmo.
-            Here is a lot of text pertaining to Elmo.
-        </section>
-        <section>
-            <h3>Quote Section</h3>
-            <blockquote>
-                A quote of someone famous.
-            </blockquote>
-        </section>
-    </article>
+        </nav>
+        <!-- Article is set to flex: 1 so will grow to take up the remaining space.
+        Any other elements right inside the div.main will take up equal widths. -->
+        <article>
+            <h1>About Elmo</h1>
+            <img class="corner" src="elmo3.gif">
+            <p>Here's some text about Elmo that will flow around the image.</p>
+        </article>
+        <!-- Like this second article. -->
+        <article>
+            <h1>Elmo's Colors</h1>
+            <ul>
+                <li>Red</li>
+                <li>Red</li>
+                <li>Red</li>
+            </ul>
+        </article>
+    </div>
+    <!-- This footer will span the whole page width, as it's an unmodified block element. -->
     <footer>
-        <p>A paragraph of footer stuff.
-        </p>
+        <p>Written by David.</p>
     </footer>
 </body>
 </html>

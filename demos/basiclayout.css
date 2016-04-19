@@ -1,12 +1,29 @@
-.row {
+body {
+    /*Using the auto margin technique to center the top-level page content column in the middle of the page.*/
+    width: 75%;
+    /*The first number is top-bottom margins, the second left-right.*/
+    margin: 0px auto;
+}
+
+div.flex {
+    /*Have this main container div use flexboxes to layout columns.*/
     display: flex;
 }
 
-section {
-    flex-basis: 200px;
-    flex-grow: 1;
+nav {
+    /*Say that the nav should take up at most 100 pixels. Use max-width so if it should be smaller, it will reduce in size.*/
+    max-width: 100px;
 }
 
-#bigsection {
-    flex-grow: 2;
+article {
+    /*Say that each article should expand by the same ratio in the flexbox: 1.*/
+    flex: 1;
+}
+
+img.corner {
+    float: left;
+}
+
+footer {
+    color: grey;
 }
