@@ -7,5 +7,6 @@ Here are some starter tips for planning out and writing your CSS.
 * Classes can be **mixins**; sets of attributes you want to apply arbitrarily to elements, e.g. "warning"
 * Use unique ID for specific single exceptions on the page; avoid these
 * Avoid using IDs for elements that are already unique: `html`, `body`, if your page contains a single `header`
+* Use the simplest selectors possible.
 
 Read through [this front-end tutorial](http://learn.shayhowe.com/html-css/writing-your-best-code/) for more tips on how to write good HTML & CSS.

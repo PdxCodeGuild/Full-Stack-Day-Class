@@ -15,7 +15,7 @@ This is the preferred method for specifying style over a whole website.
 ## Internal Style
 You can write out CSS that should only be used on the current page in your header.
 
-This is discouraged unless you're prototyping a single page.
+_Avoid_ unless you're prototyping a single page.
 
 ```html
 <head>
@@ -30,7 +30,7 @@ This is discouraged unless you're prototyping a single page.
 ## Inline Style
 You can also specify style on a single element in your HTML.
 
-This is discouraged unless debugging.
+_Avoid_ unless debugging.
 
 ```html
 <p>Some <strong style="color: red;">red strong</strong> text.
