@@ -176,6 +176,7 @@
 1. [CSS Property Examples](http://learn.shayhowe.com/html-css/getting-to-know-css/)
 1. [Property Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 1. [Style Locations](notes/stylelocations.md)
+1. [CSS Patterns](notes/csspatterns.md)
 1. Demo: [Basic Style](demo/basicstyle.md)
 1. Web Inspector Style Basics
 1. Practice: [Bio Style](practice/biostyle.md)
@@ -187,8 +188,6 @@
 1. Group Practice: [ID Card](practice/idcard.md)
 1. Checked Practice: [Bio Layout](practice/biolayout.md)
 1. [Other Layout Techniques](notes/layout.md)
-1. [CSS Patterns](notes/csspatterns.md)
-1. Bootstrap
 
 ## Intro to Javascript
 1. Front End Programming
