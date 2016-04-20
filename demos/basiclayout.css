@@ -1,8 +1,13 @@
+html {
+    /*Let's have the body be layed out using flexbox.*/
+    display: flex;
+    /*Center the single flexbox inner item.*/
+    justify-content: center;
+}
+
 body {
-    /*Using the auto margin technique to center the top-level page content column in the middle of the page.*/
+    /*Have the entire body be 75% of the full page width.*/
     width: 75%;
-    /*The first number is top-bottom margins, the second left-right.*/
-    margin: 0px auto;
 }
 
 div.flex {

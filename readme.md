@@ -180,7 +180,6 @@
 1. Web Inspector Style Basics
 1. Practice: [Bio Style](practice/biostyle.md)
 1. [Box Model and Sizing](notes/boxmodel.md)
-1. [Auto Margins](notes/automargins.md)
 1. [Float](notes/float.md)
 1. [Flexbox](notes/flexbox.md)
 1. Demo: [Basic Layout](demo/basiclayout.md)
