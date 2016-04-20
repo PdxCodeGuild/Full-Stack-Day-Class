@@ -19,14 +19,14 @@ h3 {
     font-family: sans-serif;
 }
 
-/*Select elements that match a hierarchy by using the child-of operator `>`.*/
-/*This will only select all `li`s under a `ul`.*/
-ul > li {
+/*Select decendant elements using the space operator.*/
+/*This will only select all `li`s anywhere under a `ul`.*/
+ul li {
     text-shadow: 1px 1px 1px gray;
 }
 
-/*You can combine these selectors with a space to "and" them.*/
+/*You can combine selectors _without_ a space to "and" them.*/
 /*Select all `li` that are in both the spicy and hot classes and are under a `ul`.*/
-ul > li .spicy .hot {
+ul li.spicy.hot {
     color: blue;
 }
