@@ -186,8 +186,10 @@
 1. Individual Practice: [Bio Style](practice/biostyle.md)
 1. Checked Practice:
 1. [Box Model and Sizing](notes/boxmodel.md)
+1. [Default Layout](notes/defaultlayout.md)
 1. [Float](notes/float.md)
 1. [Flexbox](notes/flexbox.md)
+1. [Layout Problem Solving](notes/layoutproblemsolving.md)
 1. Demo: [Basic Layout](demos/basiclayout.md)
 1. Group Practice: [ID Card](practice/idcard.md)
 1. Individual Practice:

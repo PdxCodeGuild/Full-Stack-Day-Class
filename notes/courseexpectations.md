@@ -1,7 +1,7 @@
 # Class Expectations
 ## Attendance
 Class begins at 9:30 A.M. every week day and ends at 4:30 P.M.
-We will take an hour lunch every day from 12:30 P.M. to 1:30 P.M.
+We will take an hour lunch break every day from 12:15 P.M. to 1:15 P.M.
 
 By taking this class, you're setting aside time to learn.
 **Keep it sacred. I cannot stress this enough.**
@@ -15,7 +15,7 @@ That's totally fine!
 A bootcamp format is not the only way to learn these skills.
 
 With this in mind, keep a balanced life.
-Feel free to take breaks during the day.
+Feel free to _take breaks_ during the day.
 Take a lap around the building.
 If you need to go home sick for a day, go home.
 

@@ -1,5 +1,5 @@
 # Style Locations
-You can specify style in _three_ places in your HTML.
+You can specify CSS in _three_ places in your HTML.
 
 ## Linked Style
 You can give the path to a separate CSS file to be included in your header.

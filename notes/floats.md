@@ -1,6 +1,6 @@
 # Floats
 The most basic layout tool is **float**.
-This causes an element to be fixed to a corner of the parent element.
+This causes an element to be fixed to a top corner of the parent element.
 The remaining inline elements flow _around_ the floated element.
 
 CSS:
