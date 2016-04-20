@@ -174,16 +174,18 @@
 ## Styling and Layout with CSS
 1. [CSS Basics](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/CSS_basics)
 1. [CSS Property Examples](http://learn.shayhowe.com/html-css/getting-to-know-css/)
+1. [CSS Values](notes/cssvalues.md)
 1. [Property Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 1. [Style Locations](notes/stylelocations.md)
 1. [CSS Patterns](notes/csspatterns.md)
 1. Demo: [Basic Style](demo/basicstyle.md)
 1. Web Inspector Style Basics
+1. Group Practice: [Selector Puzzle](practice/selectorpuzzle.md)
 1. Practice: [Bio Style](practice/biostyle.md)
 1. [Box Model and Sizing](notes/boxmodel.md)
 1. [Float](notes/float.md)
 1. [Flexbox](notes/flexbox.md)
-1. Demo: [Basic Layout](demo/basiclayout.md)
+1. Demo: [Basic Layout](demos/basiclayout.md)
 1. Individual Practice:
 1. Group Practice: [ID Card](practice/idcard.md)
 1. Checked Practice: [Bio Layout](practice/biolayout.md)
