@@ -1,0 +1,74 @@
+# Basic Types and Variables
+JS includes similar built-in types to Python.
+
+## Basic Types
+Here are an overview of the basic types and literals to form them.
+
+### Numbers
+Numbers are all "floats".
+Even if you don't include a decimal point.
+```js
+4.5
+10
+-100.0
+```
+
+### Strings
+Strings are double quoted sequences of characters.
+```js
+"Hello!"
+"wow"
+```
+
+### Booleans
+Identical true and false values.
+The literals are lower case.
+```js
+true
+false
+```
+
+### Null
+Similar to `None` in Python, this is a _deliberate_ non-value.
+```js
+null
+```
+
+### Undefined
+Unlike anything in Python, undefined is an _uninitialized_ value.
+```js
+undefined
+```
+
+### Objects
+Objects are like dictionaries in Python.
+They map **properties** (like keys) to values.
+```js
+{
+    "apple": 0.99,
+    "pear": 1.50,
+}
+{}  // Empty object.
+```
+
+### Arrays
+Arrays are like lists in Python.
+They are ordered sequences of items.
+```js
+[1, 2, 3]
+["a", "b", "c"]
+[]  // Empty list.
+```
+
+## Variables
+Variables in JS must be **declared** before they are used.
+
+To declare a variable, use the `var` keyword, then the variable name, then an initialized value.
+```js
+var name = "David";
+var fruitToPrice = {"apple": 0.99};
+```
+
+Once a variable is declared, you don't use `var` to reference it.
+
+Proper JS style has variable names in `camelCase` with the first letter lowercase.
