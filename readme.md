@@ -156,6 +156,7 @@
 
 ## Building a Web App
 1. [Capstone Introduction](notes/capstoneintro.md)
+1. [Capstone Proposal](notes/capstoneproposal.md)
 1. [High-Level Structure of a Web App](notes/webappoverview.md)
 
 ## Interface Structure with HTML

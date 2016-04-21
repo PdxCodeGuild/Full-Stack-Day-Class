@@ -6,6 +6,9 @@ It will be the deliverable that you get to _show off to prospective employers_.
 **This is the most important part of this class.**
 Once it begins around week 9, the tone of the class will shift from being a classroom setting, to more of a co-working space with me and each other as a resource.
 
+If you're having trouble coming up with an idea, let me know _now_.
+I suggest thinking of a problem _you_ have in your day-to-day that you might be able to solve.
+
 ## Schedule
 The formal schedule for working on your capstone is:
 * End of Week 6 2016-04-27: Proposal due at end of day
