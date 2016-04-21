@@ -1,9 +1,9 @@
 # PDX Code Guild Syllabus
 ## Intro
 1. Course Expectations
-1. [Course Portfolio](notes/courseportfolio.md)
-1. [Programming Philosophy](notes/philosophy.md)
-1. [Group Work](notes/groupwork.md)
+1. [Course Portfolio](intro/notes/courseportfolio.md)
+1. [Programming Philosophy](intro/notes/philosophy.md)
+1. [Working with Others](intro/notes/groupwork.md)
 
 ## Programming in Python
 1. Filesystem
@@ -198,15 +198,21 @@
 1. [Other Layout Techniques](notes/layout.md)
 
 ## Intro to Javascript
-1. Types and Variables
-1. Basic Operators
-1. Control Statements
-1. Functions and Calling
-1. Demo:
-1. Group Practice:
-1. Individual Practice:
-1. Checked Practice:
-1. Objects
+1. [Javascript Basics](js/notes/jsbasics.md)
+1. [Basic Types and Variables](js/notes/typesandvars.md)
+1. [Basic Objects and Arrays](js/notes/objectsarrays.md)
+1. [Basic Operators](js/notes/basicoperators.md)
+1. [Control Statements](js/notes/control.md)
+1. [Functions](js/notes/functions.md)
+1. [Prototype Methods](js/notes/typemethods.md)
+1. [Data Transformations](js/notes/datatransforms.md)
+1. [Debug Output](js/notes/debugoutput.md)
+1. [JS in the Browser](js/notes/browserjs.md)
+1. Demo: [Leet Speek](js/demo/leetspeak.md)
+1. Web Inspector Debugger
+1. Group Practice: [Taxes](practice/taxes.md)
+1. Individual Practice: [Rarest](js/practice/rarest.md)
+1. Checked Practice: [Sum Pairs](practice/sumpairs.md)
 1. New
 1. This
 1. Demo:
