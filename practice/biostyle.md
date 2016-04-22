@@ -1,5 +1,6 @@
 # Practice: Bio Style
 Keep your bio's HTML as `bio.html` and save the style sheet as `bio.css`.
+Also finish all of the requirements of the [original problem](bio.md).
 
 Let's vamp up your bio.
 Using only an external stylesheet, add the following stylistic features:

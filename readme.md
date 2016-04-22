@@ -234,17 +234,11 @@
 1. [Web Basics](notes/webbasics.md)
 1. JSON
 
+## Job Search and Interviewing
+1. Resume Writing
+1. Interview
+1. Negotiation
+1. References
+
 ## Hot Tips
-* [2016-03-24](tips/2016-03-24.md)
-* [2016-03-25](tips/2016-03-25.md)
-* [2016-03-28](tips/2016-03-28.md)
-* [2016-03-29](tips/2016-03-29.md)
-* [2016-03-30](tips/2016-03-30.md)
-* [2016-04-01](tips/2016-04-01.md)
-* [2016-04-04](tips/2016-04-04.md)
-* [2016-04-05](tips/2016-04-05.md)
-* [2016-04-08](tips/2016-04-08.md)
-* [2016-04-11](tips/2016-04-11.md)
-* [2016-04-14](tips/2016-04-14.md)
-* [2016-04-15](tips/2016-04-15.md)
-* [2016-04-22](tips/2016-04-22.md)
+[Tips List](tips)

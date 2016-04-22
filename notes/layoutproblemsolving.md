@@ -1,5 +1,8 @@
 # Layout Problem Solving
-Here are some tips for working _with_ CSS and not _against_ CSS to get reasonable layouts.
+Try to work _with_ CSS and not _against_ CSS to get reasonable layouts.
+
+Work from the top-down in structure.
+Get parent elements styled and laid out well, then fill out the content within them.
 
 ## Slice up Width, Sum up Height
 Remember that the that core dimensions of block elements are calculated as:
@@ -16,7 +19,3 @@ Instead, have the browser sum up the correct heights for you.
 Don't expect you to be able to specify widths and heights on everything.
 CSS is _not a constraint solver_.
 Although one day you might have [constraint based CSS](http://gridstylesheets.org/guides/ccss/).
-
-## Be Reductionist
-All of the same problem solving techniques from Python still apply here.
-Work from the top-down and work on stages of your layout problem.

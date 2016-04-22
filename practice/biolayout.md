@@ -1,5 +1,6 @@
 # Practice: Bio Layout
 Keep your bio's HTML as `bio.html` and enhance your style sheet already in `bio.css`.
+Also finish all of the requirements of the [original problem](bio.md) and the [style problem](biostyle.md).
 
 Let's practice using layout in your bio:
 * Center the entire content of the body; use a [flexbox](/notes/flexbox.md).
