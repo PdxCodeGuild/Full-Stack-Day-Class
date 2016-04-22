@@ -1,22 +1,32 @@
 # Box Model and Sizing
 The **box model** is the basis for how elements are sized and laid out.
 
-Every element has a:
-* **Width** and **Height** -- core size of content
-* **Padding** -- extra space between core and border
-* **Border** -- visible outline of some thickness
-* **Margin** -- extra space between border and neighboring elements
+Every element has:
+* **Content** -- inner material
+* **Padding** -- space between core and border
+* **Border** -- visible outline outside of padding of some thickness
+* **Margin** -- space outside of border and neighboring elements
+
+The "visual size" of the element includes the content, padding, and border.
 
 ![Box Model Diagram](boxmodel.png)
 
-Margins _overlap_.
-They are like specifying a minimum distance between elements.
+## Content Size
+You can explicitly set the content size using the **width** and **height** properties.
+Remember, this sizes the inner content, so the whole element will appear _bigger_ if there is padding and a border.
 
-They can be specified on _all sides_ using their named properties:
-```CSS
+You can also specify **percent sizes**.
+They allow you to specify a percentage of the appropriate dimension of the _parent_ element.
+```css
 p {
-    width: 100px;
-    height: 100px;
+    width: 50%;
+}
+```
+
+## Padding, Border, and Margin Size
+They can be specified for _all sides_ using their simply-named properties:
+```css
+p {
     padding: 5px;
     border: solid 1px black;
     margin: 10px;
@@ -24,25 +34,10 @@ p {
 ```
 
 There are also separate properties for each side for padding, border, and margin:
-```CSS
+```css
 p {
     padding-top: 10px;
     border-bottom: none;
-}
-```
-
-**Block elements** start on a new line and take up as much _horizontal_ space as possible by default.
-They can have all of their dimensions explicitly set.
-
-**Inline elements** continue the current line and only take up _minimal_ width and height for the contents.
-They flow like text in a word processor.
-They don't have an explicit width and height.
-
-You can also specify **percent sizes**.
-They allow you to specify a percentage of the property value in the _parent_ element.
-```css
-p {
-    width: 50%;
 }
 ```
 

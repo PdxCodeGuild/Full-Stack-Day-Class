@@ -44,3 +44,7 @@ x = [1, 2, 3]
 d = 'p-'
 print('apple-orange'[x[x[x[0]]]:9].split(d[x[1]-3])[min(x)][1:x[2]])
 ```
+
+```py
+print(sum([sum(range(i)) for i in range(10) if i in (5, 7)]))
+```

@@ -193,7 +193,7 @@
 1. [Layout Problem Solving](notes/layoutproblemsolving.md)
 1. Demo: [Basic Layout](demos/basiclayout.md)
 1. Group Practice: [ID Card](practice/idcard.md)
-1. Individual Practice:
+1. Checked Practice: [Pyramid](practice/pyramid.md)
 1. Checked Practice: [Bio Layout](practice/biolayout.md)
 1. [Other Layout Techniques](notes/layout.md)
 
@@ -246,3 +246,4 @@
 * [2016-04-11](tips/2016-04-11.md)
 * [2016-04-14](tips/2016-04-14.md)
 * [2016-04-15](tips/2016-04-15.md)
+* [2016-04-22](tips/2016-04-22.md)
