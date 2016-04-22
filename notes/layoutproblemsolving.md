@@ -1,11 +1,5 @@
 # Layout Problem Solving
-Here are
-
-## CSS is not a Constraint Solver
-Don't expect you to be able to specify widths and heights on everything.
-CSS is _not a constraint solver_.
-
-Although one day you might have [constraint based CSS](http://gridstylesheets.org/guides/ccss/).
+Here are some tips for working _with_ CSS and not _against_ CSS to get reasonable layouts.
 
 ## Slice up Width, Sum up Height
 Remember that the that core dimensions of block elements are calculated as:
@@ -19,7 +13,9 @@ Then, once all of the widths are correct, work on adding or subtracting height f
 _Don't_ specify heights on top or mid-level elements.
 Instead, have the browser sum up the correct heights for you.
 
-E.g.
+Don't expect you to be able to specify widths and heights on everything.
+CSS is _not a constraint solver_.
+Although one day you might have [constraint based CSS](http://gridstylesheets.org/guides/ccss/).
 
 ## Be Reductionist
 All of the same problem solving techniques from Python still apply here.

@@ -30,4 +30,4 @@ It's like specifying a minimum vertical distance between elements.
 
 Horizontal margins do not collapse.
 
-If you want equal spacing on all sides between all inner elements and their container, set the padding of the container and the margin of the inner elements to be half the spacing.
+If you want equal spacing between a matrix of items in a container, you can specify the left/right container padding to be half the spacing, the left/right item margin to be half the spacing, and the top/bottom item margin to be the full spacing.

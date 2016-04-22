@@ -160,6 +160,7 @@
 1. [High-Level Structure of a Web App](notes/webappoverview.md)
 
 ## Interface Structure with HTML
+1. [Front-End Tools](notes/frontendtools.html)
 1. [Interface Principles](notes/interfaceprinciples.md)
 1. [HTML Basics](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction)
 1. [Semantic Elements](notes/semanticelements.md)
@@ -193,8 +194,8 @@
 1. [Layout Problem Solving](notes/layoutproblemsolving.md)
 1. Demo: [Basic Layout](demos/basiclayout.md)
 1. Group Practice: [ID Card](practice/idcard.md)
+1. Individual Practice: [Bio Layout](practice/biolayout.md)
 1. Checked Practice: [Pyramid](practice/pyramid.md)
-1. Checked Practice: [Bio Layout](practice/biolayout.md)
 1. [Other Layout Techniques](notes/layout.md)
 
 ## Intro to Javascript
