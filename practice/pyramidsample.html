@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pyramid Sample</title>
+        <style>
+        div {
+            border: solid 1px black;
+            position: absolute;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>Pyramid Sample</h1>
+        <p>The grey box below represents the page.</p>
+        <!-- This is not the correct way to do this. -->
+        <div style="border: dashed 1px grey; width: 500px; height: 500px;">
+            <div style="height: 98px; width: 460px; top: 20px; left: 20px;">
+                <div style="height: 76px; width: 436px; top: 10px; left: 10px;"></div>
+            </div>
+            <div style="height: 98px; width: 460px; top: 140px; left: 20px;">
+                    <div style="height: 76px; width: 339px; top: 10px; left: 10px;"></div>
+                    <div style="height: 76px; width: 85px; top: 10px; right: 10px;"></div>
+            </div>
+            <div style="height: 98px; width: 460px; position: relative; top: 260px; left: 20px;">
+                <div style="height: 76px; width: 90px; top: 10px; left: 10px;"></div>
+                <div style="height: 76px; width: 90px; top: 10px; left: 184px;"></div>
+                <div style="height: 76px; width: 90px; top: 10px; right: 10px;"></div>
+            </div>
+        </div>
+    </body>
+</html>
