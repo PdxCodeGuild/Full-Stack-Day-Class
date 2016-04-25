@@ -42,7 +42,7 @@ undefined
 
 ### Objects
 Objects are like dictionaries in Python.
-They map **properties** (like keys) to values.
+They are an unordered map from **properties** (like keys) to values.
 ```js
 {
     "apple": 0.99,

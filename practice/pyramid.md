@@ -2,6 +2,7 @@
 Save your solution as `pyramid.html` and `pyramid.css`.
 
 Recreate [the following layout](pyramidsample.html) using just flexbox.
+You shouldn't use floats or percentage widths at all.
 
 * Each box should be a `div`
 * Every box has a one pixel black border
@@ -11,4 +12,4 @@ Recreate [the following layout](pyramidsample.html) using just flexbox.
 * Each "inner" box should be the full height of the row (taking into account the above spacing)
 * The first "row" box contains one "inner" box that is full width
 * The second "row" box contains two "inner" boxes that fill out the full width between them in a 4:1 ratio
-* The third "row" box contains three "inner" boxes that have content 20% the width of the "row" box and are spread out over the entire "row" box equally horizontally
+* The third "row" box contains three "inner" boxes that are 90 pixels wide and are spread out over the entire "row" box equally horizontally

@@ -164,6 +164,7 @@
 1. [Interface Principles](notes/interfaceprinciples.md)
 1. [HTML Basics](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction)
 1. [Semantic Elements](notes/semanticelements.md)
+1. [Hierarchy](notes/htmlhierarchy.md)
 1. Demo: [Basic Elements](demos/basichtml.md)
 1. [Element Reference](https://developers.whatwg.org)
 1. [Web Inspector Structure Basics](http://ruby.bastardsbook.com/chapters/web-inspecting-html/)
@@ -189,6 +190,7 @@
 1. Checked Practice:
 1. [Box Model and Sizing](notes/boxmodel.md)
 1. [Default Layout](notes/defaultlayout.md)
+1. [Hierarchical Layout](notes/hierarchicallayout.md)
 1. [Float](notes/float.md)
 1. [Flexbox](notes/flexbox.md)
 1. [Layout Problem Solving](notes/layoutproblemsolving.md)
@@ -206,6 +208,8 @@
 1. [Control Statements](js/notes/control.md)
 1. [Functions](js/notes/functions.md)
 1. [Prototype Methods](js/notes/prototypemethods.md)
+1. Casting
+1. Global Objects
 1. [Data Transformations](js/notes/datatransforms.md)
 1. [Debug Output](js/notes/debugoutput.md)
 1. [JS in the Browser](js/notes/browserjs.md)
@@ -214,20 +218,14 @@
 1. Group Practice: [Taxes](practice/taxes.md)
 1. Individual Practice: [Rarest](js/practice/rarest.md)
 1. Checked Practice: [Sum Pairs](practice/sumpairs.md)
-1. New
-1. This
-1. Demo:
-1. Group Practice:
-1. Individual Practice:
-1. Checked Practice:
-1. Callbacks
-1. Demo:
-1. Group Practice:
-1. Individual Practice:
-1. Checked Practice:
 
 ## Front-End via Javascript
-
+1. Basic DOM
+1. Event Listeners
+1. Demo: Todo
+1. Group Practice:
+1. Individual Practice:
+1. Checked Practice:
 
 ## Django Backend Programming
 1. Libraries and PIP
