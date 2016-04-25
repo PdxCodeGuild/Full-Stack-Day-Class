@@ -205,11 +205,11 @@
 1. [Basic Operators](js/notes/basicoperators.md)
 1. [Control Statements](js/notes/control.md)
 1. [Functions](js/notes/functions.md)
-1. [Prototype Methods](js/notes/typemethods.md)
+1. [Prototype Methods](js/notes/prototypemethods.md)
 1. [Data Transformations](js/notes/datatransforms.md)
 1. [Debug Output](js/notes/debugoutput.md)
 1. [JS in the Browser](js/notes/browserjs.md)
-1. Demo: [Leet Speek](js/demo/leetspeak.md)
+1. Demo: [Leet Speek](js/demos/leetspeak.md)
 1. Web Inspector Debugger
 1. Group Practice: [Taxes](practice/taxes.md)
 1. Individual Practice: [Rarest](js/practice/rarest.md)

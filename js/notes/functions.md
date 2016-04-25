@@ -11,6 +11,7 @@ addTwo(5);  //> 7
 ```
 
 Functions in JS create a scope just like in Python.
+Remember, the list of variable names creates variables in the scope; e.g. `x` is defined in the function.
 The variable `two` is not accessible outside the function above.
 
 Proper JS style has function names in `camelCase` with the first letter lowercase.

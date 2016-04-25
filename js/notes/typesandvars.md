@@ -5,7 +5,7 @@ JS includes similar built-in types to Python.
 Here are an overview of the basic types and literals to form them.
 
 ### Numbers
-Numbers are all "floats".
+Numbers are all floats.
 Even if you don't include a decimal point.
 ```js
 4.5
@@ -46,7 +46,7 @@ They map **properties** (like keys) to values.
 ```js
 {
     "apple": 0.99,
-    "pear": 1.50,
+    "pear": 1.50
 }
 {}  // Empty object.
 ```
@@ -63,12 +63,15 @@ They are ordered sequences of items.
 ## Variables
 Variables in JS must be **declared** before they are used.
 
-To declare a variable, use the `var` keyword, then the variable name, then an initialized value.
+To declare a variable, use the `var` keyword, then the variable name, then an initialized value, one on each line.
 ```js
 var name = "David";
 var fruitToPrice = {"apple": 0.99};
 ```
 
 Once a variable is declared, you don't use `var` to reference it.
+```js
+"Hi, " + name;  //> "Hi, David"
+```
 
 Proper JS style has variable names in `camelCase` with the first letter lowercase.

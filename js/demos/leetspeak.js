@@ -10,7 +10,9 @@ var convertWordToLeetSpeak = function(originalWord) {
     var workingLeetWord = originalWord.toLowerCase();
     for (var originalChar in originalCharToLeetChar) {
         var leetChar = originalCharToLeetChar[originalChar];
-        workingLeetWord = workingLeetWord.replace(originalChar, leetChar);
+        while (workingLeetWord.includes(originalChar)) {
+            workingLeetWord = workingLeetWord.replace(originalChar, leetChar);
+        }
     }
 
     if (workingLeetWord.slice(-1) === "s") {
