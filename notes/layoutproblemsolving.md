@@ -1,8 +1,10 @@
 # Layout Problem Solving
 Try to work _with_ CSS and not _against_ CSS to get reasonable layouts.
 
+## Use the Hierarchy
 Work from the top-down in structure.
 Get parent elements styled and laid out well, then fill out the content within them.
+Read over the [hierarchical layout](hierarchicallayout.md) hints.
 
 ## Slice up Width, Sum up Height
 Remember that the that core dimensions of block elements are calculated as:
