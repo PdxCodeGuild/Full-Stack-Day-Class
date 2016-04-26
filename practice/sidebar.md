@@ -11,8 +11,9 @@ Recreate the following sample layout.
     * Don't worry about making the sidebar full height or a different background color
 * A main page taking up the rest of the width, with:
     * A page title
-    * A large image
+    * A large image taking up the full width
     * Three small paragraphs aligned under the image taking up the full width
     * A full-width paragraph after that
+    * Reasonable spacing between all of these elements
 
 You can fill in whatever example text and splash graphic you want.
