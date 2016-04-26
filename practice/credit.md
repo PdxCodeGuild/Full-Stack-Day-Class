@@ -5,6 +5,7 @@ Write a function which returns whether a string containing a credit card number 
 Write as many sub-functions as necessary to solve the problem.
 
 Steps to validate a credit card number:
+
 1. Slice off the last digit.
 That is the **check digit**.
 1. Reverse the digits.
@@ -14,7 +15,8 @@ That is the **check digit**.
 1. Take the 1s digit of that sum.
 1. If that matches the check digit, the whole card number is valid.
 
-E.g.
+For example, the worked out steps would be:
+
 1. `4  5  5  6  7  3  7  5  8  6  8  9  9  8  5  5`
 1. `4  5  5  6  7  3  7  5  8  6  8  9  9  8  5`
 1. `5  8  9  9  8  6  8  5  7  3  7  6  5  5  4`
