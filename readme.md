@@ -199,6 +199,7 @@
 1. Individual Practice: [Bio Layout](practice/biolayout.md)
 1. Checked Practice: [Pyramid](practice/pyramid.md)
 1. [Other Layout Techniques](notes/layout.md)
+1. Checked Practice: [Sidebar](practice/sidebar.md)
 
 ## Intro to Javascript
 1. [Javascript Basics](js/notes/jsbasics.md)
@@ -210,8 +211,10 @@
 1. [Prototype Methods](js/notes/prototypemethods.md)
 1. Casting
 1. Global Objects
+1. Underscore
 1. [Data Transformations](js/notes/datatransforms.md)
 1. [Debug Output](js/notes/debugoutput.md)
+1. Style Guide
 1. [JS in the Browser](js/notes/browserjs.md)
 1. Demo: [Leet Speek](js/demos/leetspeak.md)
 1. Web Inspector Debugger
