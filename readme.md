@@ -84,7 +84,7 @@
 1. Demo: Tic-Tac-Toe
 1. Optional: Practice: Make Initials
 1. Optional: Practice: [Last Join](practice/lastjoin.md)
-1. Optional: Practice: Credit Card Number Validator
+1. Optional: Practice: [Credit Card Validator](practice/credit.md)
 1. [File IO](notes/fileio.md)
 1. Demo:
 1. Demo:
