@@ -22,6 +22,11 @@ fruitToPrice[fruit]; //> 0.99
 
 If your know your property name beforehand, use dot syntax, otherwise brackets.
 
+If you try to access a property name that doesn't exist, you get `undefined`, _not_ an error.
+```js
+fruitToPrice["banana"];  //> undefined
+```
+
 ## Arrays
 You can get and set values at an index in an array just like Python, using `[]` subscripting.
 Arrays also have a length property.
@@ -30,4 +35,10 @@ var fruits = ["apple", "pear"];
 fruits[0];  //> "apple"
 fruits[1] = "banana";
 fruits.length;  //> 2
+```
+
+If you try to access an index outside [0, length), you get `undefined`, _not_ an error.
+```js
+fruits[-1];  //> undefined
+fruits[4];  //> undefined
 ```

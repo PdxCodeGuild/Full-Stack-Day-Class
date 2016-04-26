@@ -6,7 +6,7 @@ Here are an overview of the basic types and literals to form them.
 
 ### Numbers
 Numbers are all floats.
-Even if you don't include a decimal point.
+Even if you don"t include a decimal point.
 ```js
 4.5
 10
@@ -14,7 +14,7 @@ Even if you don't include a decimal point.
 ```
 
 ### Strings
-Strings are double quoted sequences of characters.
+Strings are single quoted sequences of characters.
 ```js
 "Hello!"
 "wow"
@@ -42,7 +42,7 @@ undefined
 
 ### Objects
 Objects are like dictionaries in Python.
-They are an unordered map from **properties** (like keys) to values.
+They are an unordered map from _only string_ **properties** (like keys) to values.
 ```js
 {
     "apple": 0.99,
@@ -69,7 +69,7 @@ var name = "David";
 var fruitToPrice = {"apple": 0.99};
 ```
 
-Once a variable is declared, you don't use `var` to reference it.
+Once a variable is declared, you don"t use `var` to reference it.
 ```js
 "Hi, " + name;  //> "Hi, David"
 ```

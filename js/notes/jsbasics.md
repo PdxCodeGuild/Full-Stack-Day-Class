@@ -9,7 +9,7 @@ Statements are executed one at a time from top to bottom within a function and f
 This function makes a greeting as a string
 for a person given a name as a string.
 */
-var makeGreeting = function(name) {
+var makeGreeting = function (name) {
     return "Hi, " + greeting;
 }
 

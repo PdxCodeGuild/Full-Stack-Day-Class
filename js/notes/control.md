@@ -72,7 +72,7 @@ values_total = 0
 # Init expression:
 i = 0
 # Loop condition:
-while i < 10:
+while i < len(x):
     value = x[i]
 
     # Block of the for loop:

@@ -14,4 +14,13 @@ Functions in JS create a scope just like in Python.
 Remember, the list of variable names creates variables in the scope; e.g. `x` is defined in the function.
 The variable `two` is not accessible outside the function above.
 
+If you forget an argument to a function when calling it, it does _not_ produce an error.
+That argument gets filled in with `undefined` when the function runs.
+```js
+var returnSecond = function(x, y) {
+    return y;
+};
+returnSecond(1);  //> undefined
+```
+
 Proper JS style has function names in `camelCase` with the first letter lowercase.
