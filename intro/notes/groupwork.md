@@ -28,6 +28,10 @@ Conflicts often come from not seeing some underlying disconnect.
 
 E.g. Don't say, "That shouldn't live in that class." Say, "Why did you put that method in that class?"
 
+### Improve Yourself
+Solicit feedback on yourself, then _listen_ to all of it.
+This class is an opportunity to learn how to grow.
+
 ### Respect the Person
 Learn to provide _constructive_ criticism.
 Ask about the fundamentals, don't critique the solution.
