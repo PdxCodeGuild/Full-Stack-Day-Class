@@ -1,5 +1,5 @@
 # PDX Code Guild Syllabus
-[March 16th to June 9th Day Class Assignments](schedule/mar16th.md)
+[March 16th to June 9th Day Class Schedule](schedule/mar16th.md)
 
 ## Intro
 1. Course Expectations
