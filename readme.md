@@ -233,8 +233,9 @@
 ## Django Backend Programming
 1. Libraries and PIP
 1. [Web Basics](notes/webbasics.md)
-1. Web Framework
-1. ORM
+1. [Django Overview](notes/djangooverview.md)
+1. [Web Framework](notes/webframework.md)
+1. [ORM](notes/orm.md)
 1. JSON
 
 ## Job Search and Interviewing
