@@ -1,4 +1,6 @@
 # PDX Code Guild Syllabus
+[March 16th to June 9th Day Class Assignments](schedule/mar16th.md)
+
 ## Intro
 1. Course Expectations
 1. [Course Portfolio](intro/notes/courseportfolio.md)
@@ -158,6 +160,7 @@
 1. [Capstone Introduction](notes/capstoneintro.md)
 1. [Capstone Proposal](notes/capstoneproposal.md)
 1. [High-Level Structure of a Web App](notes/webappoverview.md)
+1. [Front-End vs Back-End](notes/frontvsback.md)
 
 ## Interface Structure with HTML
 1. [Front-End Tools](notes/frontendtools.html)
