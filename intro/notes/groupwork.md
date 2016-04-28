@@ -12,7 +12,7 @@ All people are engaged.
 I will be explicitly assigning you to groups of two or three.
 I will rotate the groups so you will work with everyone in the class.
 
-Try tagging out every 15 minutes.
+Try tagging out every 30 minutes.
 
 ## Attitude
 Everyone in this class comes from different backgrounds and skill-sets.
