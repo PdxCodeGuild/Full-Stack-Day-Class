@@ -15,7 +15,7 @@ function createDelLink(reminderElement) {
 
 function createReminderElement(reminderString) {
     var reminderElement = $("<li></li>").text(reminderString);
-    var delLink = createDelLink();
+    var delLink = createDelLink(reminderElement);
     return reminderElement.append(delLink);
 }
 
@@ -32,7 +32,7 @@ function getReminderStringAndAddElementToList() {
 function registerGlobalEventHandlers() {
     $("form").on("submit", function (event) {
         event.preventDefault();
-        getItemStringAndAddElement();
+        getReminderStringAndAddElementToList();
     });
 }
 
