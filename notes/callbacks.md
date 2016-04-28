@@ -37,6 +37,28 @@ $("a").on("click", function (event) {
 });
 ```
 
+## Event Bubbling
+HTML is a hierarchy.
+Every event **bubbles** up the page hierarchy.
+
+If your page was:
+```html
+<!DOCTYPE html>
+<html>
+    <body>
+        <ul>
+            <li>Hi!</li>
+        </ul>
+    </body>
+</html>
+```
+
+And you click on the `li`, events will be fired on:
+1. `li`
+1. `ul`
+1. `body`
+1. `html`
+
 ## Ready
 What if the elements we want to register callbacks on don't exist yet?
 This could happen if your script tag is before the `body`.
