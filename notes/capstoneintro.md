@@ -11,19 +11,16 @@ I suggest thinking of a problem _you_ have in your day-to-day that you might be 
 
 ## Schedule
 The formal schedule for working on your capstone is:
-* End of Week 6 2016-04-27: Proposal due at end of day
+* End of Week 6: Proposal due at end of day
 * Mid Week 7: Approved proposal
 * Week 9: Class becomes just capstone work
-* Memorial Day 2016-05-30: No Class
-* Last Day of Class 2016-06-09: Capstone show-and-tell
-* End of Last Day of Class 2016-06-09: Capstone due at end of day
+* Last Day of Class: Capstone show-and-tell
+* End of Last Day of Class: Capstone due at end of day
 
 Even after the capstone has been "due", you should continue to work on it.
 PDX Code Guild will setup a demo day for recruiters at Portland area.
 
 * 3-4 Weeks after Last Class: Demo Day for Recruiters
-
-Demo day for the previous day class will be on 2016-04-25.
 
 From this point forward, if you finish projects early, please work on your capstone (as many of you already have).
 Brainstorm ideas, plan out implementations, etc.

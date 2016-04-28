@@ -1,18 +1,22 @@
 # Class Expectations
+Not like a high-school or CC class.
+Like being an apprentice and doing academic research.
+
 ## Attendance
-Class begins at 9:30 A.M. every week day and ends at 4:30 P.M.
+Each class session begins at 9:30 A.M. every week day and ends at 4:30 P.M.
 We will take an hour lunch break every day from 12:15 P.M. to 1:15 P.M.
 
-By taking this class, you're setting aside time to learn.
+By taking this course, you're setting aside time to learn.
 **Keep it sacred. I cannot stress this enough.**
 
-You _must_ come to every session.
+We require you to come to **96% of the sessions**.
 Missing a day here is month of a college course.
 Attendance is taken.
-If you can't be 99% sure that you'll be present for the entirety of all of the sessions, this is _not the course for you_.
-If that might be the case, let me know _now_.
+If you can't be very sure that you'll be present for more than required amount of sessions, this is _not the course for you_.
+
 That's totally fine!
 A bootcamp format is not the only way to learn these skills.
+If that might be the case, let me know _now_.
 
 With this in mind, keep a balanced life.
 Feel free to _take breaks_ during the day.
@@ -20,22 +24,22 @@ Take a lap around the building.
 If you need to go home sick for a day, go home.
 
 ## Attitude
+This class is _immersive_.
+It will only be about a 5th lecture.
+
+I want you to **act** and not study.
+That is why I will be checking your problems.
 Seek out help, but learn to be independent.
 When you finish this course you will _not_ know everything.
 We will teach you the _basic building blocks_ but you have to be prepared to expand upon them.
 Being a software developer is a process of continually learning.
 
-This class is _immersive_.
-It is learning through doing.
-There is minimal lecture.
-I want you to **act** and not study.
-That is why I will be checking your problems.
-
-You are paying for access to human power.
+You are paying for access to Code Guild's human expertise.
 Ask questions.
 Pick my brain.
 **Look at my demos.**
-After-class tutoring can always be arranged with Chris Jones.
+If you have any questions or want more practice, **ask me for it**.
+Outside-of-class tutoring can always be arranged with Chris Jones.
 He is super nice and helpful.
 
 Class will look like:
@@ -51,7 +55,7 @@ There are no grades.
 This course is pass / fail.
 I will continuously be giving you informal evaluations of your work.
 
-Occasionally I will give **checked practice** where I will evaluate your work _stringently_ based on the topics we've covered thus far and send you a write up.
+I also give **checked practices** where I will evaluate your work _stringently_ based on the topics we've covered thus far and send you a write up.
 **You must complete all of these assignments and submit them via GitHub.**
 They are to formally assess your progress.
 The goal of this class is to become a proficient developer;

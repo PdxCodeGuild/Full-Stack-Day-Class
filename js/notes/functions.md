@@ -1,12 +1,11 @@
 # Functions and Calling
-Functions are created by using the `function` keyword, then a list of argument variable names in parentheses separated by commas, then a `{}` enclosed block of statements to execute that may have a `return` statement.
-A created function is then assigned to a name via a normal assignment statement, just like a variable.
-Functions are called just like in Python.
+Functions are created by using the `function` keyword, then a name, then a list of argument variable names in parentheses separated by commas, then a `{}` enclosed block of statements to execute that may have a `return` statement.
+Functions are called just like in Python with parentheses `()` to make them go.
 ```js
-var addTwo = function(x) {
+function addTwo(x) {
     var two = 2;
     return x + two;
-};  // Note the semicolon. This is just assignment.
+}
 addTwo(5);  //> 7
 ```
 
@@ -17,9 +16,9 @@ The variable `two` is not accessible outside the function above.
 If you forget an argument to a function when calling it, it does _not_ produce an error.
 That argument gets filled in with `undefined` when the function runs.
 ```js
-var returnSecond = function(x, y) {
+function returnSecond(x, y) {
     return y;
-};
+}
 returnSecond(1);  //> undefined
 ```
 

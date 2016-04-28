@@ -6,3 +6,4 @@ Sources for more practice problems.
 * [Karan's Projects](https://github.com/karan/Projects/)
 * [Practice-It](http://practiceit.cs.washington.edu/practiceit/list.jsp)
 * [Rosetta Code](http://rosettacode.org/wiki/Category:Programming_Tasks)
+* [Epicodus Courses](https://www.learnhowtoprogram.com/courses)

@@ -1,4 +1,4 @@
-## ORM
+## Object Relational Mapper
 An **object relational mapper** gives a DB a slick Python interface.
 
 You can write Python classes that represent the **models** you care about on your site.

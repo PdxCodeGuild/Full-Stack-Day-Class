@@ -214,31 +214,38 @@
 1. [Prototype Methods](js/notes/prototypemethods.md)
 1. Casting
 1. Global Objects
-1. Underscore
+1. [Anonymous Functions](js/notes/anonfunctions.md)
+1. [Underscore](js/notes/underscore.md)
 1. [Data Transformations](js/notes/datatransforms.md)
 1. [Debug Output](js/notes/debugoutput.md)
-1. Style Guide
+1. [Style Guide](js/notes/jsstyle.md)
 1. [JS in the Browser](js/notes/browserjs.md)
 1. Demo: [Leet Speek](js/demos/leetspeak.md)
 1. Web Inspector Debugger
 1. Group Practice: [Taxes](practice/taxes.md)
 1. Individual Practice: [Rarest](js/practice/rarest.md)
 1. Checked Practice: [Sum Pairs](practice/sumpairs.md)
+1. JS "Classes"
 
 ## Front-End via Javascript
-1. Basic DOM
-1. Event Listeners
-1. Demo: Todo
-1. Group Practice:
-1. Individual Practice:
-1. Checked Practice:
+1. [Basic Document Object Model](notes/dom.md)
+1. [jQuery](notes/jquery.md)
+1. [DOM Queries](notes/domqueries.md)
+1. [Element Creation](notes/elementcreation.md)
+1. [DOM Manipulation](notes/dommanipulation.md)
+1. [Callbacks and Events](notes/callbacks.md)
+1. [Basic JS Structure](notes/jsstructure.md)
+1. Demo: [Todo](demos/todo.md)
+1. Group Practice: [Picture Album](practice/album.md)
+1. Individual Practice: [Visual Dice](practice/visualdice.md)
+1. Checked Practice: [Validator](practice/validator.md)
 
 ## Django Backend Programming
 1. Libraries and PIP
 1. [Web Basics](notes/webbasics.md)
 1. [Django Overview](notes/djangooverview.md)
 1. [Web Framework](notes/webframework.md)
-1. [ORM](notes/orm.md)
+1. [Object Relational Mapper](notes/orm.md)
 1. JSON
 
 ## Job Search and Interviewing

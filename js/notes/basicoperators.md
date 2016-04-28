@@ -41,7 +41,7 @@ Consider using `x += 1`.
 var x = "David";
 var y = "Helen";
 x === y;  //> false
-x !== y;  //> false
+x !== y;  //> true
 ```
 
 All of the other comparison operators are the same.

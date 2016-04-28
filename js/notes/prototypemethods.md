@@ -13,5 +13,8 @@ name.repeat(3);  //> "DavidDavidDavid"
 As a crash course, here are the prototype methods on [strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#Methods_2) and  [arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Methods_2).
 You can look at the [full reference for all types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference).
 
+Before you commit all of these to heart, wait until we review [Underscore](underscore.md).
+It will provide cleaner versions of many of these functions.
+
 Awkwardly, there aren't really prototype methods for objects in the same way Python dictionaries had type methods.
 This is because objects are why prototype methods work, which we'll discuss later.

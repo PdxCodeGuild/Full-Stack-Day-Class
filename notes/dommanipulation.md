@@ -1,0 +1,41 @@
+# DOM Manipulation
+The global `$` function allows you to select or create elements.
+Those might seem unrelated, but realize that they both _return element sets_.
+
+An element set gives you lots of functions to query and modify the selected DOM structures.
+
+Read through [the API docs](http://api.jquery.com) to become familiar with what kind of things you can do.
+I'll go over the basics, though.
+
+## Classes
+* `.hasClass(className)`
+
+* `.addClass(className)`
+* `.removeClass(className)`
+* `.toggleClass(className)`
+* `.removeClass()` -- all the classes
+
+## CSS
+In addition to whole classes, you can get or modify specific CSS properties.
+* `.css(propertyName)`
+
+* `.css(propertyName, newValue)`
+
+## Attributes
+* `.attr(attrName)`
+
+* `.attr(attrName, newValue)` -- setter
+
+## Elements
+* `.before(elementSet)`
+* `.after(elementSet)`
+
+* `.prepend(elementSet)` -- called on parent to add children
+* `.append(elementSet)` -- called on parent to add children
+
+* `.remove()`
+
+## Form Value
+* `.val()`
+
+* `.val(newValue)`
