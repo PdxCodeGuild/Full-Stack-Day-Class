@@ -233,7 +233,7 @@
 1. [DOM Queries](notes/domqueries.md)
 1. [Element Creation](notes/elementcreation.md)
 1. [DOM Manipulation](notes/dommanipulation.md)
-1. [Callbacks and Events](notes/callbacks.md)
+1. [Events and Callbacks](notes/callbacks.md)
 1. [Basic JS Structure](notes/jsstructure.md)
 1. Demo: [Todo](demos/todo.md)
 1. Group Practice: [Picture Album](practice/album.md)
