@@ -211,6 +211,7 @@
 1. [Basic Operators](js/notes/basicoperators.md)
 1. [Control Statements](js/notes/control.md)
 1. [Functions](js/notes/functions.md)
+1. Errors
 1. [Prototype Methods](js/notes/prototypemethods.md)
 1. Casting
 1. Global Objects
@@ -234,11 +235,19 @@
 1. [Element Creation](notes/elementcreation.md)
 1. [DOM Manipulation](notes/dommanipulation.md)
 1. [Events and Callbacks](notes/eventscallbacks.md)
-1. [Basic JS Structure](notes/jsstructure.md)
 1. Demo: [Todo](demos/todo.md)
+1. [Basic JS Structure](notes/jsstructure.md)
 1. Group Practice: [Picture Album](practice/album.md)
 1. Individual Practice: [Visual Dice](practice/visualdice.md)
 1. Checked Practice: [Validator](practice/validator.md)
+1. JSON
+1. APIs
+1. Public APIs
+1. Geolocation API
+1. Demo:
+1. Group Practice: Bus Stop Finder
+1. Individual Practice:
+1. Checked Practice:
 
 ## Django Backend Programming
 1. Libraries and PIP
@@ -246,7 +255,6 @@
 1. [Django Overview](notes/djangooverview.md)
 1. [Web Framework](notes/webframework.md)
 1. [Object Relational Mapper](notes/orm.md)
-1. JSON
 
 ## Job Search and Interviewing
 1. Resume Writing

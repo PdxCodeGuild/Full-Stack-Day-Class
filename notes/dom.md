@@ -1,5 +1,5 @@
 # Basic Document Object Model
-The browser provides a JS object "view" of the HTML called the **document object model** or DOM.
+The browser provides a JS object "view" of the HTML called the **document object model** or **DOM**.
 This is the global `document` object.
 
 ```js
@@ -7,6 +7,8 @@ document.url;  //> "http://www.google.com/"
 ```
 
 Every element (`<h2>`), attribute (`class="style"`), and inner text (`Section!`) is a sub-object on `document`.
+These sub-object are called **nodes**.
+All of the nodes look like a tree.
 
 If you web page structure looks like:
 ```html
@@ -22,20 +24,25 @@ If you web page structure looks like:
 </html>
 ```
 
-You'll get a structure _like_:
+You'll get a node structure like:
 * Document
   * `html` Element
     * `body` Element
       * `header` Element
         * `h1` Element
-          * Inner Text - "Page!""
+          * Inner Text - "Page!"
       * `section` Element
         * `id` Attribute
           * Value - "s-one"
         * `h2` Element
           * `class` Attribute
             * Value - "style"
-          * Inner Text
+          * Inner Text - "Section!"
 
 `document` is actually a pretty complex object since you can have multiple children and ordering.
-Conveniently browsers give you lots of convenience functions for querying and manipulating the DOM, and thus the actual web page.
+
+The DOM _is the rendered web page_.
+If you change the DOM, you change what is shown!
+
+This allows you to programmatically change the page from your JS in response to things.
+This is super powerful.
