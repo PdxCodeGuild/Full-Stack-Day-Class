@@ -3,17 +3,19 @@ We will be setting aside the entire day that the proposal is due to work on it.
 **Start work on it before then.**
 
 ## Rubric
-Please answer all of the following areas in your proposal.
+Please address all of the following areas in your proposal **for your MVP**.
 I will be evaluating that your capstone fulfill all [the requirements](capstoneintro.md#projectrequirements) and can be completed in a timely fashion by you.
 I am _not_ evaluating the business savvy of your project (although I'd be happy to give my two cents, if you ask).
 
 I only require a text document.
 Feel free to hand draw mockups and include them if that helps you plan or if the concepts are complicated.
 
-### Name
-What is the short name of your product or project?
+Please look at the [demo proposal](../demos/proposal.md).
 
-### High-Level Product
+### Name
+Give your product or project a simple, short name.
+
+### Product Overview
 What is your web app going to do?
 How does a user interact with it on a high level?
 
@@ -21,22 +23,39 @@ How does a user interact with it on a high level?
 What is _every_ specific page or interface and _every_ action the user can take?
 
 **Pick the minimum feature set for your product to work.**
-You can always add more features if you get "done" early.
+Everything else should go in the "further work" section.
+
+### Data Model
+What are the "nouns" in your project?
+What do they represent?
+What do you need to save in the DB?
+What are the specific fields on each?
+
+How do you need to _search_ for specific instances of nouns?
 
 ### Technical Components
-What are the "moving parts"?
-What are the "modules" you're going to write?
+What are the "moving parts" of your MVP?
+What are the things like "modules" you're going to write?
+What are the well isolated interfaces between them?
 
 This is _more specific_ than "Django backend, CSS style, etc."
-Please specify what specific technical problems you'll have to solve and a guess at the solution, e.g. "a Python module that uses the pillow library to combine two images at half opacity; a database table and Django model that work together to store, retrieve, and search existing images by name".
+Please specify what specific technical problems you'll have to solve and a guess at the solution.
 
-### Timeline
-In what order will you tackle your technical components?
-Can you guess how long you'll take for each?
+### Schedule
+Write out the order in which you will tackle your technical components of your MVP.
+
 What are the easy parts?
 What are the hard parts?
+Can you guess how long you'll take for each?
 
 Work on the tough and crucial parts first.
+
+### Further Work
+All of the above parts are just addressing your MVP.
+Here you should outline other features you'd like to implement if you get "done" early.
+Order them by importance towards your high-level goal and what order you'll work on them later.
+
+Don't work on any of these features until **all of MVP is complete**.
 
 ## Submission
 Create a _new_ git repo based on your project name [in GitHub](https://github.com/new).

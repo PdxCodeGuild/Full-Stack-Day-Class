@@ -1,4 +1,6 @@
 # Class Expectations
+You are adults.
+This class will treat you as such and expects that attitude in return.
 Not like a high-school or CC class.
 Like being an apprentice and doing academic research.
 

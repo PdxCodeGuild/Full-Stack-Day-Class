@@ -26,6 +26,7 @@
 1. [Basic Variable Naming](notes/basicvarnaming.md)
 1. [Evaluation Order](notes/evaluationorder.md)
 1. [Basic Math](notes/basicmath.md)
+1. PyCharm
 1. Demo: [Simple Unit Converter](demo/simpleunitconvert.md)
 1. Demo: [Greeting](demo/greeting.md)
 1. [Basic Debugging](notes/basicdebugging.md)
@@ -59,6 +60,7 @@
 1. [Interfaces and Scope](notes/scope.md)
 1. [Main Function](notes/mainfunction.md)
 1. [Function Naming](notes/functionnaming.md)
+1. Stubbing and Pretend Development
 1. Demo:
 1. Demo:
 1. Optional: Practice:
@@ -157,10 +159,11 @@
 1. Practice: [Test Tic-Tac-Toe Interface](practice/testinterface.md)
 
 ## Building a Web App
-1. [Capstone Introduction](notes/capstoneintro.md)
-1. [Capstone Proposal](notes/capstoneproposal.md)
 1. [High-Level Structure of a Web App](notes/webappoverview.md)
 1. [Front-End vs Back-End](notes/frontvsback.md)
+1. [Capstone Introduction](notes/capstoneintro.md)
+1. [Capstone Proposal](notes/capstoneproposal.md)
+1. Demo: [Image Pipe Proposal](demos/proposal.md)
 
 ## Interface Structure with HTML
 1. [Front-End Tools](notes/frontendtools.html)
@@ -221,6 +224,7 @@
 1. [Debug Output](js/notes/debugoutput.md)
 1. [Style Guide](js/notes/jsstyle.md)
 1. [JS in the Browser](js/notes/browserjs.md)
+1. WebStorm
 1. Demo: [Leet Speek](js/demos/leetspeak.md)
 1. Web Inspector Debugger
 1. Group Practice: [Taxes](practice/taxes.md)
