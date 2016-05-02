@@ -7,8 +7,8 @@ Once an image has been mashed-up, it won't be paired again.
 The main page of the site will show a feed of mashed-up images with their pair of artists.
 
 ## Specific Functionality
-### Main / Stream Page
-The main page will show a vertical list of mashups with artists' names below each.
+### Main / Gallery Page
+The main / gallery page will show a vertical list of mashups with artists' names below each.
 The ten most recent mashups will be displayed on the page.
 
 In the header, there will be a link to the upload page.
@@ -46,12 +46,13 @@ The Mashup generation module will be a Python module that uses the [Pillow](http
 
 Image and Mashup data models will be stored and searched using Django Models in a PostgreSQL database.
 
-Mashup image data will be exposed as JPEG files via a ID-lookup endpoint, but piped directly from the DB.
+Mashup image data will be exposed as JPEG files via a ID-lookup endpoint, but piped directly out of the DB from a Django model lookup.
 
 Front-end HTML will be generated using Django templates with fixed CSS layout and style.
 jQuery will be used to provide interactive feedback on upload of images.
+Mashups for the gallery will be found via a Django model query against the existing Mashups.
 
-Image upload will be handled via multi-part POST, and funneled directly into the DB, including image data.
+Image upload will be handled via multi-part POST, only JPEG upload will be supported, and funneled directly into the DB via Django models, including image data.
 
 Component Image selection code will pick the least-recently uploaded un-paired Image for mashing-up.
 
@@ -62,6 +63,7 @@ It will not delay the acknowledgement of successful Image uploading.
 * Mashup generation module - easy - 1 day
 * Image and Mashup DB storage - medium - 2 days
 * Mashup file endpoint - easy - 1 day
+* Existing Mashup gallery selection - easy - 0.5 day
 * Basic viewing of existing Mashups - medium - 4 days
 * Image upload and storage pipeline - medium - 3 days
 * Component Images selection code - easy - 0.5 day

@@ -36,7 +36,7 @@ How do you need to _search_ for specific instances of nouns?
 ### Technical Components
 What are the "moving parts" of your MVP?
 What are the things like "modules" you're going to write?
-What are the well isolated interfaces between them?
+How do they talk to each other?
 
 This is _more specific_ than "Django backend, CSS style, etc."
 Please specify what specific technical problems you'll have to solve and a guess at the solution.
