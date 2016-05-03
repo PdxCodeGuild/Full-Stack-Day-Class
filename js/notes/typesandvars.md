@@ -45,10 +45,16 @@ Objects are like dictionaries in Python.
 They are an unordered map from _only string_ **properties** (like keys) to values.
 ```js
 {
-    "apple": 0.99,
-    "pear": 1.50
+    apple: 0.99,
+    pear: 1.50
 }
 {}  // Empty object.
+```
+Only use quotes on the property names if they are not valid variable names:
+```js
+{
+    "funny name": 100
+}
 ```
 
 ### Arrays
@@ -66,7 +72,7 @@ Variables in JS must be **declared** before they are used.
 To declare a variable, use the `var` keyword, then the variable name, then an initialized value, one on each line.
 ```js
 var name = "David";
-var fruitToPrice = {"apple": 0.99};
+var fruitToPrice = {apple: 0.99};
 var FEET_PER_MILE = 5280;
 ```
 

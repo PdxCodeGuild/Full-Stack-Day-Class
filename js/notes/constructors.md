@@ -1,8 +1,4 @@
 # Constructors
-Object methods allow you to specify an interface.
-Then people can use your object without needing to write manipulation functions themselves.
-This is the same reason that people write classes in Python.
-
 JS gives you a way to do all of the setup of a _single instance_ of an object in a special function called a **constructor**.
 It knows how to setup all of the properties on an instance from some parameters.
 It is also given a special variable `this` that is the instance being prepared.

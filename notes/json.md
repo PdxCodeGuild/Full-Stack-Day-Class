@@ -3,7 +3,7 @@
 A **serialization format** is a way to turn an in-memory data structure into a string and back.
 You might use it to move data between your back-end Python code and your front-end JS code.
 
-JSON is basically a _string_ containing a JS object literal.
+JSON is basically a _string_ containing a JS object literal with quoted property names.
 That literal can only contain strings, numbers, booleans, arrays, and other objects.
 ```json
 {

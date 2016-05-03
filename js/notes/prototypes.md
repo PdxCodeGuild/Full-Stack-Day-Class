@@ -1,21 +1,20 @@
 # Prototypes
 JS objects have a special concept called a **prototype**.
-A child object **inherits** properties from its prototype object.
+A child object **inherits** missing properties from its prototype object.
 
-To give instances of an object a prototype, you set the `prototype` property _on the constructor_.
+You can use `Object.create(proto)` to make a new object with a given prototype object.
 ```js
-function Cat() {
-    this.noise = "Meow!";
-}
-Cat.prototype = {
-    "noise": "Silent.",
-    "paws": 4
+var proto = {
+    noise: 'Silent',
+    paws: 4
 };
+var elliot = Object.create(proto);
+elliot.noise = 'Meow!'
 ```
 
-Then when you make new instances using that constructor, missing properties will be found in the prototype.
+Note that giving `elliot` a `noise` property does not overwrite the prototype's properties.
 ```js
-var elliot = new Cat();
-elliot.noise;  //> "Meow!"
+proto.noise;  //> 'Silent.'
+elliot.noise;  //> 'Meow!'
 elliot.paws;  //> 4
 ```

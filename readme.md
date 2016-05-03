@@ -220,6 +220,8 @@
 1. Global Objects
 1. [Anonymous Functions](js/notes/anonfunctions.md)
 1. [Lodash](js/notes/lodash.md)
+1. [Iterating](js/notes/jsiterating.md)
+1. [For Loops](js/notes/jsforloops.md)
 1. [Data Transformations](js/notes/datatransforms.md)
 1. [Debug Output](js/notes/debugoutput.md)
 1. [Style Guide](js/notes/jsstyle.md)
@@ -256,7 +258,6 @@
 1. [APIs](notes/apis.md)
 1. [URLs](notes/urls.md)
 1. [HTTP APIs](notes/http_apis.md)
-1. [Library APIs](notes/library_apis.md)
 1. Demo: [Weather](demos/weather.md)
 1. Group Practice: [Bus Stop Finder](practice/bus_stop_finder.md)
 1. Individual Practice:

@@ -5,34 +5,36 @@ Standard subscripting with square brackets `[]` like on Python dictionaries, but
 Both are ways to "reach inside".
 ```js
 var fruitToPrice = {
-    "apple": 0.99,
-    "pear": 1.50
+    apple: 0.99,
+    pear: 1.50,
+    'kiwi fruit': 2.50
 };
-fruitToPrice["apple"];  //> 0.99
+fruitToPrice['apple'];  //> 0.99
 fruitToPrice.apple;  //> 0.99
-fruitToPrice["pear"] = 2.0;
+fruitToPrice['pear'] = 2.0;
 fruitToPrice.pear = 2.0;
 ```
 
-The only difference is that square brackets can access property names in other variables.
+The only difference is that square brackets can access property names in other variables or properties that are not valid variable names.
 ```js
-var fruit = "apple";
-fruitToPrice[fruit]; //> 0.99
+var fruit = 'apple';
+fruitToPrice[fruit];  //> 0.99
+fruitToPrice['kiwi fruit'];  //> 2.5
 ```
 
 If your know your property name beforehand, use dot syntax, otherwise brackets.
 
 If you try to access a property name that doesn't exist, you get `undefined`, _not_ an error.
 ```js
-fruitToPrice["banana"];  //> undefined
+fruitToPrice['banana'];  //> undefined
 ```
 
 ## Arrays
 You can get and set values at an index in an array just like Python, using `[]` subscripting.
 Arrays also have a length property.
 ```js
-var fruits = ["apple", "pear"];
-fruits[0];  //> "apple"
+var fruits = ['apple', 'pear'];
+fruits[0];  //> 'apple'
 fruits[1] = "banana";
 fruits.length;  //> 2
 ```
