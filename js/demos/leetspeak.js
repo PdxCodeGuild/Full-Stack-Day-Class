@@ -7,25 +7,25 @@ var convertWordToLeetSpeak = function(originalWord) {
         "t": "7"
     };
 
-    var workingLeetWord = originalWord.toLowerCase();
+    var workingLeetWord = _.lowerCase(originalWord);
     for (var originalChar in originalCharToLeetChar) {
         var leetChar = originalCharToLeetChar[originalChar];
-        while (workingLeetWord.includes(originalChar)) {
-            workingLeetWord = workingLeetWord.replace(originalChar, leetChar);
+        while (_.includes(workingLeetWord, originalChar)) {
+            workingLeetWord = _.replace(workingLeetWord, originalChar, leetChar);
         }
     }
 
-    if (workingLeetWord.slice(-1) === "s") {
-        workingLeetWord = workingLeetWord.slice(0, -1) + "Z";
+    if (_.endsWith(workingLeetWord, "s")) {
+        workingLeetWord = _.join(_.slice(workingLeetWord, 0, -1), "") + "Z";
     }
 
     return "(" + workingLeetWord + ")";
 };
 
 var convertSentenceToLeetSpeak = function(sentence) {
-    var originalWords = sentence.split(" ");
-    var leetWords = originalWords.map(convertWordToLeetSpeak);
-    return leetWords.join(" ");
+    var originalWords = _.words(sentence);
+    var leetWords = _.map(originalWords, convertWordToLeetSpeak);
+    return _.join(leetWords, " ");
 }
 
 console.log(convertWordToLeetSpeak("rabbit"));

@@ -1,20 +1,34 @@
 # Prototype Methods
-Python had type methods, similarly JS has prototype methods.
-Without going into too much detail now, every instance of an object in JS is a "copy" of an original **prototype**, just with real values filled in.
-You can look at the prototypes to see what methods are available.
-
-They are accessed just like the short form of Python type methods, using the dot operator.
+Prototypes are especially powerful when combined with object methods to make **prototype methods**.
+You can have some functions that work on lots of specific instances.
 ```js
-var name = "David"
-name.repeat(3);  //> "DavidDavidDavid"
-"   x  ".strip();  //> "x"
+var animalProto = {
+    "makeNoise": function () {
+        return this.noise;
+    }
+};
+
+function Cat() {
+    this.noise = "Meow!";
+}
+Cat.prototype = animalProto;
+
+function Dog() {
+    this.noise = "Wolf!";
+}
+Dog.prototype = animalProto;
+
+var elliot = new Cat();
+var coltrain = new Dog();
+elliot.makeNoise();  //> "Meow!"
+coltrain.makeNoise();  //> "Wolf!"
 ```
 
-As a crash course, here are the prototype methods on [strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#Methods_2) and  [arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Methods_2).
+This is how JS implements things like Python's type methods.
+JS arrays, strings, numbers all have prototype methods as a sort of "standard library".
+
+As a crash course, here are the prototype methods for [strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#Methods_2) and  [arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Methods_2).
 You can look at the [full reference for all types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference).
 
-Before you commit all of these to heart, wait until we review [Underscore](underscore.md).
-It will provide cleaner versions of many of these functions.
-
-Awkwardly, there aren't really prototype methods for objects in the same way Python dictionaries had type methods.
-This is because objects are why prototype methods work, which we'll discuss later.
+Many of these functions are replicated in [Lodash](lodash.md).
+I encourage you to use the Lodash versions, they often have cleaner semantics.

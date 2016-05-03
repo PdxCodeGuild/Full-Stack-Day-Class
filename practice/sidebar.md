@@ -1,7 +1,7 @@
 # Practice: Sidebar
 Save your solution as `sidebar.html` and `sidebar.css`.
 
-Recreate the following sample layout.
+Recreate the following sample layout using just flexboxes.
 
 ![Sidebar Layout](https://designshack.net/wp-content/uploads/layoutideas-6-1.jpg)
 

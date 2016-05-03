@@ -3,6 +3,7 @@
 
 ## Intro
 1. Course Expectations
+1. [Course Logistics](notes/course_logistics.md)
 1. [Course Portfolio](intro/notes/courseportfolio.md)
 1. [Programming Philosophy](intro/notes/philosophy.md)
 1. [Working with Others](intro/notes/groupwork.md)
@@ -215,22 +216,29 @@
 1. [Control Statements](js/notes/control.md)
 1. [Functions](js/notes/functions.md)
 1. Errors
-1. [Prototype Methods](js/notes/prototypemethods.md)
 1. Casting
 1. Global Objects
 1. [Anonymous Functions](js/notes/anonfunctions.md)
-1. [Underscore](js/notes/underscore.md)
+1. [Lodash](js/notes/lodash.md)
 1. [Data Transformations](js/notes/datatransforms.md)
 1. [Debug Output](js/notes/debugoutput.md)
 1. [Style Guide](js/notes/jsstyle.md)
 1. [JS in the Browser](js/notes/browserjs.md)
 1. WebStorm
 1. Demo: [Leet Speek](js/demos/leetspeak.md)
-1. Web Inspector Debugger
+1. [Web Inspector Debugger](js/notes/inspectordebugger.md)
 1. Group Practice: [Taxes](practice/taxes.md)
 1. Individual Practice: [Rarest](js/practice/rarest.md)
 1. Checked Practice: [Sum Pairs](practice/sumpairs.md)
-1. JS "Classes"
+1. [Object Methods](js/notes/objectmethods.md)
+1. [Constructors](js/notes/constructors.md)
+1. [Prototypes](js/notes/prototypes.md)
+1. [Prototype Methods](js/notes/prototypemethods.md)
+1. [JS Objects Review](js/notes/objectsreview.md)
+1. Demo:
+1. Group Practice: [GeoJS](js/practice/)
+1. Individual Practice:
+1. Checked Practice:
 
 ## Front-End via Javascript
 1. [Basic Document Object Model](notes/dom.md)
@@ -244,12 +252,13 @@
 1. Group Practice: [Picture Album](practice/album.md)
 1. Individual Practice: [Visual Dice](practice/visualdice.md)
 1. Checked Practice: [Validator](practice/validator.md)
-1. JSON
-1. APIs
-1. Public APIs
-1. Geolocation API
-1. Demo:
-1. Group Practice: Bus Stop Finder
+1. [JSON](notes/json.md)
+1. [APIs](notes/apis.md)
+1. [URLs](notes/urls.md)
+1. [HTTP APIs](notes/http_apis.md)
+1. [Library APIs](notes/library_apis.md)
+1. Demo: [Weather](demos/weather.md)
+1. Group Practice: [Bus Stop Finder](practice/bus_stop_finder.md)
 1. Individual Practice:
 1. Checked Practice:
 

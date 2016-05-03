@@ -67,6 +67,7 @@ To declare a variable, use the `var` keyword, then the variable name, then an in
 ```js
 var name = "David";
 var fruitToPrice = {"apple": 0.99};
+var FEET_PER_MILE = 5280;
 ```
 
 Once a variable is declared, you don"t use `var` to reference it.
@@ -75,3 +76,4 @@ Once a variable is declared, you don"t use `var` to reference it.
 ```
 
 Proper JS style has variable names in `camelCase` with the first letter lowercase.
+If your variable is storing something that is semantically constant, it should be in `CONSTANT_CASE`.

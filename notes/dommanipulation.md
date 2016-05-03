@@ -7,6 +7,9 @@ An element set gives you lots of functions to query and modify the selected DOM 
 Read through [the API docs](http://api.jquery.com) to become familiar with what kind of things you can do.
 I'll go over the basics, though.
 
+All of these functions use **method chaining** style.
+That means that they modify their input in place and return the input.
+
 ## Classes
 * `.hasClass(className)`
 

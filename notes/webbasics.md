@@ -1,18 +1,8 @@
 # Web Basics
 A **web site** is a series of **resources**.
 Resources are pages, images, style information, data, any _noun_.
-Resources are identified by their **URL** or location.
+Resources are identified by their URL or location.
 Your web browser knows how to parse the URL and then **request** the data for the resource from the appropriate web server.
-
-## URLs
-A URL looks like:
-```
-http://host[:port]/path
-```
-The **host** is the address of the computer that knows the content of the page.
-The **port** is a number that is basically the specific application on the computer.
-The **path** is a string that says what content the server should give you back; it looks like a filesystem path and is hierarchical.
-The `http://` tells your web browser that it should use the **HTTP protocol** to talk to the server.
 
 ## HTTP Requests
 A request has three basic parts: a **verb**, a **path**, and a **body**.

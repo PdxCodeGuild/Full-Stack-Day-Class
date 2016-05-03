@@ -4,7 +4,7 @@ We will be using it off-the-bat, but realize that there are standard JS built-in
 
 To include it, add another `script` tag above yours which will cause the browser to download and parse all of the jQuery code before yours.
 ```html
-<script src="http://code.jquery.com/jquery-2.2.3.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.3.js"></script>
 <script src="your.js"></script>
 ```
 

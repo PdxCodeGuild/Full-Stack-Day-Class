@@ -5,16 +5,15 @@ Not like a high-school or CC class.
 Like being an apprentice and doing academic research.
 
 ## Attendance
-Each class session begins at 9:30 A.M. every week day and ends at 4:30 P.M.
-We will take an hour lunch break every day from 12:15 P.M. to 1:15 P.M.
-
 By taking this course, you're setting aside time to learn.
 **Keep it sacred. I cannot stress this enough.**
 
-We require you to come to **96% of the sessions**.
+We require you to come to **90% of the sessions**.
 Missing a day here is month of a college course.
 Attendance is taken.
 If you can't be very sure that you'll be present for more than required amount of sessions, this is _not the course for you_.
+
+If you have medical reasons to miss class, that's fine, but please let me know _before hand_.
 
 That's totally fine!
 A bootcamp format is not the only way to learn these skills.
@@ -51,6 +50,10 @@ Class will look like:
 1. Individual Practice
 1. Checked Practice
 1. Repeat
+
+I want you to succeed!
+All of these rules are flexible, but realize they're to push you and make the class valuable.
+If you need an exception to anything, let me know _before_ the action.
 
 ## Practice
 There are no grades.

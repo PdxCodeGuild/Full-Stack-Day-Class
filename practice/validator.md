@@ -7,6 +7,7 @@ It should ask for:
 * Phone Number in 555-555-5555 format
 
 _As the user is typing_, you should validate that the fields are filled in the correct format.
+You'll want to look at the various events that get fired when a user is typing, specifically "keyup" or "onblur".
 If the content is not currently valid, the field box should be yellow and a yellow warning notice describing which field is malformed displayed atop the form.
 If multiple forms are invalid, just show one. I don't care which.
 Otherwise, if valid or empty, the fields should be default and no warning notice displayed.
