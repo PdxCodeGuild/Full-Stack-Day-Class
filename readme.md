@@ -68,8 +68,8 @@
 1. [Git Branching and Merging](notes/gitbranching.md)
 1. Docstrings
 1. [Functions as Structure](notes/functions_as_structure.md)
-1. [Advanced Problem Solving and Stubbing](notes/adv_problem_solving.md)
-1. [Advanced Debugging](notes/adv_debugging.md)
+1. [Stubbing](notes/stubbing.md)
+1. [Advanced Problem Solving](notes/adv_problem_solving.md)
 1. Demo:
 1. Optional: Practice:
 1. Practice: Function Refactor
@@ -83,6 +83,7 @@
 1. [Mapping](notes/mapping.md)
 1. [Filtering](notes/filtering.md)
 1. [Searching for Solutions](notes/googling.md)
+1. [Advanced Debugging](notes/adv_debugging.md)
 1. Demo:
 1. Demo: Tic-Tac-Toe
 1. Optional: Practice: Make Initials
@@ -254,7 +255,7 @@
 1. Individual Practice: [Visual Dice](practice/visualdice.md)
 1. Checked Practice: [Validator](practice/validator.md)
 1. Demo: [Palette](demos/palette.md)
-1. Checked Practice:
+1. Checked Practice: [Whack-A-Mole](practice/whack-a-mole.md)
 1. [JSON](notes/json.md)
 1. [APIs](notes/apis.md)
 1. [URLs](notes/urls.md)
