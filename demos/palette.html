@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Palette</title>
+        <link rel="stylesheet" href="palette.css">
+    </head>
+    <body>
+        <section id="color-picker">
+            <div id="color-swatch"> </div>
+            <input id="color-input" type="text" value="0 0 0">
+        </section>
+        <!-- By default, this is hidden via CSS with `display: none`. -->
+        <!-- If there is a formatting error, it will be shown. -->
+        <section id="format-error">
+            Input must be in "R G B" format with each value in [0, 1].
+        </section>
+
+        <script src="http://cdn.jsdelivr.net/lodash/4.11.2/lodash.js"></script>
+        <script src="http://code.jquery.com/jquery-2.2.3.js"></script>
+        <script src="palette.js"></script>
+    </body>
+</html>
