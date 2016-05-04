@@ -1,0 +1,10 @@
+# JS Debugging
+JS is very "forgiving".
+It will run lots of "incorrect" code without errors, and instead silently return things like `undefined`.
+
+First, take to heart the ideas in the [advanced debugging notes](advdebugging.md).
+
+* Double check all of your inputs.
+* Use intermediate variables to allow you to see values in the debugger.
+* Run functions in isolation using the console.
+* Practice using the object explorer.

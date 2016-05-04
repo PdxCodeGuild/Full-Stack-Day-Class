@@ -22,15 +22,14 @@
 1. [Terminal IO](notes/terminalio.md)
 1. [Basic Casting](notes/basiccasting.md)
 1. [Comments](notes/comments.md)
-1. [Basic Problem Solving](notes/basicproblemsolving.md)
-1. [Basic High-Level Structure](notes/basichighlevelstructure.md)
+1. [Basic Problem Solving](notes/basic_problem_solving.md)
 1. [Basic Variable Naming](notes/basicvarnaming.md)
 1. [Evaluation Order](notes/evaluationorder.md)
 1. [Basic Math](notes/basicmath.md)
 1. PyCharm
 1. Demo: [Simple Unit Converter](demo/simpleunitconvert.md)
 1. Demo: [Greeting](demo/greeting.md)
-1. [Basic Debugging](notes/basicdebugging.md)
+1. [Basic Debugging](notes/basic_debugging.md)
 1. Group Practice: [Change Return](practice/changereturn.md)
 1. Individual Practice: [Madlib](practice/madlib.md)
 1. Checked Practice: [Wall Painting](practice/wallpainting.md)
@@ -61,7 +60,6 @@
 1. [Interfaces and Scope](notes/scope.md)
 1. [Main Function](notes/mainfunction.md)
 1. [Function Naming](notes/functionnaming.md)
-1. Stubbing and Pretend Development
 1. Demo:
 1. Demo:
 1. Optional: Practice:
@@ -69,9 +67,9 @@
 1. Optional: Practice:
 1. [Git Branching and Merging](notes/gitbranching.md)
 1. Docstrings
-1. Functions as Structure
-1. [Advanced Problem Solving](notes/advproblemsolving.md)
-1. [Advanced Debugging](notes/advdebugging.md)
+1. [Functions as Structure](notes/functions_as_structure.md)
+1. [Advanced Problem Solving and Stubbing](notes/adv_problem_solving.md)
+1. [Advanced Debugging](notes/adv_debugging.md)
 1. Demo:
 1. Optional: Practice:
 1. Practice: Function Refactor
@@ -124,7 +122,7 @@
 1. Optional: Practice:
 1. Structured Data
 1. [Joining](notes/joining.md)
-1. [Data Problem Solving](notes/highleveldataops.md)
+1. [Data Problem Solving](notes/data_problem_solving.md)
 1. Demo:
 1. Group Practice:
 1. Group Practice: [Connect Four](practice/connectfour.md)
@@ -229,6 +227,7 @@
 1. WebStorm
 1. Demo: [Leet Speek](js/demos/leetspeak.md)
 1. [Web Inspector Debugger](js/notes/inspectordebugger.md)
+1. [JS Debugging](notes/js_debugging.md)
 1. Group Practice: [Taxes](practice/taxes.md)
 1. Individual Practice: [Rarest](js/practice/rarest.md)
 1. Checked Practice: [Sum Pairs](practice/sumpairs.md)
@@ -250,10 +249,12 @@
 1. [DOM Manipulation](notes/dommanipulation.md)
 1. [Events and Callbacks](notes/eventscallbacks.md)
 1. Demo: [Todo](demos/todo.md)
-1. [Basic JS Structure](notes/jsstructure.md)
+1. [Front-End Problem Solving](notes/front_end_problem_solving.md)
 1. Group Practice: [Picture Album](practice/album.md)
 1. Individual Practice: [Visual Dice](practice/visualdice.md)
 1. Checked Practice: [Validator](practice/validator.md)
+1. Demo: [Palette](demos/palette.md)
+1. Checked Practice:
 1. [JSON](notes/json.md)
 1. [APIs](notes/apis.md)
 1. [URLs](notes/urls.md)

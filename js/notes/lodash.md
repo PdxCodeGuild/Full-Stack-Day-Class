@@ -5,7 +5,7 @@ It provides tons of utility functions for all of the data transformations you mi
 
 To include it, add another `script` tag before your script which will cause the browser to download and parse all of Underscore before your code.
 ```html
-<script src="https://raw.githubusercontent.com/lodash/lodash/4.11.2/dist/lodash.js"></script>
+<script src="http://cdn.jsdelivr.net/lodash/4.11.2/lodash.js"></script>
 <script src="your.js"></script>
 ```
 

@@ -5,9 +5,9 @@ They might seem to make problems become longer and more complex, but **I cannot 
 
 ## Be Aggressively Reductionist
 Break every problem down into a hierarchy of _sub-problems_ until you're at a level where the solution exists.
+Each of these little solutions should be _separate functions_ with explicit inputs and outputs.
 
 * Solve inner-most sub-problems first
-* Make every sub-problem a function
 * Work step-by-step up hierarchies
 * Use your previous solutions as you work up
 

@@ -66,3 +66,6 @@ Numbers cannot begin a variable name.
 
 Proper Python style has variables in `snake_case`:
 words are all lowercase and separated by underscores.
+
+If a variable is effectively a constant, they are in `CONSTANT_CASE`:
+words are all uppercase and separated by underscores.
