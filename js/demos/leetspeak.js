@@ -1,3 +1,5 @@
+'use strict';
+
 function convertWordToLeetSpeak(originalWord) {
   var originalCharToLeetChar = {
     o: '0',
@@ -6,16 +8,18 @@ function convertWordToLeetSpeak(originalWord) {
     a: '4',
     t: '7'
   };
-
   var workingLeetWord = _.lowerCase(originalWord);
-
-  for (var originalChar in originalCharToLeetChar) {
-    var leetChar = originalCharToLeetChar[originalChar];
-
-    while (_.includes(workingLeetWord, originalChar)) {
-      workingLeetWord = _.replace(workingLeetWord, originalChar, leetChar);
-    }
-  }
+  workingLeetWord = _.reduce(
+    _.keys(originalCharToLeetChar),
+    function(workingLeetWord, originalChar) {
+      if (_.includes(workingLeetWord, originalChar)) {
+        var leetChar = originalCharToLeetChar[originalChar];
+        return _.replace(workingLeetWord, originalChar, leetChar);
+      } else {
+        return workingLeetWord;
+      }
+    },
+    workingLeetWord);
 
   if (_.endsWith(workingLeetWord, 's')) {
     workingLeetWord = _.join(_.slice(workingLeetWord, 0, -1), '') + 'Z';
@@ -27,7 +31,6 @@ function convertWordToLeetSpeak(originalWord) {
 function convertSentenceToLeetSpeak(sentence) {
   var originalWords = _.words(sentence);
   var leetWords = _.map(originalWords, convertWordToLeetSpeak);
-
   return _.join(leetWords, ' ');
 }
 

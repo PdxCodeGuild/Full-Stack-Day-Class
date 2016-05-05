@@ -70,7 +70,7 @@ module.exports = {
     // disallow use of multiline strings
     "no-multi-str": 2,
     // disallow reassignments of native objects
-    "no-native-reassign": 0,
+    "no-native-reassign": 2,
     // disallow use of new operator for Function object
     "no-new-func": 0,
     // disallows creating new instances of String,Number, and Boolean
@@ -133,9 +133,9 @@ module.exports = {
     // disallow use of debugger
     "no-debugger": 0,
     // disallow duplicate arguments in functions
-    "no-dupe-args": 0,
+    "no-dupe-args": 2,
     // disallow duplicate keys when creating object literals
-    "no-dupe-keys": 0,
+    "no-dupe-keys": 2,
     // disallow a duplicate case label.
     "no-duplicate-case": 0,
     // disallow the use of empty character classes in regular expressions
@@ -311,7 +311,7 @@ module.exports = {
     // disallow labels that share a name with a variable
     "no-label-var": 0,
     // disallow shadowing of names such as arguments
-    "no-shadow-restricted-names": 0,
+    "no-shadow-restricted-names": 2,
     // disallow declaration of variables already declared in the outer scope
     "no-shadow": 0,
     // disallow use of undefined when initializing variables
