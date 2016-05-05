@@ -65,6 +65,7 @@ I also give **checked practices** where I will evaluate your work _stringently_ 
 They are to formally assess your progress.
 The goal of this class is to become a proficient developer;
 the only way to demonstrate that to me is to actually submit working programs.
+We want you to succeed in your capstone, and we want to make sure you're prepared.
 
 If you are seriously falling behind, you will have to drop the class.
 

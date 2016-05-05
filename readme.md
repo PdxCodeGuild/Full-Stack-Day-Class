@@ -4,6 +4,7 @@
 ## Intro
 1. Course Expectations
 1. [Course Logistics](notes/course_logistics.md)
+1. [Checked Practice](notes/checked_practice.md)
 1. [Course Portfolio](intro/notes/courseportfolio.md)
 1. [Programming Philosophy](intro/notes/philosophy.md)
 1. [Working with Others](intro/notes/groupwork.md)
@@ -82,6 +83,7 @@
 1. Sequence Functions
 1. [Mapping](notes/mapping.md)
 1. [Filtering](notes/filtering.md)
+1. [Searching](notes/searching.md)
 1. [Searching for Solutions](notes/googling.md)
 1. [Advanced Debugging](notes/adv_debugging.md)
 1. Demo:
@@ -217,6 +219,8 @@
 1. Errors
 1. Casting
 1. Global Objects
+1. Calling Prototype Methods
+1. Basic Strings
 1. [Anonymous Functions](js/notes/anonfunctions.md)
 1. [Lodash](js/notes/lodash.md)
 1. [Iterating](js/notes/jsiterating.md)
@@ -225,7 +229,7 @@
 1. [Debug Output](js/notes/debugoutput.md)
 1. [Style Guide](js/notes/jsstyle.md)
 1. [JS in the Browser](js/notes/browserjs.md)
-1. WebStorm
+1. WebStorm?
 1. Demo: [Leet Speek](js/demos/leetspeak.md)
 1. [Web Inspector Debugger](js/notes/inspectordebugger.md)
 1. [JS Debugging](notes/js_debugging.md)
@@ -238,7 +242,7 @@
 1. [Prototype Methods](js/notes/prototypemethods.md)
 1. [JS Objects Review](js/notes/objectsreview.md)
 1. Demo:
-1. Group Practice: [GeoJS](js/practice/)
+1. Group Practice: GeoJS
 1. Individual Practice:
 1. Checked Practice:
 
