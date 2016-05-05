@@ -1,9 +1,0 @@
-{
-  "extends": "defaults/configurations/google",
-  "env": {"browser": true, "jquery": true},
-  "globals": {"_": true},
-  "rules": {
-      "no-extra-semi": "error",
-      "newline-after-var": "off"
-  }
-}

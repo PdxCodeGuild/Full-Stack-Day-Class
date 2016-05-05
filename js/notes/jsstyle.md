@@ -7,7 +7,7 @@ Read it and follow its guidance.
 ## Linter
 You can get an Atom package which will check for
 
-Install the Atom package [linter-eslint](https://atom.io/packages/linter-eslint) (which also requires the [linter](https://atom.io/packages/linter) package if you don't have it already).
+Install the Atom package [linter-eslint](https://atom.io/packages/linter-eslint).
 
-Then save [the config that enforces the Google style](../../.eslintrc.json) in `.eslintrc.json` in your `codeguild/` directory.
+Then save [the config that enforces the Google style](../../.eslintrc.js) in `.eslintrc.js` in your `codeguild/` directory.
 Note, this is a hidden file.

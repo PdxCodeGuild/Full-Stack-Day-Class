@@ -15,17 +15,6 @@ function getReminderInput() {
 // 3. Create Functions
 
 /*
-Create a new reminder list item for a string.
-*/
-function createReminderItem(reminderString) {
-  var reminderItem = $('<li></li>');
-  reminderItem.text(reminderString);
-  var doneLink = createDoneLink(reminderItem);
-  reminderItem.append(doneLink);
-  return reminderItem;
-}
-
-/*
 Create a new "done" link that will cross off the given reminder list item.
 */
 function createDoneLink(reminderItem) {
@@ -40,6 +29,17 @@ function createDoneLink(reminderItem) {
     crossOffReminder(reminderItem);
   });
   return doneLink;
+}
+
+/*
+Create a new reminder list item for a string.
+*/
+function createReminderItem(reminderString) {
+  var reminderItem = $('<li></li>');
+  reminderItem.text(reminderString);
+  var doneLink = createDoneLink(reminderItem);
+  reminderItem.append(doneLink);
+  return reminderItem;
 }
 
 // 4. Modify Functions
