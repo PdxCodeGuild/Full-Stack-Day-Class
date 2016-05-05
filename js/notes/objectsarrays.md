@@ -35,7 +35,7 @@ Arrays also have a length property.
 ```js
 var fruits = ['apple', 'pear'];
 fruits[0];  //> 'apple'
-fruits[1] = "banana";
+fruits[1] = 'banana';
 fruits.length;  //> 2
 ```
 
@@ -44,3 +44,5 @@ If you try to access an index outside [0, length), you get `undefined`, _not_ an
 fruits[-1];  //> undefined
 fruits[4];  //> undefined
 ```
+
+Note that strings _do not_ have the `[]` operator.

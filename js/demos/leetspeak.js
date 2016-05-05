@@ -1,5 +1,10 @@
 'use strict';
 
+/**
+ * Convert a single word from English to leet-speak.
+ *
+ * E.g. 'cats' -> '(c4tZ)'
+ */
 function convertWordToLeetSpeak(originalWord) {
   var originalCharToLeetChar = {
     o: '0',
@@ -9,6 +14,7 @@ function convertWordToLeetSpeak(originalWord) {
     t: '7'
   };
   var workingLeetWord = _.lowerCase(originalWord);
+
   workingLeetWord = _.reduce(
     _.keys(originalCharToLeetChar),
     function(workingLeetWord, originalChar) {
@@ -28,6 +34,9 @@ function convertWordToLeetSpeak(originalWord) {
   return '(' + workingLeetWord + ')';
 }
 
+/**
+ * Convert an entire sentence from English to leet-speak, one word at a time.
+ */
 function convertSentenceToLeetSpeak(sentence) {
   var originalWords = _.words(sentence);
   var leetWords = _.map(originalWords, convertWordToLeetSpeak);

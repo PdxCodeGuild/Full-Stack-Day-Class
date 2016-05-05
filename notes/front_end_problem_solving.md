@@ -27,11 +27,14 @@ You should already have all your data in abstract structures in variables.
 Create any new elements, fully set them up, then return them.
 
 You'll need to use jQuery here to create new elements.
-You are allowed to attach event handlers to these new elements in order to set them up.
+If new elements need to respond to events, you must register handlers here.
 
-## 4. Modify
+## 4. Modify and Synchronize
 Modify the existing page.
 Update properties or append new elements made in the previous step.
+
+Remember to fully _synchronize_ the state of the page.
+Figure out all the possible states the page could be in, then ensure that your modification functions can result in all of them.
 
 You'll need to use jQuery here to modify the existing page.
 
@@ -39,10 +42,14 @@ You'll need to use jQuery here to modify the existing page.
 String together the input, transform, create, and modify steps for one action into a single function that usually take no arguments.
 Use intermediate variables to pipe all of the data and elements around inside the main function.
 
+Don't use jQuery here.
+
 Each main function should just perform _one action_.
 
 ## 6. Register
 _After_ you've written functions for every other section, then worry about events.
-Tell the browser to run your main functions when it sees the correct events on the correct elements.
+Tell the browser to run your main functions when it sees the correct events on _existing_ elements.
 
-You should _not have any event handling_ in any of the previous steps, other than event handler registration on new elements.
+Remember, this registration code is _only for initial elements_.
+This code gets run with the JS is parsed, elements that are added later won't be selected and won't have event handlers added.
+Add those in the "create" functions.

@@ -1,4 +1,4 @@
-# Advanced Problem Solving and Stubbing
+# Advanced Problem Solving
 First, remind your self the ideas of [basic problem solving](basic_problem_solving.md).
 
 
