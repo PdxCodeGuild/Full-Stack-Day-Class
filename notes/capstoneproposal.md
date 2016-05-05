@@ -1,14 +1,18 @@
 # Capstone Proposal
 We will be setting aside the entire day that the proposal is due to work on it.
-**Start work on it before then.**
+Start work on it before then.
+
+Your proposal is meant mostly as a document _for you_.
+When you're working on the project, you can look at it and know what to do next.
+
+Secondarily, I will be evaluating that your capstone fulfills all [the requirements](capstoneintro.md#projectrequirements) and can be completed in time.
 
 ## Rubric
 Please address all of the following areas in your proposal **for your MVP**.
-I will be evaluating that your capstone fulfill all [the requirements](capstoneintro.md#projectrequirements) and can be completed in a timely fashion by you.
 I am _not_ evaluating the business savvy of your project (although I'd be happy to give my two cents, if you ask).
 
 I only require a text document.
-Feel free to hand draw mockups and include them if that helps you plan or if the concepts are complicated.
+Feel free to hand draw mockups and include them if that helps you plan.
 
 Please look at the [demo proposal](../demos/proposal.md).
 
