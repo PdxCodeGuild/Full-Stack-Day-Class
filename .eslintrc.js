@@ -12,7 +12,7 @@ module.exports = {
     // specify the maximum cyclomatic complexity allowed in a program
     "complexity": 0,
     // require return statements to either always or never specify values
-    "consistent-return": 0,
+    "consistent-return": 1,
     // specify curly brace conventions for all control statements
     "curly": [2, "all"],
     // require default case in switch statements
@@ -20,7 +20,7 @@ module.exports = {
     // enforces consistent newlines before or after dots
     "dot-location": [2, "object"],
     // encourages use of dot notation whenever possible
-    "dot-notation": 0,
+    "dot-notation": 1,
     // require the use of === and !==
     "eqeqeq": 1,
     // make sure for-in loops have an if statement
@@ -101,7 +101,7 @@ module.exports = {
     // restrict what can be thrown as an exception
     "no-throw-literal": 0,
     // disallow usage of expressions in statement position
-    "no-unused-expressions": 0,
+    "no-unused-expressions": 2,
     // disallow unnecessary .call() and .apply()
     "no-useless-call": 0,
     // disallow unnecessary concatenation of literals or template literals
@@ -145,7 +145,7 @@ module.exports = {
     // disallow assigning to the exception in a catch block
     "no-ex-assign": 0,
     // disallow double-negation boolean casts in a boolean context
-    "no-extra-boolean-cast": 0,
+    "no-extra-boolean-cast": 2,
     // disallow unnecessary parentheses
     "no-extra-parens": 2,
     // disallow unnecessary semicolons
@@ -173,7 +173,7 @@ module.exports = {
     // disallow comparisons with the value NaN
     "use-isnan": 0,
     // ensure JSDoc comments are valid
-    "valid-jsdoc": 2,
+    "valid-jsdoc": 0,
     // ensure that the results of typeof are compared against a valid string
     "valid-typeof": 0,
     // require that all functions are run in strict mode
@@ -279,7 +279,7 @@ module.exports = {
     // specify whether double or single quotes should be used
     "quotes": [2, "single"],
     // Require JSDoc comment
-    "require-jsdoc": 0,
+    "require-jsdoc": 1,
     // enforce spacing before and after semicolons
     "semi-spacing": 0,
     // require or disallow use of semicolons instead of ASI
@@ -321,7 +321,7 @@ module.exports = {
     // disallow use of undefined variable
     "no-undefined": 0,
     // disallow declaration of variables that are not used in the code
-    "no-unused-vars": 2,
+    "no-unused-vars": 1,
     // disallow use of variables before they are defined
     "no-use-before-define": 1
   }
