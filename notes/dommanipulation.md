@@ -42,3 +42,10 @@ In addition to whole classes, you can get or modify specific CSS properties.
 * `.val()`
 
 * `.val(newValue)`
+
+## Generic
+```js
+$('div').each(function(index, element) {
+    $(element).val();
+});
+```

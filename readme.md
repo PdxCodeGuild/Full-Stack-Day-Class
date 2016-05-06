@@ -165,6 +165,7 @@
 1. [Front-End vs Back-End](notes/frontvsback.md)
 1. [Capstone Introduction](notes/capstoneintro.md)
 1. [Capstone Proposal](notes/capstoneproposal.md)
+1. [MVP](notes/mvp.md)
 1. Demo: [Image Pipe Proposal](demos/proposal.md)
 
 ## Interface Structure with HTML
@@ -220,7 +221,7 @@
 1. Casting
 1. Global Objects
 1. Calling Prototype Methods
-1. Basic Strings
+1. [Basic Strings](js/notes/js-strings.md)
 1. [Anonymous Functions](js/notes/anonfunctions.md)
 1. [Lodash](js/notes/lodash.md)
 1. [Iterating](js/notes/jsiterating.md)
@@ -260,6 +261,30 @@
 1. Checked Practice: [Validator](practice/validator.md)
 1. Demo: [Palette](demos/palette.md)
 1. Checked Practice: [Whack-A-Mole](practice/whack-a-mole.md)
+
+## Django Backend Programming
+1. [Dependencies](notes/py-deps.md)
+1. [Virtualenv](notes/virtualenv.md)
+1. [Pip](notes/pip.md)
+1. [App Requirements](notes/py-app-requirements.md)
+1. [App Structure](notes/py-app-structure.md)
+1. Demo: [Teapot Request](demo/teapot-request)
+1. Individual Practice:
+1. [Web Basics](notes/webbasics.md)
+1. [Django Overview](notes/djangooverview.md)
+1. [Web Framework](notes/webframework.md)
+1. [Object Relational Mapper](notes/orm.md)
+1. Handlers
+1. Routes
+1. Parameters
+1. Demo: Calculator
+1. Group Practice:
+1. Checked Practice:
+1. Individual Practice:
+
+## Heroku Deployment
+
+## APIs and Web Interfaces
 1. [JSON](notes/json.md)
 1. [APIs](notes/apis.md)
 1. [URLs](notes/urls.md)
@@ -268,13 +293,6 @@
 1. Group Practice: [Bus Stop Finder](practice/bus_stop_finder.md)
 1. Individual Practice:
 1. Checked Practice:
-
-## Django Backend Programming
-1. Libraries and PIP
-1. [Web Basics](notes/webbasics.md)
-1. [Django Overview](notes/djangooverview.md)
-1. [Web Framework](notes/webframework.md)
-1. [Object Relational Mapper](notes/orm.md)
 
 ## Job Search and Interviewing
 1. Resume Writing
