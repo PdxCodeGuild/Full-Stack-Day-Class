@@ -7,10 +7,7 @@ It will be the deliverable that you get to _show off to prospective employers_.
 
 ## Idea
 Start thinking of a project or product that you'd like to make as a web application.
-Be very judicious in scope.
-Large projects are _much harder_ than you think.
-Pick the **minimum viable product** or **MVP**, the core features that still allow your idea to work.
-You should document followup work and if you have time, you can get to implementing it.
+Your goal is to come up with an [MVP](mvp.md).
 
 If you're having trouble coming up with an idea, let me know _now_.
 I suggest thinking of a problem _you_ have in your day-to-day that you might be able to solve.
@@ -34,7 +31,7 @@ Commitment and striving for mastery in a topic area is appreciated by prospectiv
 
 ## Schedule
 The formal schedule for working on your capstone is:
-* End of Week 6: Proposal due at end of day
+* End of Week 6: [Proposal](capstoneproposal.md) due at end of day
 * Mid Week 7: Approved proposal
 * Week 9: Class becomes just capstone work
 * Last Day of Class: Capstone show-and-tell
@@ -47,5 +44,8 @@ PDX Code Guild will setup a demo day for recruiters at Portland area.
 
 From this point forward, if you finish projects early, please work on your capstone (as many of you already have).
 Brainstorm ideas, plan out implementations, etc.
+
+We will be setting aside the entire day that the proposal is due to work on it.
+Start work on it before then.
 
 Once it begins around week 9, the tone of the class will shift from being a classroom setting, to more of a co-working space with me and each other as a resource.
