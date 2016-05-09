@@ -48,7 +48,8 @@
 1. Calling Type Methods
 1. Optional Arguments
 1. Basic String Methods
-1. Standard Library Docs and Function Signatures
+1. Standard Library Docs
+1. [Function Signatures](notes/function-signatures.md)
 1. Indexing
 1. Slicing
 1. [Git Remotes and GitHub](notes/remotegit.md)
@@ -130,7 +131,7 @@
 1. Group Practice:
 1. Group Practice: [Connect Four](practice/connectfour.md)
 1. Optional Practice: [Sum Pairs](practice/sumpairs.md)
-1. Using Modules
+1. [Using Modules and Importing](notes/importing.md)
 1. Demo:
 1. Practice: [Word Count](practice/wordcount.md)
 1. Checkpoint Practice: [Rain](practice/rain.md)
@@ -265,29 +266,32 @@
 ## Django Backend Programming
 1. [Dependencies](notes/py-deps.md)
 1. [Virtualenv](notes/virtualenv.md)
-1. [Pip](notes/pip.md)
+1. [Pip and PyPI](notes/pip.md)
 1. [App Requirements](notes/py-app-requirements.md)
 1. [App Structure](notes/py-app-structure.md)
-1. Demo: [Teapot Request](demo/teapot-request)
-1. Individual Practice:
+1. Demo: [Teapot Request](demos/teapot-request)
+1. Checked Practice: [Rotate Image](practice/rotate-image.md)
 1. [Web Basics](notes/webbasics.md)
+1. [URLs](notes/urls.md)
 1. [Django Overview](notes/djangooverview.md)
 1. [Web Framework](notes/webframework.md)
-1. [Object Relational Mapper](notes/orm.md)
-1. Handlers
-1. Routes
-1. Parameters
-1. Demo: Calculator
+1. [Django Init](notes/django-init.md)
+1. [Views](notes/django-views.md)
+1. [Routes](notes/django-routes.md)
+1. [Regular Expressions](notes/regular-expressions.md)
+1. [Parameters](notes/django-parameters.md)
+1. Templates
+1. Demo: [Calculator](demos/calculator)
 1. Group Practice:
 1. Checked Practice:
 1. Individual Practice:
+1. [Object Relational Mapper](notes/orm.md)
 
 ## Heroku Deployment
 
 ## APIs and Web Interfaces
 1. [JSON](notes/json.md)
 1. [APIs](notes/apis.md)
-1. [URLs](notes/urls.md)
 1. [HTTP APIs](notes/http_apis.md)
 1. Demo: [Weather](demos/weather.md)
 1. Group Practice: [Bus Stop Finder](practice/bus_stop_finder.md)

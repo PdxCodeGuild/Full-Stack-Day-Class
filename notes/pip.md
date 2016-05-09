@@ -1,5 +1,6 @@
-# Pip
+# Pip and PyPI
 **Pip** is the Python package installer.
+It looks to the public **Python Package Index** or **PyPI** for a [listing of all known packages](https://pypi.python.org/pypi) and to actually download them.
 It is very easy to use.
 
 All of these commands start with `pip`, then a sub-command name, then some arguments.

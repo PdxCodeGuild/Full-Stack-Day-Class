@@ -19,7 +19,7 @@ class Bandit:
         self.name = 'David'
 ```
 
-Then in `main.py` you can import any _top level_ item using the name of the Python file _without the `.py`_.
+Then in `main.py` you can import any Python files in the same directory with the other file name _without the `.py`_.
 ```python
 import logic
 

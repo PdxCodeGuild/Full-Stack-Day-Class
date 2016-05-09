@@ -1,8 +1,12 @@
 # Virtualenv
-A **virtualenv** is an isolated "installation" of Python and packages.
-It is _just a directory_ that contains a "copy" of a Python interpreter, the standard library, an isolated set of installed packages, and some scripts to enable and disable itself.
-When you **activate** a virtualenv, you access
+Different Python applications, ones you're developing or running, will have different dependencies.
+A **virtualenv** is a way to isolate dependencies and swap them out quickly as we move between them.
 
+A virtualenv is an isolated "installation" of Python and packages.
+It is _just a directory_ that contains a "copy" of a Python interpreter, the standard library, an isolated set of installed packages, and some scripts to enable and disable itself.
+When you **activate** a virtualenv, any commands that deal with Python or packages will only affect further commands inside the virtualenv.
+
+## Installing
 Virtualenv is also the name of the tooling to manage virtualenvs
 The tooling is in a Python package.
 You need to install it system-wide to be able to use it.

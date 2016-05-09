@@ -3,16 +3,19 @@ From here on out, each of your practice problems and your capstone will be full 
 Each app lives in its own directory and has a few necessary parts.
 ```
 APP_NAME/
-  venv/
-    ...
-  requirements.txt
-  .gitignore
-  YOUR_SOURCE.py
-  YOUR_MODULE/
-    __init__.py
-    MORE_YOUR_SOURCE.py
+    venv/
+        ...
+    requirements.txt
+    .gitignore
+    YOUR_SOURCE.py
+    YOUR_MODULE/
+        __init__.py
+        MORE_YOUR_SOURCE.py
 ```
 
 * `venv` should be the [virtualenv for this project](virtualenv.md#create).
+**Do not commit your virtualenv directory!**
+You should `.gitignore` this directory.
 * `requirements.txt` should be the output of [freezing](virtualenv.md#freeze) your virtualenv with all of the necessary packages installed.
 * `.gitignore` should ignore `venv` and any other OS or editor junk like `.DS_Store` or `.cache` or `__pycache__`.
+* The rest of the files are your actual source.
