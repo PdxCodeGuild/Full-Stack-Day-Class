@@ -282,14 +282,15 @@
 1. [Regular Expressions](notes/regular-expressions.md)
 1. [Query Parameters](notes/django-query-parameters.md)
 1. [Serving Locally](notes/django-serving-locally.md)
-1. Logic
 1. Demo: [Calculator](demos/calculator.md)
 1. [Django Problem Solving](notes/django-problem-solving.md)
 1. Group Practice: [Multi-Madlib](practice/multi-madlib.md)
-1. Checked Practice: [Book Stats](practice/book_stats.md)
+1. Checked Practice: [Book Stats](practice/book-stats.md)
 1. Individual Practice:
-1. Templates
+1. [Templates](practice/django-templates.md)
+1. Logic
 1. POSTing
+1. Headers
 1. Demo:
 1. Group Practice:
 1. Checked Practice:
