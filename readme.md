@@ -269,7 +269,7 @@
 1. [Pip and PyPI](notes/pip.md)
 1. [App Requirements](notes/py-app-requirements.md)
 1. [App Structure](notes/py-app-structure.md)
-1. Demo: [Teapot Request](demos/teapot-request)
+1. Demo: [Web Getter](demos/webgetter)
 1. Checked Practice: [Rotate Image](practice/rotate-image.md)
 1. [Web Basics](notes/webbasics.md)
 1. [URLs](notes/urls.md)
