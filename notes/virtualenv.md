@@ -14,7 +14,7 @@ You should only need to run this once on your computer.
 ```bash
 pip install virtualenv
 ```
-(Some of you might need to run `pip3`).
+(You need to run `pip3` if you've been running `python3`).
 
 Once it's installed, there are various actions you need to know.
 
@@ -22,7 +22,7 @@ Once it's installed, there are various actions you need to know.
 The first action is to **create** a new, empty virtualenv.
 I would recommend you use the name `venv`.
 ```bash
-virtualenv -p python3 NAME
+virtualenv NAME
 ```
 This will create a directory called `NAME` in the working directory.
 

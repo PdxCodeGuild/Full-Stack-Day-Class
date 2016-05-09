@@ -7,7 +7,8 @@ So a simple example would be:
 ```py
 from django.conf.urls import url
 
-import views
+# Remember, importing in Django apps has to be package relative
+from . import views
 
 urlpatterns = [
     url(r'^$', views.index),

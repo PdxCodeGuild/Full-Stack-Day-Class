@@ -10,16 +10,28 @@ This causes it to ignore escape sequences for the _string literal_ itself so you
 r'Hello\.'  #> 'Hello\\.'
 ```
 
-## Basic Match
+It's important to note that regular expressions are _not_ a standardized language.
+Each implementing language does them slightly differently.
+Regular expressions in JS are slightly different than those in Python.
+I'll describe the totally portable syntax here.
+
+There is also [more advanced syntax](https://docs.python.org/3/library/re.html).
+
+Use a [regexp debugging tool](https://regex101.com) to help you understand what you're matching.
+
+## Character Match
 Most characters match themselves.
 
 ```re
 david s
 ```
-will match
+
 > **david s**
+
 > David s
+
 > hello **david s**
+
 > hello **david s** today
 
 ## Special Characters
@@ -31,22 +43,25 @@ There are some special characters that don't match themselves.
 ```re
 ^fire
 ```
-matches
+
 > **fire** hydrant
+
 > no fire here
 
 ```re
 fire$
 ```
-matches
+
 > wood **fire**
+
 > fire wood
 
 ```re
 davi.
 ```
-matches
+
 > **david**
+
 > **davix**
 
 ## Repeats
@@ -58,16 +73,19 @@ There are some special characters that mark how many times the previous characte
 ```re
 hot?dogs?
 ```
-matches
+
 > **hodog**
+
 > **hotdogs**
 
 ```re
 sna+cks
 ```
-matches
+
 > **snacks**
+
 > sncks
+
 > **snaaaaaacks**
 
 ## Escapes
@@ -76,6 +94,45 @@ If you want literally any special characters use `\` in front of it.
 ```re
 Hello\.
 ```
-matches
+
 > **Hello.**
+
 > Hellox
+
+## Captures
+You can group together parts of a match into a **capture**, which is like a "sub-match", using parentheses `()`.
+You can then use the repeat modifiers on the whole capture.
+When the regular expression library matches text, it will save which parts of the text match each capture by the order they appear (1, 2, etc.).
+
+```re
+(hot+)+dogs
+(...)-(...)-(....)
+```
+
+> **hotdogs**
+
+> **hothothotdogs**
+
+### Named Captures
+Instead of just remembering the text that matched each capture by the order it appears in the whole regular expression, you can also use a **named capture**.
+It is still a sub-match specified in parentheses `()`, but with `?P<NAME>` first inside.
+
+```re
+(?P<first_name>.+) (?P<last_name>.+)
+```
+
+> **bob dole**
+
+## Classes
+Groups of characters that are used in the same sorts of ways are called **classes**.
+* `\d` matches digits
+* `\s` matches spaces of all kinds
+* `\w` matches word characters
+
+```re
+\d+\w\d+
+```
+
+> **1\t2**
+
+> **111 2**

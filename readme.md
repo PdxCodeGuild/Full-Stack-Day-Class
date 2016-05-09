@@ -276,12 +276,21 @@
 1. [Django Overview](notes/djangooverview.md)
 1. [Web Framework](notes/webframework.md)
 1. [Django Init](notes/django-init.md)
+1. Relative Importing
 1. [Views](notes/django-views.md)
 1. [Routes](notes/django-routes.md)
 1. [Regular Expressions](notes/regular-expressions.md)
-1. [Parameters](notes/django-parameters.md)
-1. Templates
+1. [Query Parameters](notes/django-query-parameters.md)
+1. Serving Locally
+1. [Django Problem Solving](notes/django-problem-solving.md)
 1. Demo: [Calculator](demos/calculator)
+1. Group Practice: [Multi-Madlib](practice/multi-madlib.md)
+1. Checked Practice:
+1. Individual Practice:
+1. Server Logic
+1. Templates
+1. POSTing
+1. Demo:
 1. Group Practice:
 1. Checked Practice:
 1. Individual Practice:

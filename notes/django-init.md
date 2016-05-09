@@ -7,10 +7,12 @@ YOUR_APP/
         __init__.py
         settings.py
         urls.py
+        views.py
         wsgi.py
+        OTHER_LOGIC_CODE.py
 ```
 
-I will call the top level `YOUR_APP` directory the **repository root** and the inner `YOUR_APP` directory the **application root**.
+I will call the the inner `YOUR_APP` directory the **application root**.
 
 The Django package gives you a script which will set this up for you.
 Run this command from inside the directory you setup for this application.

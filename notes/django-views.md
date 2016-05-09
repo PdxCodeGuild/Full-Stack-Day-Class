@@ -6,10 +6,17 @@ They live in `views.py` in the application root.
 Inside the view function, _anything_ can happen!
 That's where you'll put your complex logic for figuring out what's on a page.
 
+View functions should look like little _main_ functions.
+They should:
+1. Take input out of the request
+1. Call logic functions to do work
+1. Return a response
+
 The simplest example of a view would be:
 ```py
 from django.http import HttpResponse
 
-def index(request):
+def render_page(request):
+    """Renders the HTML for some random page."""
     return HttpResponse('This will be HTML.')
 ```
