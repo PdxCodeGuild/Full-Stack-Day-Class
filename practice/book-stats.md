@@ -5,8 +5,8 @@ It should be a full-fledged Django and Python application.
 Make a "website" version of your [word count practice](wordcount.md).
 
 It should have one page that takes one argument that is the word you want the count for, `/count?w=WORD`.
-Respond with a `200 OK` and a string `WORD: COUNT`.
-If the word doesn't exist in the book, still respond with a `200 OK` but return a zero count.
+Respond with a `200 OK` code and a body containing `WORD: COUNT`.
+If the word doesn't exist in the book, still respond with a `200 OK` code but return a zero count in the body.
 
 Place your word counting logic in a `logic.py` module in the application root.
 (Feel free to copy your solution from before.)
