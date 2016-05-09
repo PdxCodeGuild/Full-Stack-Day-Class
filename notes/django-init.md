@@ -7,9 +7,9 @@ YOUR_APP/
         __init__.py
         settings.py
         urls.py
-        views.py
         wsgi.py
         OTHER_LOGIC_CODE.py
+        ...
 ```
 
 I will call the the inner `YOUR_APP` directory the **application root**.
@@ -19,6 +19,7 @@ Run this command from inside the directory you setup for this application.
 ```bash
 django-admin startproject YOUR_APP .
 ```
+Note the separate period at the end.
 You'll only have access to this script from inside a virtualenv that has Django installed.
 
 These should live alongside the [standard Python application files](py-app-structure.md).

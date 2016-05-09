@@ -1,10 +1,9 @@
 # App Structure
-From here on out, each of your practice problems and your capstone will be full fledged Python **applications**.
+Each of your practice problems and your capstone should be a separate full-fledged Python **application**.
 Each app lives in its own directory and has a few necessary parts.
 ```
 APP_NAME/
     venv/
-        ...
     requirements.txt
     .gitignore
     YOUR_SOURCE.py
@@ -13,44 +12,36 @@ APP_NAME/
         MORE_YOUR_SOURCE.py
 ```
 
-I will call the top level `APP_NAME` directory the **repository root**.
+The top level `APP_NAME` directory is the **repository root**.
 
 ## 1. Create Repository Root
+For each of your problems, create a new directory.
 ```bash
 mkdir YOUR_APP
 cd YOUR_APP
 ```
 
-## 2. Create Virtualenv
-```bash
-virtualenv venv
-```
+## 2. Setup Git Ignore
+Then setup a Git ignore file so you won't commit your virtualenv.
+**Don't commit your virtualenv!**
 
-## 3. Ignore Virtualenv
 ```bash
-echo 'venv' > .gitignore
+echo 'venv\n__pycache__\n' > .gitignore
 ```
+or save [this example file](../demos/example_gitignore).
+
+## 3. Create Virtualenv
+[Create a new virtualenv](virtualenv.md#create) in your repository root.
 
 ## 4. Activate Virtualenv
-```bash
-.
-```
+[Activate that virtualenv](virtualenv.md#activate) that you just made.
 
 ## 4. Install Packages
-```bash
-pip install PACKAGE_NAME
-```
+[Install](pip.md#install) all of the dependent packages you'll need.
 
 ## 5. Freeze Requirements
-```bash
-pip freeze > requirements.txt
-```
+[Freeze](virtualenv.md#freeze) your initial dependency versions.
+If you ever install more dependencies, you'll have to re-freeze.
 
 ## 6. Commit Initial Code
-
-* `venv` should be the [virtualenv for this project](virtualenv.md#create).
-**Do not commit your virtualenv directory!**
-You should `.gitignore` this directory.
-* `requirements.txt` should be the output of [freezing](virtualenv.md#freeze) your virtualenv with all of the necessary packages installed.
-* `.gitignore` should ignore `venv` and any other OS or editor junk like `.DS_Store` or `.cache` or `__pycache__`.
-* The rest of the files are your actual source.
+Commit all these files (other than the `venv` directory).

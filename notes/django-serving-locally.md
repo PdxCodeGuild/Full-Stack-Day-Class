@@ -2,6 +2,6 @@
 ```bash
 python manage.py runserver
 ```
-from inside your virtualenv will start a server on `http://localhost:8000/`.
+from inside your virtualenv in your repository root will start a server on `http://localhost:8000/`.
 
 `localhost` or `127.0.0.1` are host addresses that refer to your machine.

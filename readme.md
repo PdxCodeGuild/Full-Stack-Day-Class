@@ -23,14 +23,14 @@
 1. [Terminal IO](notes/terminalio.md)
 1. [Basic Casting](notes/basiccasting.md)
 1. [Comments](notes/comments.md)
-1. [Basic Problem Solving](notes/basic_problem_solving.md)
-1. [Basic Variable Naming](notes/basicvarnaming.md)
 1. [Evaluation Order](notes/evaluationorder.md)
 1. [Basic Math](notes/basicmath.md)
+1. [Basic Variable Naming](notes/basicvarnaming.md)
 1. PyCharm
 1. Demo: [Simple Unit Converter](demo/simpleunitconvert.md)
 1. Demo: [Greeting](demo/greeting.md)
 1. [Basic Debugging](notes/basic_debugging.md)
+1. [Basic Problem Solving](notes/basic_problem_solving.md)
 1. Group Practice: [Change Return](practice/changereturn.md)
 1. Individual Practice: [Madlib](practice/madlib.md)
 1. Checked Practice: [Wall Painting](practice/wallpainting.md)
@@ -270,7 +270,7 @@
 1. [App Requirements](notes/py-app-requirements.md)
 1. [App Structure](notes/py-app-structure.md)
 1. Demo: [Web Getter](demos/webgetter)
-1. Checked Practice: [Rotate Image](practice/rotate-image.md)
+1. Individual Practice: [Rotate Image](practice/rotate-image.md)
 1. [Web Basics](notes/webbasics.md)
 1. [URLs](notes/urls.md)
 1. [Django Overview](notes/djangooverview.md)
@@ -281,13 +281,13 @@
 1. [Routes](notes/django-routes.md)
 1. [Regular Expressions](notes/regular-expressions.md)
 1. [Query Parameters](notes/django-query-parameters.md)
-1. Serving Locally
+1. [Serving Locally](notes/django-serving-locally.md)
+1. Logic
+1. Demo: [Calculator](demos/calculator.md)
 1. [Django Problem Solving](notes/django-problem-solving.md)
-1. Demo: [Calculator](demos/calculator)
 1. Group Practice: [Multi-Madlib](practice/multi-madlib.md)
-1. Checked Practice:
+1. Checked Practice: [Book Stats](practice/book_stats.md)
 1. Individual Practice:
-1. Server Logic
 1. Templates
 1. POSTing
 1. Demo:
