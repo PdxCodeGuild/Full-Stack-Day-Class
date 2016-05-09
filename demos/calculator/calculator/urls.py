@@ -16,6 +16,12 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
+# In a Django app, modules have to be imported in a package-relative way.
+# Your "application root" is the "." package.
+from . import views
+
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
+    # Link together path regexps with view functions imported from your views.
+    url(r'^plus', views.render_plus),
+    url(r'^minus', views.render_minus),
 ]
