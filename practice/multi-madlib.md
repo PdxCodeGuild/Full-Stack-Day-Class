@@ -1,8 +1,13 @@
 # Practice: Multi-Madlib
-Make a website that fills in madlibs.
-Find or make up three madlibs with three slots each.
+Put your solution in a directory named `multi_madlib`.
+Your solution should be a full-fledged Django and Python application.
 
-Make a view for each madlib.
-Have it take in query arguments for each slot.
-If any query arguments are missing, respond with a 400 and a list of the needed argument names in the body.
-Otherwise, respond with a 200 and the filled out madlib.
+Make a website that fills in madlibs, served by Django.
+Find or make up three madlibs with at least three word slots each.
+
+Make a page for each madlib;
+come up with some short name for each one, e.g. `/kangaroo_lib`.
+Have it take in query arguments for each missing word, e.g. `/kangaroo_lib?noun_1=house`.
+
+Respond with the text of the filled out madlib and a `200 OK` response code.
+If any query arguments are missing, respond with a `400 BAD REQUEST` and a list of the needed argument names in the body.
