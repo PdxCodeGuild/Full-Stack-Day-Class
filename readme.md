@@ -271,16 +271,17 @@
 1. [App Structure](notes/py-app-structure.md)
 1. Demo: [Web Getter](demos/webgetter)
 1. Individual Practice: [Rotate Image](practice/rotate-image.md)
-1. [Web Basics](notes/webbasics.md)
 1. [URLs](notes/urls.md)
+1. [Web Basics](notes/webbasics.md)
 1. [Django Overview](notes/djangooverview.md)
 1. [Web Framework](notes/webframework.md)
 1. [Django Init](notes/django-init.md)
-1. Relative Importing
 1. [Views](notes/django-views.md)
+1. Package Importing
 1. [Routes](notes/django-routes.md)
 1. [Regular Expressions](notes/regular-expressions.md)
 1. [Query Parameters](notes/django-query-parameters.md)
+1. [Responses](notes/django-responses.md)
 1. [Serving Locally](notes/django-serving-locally.md)
 1. Demo: [Calculator](demos/calculator.md)
 1. [Django Problem Solving](notes/django-problem-solving.md)
@@ -288,16 +289,21 @@
 1. Checked Practice: [Book Stats](practice/book-stats.md)
 1. Individual Practice:
 1. [Templates](practice/django-templates.md)
+1. Static Files
 1. Logic
-1. POSTing
-1. Headers
-1. Demo:
+1. [Submitting Forms](notes/django-posting.md)
+1. Demo: [Comment Posting](demos/comments.md)
 1. Group Practice:
 1. Checked Practice:
-1. Individual Practice:
+1. Individual Practice: [Image Serve](practice/image-serve.md)
 1. [Object Relational Mapper](notes/orm.md)
+1. Models
+1. Saving
+1. Querying
+1. Admin Site
 
 ## Heroku Deployment
+1. PostgreSQL
 
 ## APIs and Web Interfaces
 1. [JSON](notes/json.md)

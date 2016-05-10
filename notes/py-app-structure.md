@@ -2,7 +2,7 @@
 Each of your practice problems and your capstone should be a separate full-fledged Python **application**.
 Each app lives in its own directory and has a few necessary parts.
 ```
-APP_NAME/
+PROJECT_NAME/
     venv/
     requirements.txt
     .gitignore
@@ -12,13 +12,13 @@ APP_NAME/
         MORE_YOUR_SOURCE.py
 ```
 
-The top level `APP_NAME` directory is the **repository root**.
+The top level `PROJECT` directory is the **project root**.
 
-## 1. Create Repository Root
-For each of your problems, create a new directory.
+## 1. Create Project Root
+For each of your problems, create a new project root directory with the name of your project.
 ```bash
-mkdir YOUR_APP
-cd YOUR_APP
+mkdir PROJECT_NAME
+cd PROJECT_NAME
 ```
 
 ## 2. Setup Git Ignore
@@ -26,7 +26,7 @@ Then setup a Git ignore file so you won't commit your virtualenv.
 **Don't commit your virtualenv!**
 
 ```bash
-echo 'venv\n__pycache__\n' > .gitignore
+echo venv __pycache__ > .gitignore
 ```
 or save [this example file](../demos/example_gitignore).
 

@@ -3,13 +3,14 @@ When starting a Django problem from scratch, use the following steps to get star
 
 ## 1. Make Application
 Follow [the steps to make a Python application](py-app-structure.md).
+[Install](pip.md) the Django package in your virtualenv.
 
 ## 2. Init Django Files
-Run the [Django init script](django-init.md) to create the bare-bones Django Python files.
-Commit them.
+Follow the steps to initialize a [Django project](django-init.md).
+Commit all the resulting files.
 
 ## 3. Write Views
-Create a `views.py` in your application root with [views](django-views.md) and make a function for each page.
+[Create view functions](django-views.md) for each page.
 
 ## 4. Route
 [Create routes](django-routes.md) for each of your views.

@@ -26,6 +26,12 @@ If you need a very specific version of a package you can specify a [version spec
 pip install 'NAME==1.2.3'
 ```
 
+## List
+To list all of the packages currently installed:
+```bash
+pip list
+```
+
 ## Uninstall
 To remove a specific package:
 ```bash
