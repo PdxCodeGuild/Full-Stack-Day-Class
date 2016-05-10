@@ -1,4 +1,4 @@
-"""calculator URL Configuration
+"""comments URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/1.9/topics/http/urls/
@@ -15,15 +15,15 @@ Including another URLconf
 """
 from django.conf.urls import url
 
-# Import your views module, so you can tell Django about the view functions.
-# Remember, importing in Django apps has to be package-relative.
-# "." is your application root module.
 from . import views
+from . import ajax_views
 
 
 urlpatterns = [
-    # Link together path regexps with view functions imported from views
-    # module.
-    url(r'^plus', views.render_plus),
-    url(r'^minus', views.render_minus),
+    url(r'^$', views.render_index, name='index'),
+    url(r'^form/$', views.render_form, name='form_page'),
+    url(r'^form/submit$', views.render_ack),
+
+    url(r'^ajax/$', ajax_views.render_index, name='ajax_index'),
+    url(r'^ajax/submit$', ajax_views.render_ack),
 ]

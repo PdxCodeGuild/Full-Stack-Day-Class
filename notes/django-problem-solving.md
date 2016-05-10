@@ -15,8 +15,11 @@ Commit all the resulting files.
 ## 4. Route
 [Create routes](django-routes.md) for each of your views.
 
-## 5. Run Server
+## 5. Write Logic
+Work on your [core program logic](django-logic.md) in modules that don't use Django.
+
+## 6. Run Server
 [Run your server locally](django-serving-locally.md) and see if you can get the views to load.
 
-## 5. Write Logic
+## 7. Write Logic
 Now you can actually flesh out the logic of your app that is called from the view functions.

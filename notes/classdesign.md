@@ -52,3 +52,8 @@ this_class = CodeGuildClass('2016-01-01', [me, you])
 num_students = len(this_class.students)
 num_students  #> 2
 ```
+
+## Entity-Relational Modeling
+Draw out boxes for each noun.
+Lists fields.
+Draw a line between a field that contains another noun.

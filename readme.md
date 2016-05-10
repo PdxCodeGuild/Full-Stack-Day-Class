@@ -282,6 +282,7 @@
 1. [Regular Expressions](notes/regular-expressions.md)
 1. [Query Parameters](notes/django-query-parameters.md)
 1. [Responses](notes/django-responses.md)
+1. [Logic in Web Apps](notes/django-logic.md)
 1. [Serving Locally](notes/django-serving-locally.md)
 1. Demo: [Calculator](demos/calculator.md)
 1. [Django Problem Solving](notes/django-problem-solving.md)
@@ -289,18 +290,22 @@
 1. Checked Practice: [Book Stats](practice/book-stats.md)
 1. Individual Practice:
 1. [Templates](practice/django-templates.md)
-1. Static Files
-1. Logic
-1. [Submitting Forms](notes/django-posting.md)
-1. Demo: [Comment Posting](demos/comments.md)
-1. Group Practice:
-1. Checked Practice:
+1. [Static Files](practice/django-static-files.md)
+1. [Posting Data](notes/django-posting.md)
+1. Demo: [Comments](demos/comments.md)
+1. Group Practice: [Polls](practice/polls.md)
+1. Checked Practice: [Jokes](practice/jokes.md)
 1. Individual Practice: [Image Serve](practice/image-serve.md)
 1. [Object Relational Mapper](notes/orm.md)
 1. Models
 1. Saving
 1. Querying
+1. [Path Parameters](notes/django-path-parameters.md)
 1. Admin Site
+1. Demo:
+1. Group Practice:
+1. Checked Practice:
+1. Individual Practice:
 
 ## Heroku Deployment
 1. PostgreSQL

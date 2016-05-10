@@ -1,0 +1,24 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Comment Form</title>
+        <link rel="stylesheet" href="{% static 'comments/style.css' %}">
+    </head>
+    <body>
+        <h1>Comments</h1>
+        <form>
+            <textarea id="comment-text"></textarea>
+            <input type="submit">
+        </form>
+        {% for comment_text in comments %}
+        <section>
+            <blockquote>{{ comment_text }}</blockquote>
+        </section>
+        {% endfor %}
+
+        <script src="https://code.jquery.com/jquery-2.2.3.js"></script>
+        <script src="{% static 'comments/ajax.js' %}"></script>
+    </body>
+</html>
