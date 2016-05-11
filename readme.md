@@ -289,8 +289,8 @@
 1. Group Practice: [Multi-Madlib](practice/multi-madlib.md)
 1. Checked Practice: [Book Stats](practice/book-stats.md)
 1. Individual Practice:
-1. [Templates](practice/django-templates.md)
-1. [Static Files](practice/django-static-files.md)
+1. [Templates](notes/django-templates.md)
+1. [Static Files](notes/django-static-files.md)
 1. [Posting Data](notes/django-posting.md)
 1. Demo: [Comments](demos/comments.md)
 1. Group Practice: [Polls](practice/polls.md)
