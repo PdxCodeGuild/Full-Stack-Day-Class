@@ -2,7 +2,7 @@
 [March 16th to June 9th Day Class Schedule](schedule/mar16th.md)
 
 ## Intro
-1. [Course Expectations](notes/course_expectations.md)
+1. [Course Expectations](notes/course-expectations.md)
 1. [Course Logistics](notes/course_logistics.md)
 1. [Checked Practice](notes/checked_practice.md)
 1. [Course Portfolio](intro/notes/courseportfolio.md)
@@ -164,9 +164,9 @@
 ## Building a Web App
 1. [High-Level Structure of a Web App](notes/webappoverview.md)
 1. [Front-End vs Back-End](notes/frontvsback.md)
-1. [Capstone Introduction](notes/capstoneintro.md)
-1. [Capstone Proposal](notes/capstoneproposal.md)
+1. [Capstone Introduction](notes/capstone-intro.md)
 1. [MVP](notes/mvp.md)
+1. [Capstone Proposal](notes/capstone-proposal.md)
 1. Demo: [Image Pipe Proposal](demos/proposal.md)
 
 ## Interface Structure with HTML

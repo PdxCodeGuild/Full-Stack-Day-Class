@@ -1,19 +1,22 @@
 # Capstone Proposal
-Write up a **proposal** for your capstone project.
+Write up a **proposal** for your [MVP](mvp.md) capstone project idea.
 It should be _brief_ and clear single text document that follows the rubric below of no more than two pages.
 Feel free to hand draw mockups and include them if that helps you plan, but they can't take the place of a write-up.
 
 Your proposal serves a few important purposes:
+
 1. Front-load decision making.
 Figure out _now_ how you're going to solve your problems.
 Do some prototyping and research.
 1. Guidance _for you_.
 When you're working on the project, you can look at it and know what to do next.
-1. Safety check. I'll check you're meeting [the capstone requirements](capstoneintro.md#projectrequirements) and you can complete it in time.
+1. Safety check.
+I'll check you're meeting [the capstone requirements](capstone-intro.md#projectrequirements) and you can complete it in time.
 I am _not_ evaluating the business savvy of your project (although I'd be happy to give my two cents, if you ask).
 
 ## Rubric
-Please address all of the following areas in your proposal **for your MVP**.
+Please address all of the following areas in your proposal **for just your MVP**.
+Even if you have grand dreams for working on your capstone full-time, _only_ write up the MVP here.
 
 ### Name
 Give your product or project a simple, short name.
