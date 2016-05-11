@@ -2,7 +2,7 @@
 [March 16th to June 9th Day Class Schedule](schedule/mar16th.md)
 
 ## Intro
-1. Course Expectations
+1. [Course Expectations](notes/course_expectations.md)
 1. [Course Logistics](notes/course_logistics.md)
 1. [Checked Practice](notes/checked_practice.md)
 1. [Course Portfolio](intro/notes/courseportfolio.md)
