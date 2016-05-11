@@ -296,6 +296,11 @@
 1. Group Practice: [Polls](practice/polls.md)
 1. Checked Practice: [Jokes](practice/jokes.md)
 1. Individual Practice: [Image Serve](practice/image-serve.md)
+1. AJAX
+1. Demo:
+1. Group Practice:
+1. Checked Practice:
+1. Individual Practice:
 1. [Object Relational Mapper](notes/orm.md)
 1. Models
 1. Saving
