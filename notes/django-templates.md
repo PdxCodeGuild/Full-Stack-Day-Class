@@ -25,12 +25,13 @@ If we saved this in `templates/DJANGO_APP_NAME/greet.html` in your Django applic
 
 Then our view could **render** that template and fill in all of the values.
 You give each template a **context** dictionary of the variables the template needs to render.
+This context is like the "arguments" for running the template as a "function".
 ```py
 from django.shortcuts import render
 
 def render_greeting(request):
-    context = {'name': request.GET['name']}
-    return render(request, 'DJANGO_APP_NAME/greet.html', context)
+    arguments = {'name': request.GET['name']}
+    return render(request, 'DJANGO_APP_NAME/greet.html', arguments)
 ```
 
 The resulting response content would be:
@@ -43,6 +44,9 @@ The resulting response content would be:
 </html>
 ```
 
+Template variable names and context dictionary keys need to match.
+The template doesn't know or care what Python variable names you use in the view.
+
 Templates have no knowledge of HTML syntax.
 They just interpolate strings.
 You're writing Django template code that needs to write HTML code.
@@ -53,9 +57,9 @@ Templates live in the `templates/DJANGO_APP_NAME` directory in the Django applic
 For a full list of features, read the [Django template docs](https://docs.djangoproject.com/en/1.9/ref/templates/language/).
 
 ## Variables
-Template **variables** work just like Python string formatting.
-Use the name of the variable in double braces `{{}}`.
-If a variable has structure, you can reach inside the structure using a dot operator.
+**Template variables** work just like Python string formatting.
+Use the name of the template variable in double braces `{{}}`.
+If a template variable has structure, you can reach inside the structure using a dot operator.
 Nested dictionaries, classes, and lists all work.
 
 In your view
@@ -65,18 +69,18 @@ class Color:
         self.hex_string = hex_string
 
 def render_template(request):
-    context = {
-        'model': 'Mustang'
+    template_arguments = {
+        'model': 'Mustang',
         'facts': {
             'make': 'Ford',
             'color': Color('#FF0000'),
         },
         'years_owned': [1981, 2001],
     }
-    return render(request, 'template.html', context)
+    return render(request, 'template.html', template_arguments)
 ```
 
-In your `template.html`:
+In `template.html`:
 ```html
 <div>
     <h2 style="color: {{ facts.color.hex_string }};">{{ model }}<small>{{ facts.make }}</small></h2>
@@ -88,6 +92,7 @@ In your `template.html`:
 Django gives you a way of not having to remember your routing patterns.
 Instead you should refer to other views by their [short name](django-routes.md) using the `url` tag.
 
+In your template:
 ```html
 <a href="{% url 'post' %}">Post a comment.</a>
 ```
@@ -99,14 +104,14 @@ It has exactly the same semantics as a [normal Python if statement](branchingblo
 In your view:
 ```py
 def render_template(request):
-    context = {
+    template_arguments = {
         'message': 'You are on fire!',
         'type': 'warning'
     }
-    return render(request, 'template.html', context)
+    return render(request, 'template.html', template_arguments)
 ```
 
-In your `template.html`:
+In `template.html`:
 ```html
 {% if type == 'warning' %}
 <span class='yellow'>Warning: {{ message }}</span>
@@ -120,7 +125,8 @@ This will only output one of the three `span`s.
 
 ## For Tag
 You can repeat sections of HTML by using a `for` loop tag.
-It has exactly the same semantics as a [normal Python for loop](forloops.md).
+It has exactly the same semantics as a [normal Python for loop](forloops.md):
+the `for` tag creates a new template variable with a given name for each item in the loop.
 
 In your view:
 ```py
@@ -130,16 +136,16 @@ class AddressBookEntry:
         self.phone_number = phone_number
 
 def render_template(request):
-    context = {
+    template_arguments = {
         'friends': [
             AddressBookEntry('David', '507-555-9895'),
             AddressBookEntry('Helen', '507-555-1234'),
         ]
     }
-    return render(request, 'template.html', context)
+    return render(request, 'template.html', template_arguments)
 ```
 
-In your `template.html`:
+In `template.html`:
 ```html
 <ul>
     {% for friend in friends %}

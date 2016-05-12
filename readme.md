@@ -282,21 +282,27 @@
 1. Package Importing
 1. [Routes](notes/django-routes.md)
 1. [Regular Expressions](notes/regular-expressions.md)
-1. [Query Parameters](notes/django-query-parameters.md)
 1. [Responses](notes/django-responses.md)
-1. [Logic in Web Apps](notes/django-logic.md)
+1. [Logic](notes/django-logic.md)
 1. [Serving Locally](notes/django-serving-locally.md)
-1. Demo: [Calculator](demos/calculator.md)
+1. Demo:
 1. [Django Problem Solving](notes/django-problem-solving.md)
-1. Group Practice: [Multi-Madlib](practice/multi-madlib.md)
-1. Checked Practice: [Book Stats](practice/book-stats.md)
+1. [Django Debugging](notes/django-debugging.md)
+1. Group Practice:
+1. Checked Practice:
 1. Individual Practice:
 1. [Templates](notes/django-templates.md)
 1. [Static Files](notes/django-static-files.md)
-1. [Posting Data](notes/django-posting.md)
-1. Demo: [Comments](demos/comments.md)
-1. Group Practice: [Polls](practice/polls.md)
-1. Checked Practice: [Jokes](practice/jokes.md)
+1. Demo:
+1. [Template Debugging](notes/django-template-debugging.md)
+1. Group Practice:
+1. Checked Practice:
+1. Individual Practice:
+1. [Query Parameters](notes/django-query-parameters.md)
+1. [Posting Forms](notes/django-posting.md)
+1. Demo: [Comments](demos/comments.md) [Calculator](demos/calculator.md)
+1. Group Practice: [Polls](practice/polls.md) [Multi-Madlib](practice/multi-madlib.md)
+1. Checked Practice: [Jokes](practice/jokes.md) [Book Stats](practice/book-stats.md)
 1. Individual Practice: [Image Serve](practice/image-serve.md)
 1. AJAX
 1. Demo:
@@ -304,8 +310,8 @@
 1. Checked Practice:
 1. Individual Practice:
 1. [Object Relational Mapper](notes/orm.md)
-1. Entity-Relation Diagram
-1. Models
+1. [Entity-Relation Diagrams](notes/entity-relation.md)
+1. [Models](django-models.md)
 1. Saving
 1. Querying
 1. [Path Parameters](notes/django-path-parameters.md)
@@ -320,6 +326,7 @@
 1. PostgreSQL
 
 ## APIs and Web Interfaces
+1. [AJAX](notes/ajax.md)
 1. [JSON](notes/json.md)
 1. [APIs](notes/apis.md)
 1. [HTTP APIs](notes/http_apis.md)
