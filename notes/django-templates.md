@@ -33,6 +33,7 @@ def render_greeting(request):
     return render(request, 'DJANGO_APP_NAME/greet.html', context)
 ```
 
+The resulting response content would be:
 ```html
 <!DOCTYPE html>
 <html>
@@ -42,6 +43,10 @@ def render_greeting(request):
 </html>
 ```
 
+Templates have no knowledge of HTML syntax.
+They just interpolate strings.
+You're writing Django template code that needs to write HTML code.
+
 Templates live in the `templates/DJANGO_APP_NAME` directory in the Django application root.
 
 ## Basic Features
@@ -49,59 +54,96 @@ For a full list of features, read the [Django template docs](https://docs.django
 
 ## Variables
 Template **variables** work just like Python string formatting.
-Use the name of the variable in
+Use the name of the variable in double braces `{{}}`.
+If a variable has structure, you can reach inside the structure using a dot operator.
+Nested dictionaries, classes, and lists all work.
 
+In your view
 ```py
-album_entry = {
-    'description': 'Cool pic of cats',
-    'src_url': 'htttp://aksdjflaksdjf.gif'
-}
+class Color:
+    def __init__(self, hex_string):
+        self.hex_string = hex_string
 
-render(request, 'temp.html', {'album_entry': album_entry})
+def render_template(request):
+    context = {
+        'model': 'Mustang'
+        'facts': {
+            'make': 'Ford',
+            'color': Color('#FF0000'),
+        },
+        'years_owned': [1981, 2001],
+    }
+    return render(request, 'template.html', context)
 ```
 
+In your `template.html`:
 ```html
 <div>
-    <span>{{ album_entry.description }}</span>
-    <img src="{{ album_entry.src_url }}">
-    <{{ tag_name }}> </{{ tag_name }}>
+    <h2 style="color: {{ facts.color.hex_string }};">{{ model }}<small>{{ facts.make }}</small></h2>
+    <span>Years Owned: {{ years_owned.1 }}, {{ years_owned.2 }}</span>
 </div>
 ```
 
-## If Tag
+## Links
+Django gives you a way of not having to remember your routing patterns.
+Instead you should refer to other views by their [short name](django-routes.md) using the `url` tag.
 
-```py
-context = {
-    'message': 'You are on fire!',
-    'type': 'warning'
-}
-render(request, 'temp.html', context)
+```html
+<a href="{% url 'post' %}">Post a comment.</a>
 ```
 
+## If Tag
+You can optionally output different HTML by using an `if` tag.
+It has exactly the same semantics as a [normal Python if statement](branchingblocks.md).
+
+In your view:
+```py
+def render_template(request):
+    context = {
+        'message': 'You are on fire!',
+        'type': 'warning'
+    }
+    return render(request, 'template.html', context)
+```
+
+In your `template.html`:
 ```html
 {% if type == 'warning' %}
-<span class='yellow'>Warn: {{ message }}</span>
+<span class='yellow'>Warning: {{ message }}</span>
 {% elif type == 'info' %}
 <span class='green'>Info: {{ message }}</span>
+{% else %}
+<span>{{ message }}</span>
 {% endif %}
 ```
+This will only output one of the three `span`s.
 
 ## For Tag
+You can repeat sections of HTML by using a `for` loop tag.
+It has exactly the same semantics as a [normal Python for loop](forloops.md).
+
+In your view:
 ```py
-context = {
-    'messages': [
-        'Neat',
-        'fine',
-        'hairy'
-    ]
-}
-render(request, 'temp.html', context)
+class AddressBookEntry:
+    def __init__(self, name, phone_number):
+        self.name = name
+        self.phone_number = phone_number
+
+def render_template(request):
+    context = {
+        'friends': [
+            AddressBookEntry('David', '507-555-9895'),
+            AddressBookEntry('Helen', '507-555-1234'),
+        ]
+    }
+    return render(request, 'template.html', context)
 ```
 
+In your `template.html`:
 ```html
 <ul>
-{% for message in messages %}
-<li>{{ message }}</li>
-{% endfor %}
+    {% for friend in friends %}
+    <li>{{ friend.name }} - {{ friend.phone_number }}</li>
+    {% endfor %}
 </ul>
 ```
