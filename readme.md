@@ -36,6 +36,7 @@
 1. Checked Practice: [Wall Painting](practice/wallpainting.md)
 1. [Source Control](notes/sourcecontrol.md)
 1. [Basic Git](notes/basicgit.md)
+1. [Git Ignore](notes/git-ignore.md)
 1. Demo: Git
 1. Practice: Basic Git
 1. [Booleans](notes/booleans.md)
@@ -175,6 +176,7 @@
 1. [HTML Basics](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction)
 1. [Semantic Elements](notes/semanticelements.md)
 1. [Hierarchy](notes/htmlhierarchy.md)
+1. Paths
 1. Demo: [Basic Elements](demos/basichtml.md)
 1. [Element Reference](https://developers.whatwg.org)
 1. [Web Inspector Structure Basics](http://ruby.bastardsbook.com/chapters/web-inspecting-html/)
@@ -302,11 +304,13 @@
 1. Checked Practice:
 1. Individual Practice:
 1. [Object Relational Mapper](notes/orm.md)
+1. Entity-Relation Diagram
 1. Models
 1. Saving
 1. Querying
 1. [Path Parameters](notes/django-path-parameters.md)
 1. Admin Site
+1. Django Admin Init
 1. Demo:
 1. Group Practice:
 1. Checked Practice:

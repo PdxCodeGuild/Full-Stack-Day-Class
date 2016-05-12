@@ -22,13 +22,10 @@ cd PROJECT_NAME
 ```
 
 ## 2. Setup Git Ignore
-Then setup a Git ignore file so you won't commit your virtualenv.
+Then setup a [Git ignore](git-ignore.md) file so you won't commit your virtualenv.
 **Don't commit your virtualenv!**
 
-```bash
-echo venv __pycache__ > .gitignore
-```
-or save [this example file](../demos/example_gitignore).
+Save [this example file](../demos/example_gitignore) in `.gitignore` in your project root.
 
 ## 3. Create Virtualenv
 [Create a new virtualenv](virtualenv.md#create) in your repository root.

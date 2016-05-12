@@ -1,3 +1,11 @@
-venv
-.cache
+# Pre-parsed Python
 __pycache__
+
+# Virtualenvs
+venv
+
+# PyCharm Temporary Files
+.cache
+
+# Django Default DB
+db.sqlite3

@@ -48,20 +48,24 @@ INSTALLED_APPS = [
 ]
 ```
 
-## 2. Create Views
+## 3. Update Git Ignore
+Ensure that your project root `.gitignore` file contains `db.sqlite3`.
+Consult [this example file](../demos/example_gitignore) or [notes on Git ignore](git-ignore.md).
+
+## 4. Create Views
 Create an empty `views.py` in the Django application root for your [views](django-views.md).
 ```bash
 touch DJANGO_APP_NAME/views.py
 ```
 
-## 3. Create Templates Directory
+## 5. Create Templates Directory
 Create an empty [templates](django-templates.md) directory for your HTML.
 Yes, it's redundant, but under `templates` in your Django application root, you should make another directory named your app name.
 ```bash
 mkdir -p DJANGO_APP_NAME/templates/DJANGO_APP_NAME
 ```
 
-## 4. Create Static Files Directory
+## 6. Create Static Files Directory
 Create an empty [static files](django-static-files.md) directory for images, CSS, and JS.
 Yes, it's redundant, but under `static` in your Django application root, you should make another directory named your app name.
 ```bash
