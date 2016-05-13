@@ -9,4 +9,5 @@ Have a listing page where jokes are shown.
 Hide the punch lines until someone clicks on the setup.
 
 ## Advanced
+Ensure that the jokes aren't empty before accepting the submission.
 Use AJAX to submit your jokes.

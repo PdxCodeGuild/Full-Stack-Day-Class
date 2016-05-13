@@ -5,7 +5,7 @@ Have a site with two pages:
 1. Poll submission
 1. Summary
 
-On the poll submission page ask people what their favorite color of ice cream is:
+On the poll submission page ask people what their favorite flavor of ice cream is:
 * Chocolate
 * Vanilla
 * Strawberry

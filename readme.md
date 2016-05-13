@@ -300,10 +300,10 @@
 1. Individual Practice:
 1. [Query Parameters](notes/django-query-parameters.md)
 1. [Posting Forms](notes/django-posting.md)
-1. Demo: [Comments](demos/comments.md) [Calculator](demos/calculator.md)
-1. Group Practice: [Polls](practice/polls.md) [Multi-Madlib](practice/multi-madlib.md)
+1. Demo: [Comments](demos/comments.md)
+1. Group Practice: [Ice Cream Poll](practice/ice-cream-poll.md)
 1. Checked Practice: [Jokes](practice/jokes.md) [Book Stats](practice/book-stats.md)
-1. Individual Practice: [Image Serve](practice/image-serve.md)
+1. Individual Practice: [Multi-Madlib](practice/multi-madlib.md) [Image Serve](practice/image-serve.md)
 1. AJAX
 1. Demo:
 1. Group Practice:
