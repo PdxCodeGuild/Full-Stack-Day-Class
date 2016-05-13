@@ -10,7 +10,7 @@ On the poll submission page ask people what their favorite flavor of ice cream i
 * Vanilla
 * Strawberry
 
-On the summary page, have a table of responses and percentages.
+On the summary page, have a table of flavors and percentages.
 
 ## Advanced
 * Submit the polls using AJAX
