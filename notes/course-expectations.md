@@ -26,14 +26,19 @@ If you need to go home sick for a day, go home.
 
 ## Attitude
 This class is _immersive_.
-It will only be about a 5th lecture.
+It will only be about one-fifth lecture.
 
 I want you to **act** and not study.
 That is why I will be checking your problems.
 Seek out help, but learn to be independent.
 When you finish this course you will _not_ know everything.
-We will teach you the _basic building blocks_ but you have to be prepared to expand upon them.
+We will teach you the _basic building blocks_ but you will be required to expand upon them.
 Being a software developer is a process of continually learning.
+
+I don't care if you make mistakes.
+The computer _definitely_ doesn't care if you make mistakes.
+**Embrace mistakes!**
+If you are a perfectionist, work now on metering that tendency.
 
 You are paying for access to Code Guild's human expertise.
 Ask questions.
@@ -50,6 +55,8 @@ Class will look like:
 1. Individual Practice
 1. Checked Practice
 1. Repeat
+
+I will be doing 1-1s and give periodic Hot Tips.
 
 I want you to succeed!
 All of these rules are flexible, but realize they're to push you and make the class valuable.

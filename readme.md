@@ -27,8 +27,8 @@
 1. [Basic Math](notes/basicmath.md)
 1. [Basic Variable Naming](notes/basicvarnaming.md)
 1. PyCharm
-1. Demo: [Simple Unit Converter](demo/simpleunitconvert.md)
-1. Demo: [Greeting](demo/greeting.md)
+1. Demo: [Simple Unit Converter](demos/simpleunitconvert.md)
+1. Demo: [Greeting](demos/greeting.md)
 1. [Basic Debugging](notes/basic_debugging.md)
 1. [Basic Problem Solving](notes/basic_problem_solving.md)
 1. Group Practice: [Change Return](practice/changereturn.md)
@@ -41,7 +41,7 @@
 1. Practice: Basic Git
 1. [Booleans](notes/booleans.md)
 1. [Comparison Operators](notes/comparison.md)
-1. [Branching and Blocks](notes/branchingandblocks.md)
+1. [Branching and Blocks](notes/branchingblocks.md)
 1. Demo: [Written-Out Numbers](demos/writtennumbers.md)
 1. Group Practice: [Taxes](practice/taxes.md)
 1. Individual Practice: Unit Converter
@@ -156,7 +156,7 @@
 1. [Modules](notes/modules.md)
 1. [Testing](notes/automatedtesting.md)
 1. [PyTest](notes/pytest.md)
-1. [Writing Good Tests](notes/writingtests.ms)
+1. [Writing Good Tests](notes/writingtests.md)
 1. Demo: Test Table Print
 1. Demo: [Test Geometry](demos/testgeometry.md)
 1. Practice: [Test Case Conversion](practice/testcase.md)
@@ -171,7 +171,7 @@
 1. Demo: [Image Pipe Proposal](demos/proposal.md)
 
 ## Interface Structure with HTML
-1. [Front-End Tools](notes/frontendtools.html)
+1. [Front-End Tools](notes/frontendtools.md)
 1. [Interface Principles](notes/interfaceprinciples.md)
 1. [HTML Basics](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction)
 1. [Semantic Elements](notes/semanticelements.md)
@@ -194,7 +194,7 @@
 1. [CSS Values](notes/cssvalues.md)
 1. [Style Locations](notes/stylelocations.md)
 1. [CSS Patterns](notes/csspatterns.md)
-1. Demo: [Basic Style](demo/basicstyle.md)
+1. Demo: [Basic Style](demos/basicstyle.md)
 1. [Property Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 1. Web Inspector Style Basics
 1. Group Practice: [Selector Puzzle](practice/selectorpuzzle.md)
@@ -203,7 +203,7 @@
 1. [Box Model and Sizing](notes/boxmodel.md)
 1. [Default Layout](notes/defaultlayout.md)
 1. [Hierarchical Layout](notes/hierarchicallayout.md)
-1. [Float](notes/float.md)
+1. [Float](notes/floats.md)
 1. [Flexbox](notes/flexbox.md)
 1. [Layout Problem Solving](notes/layoutproblemsolving.md)
 1. Demo: [Basic Layout](demos/basiclayout.md)
@@ -311,7 +311,7 @@
 1. Individual Practice:
 1. [Object Relational Mapper](notes/orm.md)
 1. [Entity-Relation Diagrams](notes/entity-relation.md)
-1. [Models](django-models.md)
+1. [Models](notes/django-models.md)
 1. Saving
 1. Querying
 1. [Path Parameters](notes/django-path-parameters.md)

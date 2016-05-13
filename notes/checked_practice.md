@@ -13,4 +13,4 @@ We want you to succeed in your capstone, and we want to make sure you're prepare
 If you are seriously falling behind, you will have to drop the class.
 
 Many of our class projects will be **group practice**.
-This class has [expectations about group work](groupwork.md).
+This class has [expectations about group work](../intro/notes/groupwork.md).

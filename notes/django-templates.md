@@ -99,7 +99,7 @@ In your template:
 
 ## If Tag
 You can optionally output different HTML by using an `if` tag.
-It has exactly the same semantics as a [normal Python if statement](branchingblocks.md).
+It has exactly the same semantics as a [normal Python if statement](branchingblocks.md), although it has [fewer operators it supports](https://docs.djangoproject.com/en/1.9/ref/templates/builtins/#if).
 
 In your view:
 ```py
