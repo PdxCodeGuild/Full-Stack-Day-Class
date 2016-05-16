@@ -98,7 +98,7 @@ def find_all_links(lines):
             match_text = match.group()
             char_num = match.start()
             dest = match.group(2)
-            yield (line_num, char_num, dest, match_text)
+            yield (line_num + 1, char_num, dest, match_text)
 
 
 def main():
