@@ -10,9 +10,8 @@ import sys
 def pairs(group):
     """Given a group of people, produce frozenset pairs.
 
-    >>> frozenset(pairs(['A', 'B', 'C']))
-    frozenset([frozenset(['A', 'B']), frozenset(['A', 'C']),
-    ...frozenset(['B', 'C'])])
+    >>> sorted(sorted(pair) for pair in pairs(['A', 'B', 'C']))
+    [['A', 'B'], ['A', 'C'], ['B', 'C']]
     """
     return map(frozenset, combinations(group, 2))
 
@@ -21,9 +20,12 @@ def calc_pair_to_count(groups):
     """Given a list of groups, calculate a mapping from pairs to how often
     they have been grouped together.
 
-    >>> calc_pair_to_count([['A', 'B', 'C'], ['B', 'C']])
-    {frozenset(['A', 'B']): 1, frozenset(['A', 'C']): 1,
-    ...frozenset(['B', 'C']): 2}
+    >>> sorted(
+    ...     (sorted(pair), count)
+    ...     for pair, count
+    ...     in calc_pair_to_count([['A', 'B', 'C'], ['B', 'C']]).items()
+    ... )
+    [(['A', 'B'], 1), (['A', 'C'], 1), (['B', 'C'], 2)]
     """
     pair_to_count = {}
     for group in groups:
@@ -38,8 +40,10 @@ def score_group(group, historical_pair_to_count):
     """Given a group and a historical pair counts, return how many times
     group members have been paired together before.
 
-    >>> score_group(['A', 'B', 'C'], {frozenset(['A', 'B']): 1,
-    ...frozenset(['A', 'C']): 1})
+    >>> score_group(
+    ...     ['A', 'B', 'C', None],
+    ...     {frozenset(['A', 'B']): 1, frozenset(['A', 'C']): 1}
+    ... )
     2
     """
     return sum(
@@ -52,6 +56,12 @@ def score_group(group, historical_pair_to_count):
 def score_groups(groups, historical_pair_to_count):
     """Given a set of groups and a historical pair counts, return how many
     times group members have been paired together before.
+
+    >>> score_groups(
+    ...     [['A', 'B', 'C'], ['D', 'E', None]],
+    ...     {frozenset(['A', 'B']): 1, frozenset(['D', 'E']): 1}
+    ... )
+    2
     """
     return sum(
         score_group(group, historical_pair_to_count)
@@ -75,10 +85,8 @@ def all_groups(students, group_size):
     """Generate all possible unique groups of a given size from all students.
     Very permutive.
 
-    >>> all_groups(['A', 'B', 'C'], 2)
-    frozenset([frozenset([frozenset(['A', 'B']), frozenset(['C', None])]),
-    ...frozenset([frozenset(['A', 'C']), frozenset(['B', None])]),
-    ...frozenset([frozenset(['B', 'C']), frozenset(['A', None])])])
+    >>> sorted((sorted((sorted(group, key=str) for group in groups), key=str) for groups in all_groups(['A', 'B', 'C'], 2)), key=str)
+    [[['A', 'B'], ['C', None]], [['A', 'C'], ['B', None]], [['A', None], ['B', 'C']]]
     """
     return frozenset(
         frozenset(
@@ -92,6 +100,15 @@ def all_groups(students, group_size):
 
 
 def min_scoring_groups(groups_set, historical_pair_to_count):
+    """Given a list of possible groups and historical pair counts, return which
+    has the minimum score.
+
+    >>> min_scoring_groups(
+    ...     [[['A', 'B'], ['C', 'D']], [['A', 'C'], ['B', 'D']]],
+    ...     {frozenset(['A', 'B']): 1, frozenset(['C', 'D']): 1}
+    ... )
+    [['A', 'C'], ['B', 'D']]
+    """
     def score_groups_with_historical_pair_counts(groups):
         return score_groups(groups, historical_pair_to_count)
     return min(
@@ -101,21 +118,26 @@ def min_scoring_groups(groups_set, historical_pair_to_count):
 
 
 def gen_min_scoring_groups(students, group_size, historical_groups):
+    """Figure out what is the minimum-scoring group out of all possible groups
+    of some students.
+
+    >>> sorted((sorted(group, key=str) for group in gen_min_scoring_groups(['A', 'B', 'C'], 2, {frozenset({'A', 'B'}): 1})), key=str)
+    [['A', 'C'], ['B', None]]
+    """
     return min_scoring_groups(
         all_groups(students, group_size),
         calc_pair_to_count(historical_groups)
     )
 
 
-def parse_groups_file(file_path):
-    with open(file_path) as fp:
-        working_group = set()
-        for name in map(str.strip, chain(fp, [''])):
-            if name != '':
-                working_group.add(name)
-            elif len(working_group) > 0:
-                yield frozenset(working_group)
-                working_group = set()
+def parse_groups_file(groups_file):
+    working_group = set()
+    for name in map(str.strip, chain(groups_file, [''])):
+        if name != '':
+            working_group.add(name)
+        elif len(working_group) > 0:
+            yield frozenset(working_group)
+            working_group = set()
 
 
 def print_groups_file(groups):
@@ -131,20 +153,21 @@ def print_groups_file(groups):
     ))
 
 
-def parse_students_file(file_path):
-    with open(file_path) as fp:
-        return frozenset(name.strip() for name in fp) - frozenset([''])
+def parse_students_file(students_file):
+    return frozenset(name.strip() for name in students_file) - frozenset({''})
 
 
 def parse_groups_file_paths(groups_file_paths):
     historical_groups = set()
     for groups_file_path in groups_file_paths:
-        historical_groups.add(parse_groups_file(groups_file_path))
+        with open(groups_file_path) as groups_file:
+            historical_groups.add(parse_groups_file(groups_file))
     return frozenset(historical_groups)
 
 
 def main(students_file_path, group_size, groups_file_paths):
-    students = parse_students_file(students_file_path)
+    with open(students_file_path) as students_file:
+        students = parse_students_file(students_file)
     historical_groups = parse_groups_file_paths(groups_file_paths)
 
     min_scoring_groups = gen_min_scoring_groups(
@@ -158,10 +181,10 @@ def main(students_file_path, group_size, groups_file_paths):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
         description='Make student groups, ensuring that students work with '
-        'new people.'
+        'those they have worked with the fewest times before.'
     )
     parser.add_argument(
-        '-s',
+        '-n',
         dest='group_size',
         metavar='GROUP_SIZE',
         type=int,
