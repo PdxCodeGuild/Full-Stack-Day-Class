@@ -1,7 +1,9 @@
 # PDX Code Guild Syllabus
+
 [March 16th to June 9th Day Class Schedule](schedule/mar16th.md)
 
 ## Intro
+
 1. [Course Expectations](notes/course-expectations.md)
 1. [Course Logistics](notes/course_logistics.md)
 1. [Checked Practice](notes/checked_practice.md)
@@ -10,6 +12,7 @@
 1. [Working with Others](intro/notes/groupwork.md)
 
 ## Programming in Python
+
 1. Filesystem
 1. Stored Program Computer
 1. [Command Line Interface](notes/cli.md)
@@ -163,6 +166,7 @@
 1. Practice: [Test Tic-Tac-Toe Interface](practice/testinterface.md)
 
 ## Building a Web App
+
 1. [High-Level Structure of a Web App](notes/webappoverview.md)
 1. [Front-End vs Back-End](notes/frontvsback.md)
 1. [Capstone Introduction](notes/capstone-intro.md)
@@ -171,6 +175,7 @@
 1. Demo: [Image Pipe Proposal](demos/proposal.md)
 
 ## Interface Structure with HTML
+
 1. [Front-End Tools](notes/frontendtools.md)
 1. [Interface Principles](notes/interfaceprinciples.md)
 1. [HTML Basics](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction)
@@ -187,6 +192,7 @@
 1. Practice: [Food Preferences](practice/food.md)
 
 ## Styling and Layout with CSS
+
 1. [Basic CSS](notes/basiccss.md)
 1. [Classes and IDs](notes/classesandids.md)
 1. [CSS Selectors](notes/cssselectors.md)
@@ -214,6 +220,7 @@
 1. Checked Practice: [Sidebar](practice/sidebar.md)
 
 ## Intro to Javascript
+
 1. [Javascript Basics](js/notes/jsbasics.md)
 1. [Basic Types and Variables](js/notes/typesandvars.md)
 1. [Basic Objects and Arrays](js/notes/objectsarrays.md)
@@ -251,6 +258,7 @@
 1. Checked Practice:
 
 ## Front-End via Javascript
+
 1. [Basic Document Object Model](notes/dom.md)
 1. [jQuery](notes/jquery.md)
 1. [DOM Queries](notes/domqueries.md)
@@ -266,6 +274,7 @@
 1. Checked Practice: [Whack-A-Mole](practice/whack-a-mole.md)
 
 ## Django Backend Programming
+
 1. [Dependencies](notes/py-deps.md)
 1. [Virtualenv](notes/virtualenv.md)
 1. [Pip and PyPI](notes/pip.md)
@@ -312,34 +321,40 @@
 1. [Object Relational Mapper](notes/orm.md)
 1. [Entity-Relation Diagrams](notes/entity-relation.md)
 1. [Models](notes/django-models.md)
-1. Saving
-1. Querying
+1. [Instantiating and Saving Models](notes/django-saving-models.md)
+1. [Querying](notes/django-querying.md)
 1. [Path Parameters](notes/django-path-parameters.md)
-1. Admin Site
-1. Django Admin Init
-1. Demo:
-1. Group Practice:
-1. Checked Practice:
-1. Individual Practice:
+1. [Admin Site](notes/django-admin.md)
+1. Demo: [Playlists](demos/playlists.md)
+1. Group Practice: [Sub-Todo](practice/sub-todo.md)
+1. Checked Practice: [Flutter](practice/flutter.md)
+1. Individual Practice: Loaner
+1. [Shell and Backend](notes/django-shell.md)
+1. File Fields
 
 ## Heroku Deployment
+
 1. PostgreSQL
 
 ## APIs and Web Interfaces
+
 1. [AJAX](notes/ajax.md)
 1. [JSON](notes/json.md)
 1. [APIs](notes/apis.md)
 1. [HTTP APIs](notes/http_apis.md)
+1. REST
 1. Demo: [Weather](demos/weather.md)
 1. Group Practice: [Bus Stop Finder](practice/bus_stop_finder.md)
 1. Individual Practice:
 1. Checked Practice:
 
 ## Job Search and Interviewing
+
 1. Resume Writing
 1. Interview
 1. Negotiation
 1. References
 
 ## Hot Tips
+
 [Tips List](tips)

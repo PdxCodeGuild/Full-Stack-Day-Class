@@ -58,6 +58,12 @@ Create an empty `views.py` in the Django application root for your [views](djang
 touch DJANGO_APP_NAME/views.py
 ```
 
+## 4. Create Models
+Create an empty `models.py` in the Django application root for your [models](django-models.md).
+```bash
+touch DJANGO_APP_NAME/models.py
+```
+
 ## 5. Create Templates Directory
 Create an empty [templates](django-templates.md) directory for your HTML.
 Yes, it's redundant, but under `templates` in your Django application root, you should make another directory named your app name.
