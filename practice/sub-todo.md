@@ -29,4 +29,4 @@ Make sure the admin page is wired up and modifications there are reflected in th
 
 ## Advanced
 
-* Instead of using a HTTP GET request on `/MAIN_ITEM_ID/SUB_ITEM_ID/delete` use a HTTP DELETE request on ``/MAIN_ITEM_ID/SUB_ITEM_ID`
+* Instead of using a HTTP GET request on `/MAIN_ITEM_ID/SUB_ITEM_ID/delete` use a HTTP DELETE request on `/MAIN_ITEM_ID/SUB_ITEM_ID`

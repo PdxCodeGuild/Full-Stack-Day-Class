@@ -68,10 +68,6 @@ That second argument ensures that when you delete either the child or the parent
 
 On the _child_ entity model, add a `ForeignKey(parent_model_class)`.
 
-### Many-to-One
-
-On the _parent_ entity model, add a `ForeignKey(parent_model_class)`.
-
 ### Many-to-Many
 
 On _both_ entity models, add a `ManyToManyField(other_model)`.
@@ -81,12 +77,11 @@ On _both_ entity models, add a `ManyToManyField(other_model)`.
 Whenever you change or create new models, you have to **migrate** the existing DB.
 This ensures that Django has the DB set up correctly for you to be able to query it.
 
-Basically, whenever you change `DJANGO_APP_NAME/models.py` run these two commands:
-
-In your virtualenv.
+Basically, whenever you change `DJANGO_APP_NAME/models.py` run these two commands in your virtualenv.
+You need to specify your Django app name when you make migrations.
 
 ```bash
-python manage.py makemigrations
+python manage.py makemigrations DJANGO_APP_NAME
 python manage.py migrate
 ```
 

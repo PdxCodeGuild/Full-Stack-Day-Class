@@ -31,12 +31,6 @@ Draw a line from the field in the parent entity to the child entity that ends in
 
 E.g. A playlist has multiple entries.
 
-## Many-to-One
-
-**Many-to-one** relations are when
-
-E.g. Multiple employees work at a single business.
-
 ## Many-to-Many
 
 **Many-to-many** relations are entities are connected together in a graph or network, or a parent entity has multiple, _globally non-unique_ child entities.

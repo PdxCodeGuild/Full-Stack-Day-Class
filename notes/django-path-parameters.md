@@ -4,13 +4,18 @@ We've seen [query parameters](django-query-parameters.md) which are appended to 
 You can also parse fields out of the URL path directly.
 These are called **path parameters**.
 
-If your matching path has a [named capture](regular-expressions.md#namedcaptures) `user_name`.
+In general, use path parameters if the parameter is the "subject" of the page.
+Otherwise, use [query parameters](django-query-parameters.md).
+
+If your matching path has a [named capture](regular-expressions.md#namedcaptures), the view function should take an argument of the same name.
+
+So if in `urls.py`:
 
 ```py
 url(r'^users/(?P<user_name>.+)$', views.user_detail)
 ```
 
-Then the view function should take in an argument named `user_name`.
+Then in `views.py`:
 
 ```py
 # If the matching request path was: 'users/david'
@@ -18,5 +23,8 @@ def user_detail(request, user_name):
     user_name  #> 'david'
 ```
 
-In general, use path parameters if the parameter is the "subject" of the page.
-Otherwise, use [query parameters](django-query-parameters.md).
+## REST
+
+Some folks have tried to formalize how HTTP interfaces and websites should be laid out.
+One of those methods is called **REST**.
+[Read up on it](http://www.restapitutorial.com/lessons/whatisrest.html) if you're interested.
