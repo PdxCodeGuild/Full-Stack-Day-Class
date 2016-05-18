@@ -2,7 +2,7 @@
 Functions _are just values_!
 They are values that represent _instructions_.
 
-We saw this a little in Python with [sorting by key](../../notes/sorting.md).
+We saw this a little in Python with [sorting by key](sorting.md).
 
 The array prototype function `map` produces an output array with the return values of calling the function argument on each element of the input array.
 ```js

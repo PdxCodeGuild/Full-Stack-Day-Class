@@ -7,9 +7,9 @@
 1. [Course Expectations](notes/course-expectations.md)
 1. [Course Logistics](notes/course_logistics.md)
 1. [Checked Practice](notes/checked_practice.md)
-1. [Course Portfolio](intro/notes/courseportfolio.md)
-1. [Programming Philosophy](intro/notes/philosophy.md)
-1. [Working with Others](intro/notes/groupwork.md)
+1. [Course Portfolio](notes/courseportfolio.md)
+1. [Programming Philosophy](notes/philosophy.md)
+1. [Working with Others](notes/groupwork.md)
 
 ## Programming in Python
 
@@ -221,37 +221,37 @@
 
 ## Intro to Javascript
 
-1. [Javascript Basics](js/notes/jsbasics.md)
-1. [Basic Types and Variables](js/notes/typesandvars.md)
-1. [Basic Objects and Arrays](js/notes/objectsarrays.md)
-1. [Basic Operators](js/notes/basicoperators.md)
-1. [Control Statements](js/notes/control.md)
-1. [Functions](js/notes/functions.md)
+1. [Javascript Basics](notes/jsbasics.md)
+1. [Basic Types and Variables](notes/typesandvars.md)
+1. [Basic Objects and Arrays](notes/objectsarrays.md)
+1. [Basic Operators](notes/basicoperators.md)
+1. [Control Statements](notes/control.md)
+1. [Functions](notes/functions.md)
 1. Errors
 1. Casting
 1. Global Objects
 1. Calling Prototype Methods
-1. [Basic Strings](js/notes/js-strings.md)
-1. [Anonymous Functions](js/notes/anonfunctions.md)
-1. [Lodash](js/notes/lodash.md)
-1. [Iterating](js/notes/jsiterating.md)
-1. [For Loops](js/notes/jsforloops.md)
-1. [Data Transformations](js/notes/datatransforms.md)
-1. [Debug Output](js/notes/debugoutput.md)
-1. [Style Guide](js/notes/jsstyle.md)
-1. [JS in the Browser](js/notes/browserjs.md)
+1. [Basic Strings](notes/js-strings.md)
+1. [Anonymous Functions](notes/anonfunctions.md)
+1. [Lodash](notes/lodash.md)
+1. [Iterating](notes/jsiterating.md)
+1. [For Loops](notes/jsforloops.md)
+1. [Data Transformations](notes/datatransforms.md)
+1. [Debug Output](notes/debugoutput.md)
+1. [Style Guide](notes/jsstyle.md)
+1. [JS in the Browser](notes/browserjs.md)
 1. WebStorm?
-1. Demo: [Leet Speek](js/demos/leetspeak.md)
-1. [Web Inspector Debugger](js/notes/inspectordebugger.md)
+1. Demo: [Leet Speek](demos/leetspeak.md)
+1. [Web Inspector Debugger](notes/inspectordebugger.md)
 1. [JS Debugging](notes/js_debugging.md)
 1. Group Practice: [Taxes](practice/taxes.md)
-1. Individual Practice: [Rarest](js/practice/rarest.md)
+1. Individual Practice: [Rarest](practice/rarest.md)
 1. Checked Practice: [Sum Pairs](practice/sumpairs.md)
-1. [Object Methods](js/notes/objectmethods.md)
-1. [Constructors](js/notes/constructors.md)
-1. [Prototypes](js/notes/prototypes.md)
-1. [Prototype Methods](js/notes/prototypemethods.md)
-1. [JS Objects Review](js/notes/objectsreview.md)
+1. [Object Methods](notes/objectmethods.md)
+1. [Constructors](notes/constructors.md)
+1. [Prototypes](notes/prototypes.md)
+1. [Prototype Methods](notes/prototypemethods.md)
+1. [JS Objects Review](notes/objectsreview.md)
 1. Demo:
 1. Group Practice: GeoJS
 1. Individual Practice:

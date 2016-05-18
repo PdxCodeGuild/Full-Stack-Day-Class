@@ -9,5 +9,5 @@ You can get an Atom package which will check for
 
 Install the Atom package [linter-eslint](https://atom.io/packages/linter-eslint).
 
-Then save [the config that enforces the Google style](../../.eslintrc.js) in `.eslintrc.js` in your `codeguild/` directory.
+Then save [the config that enforces the Google style](/.eslintrc.js) in `.eslintrc.js` in your `codeguild/` directory.
 Note, this is a hidden file.
