@@ -5,7 +5,15 @@ It lives at `/admin/` by default (note that route in `urls.py` that the setup sc
 
 For the admin site to work properly, you have to write out two steps.
 
-## 1. Create Admin User
+## 1. Setup Admin Database
+
+The admin app uses the database to manage users, so we need to ensure that it's setup.
+
+```bash
+python manage.py migrate
+```
+
+## 2. Create Admin User
 
 Since the admin site is all powerful, it is behind a login.
 
@@ -20,7 +28,7 @@ python manage.py createsuperuser
 It seems to be picky that your password is secure.
 Feel free to use the password `brassmonkey` for your practice problems.
 
-## 2. Register Models
+## 3. Register Models
 
 You have to tell the admin app explicitly about each of the models it should generate UIs for.
 
