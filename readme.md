@@ -328,7 +328,7 @@
 1. Demo: [Playlists](demos/playlists.md)
 1. Group Practice: [Sub-Todo](practice/sub-todo.md)
 1. Checked Practice: [Flutter](practice/flutter.md)
-1. Individual Practice: Loaner
+1. Individual Practice: [Loaner](practice/loaner.md)
 1. [Shell and Backend](notes/django-shell.md)
 1. File Fields
 

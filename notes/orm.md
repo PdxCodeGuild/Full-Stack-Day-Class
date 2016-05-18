@@ -28,15 +28,10 @@ user_name, email, sign_up_date
 An ORM will then wrap selecting and modifying instances in the database in nice Python functions:
 
 ```py
-david = User.objects.filter(email="david@david.com")
-david.user_name = "DavidS"
+david = User.objects.filter(email='david@david.com')
+david.user_name = 'DavidS'
 david.save()
 ```
 
 This prevents you from needing to learn **SQL** or **structured query language**.
-It is a low-level, text based interface to a database.
-To use it from your code requires lots of string munging and escaping, so should be avoided.
-
-```sql
-SELECT username FROM users WHERE email == 'david@david.com';
-```
+That is the low-level, text based interface to databases and is very tedious to use.

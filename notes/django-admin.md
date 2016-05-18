@@ -3,7 +3,7 @@
 Django automatically builds for you an **admin interface** that lets you do basic model manipulation.
 It lives at `/admin/` by default (note that route in `urls.py` that the setup script gives you).
 
-For the admin site to work properly, you have to write out two steps.
+For the admin site to work, there are some setup steps.
 
 ## 1. Setup Admin Database
 

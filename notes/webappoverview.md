@@ -9,13 +9,12 @@ A web application has three big moving parts:
 ## Database
 
 This is where your data is persistently stored.
-It is another program that has a very generic interface (SQL language) that lets you save and fetch data.
+It is another program that somebody else wrote that lets you save and fetch data.
 
 We're gonna be focusing on **SQL databases**.
 SQL stands for **structured query language**.
-It is a text-based interface for other programs to select and send and receive data.
+These databases use SQL for their interface, but we will use an [ORM](orm.md) to interface with them.
 
-You don't write this part.
 E.g. [PostgreSQL](http://www.postgresql.org).
 
 ## Back-End
