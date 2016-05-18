@@ -4,7 +4,7 @@
 
 | Date | Time | Day | Event |
 | ---- | ---- | --- | ----- |
-| 2016-04-22 | BOC | Friday | [Bio Layout](/practice/biolayout.md) Due |
+| 2016-04-22 | BOC | Friday | [Bio Layout](/practice/bio-layout.md) Due |
 | 2016-04-25 | BOC | Monday | [Pyramid](/practice/pyramid.md) Due |
 | 2016-04-27 | EOD | Wednesday | [Capstone Proposal](/notes/capstone-proposal.md) Due |
 | 2016-04-29 | BOC | Friday | [Sum Pairs](/practice/sum-pairs.md) Due |

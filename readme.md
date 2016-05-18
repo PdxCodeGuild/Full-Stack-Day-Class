@@ -202,8 +202,8 @@
 1. Demo: [Basic Style](/demos/basicstyle.md)
 1. [Property Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 1. Web Inspector Style Basics
-1. Group Practice: [Selector Puzzle](/practice/selectorpuzzle.md)
-1. Individual Practice: [Bio Style](/practice/biostyle.md)
+1. Group Practice: [Selector Puzzle](/practice/selector-puzzle.md)
+1. Individual Practice: [Bio Style](/practice/bio-style.md)
 1. Checked Practice:
 1. [Box Model and Sizing](/notes/boxmodel.md)
 1. [Default Layout](/notes/defaultlayout.md)
@@ -212,8 +212,8 @@
 1. [Flexbox](/notes/flexbox.md)
 1. [Layout Problem Solving](/notes/layoutproblemsolving.md)
 1. Demo: [Basic Layout](/demos/basiclayout.md)
-1. Group Practice: [ID Card](/practice/idcard.md)
-1. Individual Practice: [Bio Layout](/practice/biolayout.md)
+1. Group Practice: [ID Card](/practice/id-card.md)
+1. Individual Practice: [Bio Layout](/practice/bio-layout.md)
 1. Checked Practice: [Pyramid](/practice/pyramid.md)
 1. [Other Layout Techniques](/notes/layout.md)
 1. Checked Practice: [Sidebar](/practice/sidebar.md)
@@ -334,7 +334,7 @@
 1. [HTTP APIs](/notes/http_apis.md)
 1. REST
 1. Demo: [Weather](/demos/weather.md)
-1. Group Practice: [Bus Stop Finder](/practice/bus_stop_finder.md)
+1. Group Practice: [Bus Stop Finder](/practice/bus-stop-finder.md)
 1. Individual Practice:
 1. Checked Practice:
 
