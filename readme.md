@@ -19,7 +19,7 @@
 1. Demo: CLI
 1. Practice: CLI
 1. [Values and Types](/notes/py-values-types.md)
-1. [Operators and Expressions](/notes/py-operatorsexpressions.md)
+1. [Operators and Expressions](/notes/py-operators-expressions.md)
 1. [Variables](/notes/py-variables.md)
 1. [Imperative Programming](/notes/imperative.md)
 1. [Function Calling](/notes/py-functions-calling-basic.md)
