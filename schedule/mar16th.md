@@ -17,6 +17,7 @@
 | 2016-05-09 | BOC | Monday | [Capstone Proposal](/notes/capstone-proposal.md) Revision Two Due |
 | 2016-05-13 | BOC | Friday | [Book Stats](/practice/book-stats.md) Due |
 | 2016-05-16 | BOC | Monday | [Jokes](/practice/jokes.md) Due |
+| 2016-05-20 | BOC | Friday | [Flutter](/practice/flutter.md) Due |
 | 2016-05-30 | | Monday | Memorial Day: No Class |
 | 2016-06-09 | | Thursday | Last Day of Class |
 | 2016-06-09 | All Class | Thursday | Capstone Show-and-Tell |
