@@ -11,4 +11,4 @@ do
     mv -n $OLD_FILE $NEW_FILE
 done
 
-ruby -i -pe "\$_.gsub!('$OLD_PREFIX', '$NEW_PREFIX')" **/*.md
+ruby -i -pe "\$_.gsub!('$OLD_PREFIX', '$NEW_PREFIX')" *.md **/*.md
