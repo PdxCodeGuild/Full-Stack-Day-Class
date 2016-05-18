@@ -23,10 +23,12 @@ pip freeze > requirements.txt
 django-admin startproject "$NAME" .
 perl -i -pe "s/^(INSTALLED_APPS = \[)/\1\n    '$NAME',/g" "$NAME/settings.py"
 echo $'\ndb.sqlite3' >> .gitignore
-python manage.py migrate
 touch "$NAME/views.py"
+touch "$NAME/models.py"
+touch "$NAME/admin.py"
 mkdir -p "$NAME/templates/$NAME"
 mkdir -p "$NAME/static/$NAME"
+python manage.py migrate
 deactivate
 
 set +x
