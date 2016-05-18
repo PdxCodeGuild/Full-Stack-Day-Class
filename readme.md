@@ -313,11 +313,6 @@
 1. Group Practice: [Ice Cream Poll](practice/ice-cream-poll.md)
 1. Checked Practice: [Jokes](practice/jokes.md) [Book Stats](practice/book-stats.md)
 1. Individual Practice: [Multi-Madlib](practice/multi-madlib.md) [Image Serve](practice/image-serve.md)
-1. AJAX
-1. Demo:
-1. Group Practice:
-1. Checked Practice:
-1. Individual Practice:
 1. [Object Relational Mapper](notes/orm.md)
 1. [Entity-Relation Diagrams](notes/entity-relation.md)
 1. [Models](notes/django-models.md)
@@ -331,10 +326,6 @@
 1. Individual Practice: [Loaner](practice/loaner.md)
 1. [Shell and Backend](notes/django-shell.md)
 1. File Fields
-
-## Heroku Deployment
-
-1. PostgreSQL
 
 ## APIs and Web Interfaces
 

@@ -3,16 +3,35 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Comment Form</title>
+        <title>Comments</title>
         <link rel="stylesheet" href="{% static 'comments/style.css' %}">
     </head>
     <body>
-        <h1>Comments</h1>
-        <a href="{% url 'form_page' %}">Post</a>
-        {% for comment_text in comments %}
+        <h1>List of Comments
+        {% if not author == None %}
+        by {{ author }}
+        {% endif %}
+        </h1>
+
+        {% for comment in comments %}
         <section>
-            <blockquote>{{ comment_text }}</blockquote>
+            <blockquote>{{ comment.text }}</blockquote>
+            <p>— {{ comment.author }}</p>
         </section>
         {% endfor %}
+
+        <section>
+            <a href="{% url 'submit_form' %}">Post</a>
+        </section>
+
+        <section>
+            <h3>Authors</h3>
+            <ul>
+                <li><a href="{% url 'index' %}">All Authors</a></li>
+                {% for author in all_authors %}
+                <li><a href="{% url 'index' %}?author={{ author }}">{{ author }}</a></li>
+                {% endfor %}
+            </ul>
+        </section>
     </body>
 </html>

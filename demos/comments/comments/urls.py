@@ -16,14 +16,10 @@ Including another URLconf
 from django.conf.urls import url
 
 from . import views
-from . import ajax_views
 
 
 urlpatterns = [
     url(r'^$', views.render_index, name='index'),
-    url(r'^form/$', views.render_form, name='form_page'),
-    url(r'^form/submit$', views.render_ack),
-
-    url(r'^ajax/$', ajax_views.render_index, name='ajax_index'),
-    url(r'^ajax/submit$', ajax_views.render_ack),
+    url(r'^submit/$', views.render_submit_form, name='submit_form'),
+    url(r'^submit/ack$', views.render_ack, name='ack'),
 ]
