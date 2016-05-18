@@ -1,7 +1,7 @@
 # Models
 
 Django **models** are the structured nouns in your project.
-They are implemented as [classes](basicobjectsclasses.md), so think back about how you used classes to [model your data](classdesign.md).
+They are implemented as [classes](/notes/py-classes-basic.md), so think back about how you used classes to [model your data](/notes/py-classes-design.md).
 
 Each model is implemented as a list of **fields** with explicit types.
 Unlike normal Python class attributes, those fields are **typed**.

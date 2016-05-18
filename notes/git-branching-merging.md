@@ -67,7 +67,7 @@ git branch -d BRANCH
 ```
 
 ## Diff-ing Versions
-Your `git diff` [commands](basicgit.md) also work with branch names, in addition to commit hashes.
+Your `git diff` [commands](/notes/git-basics.md) also work with branch names, in addition to commit hashes.
 
 ## Merge Conflicts
 If your branch modifies some lines of code that were modified in parallel, when you merge the histories together, you will get a **merge conflict**.

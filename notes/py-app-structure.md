@@ -22,22 +22,22 @@ cd PROJECT_NAME
 ```
 
 ## 2. Setup Git Ignore
-Then setup a [Git ignore](git-ignore.md) file so you won't commit your virtualenv.
+Then setup a [Git ignore](/notes/git-ignore.md) file so you won't commit your virtualenv.
 **Don't commit your virtualenv!**
 
-Save [this example file](../demos/example_gitignore) in `.gitignore` in your project root.
+Save [this example file](/demos/example_gitignore) in `.gitignore` in your project root.
 
 ## 3. Create Virtualenv
-[Create a new virtualenv](virtualenv.md#create) in your repository root.
+[Create a new virtualenv](/notes/py-virtualenv.md#create) in your repository root.
 
 ## 4. Activate Virtualenv
-[Activate that virtualenv](virtualenv.md#activate) that you just made.
+[Activate that virtualenv](/notes/py-virtualenv.md#activate) that you just made.
 
 ## 4. Install Packages
-[Install](pip.md#install) all of the dependent packages you'll need.
+[Install](/notes/py-pip.md#install) all of the dependent packages you'll need.
 
 ## 5. Freeze Requirements
-[Freeze](virtualenv.md#freeze) your initial dependency versions.
+[Freeze](/notes/py-virtualenv.md#freeze) your initial dependency versions.
 If you ever install more dependencies, you'll have to re-freeze.
 
 ## 6. Commit Initial Code

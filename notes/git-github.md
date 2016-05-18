@@ -1,5 +1,5 @@
 # Git Remotes and GitHub
-We've [already learned](basicgit.md) how to convert a local folder to a repository and record a history of all changes to it.
+We've [already learned](/notes/git-basics.md) how to convert a local folder to a repository and record a history of all changes to it.
 But source control is also about allowing others to collaborate on your code, so we need to learn how to _share_ your history with other repos.
 
 Each local git repo can have a **remote repository**.

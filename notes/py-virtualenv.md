@@ -7,7 +7,7 @@ It is _just a directory_ that contains a "copy" of a Python interpreter, the sta
 When you **activate** a virtualenv, any commands that deal with Python or packages will only affect further commands inside the virtualenv.
 
 You should create a virtualenv for each separate project or problem you're working on that needs packages.
-See [app structure](py-app-structure.md) for more info.
+See [app structure](/notes/py-app-structure.md) for more info.
 
 ## Installing
 Virtualenv is also the name of the command to manage virtualenvs.
@@ -48,7 +48,7 @@ After you have activated a virtualenv, you **inside** of it.
 Inside, all `python` and `pip` commands will use _their virtualenv versions_ and not the ones system-wide.
 
 ## Modifying Packages
-Once a virtualenv has been activated, all [Pip commands](pip.md) modify that virtualenv.
+Once a virtualenv has been activated, all [Pip commands](/notes/py-pip.md) modify that virtualenv.
 
 Inside the virtualenv, you shouldn't need to use `pip3` if you were before.
 
@@ -61,7 +61,7 @@ Inside the virtualenv, you shouldn't need to use `python3` if you were before.
 ## Freeze
 **Freezing** is the process of taking all of the current packages and their versions and writing it out to `requirements.txt`.
 This is how you save the specific dependencies of your application.
-See [Python app requirements](py-app-requirements.md) for more info.
+See [Python app requirements](/notes/py-app-requirements.md) for more info.
 ```bash
 pip freeze > requirements.txt
 ```

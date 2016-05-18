@@ -8,4 +8,4 @@ requests==2.10.0
 Pillow==3.1.0
 ```
 
-In general, you will be generating this file via [freezing your virtualenv](virtualenv.md#freeze).
+In general, you will be generating this file via [freezing your virtualenv](/notes/py-virtualenv.md#freeze).

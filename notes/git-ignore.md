@@ -12,4 +12,4 @@ notes  # Ignore all files or directories named notes anywhere
 /root_notes  # Ignore a file named "root_notes" in just the repository root
 ```
 
-Here is an [example Git ignore](../demos/example_gitignore) you can copy and use.
+Here is an [example Git ignore](/demos/example_gitignore) you can copy and use.

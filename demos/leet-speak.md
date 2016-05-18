@@ -20,5 +20,4 @@ Would result in:
 (f47h3rZ) (br0ugh7) (f0r7h) (0n) (7hiZ) (c0n7in3n7)
 ```
 
-[Source JS](leetspeak.js).
-[Runnable HTML](leetspeak.html).
+[Source](/demos/leet-speak)

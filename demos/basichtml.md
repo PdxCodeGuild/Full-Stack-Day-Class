@@ -1,2 +1,4 @@
 # Demo: Basic Tags
-[Here](basichtml.html) is an HTML document demonstrating basic elements.
+An HTML document demonstrating basic elements.
+
+[Source](/demos/basichtml.html)

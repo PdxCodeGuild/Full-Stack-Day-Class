@@ -54,4 +54,4 @@ num_students  #> 2
 ```
 
 ## Entity-Relation Diagrams
-Use [entity-relation diagrams](entity-relation.md).
+Use [entity-relation diagrams](/notes/entity-relation.md).

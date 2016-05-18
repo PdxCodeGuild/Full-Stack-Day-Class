@@ -1,6 +1,6 @@
 # Query Parameters
 
-You can parse key value pairs out of the [URL query string](urls.md#querystrings) using `request.GET` in your view functions as input.
+You can parse key value pairs out of the [URL query string](/notes/urls.md#querystrings) using `request.GET` in your view functions as input.
 These are called **query parameters**.
 That is a `QueryDict` which acts basically like a dictionary.
 

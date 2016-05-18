@@ -21,7 +21,7 @@ The web browser **flows** the page by going through the elements, gives them a w
 
 Notice that _width_ is top-down and _height_ is bottom-up.
 This is so you don't have to already know the height of your _content_; the whole point is the browser does that for you.
-This has consequences for [solving layout problems](layoutproblemsolving.md).
+This has consequences for [solving layout problems](/notes/layoutproblemsolving.md).
 
 ## Margin Collapse
 _Vertical_ margins collapse.

@@ -1,7 +1,5 @@
 # Advanced Problem Solving
-First, remind your self the ideas of [basic problem solving](basic_problem_solving.md).
-
-
+First, remind your self the ideas of [basic problem solving](/notes/problem-solving-basic.md).
 
 ## 1. Define
 Define all of your functions.

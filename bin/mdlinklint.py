@@ -12,7 +12,6 @@ import re
 import subprocess
 import sys
 
-
 MD_LINK_RE = re.compile(r'\[(.+?)\]\((.+?)\)')
 
 
@@ -117,7 +116,8 @@ def is_valid_link(link):
     file_dir_path = get_parent_dir(file_path)
     link_type, dest_path = parse_dest(dest)
     if link_type == 'rel':
-        check_path = follow_path(dest_path, file_dir_path)
+        return False
+        # check_path = follow_path(dest_path, file_dir_path)
     elif link_type == 'abs':
         repo_dir_path = get_git_repo_root(file_dir_path)
         check_path = follow_path(dest_path, repo_dir_path)
@@ -131,9 +131,7 @@ def find_broken_links(file_path):
     """
     with open(file_path) as file_lines:
         return [
-            link
-            for link
-            in find_all_links(file_lines, file_path)
+            link for link in find_all_links(file_lines, file_path)
             if not is_valid_link(link)
         ]
 

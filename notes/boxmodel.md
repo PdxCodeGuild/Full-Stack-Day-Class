@@ -9,7 +9,7 @@ Every element has:
 
 The "visual size" of the element includes the content, padding, and border.
 
-![Box Model Diagram](boxmodel.png)
+![Box Model Diagram](/notes/boxmodel.png)
 
 ## Content Size
 You can explicitly set the content size using the **width** and **height** properties.

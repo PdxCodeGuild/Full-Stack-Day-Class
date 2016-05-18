@@ -30,4 +30,4 @@ Many are, quite frankly, shit.
 
 ## Python 2
 May of the responses on websites are written in Python 2 and won't run unmodified on the Python 3 interpreter we're using.
-I've written up a [short list of big changes](usingpython2.md) that you can keep and use to convert example code you find.
+I've written up a [short list of big changes](/notes/usingpython2.md) that you can keep and use to convert example code you find.

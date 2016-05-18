@@ -7,4 +7,4 @@ Create a program that asks for a number in base-10 that's between 1 and 99 then 
 > 11
 > eleven
 
-[Source](writtennumbers.py).
+[Source](/demos/writtennumbers.py).

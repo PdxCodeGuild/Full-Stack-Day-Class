@@ -1,5 +1,5 @@
 # Naming Functions
-Similar suggestions apply for naming functions as [naming variables](basicvarnaming.md), with a few additions.
+Similar suggestions apply for naming functions as [naming variables](/notes/naming-variables-basic.md), with a few additions.
 
 ## Use Parts of Speech
 * Functions represent actions on data, so should be _verbs_ with _nouns_.

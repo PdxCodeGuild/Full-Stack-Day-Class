@@ -12,15 +12,14 @@ Implement your app using Django models to fully persist the list data.
   - Dishes X
   - Laundry X
 
-Have each main item have a link to add more sub-items.
-Have each sub-item have a link to delete it once it's done.
+Have a link at the top to a page to add a main item.
+Have each main item have a link `+` to add more sub-items.
+Have each sub-item have a link `X` to delete it once it's done.
 
 Make two Django models named:
 
 * `MainItem`
 * `SubItem`
-
-Provide a form at the top of the todo list for adding main items.
 
 Use the following URL structure and standard form POSTing:
 

@@ -1,5 +1,5 @@
 # JS Debugging
-First, take to heart the ideas in the [advanced debugging notes](adv_debugging.md).
+First, take to heart the ideas in the [advanced debugging notes](/notes/debugging-adv.md).
 
 JS is very "forgiving".
 It will run lots of "incorrect" code without errors, and instead silently return things like `undefined`.

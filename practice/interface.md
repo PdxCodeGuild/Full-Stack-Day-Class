@@ -7,7 +7,7 @@ We've decided on an interface for the board class.
 * Can be asked to figure out what user, if any, has won
 * Can return a pretty-printed picture of the board
 
-I've already written out [some board test code](interface.py) and I'd like you to prototype out three different _implementations_ of the board data structure.
+I've already written out [some board test code](/practice/interface.py) and I'd like you to prototype out three different _implementations_ of the board data structure.
 * Stored as a list of rows of tokens, `ListListTTTBoard`
 * Stored as a dict of coordinates to tokens, `DictTTTBoard`
 * Stored as a list of coordinate token three-tuples, `CoordsTTTBoard`

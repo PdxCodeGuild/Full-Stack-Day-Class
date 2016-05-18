@@ -8,4 +8,4 @@ The other person who's writing the program wants to be able to:
 * Know if two points or rectangles are the same.
 * Move a point by a specified amount.
 
-[Source](geometry.py)
+[Source](/demos/geometry.py)

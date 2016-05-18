@@ -13,7 +13,7 @@ We want you to succeed in your capstone, and we want to make sure you're prepare
 If you are seriously falling behind, you will have to drop the class.
 
 Many of our class projects will be **group practice**.
-This class has [expectations about group work](groupwork.md).
+This class has [expectations about group work](/notes/group-work.md).
 
 When I give you checked feedback, you should spend some time to implement the changes I suggest.
 I'll only tell you to formally re-submit the problem if it's grossly not working.

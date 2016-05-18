@@ -1,5 +1,5 @@
 # Practice: Test Case Conversion
-Write test cases for the steps / functions in your [case conversion](case.md) practice problem.
+Write test cases for the steps / functions in your [case conversion](/practice/case.md) practice problem.
 
 * Create a test module called `case_test.py`.
 * Import your case change program, probably called `case.py`.

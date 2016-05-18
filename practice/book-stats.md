@@ -2,7 +2,7 @@
 Put your solution in a directory named `book_stats`.
 It should be a full-fledged Django and Python application.
 
-Make a "website" version of your [word count practice](wordcount.md).
+Make a "website" version of your [word count practice](/practice/word-count.md).
 No need to have the your site have HTML or CSS;
 just return raw text.
 

@@ -1,13 +1,13 @@
 # Path Parameters
 
-We've seen [query parameters](django-query-parameters.md) which are appended to the path of a URL.
+We've seen [query parameters](/notes/django-query-parameters.md) which are appended to the path of a URL.
 You can also parse fields out of the URL path directly.
 These are called **path parameters**.
 
 In general, use path parameters if the parameter is the "subject" of the page.
-Otherwise, use [query parameters](django-query-parameters.md).
+Otherwise, use [query parameters](/notes/django-query-parameters.md).
 
-If your matching path has a [named capture](regular-expressions.md#namedcaptures), the view function should take an argument of the same name.
+If your matching path has a [named capture](/notes/regular-expressions.md#namedcaptures), the view function should take an argument of the same name.
 
 So if in `urls.py`:
 

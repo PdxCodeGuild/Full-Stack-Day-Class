@@ -27,4 +27,4 @@ while (num < 10) {
 ```
 
 ## For Loops
-JS has for loops, but we'll [talk about them later](jsforloops.md) and how to [not use them](jsiterating.md).
+JS has for loops, but we'll [talk about them later](/notes/js-for-loops.md) and how to [not use them](/notes/js-iterating.md).

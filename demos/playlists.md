@@ -11,4 +11,4 @@ You can view playlists and the songs they contain.
 
 ```
 
-[Source](playlists)
+[Source](/demos/playlists)

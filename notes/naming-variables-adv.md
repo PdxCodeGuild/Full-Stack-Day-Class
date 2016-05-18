@@ -1,5 +1,5 @@
 # Advanced Variable Naming
-Nested data structures add the following suggestions to our [original variable naming guidelines](basicvarnaming.md).
+Nested data structures add the following suggestions to our [original variable naming guidelines](/notes/naming-variables-basic.md).
 
 ## Mirror Data Structure
 Have the name of the variable reflect the shape of the data.

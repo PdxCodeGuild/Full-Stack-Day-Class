@@ -24,7 +24,7 @@ code_guild.id  # Some random, unique int.
 
 Any time you create a new instance or change any of the fields, and are done operating on it, you need to **save** the instance.
 This is like saving the data in a global variable, but instead puts it in the DB.
-We can [query](django-querying.md) the DB to retrieve it later on another request.
+We can [query](/notes/django-querying.md) the DB to retrieve it later on another request.
 
 Call `.save()` on the instance.
 

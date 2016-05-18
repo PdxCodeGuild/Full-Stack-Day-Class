@@ -90,7 +90,7 @@ In `template.html`:
 
 ## Links
 Django gives you a way of not having to remember your routing patterns.
-Instead you should refer to other views by their [short name](django-routes.md) using the `url` tag.
+Instead you should refer to other views by their [short name](/notes/django-routes.md) using the `url` tag.
 
 In your template:
 ```html
@@ -99,7 +99,7 @@ In your template:
 
 ## If Tag
 You can optionally output different HTML by using an `if` tag.
-It has exactly the same semantics as a [normal Python if statement](branchingblocks.md), although it has [fewer operators it supports](https://docs.djangoproject.com/en/1.9/ref/templates/builtins/#if).
+It has exactly the same semantics as a [normal Python if statement](/notes/py-branching-blocks.md), although it has [fewer operators it supports](https://docs.djangoproject.com/en/1.9/ref/templates/builtins/#if).
 
 In your view:
 ```py
@@ -125,7 +125,7 @@ This will only output one of the three `span`s.
 
 ## For Tag
 You can repeat sections of HTML by using a `for` loop tag.
-It has exactly the same semantics as a [normal Python for loop](forloops.md):
+It has exactly the same semantics as a [normal Python for loop](/notes/py-for-loops.md):
 the `for` tag creates a new template variable with a given name for each item in the loop.
 
 In your view:

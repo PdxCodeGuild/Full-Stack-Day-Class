@@ -6,7 +6,7 @@ It is not part of the standard library, but you can easily install it using `pip
 To test your code, it has to be put in a module, and you have to have separate testing modules.
 
 Follow these instructions:
-1. Prepare the feature code [as a module](modules.md):
+1. Prepare the feature code [as a module](/notes/py-modules-create.md):
 Put the "main" parts in `if __name__ == '__main__':` so they won't run when imported.
 1. Create a parallel module _for the tests_ in the same directory with the same name, prefixed with `test_`.
 1. In that test module, write your actual test functions with assertions.

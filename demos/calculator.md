@@ -13,7 +13,7 @@ Each should take in two input arguments as query parameters:
 Each should respond with a `200 OK` and the text of the answer.
 If either input is less than zero, respond with `400 BAD REQUEST` and a message that the inputs must be positive.
 
-[Source](calculator)
+[Source](/demos/calculator)
 
 ## Example
 ```

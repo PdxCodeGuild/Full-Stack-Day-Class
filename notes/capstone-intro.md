@@ -7,7 +7,7 @@ It will be the deliverable that you get to _show off to prospective employers_.
 
 ## Idea
 Start thinking of a project or product that you'd like to make as a web application.
-Your goal is to come up with an [MVP](mvp.md) of your idea.
+Your goal is to come up with an [MVP](/notes/capstone-mvp.md) of your idea.
 
 If you're having trouble coming up with an idea, let me know _now_.
 I suggest thinking of a problem _you_ have in your day-to-day that you might be able to solve.
@@ -31,7 +31,7 @@ Commitment and striving for mastery in a topic area is appreciated by prospectiv
 
 ## Schedule
 The formal schedule for working on your capstone is:
-* End of Week 6: [Proposal](capstone-proposal.md) due at end of day
+* End of Week 6: [Proposal](/notes/capstone-proposal.md) due at end of day
 * Mid Week 7: Approved proposal
 * Week 9: Class becomes just capstone work
 * Last Day of Class: Capstone show-and-tell

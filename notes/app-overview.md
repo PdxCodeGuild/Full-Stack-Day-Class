@@ -13,7 +13,7 @@ It is another program that somebody else wrote that lets you save and fetch data
 
 We're gonna be focusing on **SQL databases**.
 SQL stands for **structured query language**.
-These databases use SQL for their interface, but we will use an [ORM](orm.md) to interface with them.
+These databases use SQL for their interface, but we will use an [ORM](/notes/orm.md) to interface with them.
 
 E.g. [PostgreSQL](http://www.postgresql.org).
 

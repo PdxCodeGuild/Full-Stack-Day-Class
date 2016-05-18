@@ -1,4 +1,4 @@
 # Demo: Basic Layout
-I have finished the layout of the [HTML basics demo](basichtml.md).
+I have finished the layout of the [HTML basics demo](/demos/basichtml.md).
 
-The [HTML file](basiclayout.html) lives in `basiclayout.html`, the style [CSS file](basiclayout.css) lives in `basiclayout.css`.
+[Source](/demos/basiclayout)

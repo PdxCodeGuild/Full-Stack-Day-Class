@@ -5,7 +5,7 @@ It is very easy to use.
 
 All of these commands start with `pip`, then a sub-command name, then some arguments.
 
-Remember, most of the time you want to run these commands [inside a virtualenv](virtualenv.md).
+Remember, most of the time you want to run these commands [inside a virtualenv](/notes/py-virtualenv.md).
 If you run in a virtualenv, you install packages inside it.
 If you run outside a virtualenv, you install system-wide.
 

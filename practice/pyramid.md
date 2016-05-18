@@ -1,7 +1,7 @@
 # Practice: Pyramid
 Save your solution as `pyramid.html` and `pyramid.css`.
 
-Recreate [the following layout](pyramidsample.html) using just flexbox.
+Recreate [the following layout](/practice/pyramidsample.html) using just flexbox.
 You shouldn't use floats or percentage widths at all.
 
 * Each box should be a `div`

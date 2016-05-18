@@ -18,7 +18,7 @@ _.includes([1, 2, 3], 3);  //> true
 Read through [the available functions](https://lodash.com/docs) and think about using them.
 You'll heavily use `forEach`, `includes`, `map`, `keys`, `values`, `toPairs`.
 
-Lots of them are very "functional" and will use [functions as values](anonfunctions.md) heavily.
+Lots of them are very "functional" and will use [functions as values](/notes/js-functions-anon.md) heavily.
 
 I find using them to be cleaner and more consistent than their array prototype versions.
 I encourage you to use the Lodash versions instead.

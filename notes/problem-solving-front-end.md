@@ -1,5 +1,5 @@
 # Front-End Problem Solving
-First, read back through [Python advanced problem solving notes](adv_problem_solving.md).
+First, read back through [Python advanced problem solving notes](/notes/problem-solving-adv.md).
 
 ## Actions
 Think about the _top level_ actions you want to happen on your page.
@@ -9,8 +9,8 @@ For each action, break it up into the following six steps and write functions to
 It's fine if steps repeat across actions.
 No function should handle more than one of these areas.
 
-Look through the [todo demo](../demos/todo.md) to see these annotated out.
-As you're working, [debug](js_debugging.md) each of your steps aggressively.
+Look through the [todo demo](/demos/todo.md) to see these annotated out.
+As you're working, [debug](/notes/debugging-js.md) each of your steps aggressively.
 
 ### 1. Input
 Get input from the user and return it.

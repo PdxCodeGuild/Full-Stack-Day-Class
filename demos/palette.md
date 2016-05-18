@@ -4,4 +4,4 @@ Enter "R G B" with each color value between 0 and 1 in a text box.
 The swatch will be updated to show that color.
 Show an error if the input is invalid.
 
-[HTML Source](palette.html), [CSS Source](palette.css), [JS Source](palette.js).
+[Source](/demos/palette)
