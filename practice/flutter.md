@@ -1,9 +1,11 @@
 # Practice: Flutter
 
+Save your solution in `practice/flutter`.
+
 Let's make a mini Twitter clone called Flutter where people post Flutts.
 
 * `/` shows the last 10 Flutts.
-* `/q?=QUERY` shows the last 10 Flutts containing `QUERY` text.
+* `/search?query=QUERY_TEXT` shows the last 10 Flutts containing `QUERY_TEXT` text.
 * `/post` is a form to submit a Flutts. There is "user name" and "text".
 * `/post/submit` is the ack page. A new Flutt is given the timestamp of the acknowledgement.
 * `/USER_NAME` shows the last 10 Flutts by a user.
