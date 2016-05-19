@@ -1,14 +1,15 @@
-# PDX Code Guild Syllabus
+# PDX Code Guild Day Class Syllabus
 
-[March 16th to June 9th Day Class Schedule](/schedule/mar16th.md)
+* [March 16th to June 9th Day Class Schedule](/schedule/mar16th.md)
+* [March 16th to June 9th Hot Tips](/tips/mar16th)
 
 ## Intro
 
-1. [Course Expectations](/notes/course-expectations.md)
-1. [Course Logistics](/notes/course-logistics.md)
-1. [Checked Practice](/notes/checked-practice.md)
-1. [Course Portfolio](/notes/course-portfolio.md)
-1. [Programming Philosophy](/notes/philosophy.md)
+1. [Expectations](/notes/course-expectations.md)
+1. [Logistics](/notes/course-logistics.md)
+1. [Certificate Requirements](/notes/course-requirements.md)
+1. [Portfolio](/notes/course-portfolio.md)
+1. [Day-to-Day](/notes/course-day-to-day.md)
 1. [Working with Others](/notes/group-work.md)
 
 ## Programming in Python
@@ -40,8 +41,10 @@
 1. [Source Control](/notes/source-control.md)
 1. [Basic Git](/notes/git-basics.md)
 1. [Git Ignore](/notes/git-ignore.md)
+1. [Git Remotes and GitHub](/notes/git-github.md)
 1. Demo: Git
 1. Practice: Basic Git
+1. Portfolio Creation
 1. [Booleans](/notes/py-booleans.md)
 1. [Comparison Operators](/notes/py-operators-comparison.md)
 1. [Branching and Blocks](/notes/py-branching-blocks.md)
@@ -56,7 +59,6 @@
 1. [Function Signatures](/notes/function-signatures.md)
 1. Indexing
 1. Slicing
-1. [Git Remotes and GitHub](/notes/git-github.md)
 1. Demo: Camping Packing Game
 1. Demo:
 1. Optional: Practice: Count Vowels
@@ -344,7 +346,3 @@
 1. Interview
 1. Negotiation
 1. References
-
-## Hot Tips
-
-[Tips List](/tips)
