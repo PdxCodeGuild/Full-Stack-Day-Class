@@ -1,4 +1,5 @@
 # Capstone Proposal
+
 Write up a **proposal** for your [MVP](/notes/capstone-mvp.md) capstone project idea.
 It should be _brief_ and clear single text document that follows the rubric below of no more than two pages.
 Feel free to hand draw mockups and include them if that helps you plan, but they can't take the place of a write-up.
@@ -10,22 +11,33 @@ Figure out _now_ how you're going to solve your problems.
 Do some prototyping and research.
 1. Guidance _for you_.
 When you're working on the project, you can look at it and know what to do next.
-1. Safety check.
-I'll check you're meeting [the capstone requirements](/notes/capstone-intro.md#projectrequirements) and you can complete it in time.
+1. Safety check that it meets the requirements below.
 I am _not_ evaluating the business savvy of your project (although I'd be happy to give my two cents, if you ask).
 
+## Requirements
+
+Your capstone proposal must:
+
+* Follow the rubric
+* Describe a [MVP](/notes/capstone-mvp.md) that meets [the capstone requirements](/notes/capstone-intro.md#requirements)
+* Describe a project that you can finish in time
+
 ## Rubric
+
 Please address all of the following areas in your proposal **for just your MVP**.
 Even if you have grand dreams for working on your capstone full-time, _only_ write up the MVP here.
 
 ### Name
+
 Give your product or project a simple, short name.
 
 ### Product Overview
+
 What is your MVP web app going to do?
 How does a user interact with it on a high level?
 
 ### Specific Functionality
+
 Spend some time drawing out on paper mockups _every_ page of your MVP site.
 Annotate _every_ component of the interface _every_ action the user can take.
 
@@ -38,6 +50,7 @@ You don't have to submit the mockup drawings, but do write out a description of 
 I literally mean _every_.
 
 ### Data Model
+
 What are the "nouns" you need to save across pages in your project MVP?
 What do they represent?
 
@@ -47,6 +60,7 @@ There are fixed fields and every instance
 How do you need to _search_ for specific instances of nouns?
 
 ### Technical Components
+
 What are the "moving parts" of your MVP?
 What are the things like "modules" you're going to write?
 How do they talk to each other?
@@ -60,6 +74,7 @@ This is _more specific_ than "Django backend, CSS style, etc."
 Please specify what specific technical problems you'll have to solve and a guess at the solution.
 
 ### Schedule
+
 Write out the order in which you will tackle your technical components of your MVP.
 
 What are the easy parts?
@@ -69,6 +84,7 @@ Can you guess how long you'll take for each?
 Work on the tough and crucial parts first.
 
 ### Further Work
+
 All of the above parts are _just addressing your MVP_.
 Here you should outline other features you'd like to implement if you get "done" early.
 Order them by importance towards your high-level goal and what order you'll work on them later.
@@ -76,6 +92,7 @@ Order them by importance towards your high-level goal and what order you'll work
 Don't work on any of these features until **all of MVP is complete**.
 
 ## Submission
+
 Create a _new_ git repo based on your project name [in GitHub](https://github.com/new).
 Init that repository with a readme.
 Write up your proposal as `proposal.md` and link to it from the readme.

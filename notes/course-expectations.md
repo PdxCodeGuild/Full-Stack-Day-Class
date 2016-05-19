@@ -1,65 +1,78 @@
-# Class Expectations
-You are adults.
-This class will treat you as such and expects that attitude in return.
-Not like a high-school or CC class.
-Like being an apprentice and doing academic research.
+# Course Expectations
 
-## Attendance
-By taking this course, you're setting aside time to learn.
-**Keep it sacred. I cannot stress this enough.**
+This is an immersive, hands-on educational experience that mimics and prepares you for the on-the-job learning you will _have to do_ as a top professional software developer.
 
-We require you to come to **90% of the sessions**.
-Missing a day here is month of a college course.
-Attendance is taken.
-If you can't be very sure that you'll be present for more than required amount of sessions, this is _not the course for you_.
+The class is for motivated, independent learners who are looking for structure, guidance, and access to professional expertise.
 
-If you have medical reasons to miss class, that's fine, but please let me know _before hand_.
+**Do not expect a high school or community college class.**
+There is minimal lecture.
+There is a focus on practicality and delivering results, not studying concepts.
 
-That's totally fine!
-A bootcamp format is not the only way to learn these skills.
-If that might be the case, let me know _now_.
+## Resources
 
-With this in mind, keep a balanced life.
-Feel free to _take breaks_ during the day.
-Take a lap around the building.
-If you need to go home sick for a day, go home.
-
-## Attitude
-This class is _immersive_.
-It will only be about one-fifth lecture.
-
-I want you to **act** and not study.
-That is why I will be checking your problems.
-Seek out help, but learn to be independent.
-When you finish this course you will _not_ know everything.
-We will teach you the _basic building blocks_ but you will be required to expand upon them.
-Being a software developer is a process of continually learning.
-
-I don't care if you make mistakes.
-The computer _definitely_ doesn't care if you make mistakes.
-**Embrace mistakes!**
-If you are a perfectionist, work now on metering that tendency.
-
-You are paying for access to Code Guild's human expertise.
-Ask questions.
+You are paying for access to Code Guild's expertise.
+Use it.
+Ask me questions.
 Pick my brain.
 **Look at my demos.**
-If you have any questions or want more practice, **ask me for it**.
-Outside-of-class tutoring can always be arranged with Chris Jones.
-He is super nice and helpful.
 
-Class will look like:
-1. Concept
-1. Demo
-1. Group Practice
-1. Individual Practice
-1. Checked Practice
-1. Repeat
+You should get my attention _at any time_ if you have a question.
+Don't wait.
 
-I will be doing 1-1s and give periodic Hot Tips.
+Outside-of-class tutoring is free and can be scheduled with [Chris Jones](chris@pdxcodeguild.com).
+If I believe you are falling behind in the material, I will ask you to schedule tutoring time.
 
-I want you to succeed!
-All of these rules are flexible, but realize they're to push you and make the class valuable.
-If you need an exception to anything, let me know _before_ the action.
+## Commitment
 
-## Practice
+The course is full-time and very fast.
+Most of the class time will be allotted to working on problems in groups or individually.
+**Still, expect to work on course material outside of class.**
+Spend time reviewing and studying up every evening and weekend.
+
+If you fall behind, you will have to outside-of-class time catching up.
+For the sake of the rest of the class, we have to continue.
+
+## Mindset
+
+The only students that succeed in this course are those that either have or learn a certain mindset.
+
+### Embrace Mistakes and Feedback
+
+**The computer is about to bash you over the head every day with hundreds of complaints.
+You are going to have to deal with it.**
+Even masters do not code perfectly on the fifth try.
+**Studying more will not allow you to avoid all mistakes.**
+Thrive on the feedback, it's usually easy to follow.
+**Do not shy away from mistakes.**
+The only way to learn is to _do_ because there is no way to study it all.
+
+If you are a perfectionist, let me know now, because you're going to have to work on dropping it.
+I will be continually giving you informal feedback of your work.
+
+### Are Anal and Flexible Simultaneously
+
+Computers are very unforgiving.
+They have a very small set of low-level operations and require you to use them precisely.
+**Cultivate an attention to detail.**
+
+On the other hand, the mid and high-level structure you use to solve your problem is totally self-imposed.
+You need to learn to read other people's structures and come up with ones that fit your problem.
+
+Every problem you encounter in this software development can be reduced into smaller problems.
+**Notice and practice this skill.
+You will be endlessly frustrated in this course if you don't master it.**
+
+### Never Stop Learning
+
+When you finish this course you will _not_ know everything.
+Top tier software developers do _not_ know everything.
+What they do know is how to teach themselves more based on their experience.
+
+Do ask me questions, but before doing so, practice looking up answers on your own.
+That is one of the skills this class explicitly teaches.
+I will sometimes direct you to Google instead of answering.
+
+Software developers are **professionals**.
+This is a very lucrative profession because **there are no set checklists**.
+Every problem is unique, which means every solution is unique.
+It is more of an art than you might guess.

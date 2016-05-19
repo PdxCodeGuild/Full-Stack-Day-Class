@@ -1,4 +1,5 @@
 # Capstone Introduction
+
 Let me formally introduce the most exciting part of this course: the **capstone**!
 This is your _big final project_ for your portfolio.
 It will be the deliverable that you get to _show off to prospective employers_.
@@ -6,6 +7,7 @@ It will be the deliverable that you get to _show off to prospective employers_.
 **This is the most important part of this class.**
 
 ## Idea
+
 Start thinking of a project or product that you'd like to make as a web application.
 Your goal is to come up with an [MVP](/notes/capstone-mvp.md) of your idea.
 
@@ -13,7 +15,9 @@ If you're having trouble coming up with an idea, let me know _now_.
 I suggest thinking of a problem _you_ have in your day-to-day that you might be able to solve.
 
 ## Requirements
+
 Your capstone _must_ at least touch upon all of the major areas in the course that we cover.
+
 * Python
 * Django
 * Databases
@@ -30,7 +34,9 @@ You are encouraged to _dive deep_ in areas of your interest.
 Commitment and striving for mastery in a topic area is appreciated by prospective employers.
 
 ## Schedule
+
 The formal schedule for working on your capstone is:
+
 * End of Week 6: [Proposal](/notes/capstone-proposal.md) due at end of day
 * Mid Week 7: Approved proposal
 * Week 9: Class becomes just capstone work

@@ -1,7 +1,16 @@
 # Course Portfolio
-You should save all of the code you write in this class.
-Employers will want to look at it to see examples of your work when hiring you.
 
-You _must_ turn your `~/codeguild` folder into a Git repo and be committing your work to it as you progress through the class.
+You will be saving all of your practice problem solutions as a public **portfolio** of your work on [GitHub](https://github.com).
+It's a great public record of your work that you can show to prospective employers.
+This is also how you will be submitting checked assignments.
 
-For now, that history will just be saved locally, but we'll be publishing your repo publicly to GitHub later.
+I suggest you keep it organized and tidy as a public reflection of yourself.
+
+```
+codeguild/
+    readme.md
+    practice/
+        ...
+    notes/
+        ...
+```
