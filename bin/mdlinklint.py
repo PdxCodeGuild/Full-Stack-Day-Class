@@ -1,16 +1,13 @@
 #!/usr/bin/env python3
-"""Script that will check Markdown files for broken links.
-
-USAGE: mdlinklint.py MK_FILES...
-"""
-from contextlib import contextmanager
-from os import path
-from urllib.parse import urlparse
-from urllib.request import urlopen
+"""Checks Markdown files for broken links."""
+import argparse
 import os
 import re
 import subprocess
 import sys
+from contextlib import contextmanager
+from os import path
+from urllib.parse import urlparse
 
 MD_LINK_RE = re.compile(r'\[(.+?)\]\((.+?)\)')
 
@@ -84,7 +81,7 @@ def parse_dest(dest):
 
 
 def print_link(link):
-    """Prints out the location of a link from a link tuple.
+    """Print out the location of a link from a link tuple.
 
     >>> print_link(('file.md', 1, 8, 'location', '[a link](location)'))
     file.md:1:8 [a link](location)
@@ -109,7 +106,7 @@ def find_all_links(lines, file_path):
 
 
 def is_valid_link(link):
-    """Returns if a link tuple represents a valid link.
+    """Return if a link tuple represents a valid link.
     Looks to the file system for the destination path.
     """
     file_path, line_num, char_num, dest, match_text = link
@@ -127,7 +124,8 @@ def is_valid_link(link):
 
 
 def find_broken_links(file_path):
-    """Open a Markdown file and return a list of all of the broken link tuples.
+    """Open a Markdown file and return a list of all of the broken link
+    tuples.
     """
     with open(file_path) as file_lines:
         return [
@@ -136,14 +134,27 @@ def find_broken_links(file_path):
         ]
 
 
-def main():
+def main(file_paths):
+    """Return if any of the input Markdown file paths have broken links.
+
+    Print out broken links as they are found.
+    """
     any_broken = False
-    for file_path in sys.argv[1:]:
+    for file_path in file_paths:
         for broken_link in find_broken_links(file_path):
             print_link(broken_link)
             any_broken = True
-    return 1 if any_broken else 0
+    return any_broken
 
 
 if __name__ == '__main__':
-    sys.exit(main())
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        'file_paths',
+        metavar='MD_FILE',
+        nargs='*',
+        help='Markdown file to check')
+
+    args = parser.parse_args()
+    any_broken = main(args.file_paths)
+    sys.exit(1 if any_broken else 0)
