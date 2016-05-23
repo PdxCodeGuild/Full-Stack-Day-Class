@@ -275,7 +275,7 @@
 1. Demo: [Palette](/demos/palette.md)
 1. Checked Practice: [Whack-A-Mole](/practice/whack-a-mole.md)
 
-## Django Web Framework Programming
+## Python Applications
 
 1. [Dependencies](/notes/py-app-dependencies.md)
 1. [Virtualenv](/notes/py-virtualenv.md)
@@ -284,6 +284,10 @@
 1. [App Structure](/notes/py-app-structure.md)
 1. Demo: [Web Getter](/demos/web-getter)
 1. Individual Practice: [Rotate Image](/practice/rotate-image.md)
+
+## Django Web Framework Programming
+
+1. Structure of a Website
 1. [URLs](/notes/urls.md)
 1. [Web Basics](/notes/webbasics.md)
 1. [Django Overview](/notes/djangooverview.md)

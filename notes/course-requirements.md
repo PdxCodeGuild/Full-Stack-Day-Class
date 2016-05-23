@@ -32,7 +32,7 @@ Please go home if you are sick.
 
 ### 2. Checked Practice
 
-You are required to turn in satisfactory solutions to **all of the checked practice assignments** by their due date.
+You are required to turn in satisfactory solutions to **all of the checked practice assignments**.
 No more than _three_ late assignments are allowed.
 Assignments will be turned in via pushing your [course portfolio](/notes/course-portfolio.md) to GitHub under the requested path.
 
