@@ -11,13 +11,15 @@ The flow of the course will look like:
 
 The flow of each day will look like:
 
-1. Standup
-1. Practice or Lecture
+1. Standup at 9:45 A.M.
+1. Practice, Lecture, or Help
+1. Lunch
+1. More Practice, Lecture, or Help
 1. Hot Tips?
 
 ## Standup
 
-**Standup** is a quick meeting each morning where each person recounts to the group:
+**Standup** is a quick meeting each morning at 9:45 A.M. where each person recounts to the group:
 
 * What they worked on the previous day
 * Any problems they need help resolving

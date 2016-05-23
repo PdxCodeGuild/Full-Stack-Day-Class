@@ -80,6 +80,8 @@ Create an empty `models.py` in the Django application root for your [models](/no
 touch DJANGO_APP_NAME/models.py
 ```
 
+Remember to [migrate](/notes/django-models.md#migrating) whenever you update your models.
+
 ## 5. Create Templates Directory
 
 Create an empty [templates](/notes/django-templates.md) directory for your HTML.

@@ -11,12 +11,13 @@ Due dates are linked from our schedule on the top of [the syllabus](/).
 
 ### 1. Attendance
 
-You are required to attend **>95% of the class sessions**.
+You are required to attend **>90% of the class sessions**.
 There are _no exceptions_ to this rule because of the immersive nature of the class.
 Attendance is taken.
 
 Being more than 15 minutes late or leaving more than 15 minutes early counts as a tardy.
 _Three_ tardies counts as an absence.
+Tardies count towards your attendance percentage.
 
 **Keep your class time sacred. I cannot stress this enough.**
 
@@ -26,7 +27,7 @@ An immersive all-day format is not the only way to learn these skills.
 Let me know _now_, if you're concerned.
 
 The class is immersive, but not oppressive:
-Please take short breaks during the day.
+Please take short breaks outside during the day.
 Please go home if you are sick.
 
 ### 2. Checked Practice

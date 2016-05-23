@@ -30,14 +30,15 @@
 1. [Evaluation Order](/notes/py-program-flow.md)
 1. [Basic Math](/notes/py-math.md)
 1. [Basic Variable Naming](/notes/naming-variables-basic.md)
-1. Atom
-1. Demo: [Simple Unit Converter](/demos/distance-convert.md)
+1. [Python Style](/notes/py-style.md)
+1. [Atom for Python](/notes/atom-python.md)
 1. Demo: [Greeting](/demos/greeting.md)
+1. Demo: [Simple Unit Converter](/demos/distance-convert.md)
 1. [Basic Debugging](/notes/debugging-basic.md)
 1. [Basic Problem Solving](/notes/problem-solving-basic.md)
 1. Group Practice: [Change Return](/practice/change-return.md)
-1. Individual Practice: [Madlib](/practice/madlib.md)
 1. Checked Practice: [Wall Painting](/practice/wall-painting.md)
+1. Individual Practice: [Madlib](/practice/madlib.md)
 1. [Source Control](/notes/source-control.md)
 1. [Basic Git](/notes/git-basics.md)
 1. [Git Ignore](/notes/git-ignore.md)
@@ -50,8 +51,8 @@
 1. [Branching and Blocks](/notes/py-branching-blocks.md)
 1. Demo: [Written-Out Numbers](/demos/writtennumbers.md)
 1. Group Practice: [Taxes](/practice/taxes.md)
-1. Individual Practice: Unit Converter
 1. Checked Practice: [21](/practice/21.md)
+1. Individual Practice: Unit Converter
 1. Calling Type Methods
 1. Optional Arguments
 1. Basic String Methods
@@ -61,26 +62,26 @@
 1. Slicing
 1. Demo: Camping Packing Game
 1. Demo:
-1. Optional: Practice: Count Vowels
-1. Optional: Practice: I-E Spelling
-1. Optional: Practice: [Pig Latin](/practice/pig-latin.md)
+1. Group Practice: I-E Spelling
+1. Checked Practice: [Pig Latin](/practice/pig-latin.md)
+1. Individual Practice: Count Vowels
 1. [Functions](/notes/py-functions-defining.md)
 1. [Interfaces and Scope](/notes/scope-interfaces.md)
 1. [Main Function](/notes/js-functions-main.md)
 1. [Function Naming](/notes/naming-functions.md)
+1. [Docstrings](/notes/py-docstrings.md)
 1. Demo:
 1. Demo:
-1. Optional: Practice:
-1. Optional: Practice:
-1. Optional: Practice:
+1. Group Practice:
+1. Checked Practice:
+1. Individual Practice:
 1. [Git Branching and Merging](/notes/git-branching-merging.md)
-1. Docstrings
 1. [Functions as Structure](/notes/py-functions-defining_as_structure.md)
 1. [Stubbing](/notes/stubbing.md)
 1. [Advanced Problem Solving](/notes/problem-solving-adv.md)
 1. Demo:
-1. Optional: Practice:
-1. Practice: Function Refactor
+1. Group Practice:
+1. Checked Practice: Function Refactor
 1. Optional: Practice: Merge Refactor
 1. Lists
 1. List Comprehensions
@@ -95,9 +96,9 @@
 1. [Advanced Debugging](/notes/debugging-adv.md)
 1. Demo:
 1. Demo: Tic-Tac-Toe
-1. Optional: Practice: Make Initials
-1. Optional: Practice: [Last Join](/practice/last-join.md)
-1. Optional: Practice: [Credit Card Validator](/practice/credit.md)
+1. Group Practice: [Last Join](/practice/last-join.md)
+1. Checked Practice: [Credit Card Validator](/practice/credit.md)
+1. Individual Practice: Make Initials
 1. [File IO](/notes/py-io-file.md)
 1. Demo:
 1. Demo:
@@ -110,16 +111,16 @@
 1. [Sorting](/notes/sorting.md)
 1. Demo:
 1. Demo: [Class Roster](/demos/class-roster.md)
-1. Practice: Phone Book
-1. Practice:
-1. Practice:
+1. Group Practice: Phone Book
+1. Checked Practice:
+1. Individual Practice:
 1. [For Loops](/notes/py-for-loops.md)
 1. While Loops
 1. Demo: Fizz Buzz
 1. Demo:
-1. Practice: [Programming Case Conversion](/practice/case.md)
-1. Practice: Farkle
-1. Optional: Practice:
+1. Group Practice: [Programming Case Conversion](/practice/case.md)
+1. Checked Practice: Farkle
+1. Individual Practice:
 1. [Reducing](/notes/reducing.md)
 1. [Grouping](/notes/grouping.md)
 1. [Picking Data Structures](/notes/problem-solving-data-structures.md)
@@ -274,7 +275,7 @@
 1. Demo: [Palette](/demos/palette.md)
 1. Checked Practice: [Whack-A-Mole](/practice/whack-a-mole.md)
 
-## Django Backend Programming
+## Django Web Framework Programming
 
 1. [Dependencies](/notes/py-app-dependencies.md)
 1. [Virtualenv](/notes/py-virtualenv.md)
@@ -308,25 +309,28 @@
 1. Group Practice:
 1. Checked Practice:
 1. Individual Practice:
-1. [Query Parameters](/notes/django-query-parameters.md)
 1. [Posting Forms](/notes/django-posting.md)
+1. [Path Parameters](/notes/django-path-parameters.md)
 1. Demo: [Comments](/demos/comments.md)
 1. Group Practice: [Ice Cream Poll](/practice/ice-cream-poll.md)
 1. Checked Practice: [Jokes](/practice/jokes.md) [Book Stats](/practice/book-stats.md)
 1. Individual Practice: [Multi-Madlib](/practice/multi-madlib.md) [Image Serve](/practice/image-serve.md)
+
+## Django Database Programming
+
 1. [Object Relational Mapper](/notes/orm.md)
 1. [Entity-Relation Diagrams](/notes/entity-relation.md)
 1. [Models](/notes/django-models.md)
 1. [Instantiating and Saving Models](/notes/django-saving-models.md)
 1. [Querying](/notes/django-querying.md)
-1. [Path Parameters](/notes/django-path-parameters.md)
 1. [Admin Site](/notes/django-admin.md)
+1. [Shell and Backend](/notes/django-shell.md)
 1. Demo: [Playlists](/demos/playlists.md)
 1. Group Practice: [Sub-Todo](/practice/sub-todo.md)
 1. Checked Practice: [Flutter](/practice/flutter.md)
 1. Individual Practice: Loaner
-1. [Shell and Backend](/notes/django-shell.md)
 1. File Fields
+1. Demo:
 
 ## APIs and Web Interfaces
 

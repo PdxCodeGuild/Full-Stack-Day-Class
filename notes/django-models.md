@@ -10,7 +10,8 @@ This means that there are restrictions on what kinds of values can go in them.
 To make a model, create a new class in `DJANGO_APP_NAME/models.py`, then reference `django.db.models.Model`.
 Then, instead of using a constructor or magic init to describe all of the fields, you create class variables with the field types.
 
-Because models are just Python classes, you still need to implement magic repr on them to print them out.
+Implement both magic string and magic repr on all of your model classes.
+Django uses magic string to show a short description of your class instances on the admin site, and you still need to implement magic repr so you can print debug.
 
 ```py
 from django.db import models
@@ -19,6 +20,9 @@ class Business(models.Model):
     name = models.TextField()
     founded = models.DateField()
 
+    def __str__(self):
+        return self.name
+
     def __repr__(self):
         return 'Business(name={!r}, founded={!r})'.format(self.name, self.founded)
 
@@ -26,6 +30,9 @@ class Employee(models.Model):
     works_at = models.ForeignKey(Business)
     name = models.TextField()
     email = models.EmailField()
+
+    def __str__(self):
+        return self.name
 
     def __repr__(self):
         return 'Employee(works_at={!r}, name={!r}, age={!r}, email={!r})'.format(
@@ -70,12 +77,13 @@ On the _child_ entity model, add a `ForeignKey(parent_model_class)`.
 
 ### Many-to-Many
 
-On _both_ entity models, add a `ManyToManyField(other_model)`.
+On the _child_ entity model, add a `ManyToManyField(other_model)`.
 
 ## Migrating
 
 Whenever you change or create new models, you have to **migrate** the existing DB.
-This ensures that Django has the DB set up correctly for you to be able to query it.
+A migration is a set of instructions for how to use and save instances of your models.
+Django will make them for you!
 
 Basically, whenever you change `DJANGO_APP_NAME/models.py` run these two commands in your virtualenv.
 You need to specify your Django app name when you make migrations.
@@ -85,5 +93,8 @@ python manage.py makemigrations DJANGO_APP_NAME
 python manage.py migrate
 ```
 
-This creates a `DJANGO_APP_NAME/migrations` directory.
-Commit this.
+This creates a history of how all of your models have changed in the `DJANGO_APP_NAME/migrations` directory.
+Commit this whenever it changes.
+
+Do _not_ commit the `db.sqlite3` file that is created.
+That contains the actual DB data and is not part of your project code.
