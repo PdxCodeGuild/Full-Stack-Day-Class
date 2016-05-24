@@ -1,7 +1,8 @@
 # PDX Code Guild Day Class Syllabus
 
-* [March 16th to June 9th Day Class Schedule](/schedule/mar16th.md)
-* [March 16th to June 9th Hot Tips](/tips/mar16th)
+* [March 16th to June 9th Day Class Schedule](/sessions/2016-03-16/schedule.md)
+* [March 16th to June 9th Hot Tips](/sessions/2016-03-16/tips)
+* [March 16th to June 9th Capstone Proposals](/sessions/2016-03-16/capstones.md)
 
 ## Intro
 
@@ -287,7 +288,7 @@
 
 ## Django Web Framework Programming
 
-1. Structure of a Website
+1. [Website Structure](/notes/website-structure.md)
 1. [URLs](/notes/urls.md)
 1. [Web Basics](/notes/webbasics.md)
 1. [Django Overview](/notes/djangooverview.md)
