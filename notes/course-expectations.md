@@ -19,7 +19,7 @@ Pick my brain.
 You should get my attention _at any time_ if you have a question.
 Don't wait.
 
-Outside-of-class tutoring is free and can be scheduled with [Chris Jones](chris@pdxcodeguild.com).
+Outside-of-class tutoring is free and can be scheduled with [Chris Jones](mailto:chris@pdxcodeguild.com).
 If I believe you are falling behind in the material, I will ask you to schedule tutoring time.
 
 ## Commitment
@@ -27,9 +27,9 @@ If I believe you are falling behind in the material, I will ask you to schedule 
 The course is full-time and very fast.
 Most of the class time will be allotted to working on problems in groups or individually.
 **Still, expect to work on course material outside of class.**
-Spend time reviewing and studying up every evening and weekend.
+Spend some time reviewing and studying up every evening and weekend.
 
-If you fall behind, you will have to outside-of-class time catching up.
+If you fall behind, you will have to spend outside-of-class time catching up.
 For the sake of the rest of the class, we have to continue.
 
 ## Mindset
@@ -41,13 +41,13 @@ The only students that succeed in this course are those that either have or lear
 **The computer is about to bash you over the head every day with hundreds of complaints.
 You are going to have to deal with it.**
 Even masters do not code perfectly on the fifth try.
+I will be continually giving you informal feedback of your work also.
 **Studying more will not allow you to avoid all mistakes.**
 Thrive on the feedback, it's usually easy to follow.
 **Do not shy away from mistakes.**
 The only way to learn is to _do_ because there is no way to study it all.
 
-If you are a perfectionist, let me know now, because you're going to have to work on dropping it.
-I will be continually giving you informal feedback of your work.
+If you are a perfectionist, let me know now, because you're going to have to temper that behavior.
 
 ### Are Anal and Flexible Simultaneously
 
@@ -73,6 +73,6 @@ That is one of the skills this class explicitly teaches.
 I will sometimes direct you to Google instead of answering.
 
 Software developers are **professionals**.
-This is a very lucrative profession because **there are no set checklists**.
+This is a very lucrative profession **because there are no checklists**.
 Every problem is unique, which means every solution is unique.
 It is more of an art than you might guess.

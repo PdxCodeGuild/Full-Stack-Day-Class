@@ -4,8 +4,8 @@
 
 To pass the course and receive your certificate, you must complete three requirements.
 
-If you are currently failing any of the requirements, you will receive a warning.
-If you do not return to passing all of the requirements within 14 days, you will be removed from the course.
+If you are currently failing any of the requirements, I will email you a written warning.
+If you do not return to passing all of the requirements within 14 days or by the end of class, whichever is sooner, you will be removed from the course.
 
 Due dates are linked from our schedule on the top of [the syllabus](/).
 
