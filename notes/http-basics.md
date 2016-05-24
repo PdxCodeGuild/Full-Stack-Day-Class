@@ -1,15 +1,13 @@
-# Web Basics
-A **web site** is a series of **resources**.
-Resources are pages, images, style information, data, any _noun_.
-Resources are identified by their URL or location.
-Your web browser knows how to parse the URL and then **request** the data for the resource from the appropriate web server.
+# HTTP Basics
 
-HTTP. Hyper-Text Transport protocol.
+HTTP. Hyper-Text Transport Protocol.
 HTTP is like a call and response protocol.
 
-The protocol has no memory on it's own. But servers and client do.
+The protocol has no memory on it's own.
+But servers and client do.
 
 ## HTTP Requests
+
 A request has three basic parts: a **verb**, a **path**, and a **body**.
 The path is the same as above.
 The body is any input the user has for the server.
@@ -18,6 +16,7 @@ The verb is how the server should interpret the body.
 Request types are named by their verb.
 
 ### GET Request
+
 The most basic request is a GET request.
 The verb is `GET`, it has an _empty_ body, and tells the server to simply return the data for the resource it has at the given path.
 
@@ -30,6 +29,7 @@ GET /search?q=dinosaurs
 ```
 
 ### POST Request
+
 The second most basic request is a POST request.
 The verb is `POST`, and it has some data in the body.
 It tells the server to incorporate that data _into_ the resource at the given path.
@@ -49,6 +49,7 @@ Age: "28"
 ```
 
 ## HTTP Responses
+
 A response has two basic parts: a **status code** and a **body**.
 
 The status code is a number that represents how the server responded to the request:

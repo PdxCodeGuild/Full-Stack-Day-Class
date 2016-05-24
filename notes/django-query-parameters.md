@@ -11,6 +11,9 @@ def view(request):
     params['user_name']  #> 'david'
 ```
 
+Note that your [route pattern](/notes/django-routes.md) should _not try to match the query string_, the part with the question mark, just like you don't try to match the `http://` part.
+Write the route pattern for just the [path part](/notes/urls.md) of the URL.
+
 Check out the [docs](https://docs.djangoproject.com/en/1.9/ref/request-response/#querydict-objects) for specifically how to use `QueryDict` objects.
 You might need to lookup more [magic methods](http://rafekettler.com/magicmethods.html).
 

@@ -290,7 +290,7 @@
 
 1. [Website Structure](/notes/website-structure.md)
 1. [URLs](/notes/urls.md)
-1. [Web Basics](/notes/webbasics.md)
+1. [HTTP Basics](/notes/http-basics.md)
 1. [Django Overview](/notes/djangooverview.md)
 1. [Web Framework](/notes/webframework.md)
 1. [Django Init](/notes/django-init.md)
