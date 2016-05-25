@@ -64,6 +64,9 @@ Words in `ALL_CAPS` in these notes are a placeholder.
 * `mkdir DIR_NAME` - Create a directory with a name in the working directory
 * `python FILE_PATH` - Run a file containing Python code
 
+We will not learn commands to delete things because it's too easy to accidentally erase your computer.
+Use the OS GUI Finder / Explorer to delete for now.
+
 ## Keyboard Tips
 
 Most terminals do _not_ let you use the mouse to manipulate input text.
