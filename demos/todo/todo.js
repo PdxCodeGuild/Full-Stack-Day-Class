@@ -10,7 +10,8 @@ function getReminderInput() {
 
 // 2. Transform Functions
 
-// We don't have any since the input reminder string is exactly what we want to display.
+// We don't have any since the input reminder string is exactly what we want to
+// display.
 
 // 3. Create Functions
 
@@ -24,7 +25,8 @@ function createDoneLink(reminderItem) {
   // Part of setting up the "done" link is ensureing it can cross the item off.
   // It's okay to register a callback here.
   doneLink.on('click', function(event) {
-    // Prevent clicking on the link from causing the browswer to change the page.
+    // Prevent clicking on the link from causing the browswer to change the
+    // page.
     event.preventDefault();
     crossOffReminder(reminderItem);
   });
@@ -68,7 +70,8 @@ function crossOffReminder(reminderItem) {
 // 5. Main Functions
 
 /**
- * Main functions which performs the action of adding a new reminder item with what the user put in the text box.
+ * Main functions which performs the action of adding a new reminder item with
+ * what the user put in the text box.
  */
 function runAddReminder() {
   var reminderString = getReminderInput();
@@ -82,7 +85,8 @@ function runAddReminder() {
 /**
  * Tell the browser when to run our main function.
  *
- * Note that we can't register the "crossing off" action here because the list items haven't been created yet.
+ * Note that we can't register the "crossing off" action here because the list
+ * items haven't been created yet.
  */
 function registerInitialEventHandlers() {
   $('#reminder-form').on('submit', function(event) {
@@ -92,5 +96,6 @@ function registerInitialEventHandlers() {
   });
 }
 
-// Actually run the event handler registration code when the HTML is done loading.
+// Actually run the event handler registration code when the HTML is done
+// loading.
 $(document).ready(registerInitialEventHandlers);
