@@ -19,6 +19,12 @@ Pick my brain.
 You should get my attention _at any time_ if you have a question.
 Don't wait.
 
+Your fellow students are an amazing resource.
+Ask them questions.
+You are an amazing resource.
+Prioritize teaching others in the class with every interaction.
+Teaching is the best way to solidify your own understanding.
+
 Outside-of-class tutoring is free and can be scheduled with [Chris Jones](mailto:chris@pdxcodeguild.com).
 If I believe you are falling behind in the material, I will ask you to schedule tutoring time.
 
@@ -67,8 +73,9 @@ You will be endlessly frustrated in this course if you don't master it.**
 When you finish this course you will _not_ know everything.
 Top tier software developers do _not_ know everything.
 What they do know is how to teach themselves more based on their experience.
+Practice by teaching others.
 
-Do ask me questions, but before doing so, practice looking up answers on your own.
+Do ask questions, but before doing so, practice looking up answers on your own.
 That is one of the skills this class explicitly teaches.
 I will sometimes direct you to Google instead of answering.
 

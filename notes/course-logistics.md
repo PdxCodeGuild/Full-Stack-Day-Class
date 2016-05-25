@@ -21,6 +21,12 @@ Holidays don't affect the length of the course; the end date is pushed back.
 * Martin Luther King Jr. Day
 * Memorial Day
 
+## Contact
+
+My name is David Selassie.
+
+You are welcome to email me at any time: david@pdxcodeguild.com
+
 ## Parking
 
 ### Bikes
@@ -44,6 +50,8 @@ You can park your butt in any chair or couch that's free.
 
 The classroom is your space too.
 Feel free to do work or sit anywhere you feel comfortable.
+
+There is not a printer available for public use.
 
 ### Food
 

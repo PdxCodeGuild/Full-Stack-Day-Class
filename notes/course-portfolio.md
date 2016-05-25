@@ -1,17 +1,18 @@
 # Course Portfolio
 
-You will be saving all of your practice problem solutions and capstone as a public **portfolio** of your work on [GitHub](https://github.com).
+You will be saving all of your practice solutions and capstone as a _public_ **portfolio** of your work on [GitHub](https://github.com).
 It's a great public record of your work that you can show to prospective employers.
-This is also how you will be submitting checked assignments.
+It is also how you will submit checked assignments.
 
 I suggest you make a `codeguild` directory in your home directory.
-It would have the full path `~/codeguild`.
-I will call this your **repo root directory**.
+I will call this your **portfolio directory**.
+We'll make it together [shortly](/practice/cli.md).
 
 I suggest you keep it organized and tidy as a public reflection of yourself.
+I'll be requiring you turn in your practice problems in a `practice/` directory, but feel free to make other directories for your notes or examples.
 
 ```
-codeguild/
+~/codeguild/
     readme.md
     practice/
         ...
