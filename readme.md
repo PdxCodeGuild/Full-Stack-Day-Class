@@ -15,11 +15,13 @@
 
 ## Programming in Python
 
-1. Filesystem
-1. Stored Program Computer
+1. [Programming Philosophy](/notes/programming-philosophy.md)
+1. [Stored Program Computer](/notes/stored-program-computer.md)
+1. [Filesystem](/notes/filesystem.md)
 1. [Command Line Interface](/notes/cli.md)
-1. Demo: CLI
-1. Practice: CLI
+1. [Atom Editor](/notes/atom.md)
+1. Demo: [CLI](/demos/cli.md)
+1. Individual Practice: [CLI](/practice/cli.md)
 1. [Values and Types](/notes/py-values-types.md)
 1. [Operators and Expressions](/notes/py-operators-expressions.md)
 1. [Variables](/notes/py-variables.md)
@@ -46,7 +48,6 @@
 1. [Git Remotes and GitHub](/notes/git-github.md)
 1. Demo: Git
 1. Practice: Basic Git
-1. Portfolio Creation
 1. [Booleans](/notes/py-booleans.md)
 1. [Comparison Operators](/notes/py-operators-comparison.md)
 1. [Branching and Blocks](/notes/py-branching-blocks.md)

@@ -1,10 +1,6 @@
 # Atom for Python
 
-For this class you will be using [Atom](https://atom.io) as the text editor of choice.
-Even if you are more familiar with other coding text editors, please use Atom in this course.
-This is so you all will have access to the same tools and can help each other out.
-
-Let's trick Atom out to code Python and give you lots of help.
+Let's trick [Atom](/notes/atom.md) out to code Python and give you lots of help.
 
 ## Linter
 
