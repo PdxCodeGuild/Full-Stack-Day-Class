@@ -8,9 +8,9 @@ from itertools import chain, combinations, permutations, zip_longest
 
 
 def is_container(x):
-    """Return if the input is a true container. Not a string.
+    """Return if the input is a container of other elements, but not a string.
 
-    >>> is_container([1, 2])
+    >>> is_container(['1'])
     True
     >>> is_container('Hi')
     False
@@ -34,14 +34,21 @@ def rlist(l):
 
 
 def rsorted(l):
-    """Recursively sort nested iterables.
+    """Recursively sort nested iterables by their string value.
+
+    Just a convenience function for doctesting.
 
     >>> rsorted(frozenset({'B', frozenset({'C', 'A'})}))
     ['B', ['A', 'C']]
+    >>> rsorted(frozenset({'B', None, frozenset({'C', None, 'A'})}))
+    ['B', None, ['A', 'C', None]]
+    >>> rsorted(frozenset({
+    ...                    frozenset({frozenset({'C'})}),
+    ...                    frozenset({frozenset({None})})}))
+    [[['C']], [[None]]]
     """
-    return sorted(
-        (i if not is_container(i) else rsorted(i) for i in l),
-        key=str)
+    return sorted((i if not is_container(i) else rsorted(i) for i in l),
+                  key=str)
 
 
 def pairs(group):
@@ -115,6 +122,7 @@ def all_groups(students, group_size):
     Very permutive.
 
     >>> rsorted(all_groups(['A', 'B', 'C'], 2))
+    ... # doctest: +NORMALIZE_WHITESPACE
     [[['A', 'B'], ['C', None]],
      [['A', 'C'], ['B', None]],
      [['A', None], ['B', 'C']]]
@@ -158,6 +166,9 @@ def gen_min_scoring_groups(students, group_size, historical_groups):
 def parse_groups_file(groups_file):
     r"""Take a groups file and return all of the groups in it.
 
+    A groups file contains a student name on each line with a blank line
+    between groups.
+
     >>> rsorted(parse_groups_file(['A\n', 'B\n', '\n', 'C\n']))
     [['A', 'B'], ['C']]
     """
@@ -171,15 +182,34 @@ def parse_groups_file(groups_file):
 
 
 def print_groups_file(groups):
+    """Print out a groups file.
+
+    >>> print_groups_file([['A', 'B'], ['C', None]])
+    A
+    B
+    <BLANKLINE>
+    C
+    """
     print('\n\n'.join('\n'.join(student for student in group
                                 if student is not None) for group in groups))
 
 
 def parse_students_file(students_file):
+    r"""Read student file and return a set of the students.
+
+    A student file contains one student name on each line.
+
+    >>> sorted(parse_students_file(['A\n', 'B\n', '\n']))
+    ['A', 'B']
+    """
     return frozenset(name.strip() for name in students_file) - frozenset({''})
 
 
 def parse_groups_file_paths(groups_file_paths):
+    """Read all historical groups from a list of groups file paths.
+
+    Return a set of all historical groups.
+    """
     historical_groups = set()
     for groups_file_path in groups_file_paths:
         with open(groups_file_path) as groups_file:
@@ -187,10 +217,14 @@ def parse_groups_file_paths(groups_file_paths):
     return frozenset(historical_groups)
 
 
-def main(students_file_path, group_size, groups_file_paths):
+def main(students_file_path, group_size, historical_groups_file_paths):
+    """Read a list of students, a requested group size, and historical groups,
+    then generate a new group of the requested size with the fewest students
+    that have worked together before.
+    """
     with open(students_file_path) as students_file:
         students = parse_students_file(students_file)
-    historical_groups = parse_groups_file_paths(groups_file_paths)
+    historical_groups = parse_groups_file_paths(historical_groups_file_paths)
 
     min_scoring_groups = gen_min_scoring_groups(students, group_size,
                                                 historical_groups)
@@ -210,11 +244,12 @@ if __name__ == '__main__':
                         metavar='STUDENT_FILE',
                         help='file containing student names, one per line')
     parser.add_argument(
-        'group_file_paths',
+        'historical_groups_file_paths',
         metavar='GROUP_FILE',
         nargs='*',
         help='files containing previous groups, one student per line, one '
         'blank line between groups')
 
     args = parser.parse_args()
-    main(args.student_file_path, args.group_size, args.group_file_paths)
+    main(args.student_file_path, args.group_size,
+         args.historical_groups_file_paths)
