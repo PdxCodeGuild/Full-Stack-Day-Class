@@ -15,6 +15,7 @@ Use it.
 Ask me questions.
 Pick my brain.
 **Look at my demos.**
+Research how to do advanced problems.
 
 You should get my attention _at any time_ if you have a question.
 Don't wait.

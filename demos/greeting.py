@@ -1,3 +1,5 @@
+"""Asks for a name and age, then greets the user with their age next year."""
+
 # 1. Setup
 # No setup for this problem.
 
@@ -5,7 +7,9 @@
 print('What is your name?')
 name = input()
 print('What is your age?')
-age = int(input())  # input() returns only strings, but my age is best thought about as a number, so I'll cast it to an int.
+# input() returns only strings, but my age is best thought # about as a number,
+# so I'll cast it to an int.
+age = int(input())
 
 # 3. Transform
 # Let me figure out all of my outputs.

@@ -10,7 +10,7 @@ paint, paintbrushes, idea -- work --> painting
 eggs, milk, flour -- work --> pancakes
 ```
 
-A lot of work deals with information.
+A lot of work deals with _data_ or information.
 
 ```
 cost of lumber, house plans -- work --> cost of house
@@ -30,10 +30,10 @@ Computers are good at following instructions and manipulating data.
 If we can write a recipe that the computer can understand, we can be _lazy_ and it will do the work for us!
 A program is a recipe.
 
-**Programmers** write the program once, then **users** can run it many times on their own specific input to get specific output answers.
+**Programmers** write the program once, then **users** can run it many times on their own specific input data to get specific output data.
 
 Writing the program is the hard part, though.
 Computers are stupid.
-They only know how to follow _tiny_, _meaningless_ operations.
+They only know how to follow _tiny_, _meaningless_ operations on data.
 
 **Your job is to string together tiny, meaningless operations into meaningful steps of a recipe.**

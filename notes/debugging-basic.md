@@ -1,4 +1,5 @@
 # Basic Debugging
+
 You will make mistakes.
 That's expected!
 The computer will tell you what is wrong _if you ask_.
@@ -7,6 +8,7 @@ Use the following two ideas to help you solve problems.
 **I cannot stress strongly enough** how these techniques will help.
 
 ## Listen to Errors
+
 **Exceptions** are errors.
 They are **thrown** from a specific line of code when something is wrong.
 
@@ -14,6 +16,7 @@ They are so great!
 They tell you the exact file, line, and what is wrong.
 
 Look at the _bottom_ of the error message:
+
 ```
 Traceback (most recent call last):
   MORE FUNCTIONS...
@@ -23,10 +26,14 @@ TypeError: cannot concatenate 'str' and 'int' objects
 
 * `NameError` -- No variable or function known by that name.
 * `ValueError` -- A value you're using doesn't make sense in the context.
-* `TypeError` -- You're using the wrong type.
-* `SyntaxError` -- You're not writing Python correctly.
+* `TypeError` -- Using the wrong type.
+* `SyntaxError` -- Code doesn't follow proper Python syntax. E.g. mismatched parentheses, etc.
+
+There are [many more exceptions](https://docs.python.org/3.5/library/exceptions.html#concrete-exceptions) Python can give you.
+If you get a new one, look up its meaning.
 
 ## Double Check Mental Model
+
 Data is invisible unless you print it.
 
 * Double check each operation is returning what you expect.
@@ -35,7 +42,8 @@ Data is invisible unless you print it.
 * Avoid long strings of operations; assign to variables after each step to print
 
 Can you spot the error?
-```python
+
+```py
 miles = 300.0
 mpg = 28.0
 dollars_per_gallon = 2.80
@@ -43,7 +51,8 @@ people_on_trip = 4
 cost_per_person = miles / mpg / dollars_per_gallon / people_on_trip
 ```
 If you print out intermediate values, it will be easier to see what you messed up.
-```python
+
+```py
 miles = 300.0
 mpg = 28.0
 dollars_per_gallon = 2.80

@@ -1,4 +1,5 @@
 # Comparison Operators
+
 All types have the concept of equality.
 Two strings could have the same value.
 Two booleans could have the same value.

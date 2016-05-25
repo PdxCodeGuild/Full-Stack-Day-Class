@@ -52,6 +52,15 @@ please spend some time to go back and implement that feedback to practice.
 The goal of this class is to become a proficient developer;
 the only way to demonstrate that is to actually submit working programs.
 
+#### Advanced Practice
+
+Almost every practice problem will have **advanced requirements** written out you can complete for a distinguished solution.
+They are _bonus_, more difficult extensions of the practice problem.
+**Do not work on them until you are done with the basic version.**
+
+Advanced requirements sometimes require you to go beyond the taught class material at the present time to complete them.
+**Super advanced requirements** always do and often times will require independent research.
+
 ### 3. Capstone
 
 Your are required to turn in a satisfactory **capstone proposal and project**.

@@ -1,10 +1,7 @@
-# Docstrings
+# Function Docstrings
 
-Python puts documentation _inside_ the source.
-Each function has a **docstring**, a string literal that is the first statement in the function body.
-It should describe the behavior, inputs, and outputs of that function.
-
-They are always in triple-double quotes.
+Each Python function body starts with a **function docstring**.
+It should describe the behavior, inputs, outputs, and relevant types for that function.
 
 For simple functions, put a one sentence description of the function.
 

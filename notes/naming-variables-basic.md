@@ -1,4 +1,5 @@
 # Naming Variables
+
 Using good variable names means you'll have to think less about your code;
 the names will remind you how to use each correctly.
 
@@ -12,9 +13,13 @@ Names tradeoff between specificity, length, context, etc.
 Try to use the following guidelines for helping you come up with good names.
 
 ## Use Parts of Speech
-* Variables represent data, so should be _nouns_.
+
+Variables represent data, so should be _nouns_.
+
+* `found_name` is better than `found`
 
 ## Unambiguous
+
 Try to think of all the other ways you could interpret the name you just came up with.
 If other ways are wrong or misleading, try to be more specific.
 Don't worry about long names;
@@ -24,11 +29,13 @@ it's better to be specific than short.
 * `word_without_punctuation` is better than `word`
 
 ## Parallel Construction
+
 Your programs often have multiple related variables or functions, have the names show how they relate.
 
 * `all_phone_numbers` and `friend_phone_numbers` is better than `all_numbers` and `my_friend_phones`
 
 ## Units
+
 For numbers, don't assume the units are obvious.
 They are required to use the number correctly!
 

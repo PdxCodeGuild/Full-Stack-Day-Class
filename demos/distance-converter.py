@@ -1,3 +1,5 @@
+"""Convert a distance in miles to feet."""
+
 # 1. Setup
 feet_per_mile = 5280
 
