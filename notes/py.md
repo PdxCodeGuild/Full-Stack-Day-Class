@@ -13,10 +13,14 @@ First, install [Homebrew](http://brew.sh).
 It's a package manager that allows you to install other command line tools very easily.
 We'll use it a few times later in the class as well.
 
-Then, install Python 3.
+Then, install Python 3 and setup the Python command.
 
 ```bash
 brew install python3
+echo "alias python='python3'" >> .bashrc
+echo "alias python2='\python'" >> .bashrc
+alias python='python3'
+alias python2='\python'
 ```
 
 ### Windows
@@ -27,15 +31,10 @@ brew install python3
 
 Once you've installed Python, you should be able to run Python source files.
 
-On OS X, you will have to run `python3`.
-On Windows, you can run plain `python`.
-
 ```bash
 ~ $ python -V
 Python 3.5.1
 ```
-
-In these notes, I'll always call the Python command `python`, but remember to use `python3` if necessary.
 
 Also check that you can run PIP.
 

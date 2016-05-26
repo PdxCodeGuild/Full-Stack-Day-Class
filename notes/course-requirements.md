@@ -57,6 +57,9 @@ If your solution is not satisfactory, you are required to revise it based on my 
 I will usually also provide small feedback on satisfactory solutions;
 please spend some time to go back and implement that feedback to practice.
 
+Do not turn in half-baked assignments.
+If you have extra time to work on an advanced version of the problem, work on it in a separate file or Git branch until I've graded your basic solution.
+
 The goal of this class is to become a proficient developer;
 the only way to demonstrate that is to actually submit working programs.
 

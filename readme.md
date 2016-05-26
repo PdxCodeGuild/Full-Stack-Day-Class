@@ -39,7 +39,7 @@
 1. [Basic Problem Solving](/notes/problem-solving-basic.md)
 1. [Atom for Python](/notes/atom-python.md)
 1. Demo: [Greeting](/demos/greeting.md)
-1. Demo: [Distance Converter](/demos/distance-converter.md)
+1. Demo: [Volume Converter](/demos/volume-converter.md)
 1. Group Practice: [Change Return](/practice/change-return.md)
 1. Checked Practice: [Wall Painting](/practice/wall-painting.md)
 1. Individual Practice: [Madlib](/practice/madlib.md)
@@ -49,14 +49,15 @@
 1. [Git Remotes and GitHub](/notes/git-github.md)
 1. [Git Workflow](/notes/git-workflow-basic.md)
 1. Demo: [Basic Git](/demos/git-basic.md)
-1. Practice: [Basic Git](/demos/git-basic.md)
+1. Individual Practice: [Basic Git](/demos/git-basic.md)
 1. [Booleans](/notes/py-booleans.md)
 1. [Comparison Operators](/notes/py-operators-comparison.md)
+1. [Advanced Assignment](/notes/py-assignment-adv.md)
 1. [Branching and Blocks](/notes/py-branching-blocks.md)
-1. Demo: [Written-Out Numbers](/demos/writtennumbers.md)
-1. Group Practice: [Taxes](/practice/taxes.md)
+1. Demo: [Written-Out Numbers](/demos/written-numbers.md)
+1. Group Practice: [Distance Converter](/practice/distance-converter.md)
 1. Checked Practice: [21](/practice/21.md)
-1. Individual Practice: Unit Converter
+1. Individual Practice: [Taxes](/practice/taxes.md)
 1. Calling Type Methods
 1. Optional Arguments
 1. Basic String Methods
@@ -64,8 +65,8 @@
 1. [Function Signatures](/notes/function-signatures.md)
 1. Indexing
 1. Slicing
+1. [Boolean Operators](/notes/py-operators-boolean.md)
 1. Demo: Camping Packing Game
-1. Demo:
 1. Group Practice: I-E Spelling
 1. Checked Practice: [Pig Latin](/practice/pig-latin.md)
 1. Individual Practice: Count Vowels
@@ -75,7 +76,6 @@
 1. [Function Naming](/notes/naming-functions.md)
 1. [Function Docstrings](/notes/py-docstrings-function.md)
 1. [Continuations](/notes/py-continuations.md)
-1. Demo:
 1. Demo:
 1. Group Practice:
 1. Checked Practice:

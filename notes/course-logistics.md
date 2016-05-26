@@ -25,7 +25,7 @@ Holidays don't affect the length of the course; the end date is pushed back.
 
 My name is David Selassie.
 
-You are welcome to email me at any time: david@pdxcodeguild.com
+You are welcome to email me at any time: [david@pdxcodeguild.com](mailto:david@pdxcodeguild.com)
 
 ## Parking
 

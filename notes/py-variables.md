@@ -37,8 +37,9 @@ miles / miles_per_gallon
 gallons_needed * cost_per_gallon_of_gas
 ```
 
-How do we fill our abstract labels with actual values?
-You can **assign** the result of an expression to a variable using single equals `=`.
+## Assignment
+
+W fill our abstract labels with actual values by **assigning** the result of an expression to a variable using single equals `=`.
 
 ```py
 miles = 30.5
