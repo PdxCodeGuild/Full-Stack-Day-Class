@@ -17,6 +17,7 @@
 
 1. [Programming Philosophy](/notes/programming-philosophy.md)
 1. [Stored Program Computer](/notes/stored-program-computer.md)
+1. [Python](/notes/py.md)
 1. [Filesystem](/notes/filesystem.md)
 1. [Command Line Interface](/notes/cli.md)
 1. [Atom Editor](/notes/atom.md)
@@ -43,11 +44,12 @@
 1. Checked Practice: [Wall Painting](/practice/wall-painting.md)
 1. Individual Practice: [Madlib](/practice/madlib.md)
 1. [Version Control](/notes/version-control.md)
-1. [Basic Git](/notes/git-basics.md)
+1. [Basic Git](/notes/git-basic.md)
 1. [Git Ignore](/notes/git-ignore.md)
 1. [Git Remotes and GitHub](/notes/git-github.md)
-1. Demo: Git
-1. Practice: Basic Git
+1. [Git Workflow](/notes/git-workflow-basic.md)
+1. Demo: [Basic Git](/demos/git-basic.md)
+1. Practice: [Basic Git](/demos/git-basic.md)
 1. [Booleans](/notes/py-booleans.md)
 1. [Comparison Operators](/notes/py-operators-comparison.md)
 1. [Branching and Blocks](/notes/py-branching-blocks.md)

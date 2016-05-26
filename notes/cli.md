@@ -9,21 +9,21 @@ You can type and supply new text as input.
 
 Why?
 
-* Efficient -
-Direct action.
-Once you know the command you want, just type it.
-Steep learning curve, though.
+*   Efficient -
+    Direct action.
+    Once you know the command you want, just type it.
+    Steep learning curve, though.
 
-* Simple -
-Our programs must communicate with a human;
-let's use the simplest interface, so we can focus on the problem.
+*   Simple -
+    Our programs must communicate with a human;
+    Let's use the simplest interface, so we can focus on the problem.
 
-* Composable -
-When text is both input and output, we can string together programs.
+*   Composable -
+    When text is both input and output, we can string together programs.
 
-* Tooling -
-Tools built for the command line over 40 years!
-Often, your problem has already been solved.
+*   Tooling -
+    Tools built for the command line over 40 years!
+    Often, your problem has already been solved.
 
 ## Prompt
 
@@ -62,7 +62,7 @@ Words in `ALL_CAPS` in these notes are a placeholder.
 * `cd DIR_PATH` - Change the working directory to a path
 * `atom FILE_PATH` - Open Atom to edit a file
 * `mkdir DIR_NAME` - Create a directory with a name in the working directory
-* `python FILE_PATH` - Run a file containing Python code
+* `python FILE_PATH` - Run a file containing Python code (might need `python3`)
 
 We will not learn commands to delete things because it's too easy to accidentally erase your computer.
 Use the OS GUI Finder / Explorer to delete for now.
@@ -74,7 +74,6 @@ But they do give you a wealth of keyboard shortcuts to do fancy things.
 There are a ton of them [for OS X and Linux](http://ss64.com/bash/syntax-keyboard.html) and [Windows](https://technet.microsoft.com/en-us/magazine/ff678293.aspx), but here are some super useful ones.
 
 * `TAB` - Complete a unique path
-
 * `ctrl-a` - Move cursor to the beginning of the line
 * `ctrl-e` - Move cursor to the end of the line
 * `alt-delete` - Delete backwards a whole word
