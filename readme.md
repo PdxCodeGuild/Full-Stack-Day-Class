@@ -42,7 +42,7 @@
 1. Group Practice: [Change Return](/practice/change-return.md)
 1. Checked Practice: [Wall Painting](/practice/wall-painting.md)
 1. Individual Practice: [Madlib](/practice/madlib.md)
-1. [Source Control](/notes/source-control.md)
+1. [Version Control](/notes/version-control.md)
 1. [Basic Git](/notes/git-basics.md)
 1. [Git Ignore](/notes/git-ignore.md)
 1. [Git Remotes and GitHub](/notes/git-github.md)

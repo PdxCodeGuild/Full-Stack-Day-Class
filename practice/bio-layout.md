@@ -1,5 +1,8 @@
 # Practice: Bio Layout
-Keep your bio's HTML as `bio.html` and enhance your style sheet already in `bio.css`.
+
+Save your solution in `practice/bio`.
+Add to your existing `site.css`.
+
 Also finish all of the requirements of the [original problem](/practice/bio.md) and the [style problem](/practice/bio-style.md).
 
 Let's practice using layout in your bio:

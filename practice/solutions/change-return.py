@@ -1,4 +1,10 @@
-print('Amount of change to calculate in cents?')
+"""Calculate change.
+
+Calculate the smallest number of coins needed to represent an amount of cents
+less than 100.
+"""
+
+print('Amount of change to calculate in cents? (< 100) ')
 amount_cents = int(input())
 
 cents_left = amount_cents

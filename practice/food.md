@@ -11,4 +11,5 @@ Provide:
 * A button to submit.
 
 ## Advanced
+
 * Allow the user to upload an image of their best pair of chopsticks.

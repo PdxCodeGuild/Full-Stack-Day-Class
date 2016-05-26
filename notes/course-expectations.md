@@ -1,6 +1,6 @@
 # Course Expectations
 
-This is an immersive, hands-on educational experience that mimics and prepares you for the on-the-job learning you will _have to do_ as a top professional software developer.
+This is an immersive, hands-on educational experience that mimics and prepares you for the on-the-job learning you will _have to do continually_ as a top professional software developer.
 
 The class is for motivated, independent learners who are looking for structure, guidance, and access to professional expertise.
 
@@ -31,7 +31,7 @@ If I believe you are falling behind in the material, I will ask you to schedule 
 
 ## Commitment
 
-The course is full-time and very fast.
+The course is full-time and very fast moving.
 Most of the class time will be allotted to working on problems in groups or individually.
 **Still, expect to work on course material outside of class.**
 Spend some time reviewing and studying up every evening and weekend.
@@ -42,6 +42,7 @@ For the sake of the rest of the class, we have to continue.
 ## Mindset
 
 The only students that succeed in this course are those that either have or learn a certain mindset.
+Everyone can learn this mindset.
 
 ### Embrace Mistakes and Feedback
 
@@ -56,7 +57,7 @@ The only way to learn is to _do_ because there is no way to study it all.
 
 If you are a perfectionist, let me know now, because you're going to have to temper that behavior.
 
-### Are Anal and Flexible Simultaneously
+### Are Precise and Flexible Simultaneously
 
 Computers are very unforgiving.
 They have a very small set of low-level operations and require you to use them precisely.
@@ -84,3 +85,7 @@ Software developers are **professionals**.
 This is a very lucrative profession **because there are no checklists**.
 Every problem is unique, which means every solution is unique.
 It is more of an art than you might guess.
+
+Realize that the atmosphere in this class **is what the professional environment is like**.
+It will not end when you get a job being a software developer.
+As the course progresses, check in with yourself on it.

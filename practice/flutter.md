@@ -3,12 +3,12 @@
 Save your solution in `practice/flutter`.
 
 Let's make a mini Twitter clone called Flutter where people post Flutts.
+A single Flutt just contains some text.
 
 * `/` shows the last 10 Flutts.
-* `/search?query=QUERY_TEXT` shows the last 10 Flutts containing `QUERY_TEXT` text.
-* `/post` is a form to submit a Flutts. There is "user name" and "text".
+* `/search/QUERY_TEXT` shows the last 10 Flutts containing `QUERY_TEXT` text.
+* `/post` is a form to submit a Flutts.
 * `/post/submit` is the ack page. A new Flutt is given the timestamp of the acknowledgement.
-* `/USER_NAME` shows the last 10 Flutts by a user.
 
 ## Advanced
 
@@ -18,4 +18,4 @@ Use the [Django user auth system](https://docs.djangoproject.com/en/1.9/topics/a
 * Only let logged-in users post Flutts.
 * Instead of storing "user name" store "user ID" with each Flutt.
 * Automatically fill in the user ID of the person logged in when posting a Flutt.
-* Change the `/USER_NAME` route to a `/USER_ID` route with the same functionality.
+* Add a `/user/USER_ID` route which shows the last 10 Flutts of a given user.

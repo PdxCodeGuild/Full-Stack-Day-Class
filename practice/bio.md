@@ -1,5 +1,6 @@
 # Practice: Bio
-Save your solution as `bio.html`.
+
+Save your solution in `practice/bio` as `index.html`.
 
 Write up a short bio webpage for yourself or someone famous.
 Include:

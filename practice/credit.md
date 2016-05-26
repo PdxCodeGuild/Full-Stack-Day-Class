@@ -1,5 +1,6 @@
-# Practice: Credit Card Validator
-Save your solution as `credit.py`.
+# Practice: Credit Card
+
+Save your solution as `practice/credit-card.py`.
 
 Write a function which returns whether a string containing a credit card number is valid as a boolean.
 Write as many sub-functions as necessary to solve the problem.

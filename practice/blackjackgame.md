@@ -1,4 +1,7 @@
 # Practice: Blackjack Game
+
+Save your solution in `practice/blackjack-game.py`.
+
 Implement playing a single hand of [blackjack](https://en.wikipedia.org/wiki/Blackjack) against a single computer dealer.
 
 ### Scoring

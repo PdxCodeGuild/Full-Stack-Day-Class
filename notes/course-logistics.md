@@ -51,11 +51,15 @@ You can park your butt in any chair or couch that's free.
 The classroom is your space too.
 Feel free to do work or sit anywhere you feel comfortable.
 
+Please keep the classroom clean.
+Cleaner than when you arrived.
+
 There is not a printer available for public use.
 
 ### Food
 
-You are welcome to keep food in the refrigerator in the classroom if you **write your name on it.**
+You are welcome to eat in the classroom at any time.
+If you keep food in the refrigerator in the classroom, **write your name on it.**
 Don't eat other people's food.
 
 ### After-Hours

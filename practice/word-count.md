@@ -1,4 +1,7 @@
 # Practice: Word Count
+
+Save your solution as `practice/word-count.py`.
+
 Find a book on Project Gutenberg.
 Download it as a UTF-8 text file.
 
@@ -6,11 +9,13 @@ Download it as a UTF-8 text file.
 * Count how often each unique pair of words is used, then print the most frequent top 10 out with their counts.
 
 Pairs of words overlap.
+
 ```
 The cat in the hat. -> The cat, cat in, in the, the hat.
 ```
 
 ## Advanced
+
 * Allow the user to enter a word and get the most likely words to follow the given word.
 Store the pair counts as a dict of dicts, where the first key is the first word in the pair and the second key is the second word.
 ```

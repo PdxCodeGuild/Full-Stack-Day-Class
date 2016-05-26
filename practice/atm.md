@@ -1,4 +1,7 @@
 # Practice: ATM
+
+Save your solution as `practice/atm.py`.
+
 Write a program that functions as a simple ATM for a single account.
 
 An account will be a class: it will have a field for the balance.

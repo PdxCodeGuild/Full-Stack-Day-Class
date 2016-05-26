@@ -1,21 +1,29 @@
 # Course Requirements
 
+This is a pass / distinction / no credit course.
+
+Although it might seem overbearing on the first day, out of respect for you, we want to make sure you completely understand all of the requirements you will be held to in order to pass.
+
 ## Completion Requirements
 
-To pass the course and receive your certificate, you must complete three requirements.
+To pass the course and receive your certificate, you must complete four requirements.
 
 If you are currently failing any of the requirements, I will email you a written warning.
 If you do not return to passing all of the requirements within 14 days or by the end of class, whichever is sooner, you will be removed from the course.
 
 Due dates are linked from our schedule on the top of [the syllabus](/).
 
-### 1. Attendance
+### 1. Code of Conduct
+
+You are required to uphold the [Code of Conduct](/notes/course-conduct.md) during the course.
+
+### 2. Attendance
 
 You are required to attend **>90% of the class sessions**.
-There are _no exceptions_ to this rule because of the immersive nature of the class.
+There are _no exceptions_ to this rule because of the immersive and fast-moving nature of the course.
 Attendance is taken.
 
-Being more than 15 minutes late or leaving more than 15 minutes early counts as a tardy.
+Missing 15 minutes of class counts as a tardy.
 _Three_ tardies counts as an absence.
 Tardies count towards your attendance percentage.
 
@@ -30,13 +38,13 @@ The class is immersive, but not oppressive:
 Please take short breaks outside during the day.
 Please go home if you are sick.
 
-### 2. Checked Practice
+### 3. Checked Practice
 
 You are required to turn in satisfactory solutions to **all of the checked practice assignments**.
 No more than _three_ late assignments are allowed.
 Assignments will be turned in via pushing your [course portfolio](/notes/course-portfolio.md) to GitHub under the requested path.
 
-If you need an extension on an assignments, that's fine if you let me know _before_ the due date.
+If you need an extension on an assignment, that's fine if you let me know _before_ the due date.
 
 A solution is **satisfactory** if it shows understanding of all of the topics we've covered thus far.
 It is **unsatisfactory** if not.
@@ -61,7 +69,7 @@ They are _bonus_, more difficult extensions of the practice problem.
 Advanced requirements sometimes require you to go beyond the taught class material at the present time to complete them.
 **Super advanced requirements** always do and often times will require independent research.
 
-### 3. Capstone
+### 4. Capstone
 
 Your are required to turn in a satisfactory **capstone proposal and project**.
 

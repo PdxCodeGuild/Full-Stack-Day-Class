@@ -1,5 +1,6 @@
 # Practice: Book Stats
-Put your solution in a directory named `book_stats`.
+
+Save your solution in `practice/book-stats`.
 It should be a full-fledged Django and Python application.
 
 Make a "website" version of your [word count practice](/practice/word-count.md).

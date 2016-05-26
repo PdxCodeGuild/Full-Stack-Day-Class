@@ -1,5 +1,8 @@
 # Practice: Bio Style
-Keep your bio's HTML as `bio.html` and save the style sheet as `bio.css`.
+
+Save your solution in `practice/bio`.
+Alongside your existing `index.html`, add `site.css`.
+
 Also finish all of the requirements of the [original problem](/practice/bio.md).
 
 Let's vamp up your bio.

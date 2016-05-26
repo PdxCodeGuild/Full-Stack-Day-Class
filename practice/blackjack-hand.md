@@ -1,4 +1,7 @@
 # Practice: Blackjack Hand
+
+Save your solution as `practice/blackjack-hand.py`.
+
 Implement _just scoring_ a single hand of [blackjack](https://en.wikipedia.org/wiki/Blackjack).
 Don't worry about modeling a deck or a game yet.
 

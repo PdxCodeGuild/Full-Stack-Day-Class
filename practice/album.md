@@ -1,5 +1,6 @@
 # Practice: Picture Album
-Save your solution as `album.html`, `album.css`, and `album.js`.
+
+Save your solution in `practice/album` as `index.html`, `site.js`, and `site.css`.
 
 * Give the user a text box that they can enter image URLs into.
 * When the user clicks "submit", that image will be added and displayed in an album below.

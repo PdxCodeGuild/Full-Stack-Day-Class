@@ -1,4 +1,7 @@
 # Practice: Connect Four
+
+Save your solution as `practice/connect-four.py`.
+
 [Connect Four](https://en.wikipedia.org/wiki/Connect_Four) is a board game.
 Players take turns placing tokens of their color into a vertical grid.
 They drop to the bottom, and if anyone has four of their color in a straight line, they've won!
@@ -44,4 +47,5 @@ This moves file recreates [this game](https://en.wikipedia.org/wiki/File:Connect
 You can use `R` and `Y` to represent the pieces.
 
 ## Advanced
+
 * Once all moves are done, also print out what player, if any, won.
