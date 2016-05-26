@@ -8,7 +8,10 @@ module.exports = {
       "maximum-line-length": false,
       "ordered-list-marker-value": "single",
       "strong-marker": "*",
-      "unordered-list-marker-style": "*"
+      "unordered-list-marker-style": "*",
+      "fenced-code-flag": {
+        "allowEmpty": true
+      }
     },
     "remark-validate-links": {}
   }
