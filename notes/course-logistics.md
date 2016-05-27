@@ -70,3 +70,9 @@ The evening class starts at 6 P.M. every week day, so please be out by then.
 
 _Any time_ you are welcome to hang out or work in the main PDX Code Guild building in the common area, which is the long table by the door or the couch area.
 It is open from 9 A.M. to 10 P.M.
+
+## Technology
+
+Everyone is going to be using Python 3, Atom, and Google Chrome for their development in this class.
+This is a requirement, so everyone has access to the same tools and can help each other out.
+You'll need to have at least OS X 10.8 or Windows 7 installed.

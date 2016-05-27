@@ -4,6 +4,7 @@
 
 Git keeps track of _all_ of the content in a directory and changes to it.
 That directory is called a **repository**.
+Git _can not_ keep track of random files in random locations on your filesystem, only all files under a single directory.
 
 Git stores timestamped snapshots of the state of the repo called **commits**.
 Each commit has a globally unique **hash**, an author, a timestamp, a description of what changed, a **parent** commit, and inside stores the exact changes made to the files from the last commit.

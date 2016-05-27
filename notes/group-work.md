@@ -15,6 +15,15 @@ All people are engaged.
 I will be explicitly assigning you to groups of about three.
 I will rotate the groups so you will work with everyone in the class.
 
+## Code for Others
+
+Professional's read code _way more_ than write code.
+Write your code for someone else who's never seen it before to read.
+
+This is why I will be hounding you on how you name parts of your program and structuring it in bite-size ways.
+
+Even when you're working individually, keep other people in mind.
+
 ## Attitude
 
 Everyone in this class comes from different backgrounds and skill-sets.

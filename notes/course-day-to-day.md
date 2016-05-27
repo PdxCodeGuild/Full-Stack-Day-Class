@@ -15,7 +15,9 @@ The flow of each day will look like:
 1. Practice, Lecture, or Help
 1. Lunch
 1. More Practice, Lecture, or Help
-1. Hot Tips?
+1. Hot Tips
+
+Every Friday I will do 15 minute one-on-ones with student individually.
 
 ## Standup
 
@@ -66,3 +68,9 @@ I will not be checking solutions, but I am happy to look at them if you ask.
 About once per day I will present **hot tips**.
 They are tips, reminders, and feedback to everyone in the class.
 They tend to be clarifications or extensions on the formal course material that I think are necessary based on working with folks individually.
+
+## One-on-Ones
+
+Every Friday I will do **one-on-ones**.
+They are a meeting where we can discuss anything at all.
+I will come with some prepared questions, but we will also discuss whatever you want.

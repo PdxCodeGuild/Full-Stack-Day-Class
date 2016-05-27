@@ -53,6 +53,9 @@ There are no letter or number grades;
 each solution is satisfactory, unsatisfactory, or distinguished.
 I will _stringently_ review your solutions and email you feedback in a review of each checked assignment.
 
+All submitted work must be your own.
+You are encouraged to use resources (online, books, each other) to research solutions, but please reference what or who helped you with a solution.
+
 If your solution is not satisfactory, you are required to revise it based on my feedback and turn it in at a given later date until it is satisfactory.
 I will usually also provide small feedback on satisfactory solutions;
 please spend some time to go back and implement that feedback to practice.

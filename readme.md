@@ -6,6 +6,7 @@
 
 ## Intro
 
+1. [Learning Objectives](/notes/course-learning-objectives.md)
 1. [Expectations](/notes/course-expectations.md)
 1. [Logistics](/notes/course-logistics.md)
 1. [Certificate Requirements](/notes/course-requirements.md)
@@ -99,6 +100,7 @@
 1. [Searching](/notes/searching.md)
 1. [Searching for Solutions](/notes/googling.md)
 1. [Advanced Debugging](/notes/debugging-adv.md)
+1. Doctests
 1. Demo:
 1. Demo: Tic-Tac-Toe
 1. Group Practice: [Last Join](/practice/last-join.md)

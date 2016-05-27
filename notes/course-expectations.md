@@ -18,6 +18,8 @@ Pick my brain.
 Research how to do advanced problems.
 
 You should get my attention _at any time_ if you have a question.
+If you bang your head against the wall for 30 minutes and can't solve something, stop.
+Find me.
 Don't wait.
 
 Your fellow students are an amazing resource.

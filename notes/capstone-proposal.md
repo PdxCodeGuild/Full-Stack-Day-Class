@@ -19,6 +19,7 @@ I am _not_ evaluating the business savvy of your project (although I'd be happy 
 Your capstone proposal must:
 
 * Follow the rubric
+* Be plain text or Markdown
 * Describe a [MVP](/notes/capstone-mvp.md) that meets [the capstone requirements](/notes/capstone-intro.md#requirements)
 * Describe a project that you can finish in time
 
