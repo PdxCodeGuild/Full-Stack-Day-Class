@@ -6,6 +6,8 @@ import argparse
 from collections import Iterable
 from itertools import chain, combinations, permutations, zip_longest
 
+from tabulate import tabulate
+
 
 def is_container(x):
     """Return if the input is a container of other elements, but not a string.
@@ -60,24 +62,46 @@ def pairs(group):
     return map(frozenset, combinations(group, 2))
 
 
-def calc_pair_to_count(groups):
-    """Given a list of groups, calculate a mapping from pairs to how often
+def calc_pair_to_count(groups_set):
+    """Given a set of groups, calculate a mapping from pairs to how often
     they have been grouped together.
 
     >>> sorted(
     ...     (sorted(pair), count)
     ...     for pair, count
-    ...     in calc_pair_to_count([['A', 'B', 'C'], ['B', 'C']]).items()
+    ...     in calc_pair_to_count([[['A', 'B', 'C']], [['B', 'C']]]).items()
     ... )
     [(['A', 'B'], 1), (['A', 'C'], 1), (['B', 'C'], 2)]
     """
     pair_to_count = {}
-    for group in groups:
-        for pair in pairs(group):
-            if pair not in pair_to_count:
-                pair_to_count[pair] = 0
-            pair_to_count[pair] += 1
+    for groups in groups_set:
+        for group in groups:
+            for pair in pairs(group):
+                if pair not in pair_to_count:
+                    pair_to_count[pair] = 0
+                pair_to_count[pair] += 1
     return pair_to_count
+
+
+def calc_names_count_matrix(names, groups_set):
+    """
+
+    >>> calc_names_count_matrix(['C', 'A', 'B'],
+    ...                         [[['A', 'B', 'C'], ['B', 'C']]])
+    (['A', 'B', 'C'], [[0, 1, 1], [1, 0, 2], [1, 2, 0]])
+    """
+    names = sorted(names)
+    pair_to_count = calc_pair_to_count(groups_set)
+    count_matrix = [
+        [
+            pair_to_count.get(frozenset({name1, name2}), 0)
+            for name2
+            in names
+        ]
+        for name1
+        in names
+    ]
+    return names, count_matrix
 
 
 def score_group(group, historical_pair_to_count):
@@ -117,11 +141,11 @@ def chunk(iterable, size):
     return zip_longest(*copies)
 
 
-def all_groups(students, group_size):
+def all_groups_set(students, group_size):
     """Generate all possible unique groups of a given size from all students.
     Very permutive.
 
-    >>> rsorted(all_groups(['A', 'B', 'C'], 2))
+    >>> rsorted(all_groups_set(['A', 'B', 'C'], 2))
     ... # doctest: +NORMALIZE_WHITESPACE
     [[['A', 'B'], ['C', None]],
      [['A', 'C'], ['B', None]],
@@ -148,19 +172,18 @@ def min_scoring_groups(groups_set, historical_pair_to_count):
     return min(groups_set, key=score_groups_with_historical_pair_counts)
 
 
-def gen_min_scoring_groups(students, group_size, historical_groups):
+def gen_min_scoring_groups(students, group_size, historical_groups_set):
     """Figure out what is the minimum-scoring group out of all possible groups
     of some students.
 
     >>> rsorted(gen_min_scoring_groups(['A', 'B', 'C'],
     ...                                2,
-    ...                                {frozenset({'A', 'B'}): 1,
-    ...                                 frozenset({'B', 'C'}): 1}))
+    ...                                [[['A', 'B']], [['B', 'C']]]))
     [['A', 'C'], ['B', None]]
     """
     return min_scoring_groups(
-        all_groups(students, group_size),
-        calc_pair_to_count(historical_groups))
+        all_groups_set(students, group_size),
+        calc_pair_to_count(historical_groups_set))
 
 
 def parse_groups_file(groups_file):
@@ -194,6 +217,23 @@ def print_groups_file(groups):
                                 if student is not None) for group in groups))
 
 
+def print_name_count_matrix(names, count_matrix):
+    """
+
+    >>> print_name_count_matrix(['A', 'B', 'C'],
+    ...                         [[0, 1, 1], [1, 0, 2], [1, 2, 0]])
+    +----+-----+-----+-----+
+    |    |   A |   B |   C |
+    |----+-----+-----+-----|
+    | A  |   0 |   1 |   1 |
+    | B  |   1 |   0 |   2 |
+    | C  |   1 |   2 |   0 |
+    +----+-----+-----+-----+
+    """
+    table = [[name] + counts for name, counts in zip(names, count_matrix)]
+    print(tabulate(table, names, tablefmt='psql'))
+
+
 def parse_students_file(students_file):
     r"""Read student file and return a set of the students.
 
@@ -210,24 +250,33 @@ def parse_groups_file_paths(groups_file_paths):
 
     Return a set of all historical groups.
     """
-    historical_groups = set()
+    historical_groups_set = set()
     for groups_file_path in groups_file_paths:
         with open(groups_file_path) as groups_file:
-            historical_groups.add(parse_groups_file(groups_file))
-    return frozenset(historical_groups)
+            historical_groups_set.add(
+                frozenset(parse_groups_file(groups_file)))
+    return frozenset(historical_groups_set)
 
 
-def main(students_file_path, group_size, historical_groups_file_paths):
+def main(students_file_path, group_size, historical_groups_file_paths,
+         verbosity):
     """Read a list of students, a requested group size, and historical groups,
     then generate a new group of the requested size with the fewest students
     that have worked together before.
     """
     with open(students_file_path) as students_file:
         students = parse_students_file(students_file)
-    historical_groups = parse_groups_file_paths(historical_groups_file_paths)
+    historical_groups_set = parse_groups_file_paths(
+        historical_groups_file_paths)
+
+    if verbosity > 0:
+        historical_names, historical_count_matrix = calc_names_count_matrix(
+            students,
+            historical_groups_set)
+        print_name_count_matrix(historical_names, historical_count_matrix)
 
     min_scoring_groups = gen_min_scoring_groups(students, group_size,
-                                                historical_groups)
+                                                historical_groups_set)
     print_groups_file(min_scoring_groups)
 
 
@@ -240,6 +289,12 @@ if __name__ == '__main__':
         type=int,
         default=3,
         help='form groups of this many students (default: %(default)s)')
+    parser.add_argument(
+        '-v',
+        dest='verbosity',
+        action='count',
+        default=0,
+        help='print out group formation debugging to stderr')
     parser.add_argument('student_file_path',
                         metavar='STUDENT_FILE',
                         help='file containing student names, one per line')
@@ -252,4 +307,4 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
     main(args.student_file_path, args.group_size,
-         args.historical_groups_file_paths)
+         args.historical_groups_file_paths, args.verbosity)
