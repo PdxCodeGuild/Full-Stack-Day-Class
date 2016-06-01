@@ -4,9 +4,22 @@ with the fewest times before.
 """
 import argparse
 from collections import Iterable
-from itertools import chain, combinations, permutations, zip_longest
+from functools import reduce
+from itertools import (chain, combinations_with_replacement, filterfalse,
+                       permutations, zip_longest)
 
 from tabulate import tabulate
+
+
+def is_none(x):
+    """Return if a variable is None.
+
+    >>> is_none('A')
+    False
+    >>> is_none(None)
+    True
+    """
+    return x is None
 
 
 def is_container(x):
@@ -28,11 +41,7 @@ def rlist(l):
     >>> rlist(('A', ('B', )))
     ['A', ['B']]
     """
-    return [
-        i if not is_container(i) else rlist(i)
-        for i
-        in l
-    ]
+    return [i if not is_container(i) else rlist(i) for i in l]
 
 
 def rsorted(l):
@@ -54,47 +63,104 @@ def rsorted(l):
 
 
 def pairs(group):
-    """Given a group of people, produce frozenset pairs.
+    """Given a group of people, return a tuple pairs generator.
 
-    >>> rsorted(pairs(['A', 'B', 'C']))
-    [['A', 'B'], ['A', 'C'], ['B', 'C']]
+    Nones are ignored in the group.
+    Tuple pairs are only emitted in sorted order.
+
+    >>> list(pairs(['A', 'B']))
+    [('A', 'A'), ('A', 'B'), ('B', 'B')]
+    >>> list(pairs(['A', None]))
+    [('A', 'A')]
+    >>> list(pairs(['B', 'A']))
+    [('A', 'A'), ('A', 'B'), ('B', 'B')]
+    >>> list(pairs(['A', 'C', 'B', None]))
+    [('A', 'A'), ('A', 'B'), ('A', 'C'), ('B', 'B'), ('B', 'C'), ('C', 'C')]
     """
-    return map(frozenset, combinations(group, 2))
+    group_without_nones = filterfalse(is_none, group)
+    sorted_group = sorted(group_without_nones)
+    pair_lists = combinations_with_replacement(sorted_group, 2)
+    pair_tuples = map(tuple, pair_lists)
+    return pair_tuples
 
 
-def calc_pair_to_count(groups_set):
-    """Given a set of groups, calculate a mapping from pairs to how often
-    they have been grouped together.
+def calc_pair_to_count_of_group(group):
+    """Given a group return that each pair was grouped together once.
 
-    >>> sorted(
-    ...     (sorted(pair), count)
-    ...     for pair, count
-    ...     in calc_pair_to_count([[['A', 'B', 'C']], [['B', 'C']]]).items()
-    ... )
-    [(['A', 'B'], 1), (['A', 'C'], 1), (['B', 'C'], 2)]
+    Only the sorted pairs are keys.
+
+    >>> sorted(calc_pair_to_count_of_group(['A', 'B']).items())
+    [(('A', 'A'), 1), (('A', 'B'), 1), (('B', 'B'), 1)]
     """
-    pair_to_count = {}
-    for groups in groups_set:
-        for group in groups:
-            for pair in pairs(group):
-                if pair not in pair_to_count:
-                    pair_to_count[pair] = 0
-                pair_to_count[pair] += 1
-    return pair_to_count
+    return {pair: 1 for pair in pairs(group)}
+
+
+def sum_count_dict(count_dict1, count_dict2):
+    """Sum two dicts from key to count by unique key.
+
+    >>> sorted(sum_count_dict({'A': 1, 'B': 1}, {'B': 1, 'C': 3}).items())
+    [('A', 1), ('B', 2), ('C', 3)]
+    """
+    out_count_dict = dict(count_dict1)
+    for key, sum_num in count_dict2.items():
+        if key not in out_count_dict:
+            out_count_dict[key] = 0
+        out_count_dict[key] += sum_num
+    return out_count_dict
+
+
+def calc_pair_to_count_of_groups(groups):
+    """Count how often each pair exists in some groups.
+
+    Only the sorted pairs are keys.
+
+    >>> sorted(calc_pair_to_count_of_groups([['A', 'B'], ['A']]).items())
+    [(('A', 'A'), 2), (('A', 'B'), 1), (('B', 'B'), 1)]
+    """
+    return reduce(sum_count_dict, map(calc_pair_to_count_of_group, groups))
+
+
+def calc_pair_to_count_of_groups_set(groups_set):
+    """Count how often each pair exists in a set of groups.
+
+    >>> sorted(calc_pair_to_count_of_groups_set(
+    ...     [[['A'], ['B']], [['A', 'B']]]).items())
+    [(('A', 'A'), 2), (('A', 'B'), 1), (('B', 'B'), 2)]
+    """
+    return reduce(sum_count_dict,
+                  map(calc_pair_to_count_of_groups, groups_set))
+
+
+def pair(name1, name2):
+    """Manually pair two names in order for compairson to a pair count dict.
+
+    >>> pair('B', 'A')
+    ('A', 'B')
+    """
+    return tuple(sorted((name1, name2)))
 
 
 def calc_names_count_matrix(names, groups_set):
-    """
+    """Produce a matrix of how often names have been paired together in a set
+    of groups.
 
-    >>> calc_names_count_matrix(['C', 'A', 'B'],
-    ...                         [[['A', 'B', 'C'], ['B', 'C']]])
-    (['A', 'B', 'C'], [[0, 1, 1], [1, 0, 2], [1, 2, 0]])
+    Returns an ordered list of names and the matrix in that order.
+
+    >>> calc_names_count_matrix(['A', 'B'],
+    ...                         [[['A', 'B']], [['A']]])
+    (['A', 'B'], [[2, 1], [1, 1]])
+    >>> calc_names_count_matrix(['B', 'A'],
+    ...                         [[['A', 'B']], [['A']]])
+    (['A', 'B'], [[2, 1], [1, 1]])
+    >>> calc_names_count_matrix(['A', 'B'],
+    ...                         [[['A']], [['A']]])
+    (['A', 'B'], [[2, 0], [0, 0]])
     """
     names = sorted(names)
-    pair_to_count = calc_pair_to_count(groups_set)
+    pair_to_count = calc_pair_to_count_of_groups_set(groups_set)
     count_matrix = [
         [
-            pair_to_count.get(frozenset({name1, name2}), 0)
+            pair_to_count.get(pair(name1, name2), 0)
             for name2
             in names
         ]
@@ -109,9 +175,8 @@ def score_group(group, historical_pair_to_count):
     group members have been paired together before.
 
     >>> score_group(
-    ...     ['A', 'B', 'C', None],
-    ...     {frozenset(['A', 'B']): 1, frozenset(['A', 'C']): 1}
-    ... )
+    ...     ['A', 'B', 'C'],
+    ...     {('A', 'B'): 1, ('A', 'C'): 1})
     2
     """
     return sum(historical_pair_to_count.get(pair, 0) for pair in pairs(group))
@@ -122,8 +187,8 @@ def score_groups(groups, historical_pair_to_count):
     times group members have been paired together before.
 
     >>> score_groups(
-    ...     [['A', 'B', 'C'], ['D', 'E', None]],
-    ...     {frozenset(['A', 'B']): 1, frozenset(['D', 'E']): 1})
+    ...     [['A', 'B'], ['C', 'D']],
+    ...     {('A', 'B'): 1, ('C', 'D'): 1})
     2
     """
     return sum(score_group(group, historical_pair_to_count)
@@ -161,10 +226,9 @@ def min_scoring_groups(groups_set, historical_pair_to_count):
     has the minimum score.
 
     >>> min_scoring_groups(
-    ...     [[['A', 'B'], ['C', 'D']], [['A', 'C'], ['B', 'D']]],
-    ...     {frozenset(['A', 'B']): 1, frozenset(['C', 'D']): 1}
-    ... )
-    [['A', 'C'], ['B', 'D']]
+    ...     [[['A', 'B'], ['C', 'D']], [['A', 'C'], ['D', 'B']]],
+    ...     {('A', 'B'): 2, ('B', 'D'): 1})
+    [['A', 'C'], ['D', 'B']]
     """
     def score_groups_with_historical_pair_counts(groups):
         return score_groups(groups, historical_pair_to_count)
@@ -183,7 +247,7 @@ def gen_min_scoring_groups(students, group_size, historical_groups_set):
     """
     return min_scoring_groups(
         all_groups_set(students, group_size),
-        calc_pair_to_count(historical_groups_set))
+        calc_pair_to_count_of_groups_set(historical_groups_set))
 
 
 def parse_groups_file(groups_file):
@@ -200,7 +264,7 @@ def parse_groups_file(groups_file):
         if name != '':
             working_group.add(name)
         elif len(working_group) > 0:
-            yield frozenset(working_group)
+            yield tuple(sorted(working_group))
             working_group = set()
 
 
@@ -218,7 +282,7 @@ def print_groups_file(groups):
 
 
 def print_name_count_matrix(names, count_matrix):
-    """
+    """Print a matrix of names and counts.
 
     >>> print_name_count_matrix(['A', 'B', 'C'],
     ...                         [[0, 1, 1], [1, 0, 2], [1, 2, 0]])
@@ -235,14 +299,16 @@ def print_name_count_matrix(names, count_matrix):
 
 
 def parse_students_file(students_file):
-    r"""Read student file and return a set of the students.
+    r"""Read student file and return a sorted list of the students.
 
     A student file contains one student name on each line.
 
     >>> sorted(parse_students_file(['A\n', 'B\n', '\n']))
     ['A', 'B']
     """
-    return frozenset(name.strip() for name in students_file) - frozenset({''})
+    unique_names = (frozenset(name.strip() for name in students_file) -
+                    frozenset({''}))
+    return tuple(sorted(unique_names))
 
 
 def parse_groups_file_paths(groups_file_paths):
@@ -250,12 +316,9 @@ def parse_groups_file_paths(groups_file_paths):
 
     Return a set of all historical groups.
     """
-    historical_groups_set = set()
     for groups_file_path in groups_file_paths:
         with open(groups_file_path) as groups_file:
-            historical_groups_set.add(
-                frozenset(parse_groups_file(groups_file)))
-    return frozenset(historical_groups_set)
+            yield tuple(parse_groups_file(groups_file))
 
 
 def main(students_file_path, group_size, historical_groups_file_paths,
@@ -266,8 +329,8 @@ def main(students_file_path, group_size, historical_groups_file_paths,
     """
     with open(students_file_path) as students_file:
         students = parse_students_file(students_file)
-    historical_groups_set = parse_groups_file_paths(
-        historical_groups_file_paths)
+    historical_groups_set = list(parse_groups_file_paths(
+        historical_groups_file_paths))
 
     if verbosity > 0:
         historical_names, historical_count_matrix = calc_names_count_matrix(
