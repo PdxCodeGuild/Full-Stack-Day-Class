@@ -29,10 +29,10 @@
 1. [Variables](/notes/py-variables.md)
 1. [Function Calling](/notes/py-functions-calling-basic.md)
 1. [Program Flow](/notes/py-program-flow.md)
-1. [Terminal IO](/notes/py-io-terminal.md)
-1. [Basic Casting](/notes/py-casting.md)
-1. [Comments](/notes/py-comments.md)
 1. [Basic Math](/notes/py-math.md)
+1. [Basic Casting](/notes/py-casting.md)
+1. [Terminal IO](/notes/py-io-terminal.md)
+1. [Comments](/notes/py-comments.md)
 1. [Basic Variable Naming](/notes/naming-variables-basic.md)
 1. [Python Style](/notes/py-style.md)
 1. [Module Docstrings](/notes/py-docstrings-module.md)
@@ -59,16 +59,16 @@
 1. Group Practice: [Distance Converter](/practice/distance-converter.md)
 1. Checked Practice: [21](/practice/21.md)
 1. Individual Practice: [Taxes](/practice/taxes.md)
-1. Calling Type Methods
+1. [Calling Type Methods](/notes/py-type-methods-calling.md)
 1. Optional Arguments
-1. Basic String Methods
+1. [Basic String Methods](/notes/py-string-methods-basic.md)
 1. Standard Library Docs
 1. [Function Signatures](/notes/function-signatures.md)
 1. Indexing
 1. Slicing
 1. [Boolean Operators](/notes/py-operators-boolean.md)
 1. Demo: Camping Packing Game
-1. Group Practice: I-E Spelling
+1. Group Practice: [I-E Spelling](/practice/spelling.md)
 1. Checked Practice: [Pig Latin](/practice/pig-latin.md)
 1. Individual Practice: Count Vowels
 1. [Functions](/notes/py-functions-defining.md)
@@ -345,8 +345,8 @@
 
 ## APIs and Web Interfaces
 
-1. [AJAX](/notes/ajax.md)
 1. [JSON](/notes/json.md)
+1. [AJAX](/notes/ajax.md)
 1. [APIs](/notes/apis.md)
 1. [HTTP APIs](/notes/http_apis.md)
 1. REST
