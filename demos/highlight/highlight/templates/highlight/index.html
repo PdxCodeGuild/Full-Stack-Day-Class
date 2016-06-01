@@ -1,0 +1,25 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Highlight</title>
+        <link rel="stylesheet" href="{% static 'highlight/site.css' %}">
+    </head>
+    <body>
+        <section>
+            <form id="source-form" action="{% url 'color' %}">
+                <textarea name="source-str"></textarea>
+                <input type="submit">
+            </form>
+        </section>
+        <section>
+            <p class="error" id="error"></p>
+            <span id="lang-name"></span>
+            <div id="code"></div>
+        </section>
+    </body>
+    <script src="https://code.jquery.com/jquery-2.2.3.js"></script>
+    <script src="{% static 'highlight/ajax_csrf_setup.js' %}"></script>
+    <script src="{% static 'highlight/main.js' %}"></script>
+</html>
