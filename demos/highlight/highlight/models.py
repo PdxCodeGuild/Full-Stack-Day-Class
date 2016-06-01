@@ -8,3 +8,8 @@ class ColoredSource:
         """Wrap together an existing language and colored source HTML."""
         self.language_name = language_name
         self.source_html = source_html
+
+    def __repr__(self):
+        return 'ColoredSource({!r}, {!r})'.format(
+            self.language_name,
+            self.source_html)

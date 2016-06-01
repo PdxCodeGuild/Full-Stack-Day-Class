@@ -347,6 +347,7 @@
 
 1. [JSON](/notes/json.md)
 1. [AJAX](/notes/ajax.md)
+1. Demo: [Highlight](/demos/highlight.md)
 1. [APIs](/notes/apis.md)
 1. [HTTP APIs](/notes/http_apis.md)
 1. REST
