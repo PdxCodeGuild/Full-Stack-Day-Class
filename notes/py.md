@@ -23,7 +23,7 @@ alias python='python3'
 alias python2='\python'
 ```
 
-### Windows 7
+### Windows 7 and 10
 
 
 ![](py.images/0000.png)
