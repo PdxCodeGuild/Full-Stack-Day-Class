@@ -1,4 +1,5 @@
 # Problem Resources
+
 Sources for more practice problems.
 
 * [Coding Bat](http://codingbat.com/python)
@@ -7,3 +8,4 @@ Sources for more practice problems.
 * [Practice-It](http://practiceit.cs.washington.edu/practiceit/list.jsp)
 * [Rosetta Code](http://rosettacode.org/wiki/Category:Programming_Tasks)
 * [Epicodus Courses](https://www.learnhowtoprogram.com/courses)
+* [Old PDX Code Guild Notes](https://github.com/PdxCodeGuild)
