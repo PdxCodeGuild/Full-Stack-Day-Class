@@ -39,20 +39,44 @@ We will override the default action.
 </form>
 ```
 
-1. Overwrite submit event handler
-1. Prepare your data
-1. Manually submit
-1. Have a callback that updates the page.
+## 5. Prepare a Main
+
+Write a "main" function in your site's JS that will query the form, and kick off a async POST request.
+The two exciting parts.
+
+1. Use `.serialize()` to get the data entered in a form
+1. Use `$.post(ACTION_URL, FORM_DATA)` to actually kick off the request.
+
+On the call to `post()` you can add various callback functions to run on success or failure.
+They will be called in order.
+
+* `done(successCallback)` is given a function that can process completed and decoded JSON object
+* `fail(failureCallback)` is given a function that can process an error response
+* `always(doneCallback)` is given a function that will run in either case
 
 ```js
-function submitSource(sourceForm) {
+function emptyPage() {
+    ...
+}
+
+function fillPageWithResults(jsonObj) {
+    ...
+}
+
+function fillPageWithError(jqXHR) {
+    jqXHR.responseText;
+    ...
+}
+
+function runSubmitAndUpdate() {
+  var sourceForm = $('#my-form');
   var actionURL = sourceForm.attr('action');
   var formData = sourceForm.serialize();
   $.post(actionURL, formData).
-    always(emptyResponseElements).
-    done(fillFromColoredSource).
-    fail(fillError);
+    always(emptyPage).
+    done(fillPageWithResults).
+    fail(fillPageWithError);
 }
 ```
 
-The same Python code would process it.
+Check out the [jQuery jqXHR object documentation](http://api.jquery.com/jQuery.ajax/#jqXHR) for further details on how to use those functions.

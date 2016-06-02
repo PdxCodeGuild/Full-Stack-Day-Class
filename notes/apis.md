@@ -1,4 +1,5 @@
 # APIs
+
 **Application Programming Interfaces** or **APIs** are a super powerful, but generic, idea.
 They are the formal definition of how you access someone else's code.
 
