@@ -9,7 +9,9 @@ Although it might seem overbearing on the first day, out of respect for you, we 
 To pass the course and receive your certificate, you must complete four requirements.
 
 If you are currently failing any of the requirements, I will email you a written warning.
-If you do not return to passing all of the requirements within 14 days or by the end of class, whichever is sooner, you will be removed from the course.
+If you do not return to passing all of the requirements within 14 days or by the end of class, whichever is sooner, **you will be removed from the course**.
+This is out of respect for the other students.
+There is lots of
 
 Due dates are linked from our schedule on the top of [the syllabus](/).
 
@@ -27,8 +29,6 @@ Missing 15 minutes of class counts as a tardy.
 _Three_ tardies counts as an absence.
 Tardies count towards your attendance percentage.
 
-**Keep your class time sacred. I cannot stress this enough.**
-
 If you are not sure you can attend the required amount of class sessions, this is _not the course for you_.
 That's totally fine!
 An immersive all-day format is not the only way to learn these skills.
@@ -41,9 +41,9 @@ Please go home if you are sick.
 ### 3. Checked Practice
 
 You are required to turn in satisfactory solutions to **all of the checked practice assignments**.
-No more than _three_ late assignments are allowed.
 Assignments will be turned in via pushing your [course portfolio](/notes/course-portfolio.md) to GitHub under the requested path.
 
+No more than _three_ late assignments are allowed.
 If you need an extension on an assignment, that's fine if you let me know _before_ the due date.
 
 A solution is **satisfactory** if it shows understanding of all of the topics we've covered thus far.

@@ -34,6 +34,7 @@ If I believe you are falling behind in the material, I will ask you to schedule 
 ## Commitment
 
 The course is full-time and very fast moving.
+**Keep your class time sacred. I cannot stress this enough.**
 Most of the class time will be allotted to working on problems in groups or individually.
 **Still, expect to work on course material outside of class.**
 Spend some time reviewing and studying up every evening and weekend.
