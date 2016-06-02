@@ -23,9 +23,22 @@ alias python='python3'
 alias python2='\python'
 ```
 
-### Windows
+### Windows 7
 
 [Download](https://www.python.org/downloads/) the Python 3 installer and run it.
+
+![](py.images/0000.png)
+![](py.images/0001.png)
+![](py.images/0002.png)
+![](py.images/0003.png)
+![](py.images/0004.png)
+![](py.images/0005.png)
+![](py.images/0006.png)
+![](py.images/0007.png)
+![](py.images/0008.png)
+![](py.images/0009.png)
+![](py.images/0010.png)
+![](py.images/0012.png)
 
 ## Running
 
