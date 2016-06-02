@@ -23,7 +23,7 @@ Your capstone _must_ at least touch upon all of the major areas in the course th
 * Databases
 * JS
 * HTML
-* CSS
+* CSS / Layout
 * Documentation (docstrings, read me)
 * Testing
 * Proper language style
