@@ -22,4 +22,5 @@
 | 2016-05-30 | | Monday | Memorial Day: No Class |
 | 2016-06-09 | | Thursday | Last Day of Class |
 | 2016-06-09 | All Class | Thursday | Capstone Show-and-Tell |
-| 2016-06-09 | EOD | Thursday | Capstone Due
+| 2016-06-09 | EOD | Thursday | Capstone Due |
+| 2016-07-07 | 2:15 to 3:30 P.M. | Thursday | Public Demo Day |
