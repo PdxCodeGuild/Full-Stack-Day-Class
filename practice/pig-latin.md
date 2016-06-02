@@ -1,11 +1,25 @@
 # Practice: Pig Latin
-Create a program that will translate a _single English word_ to **Pig Latin**.
+
+Save your solution as `practice/pig-latin.py`.
+
+Create a program asks for a _single_ English word and translates it to **Pig Latin**.
 
 Rules:
-1. Take all consonants at the beginning of a word, move them to the end.
+
+1. If the first letter is a consonant, move it to the end.
 1. Add "ay" to the end of that.
-1. If there were no consonants at the beginning, just ad "yay" to the end.
+1. If the first letter is a vowel, just ad "yay" to the end.
+
+> hat
+> athay
+> apple
+> appleyay
 
 ## Advanced
-* Properly handle capitalization.
-* Properly handle punctuation.
+
+* Properly handle capitalization
+* Properly handle punctuation
+
+## Super Advanced
+
+* Handle words that start with multiple consonants
