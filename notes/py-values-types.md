@@ -32,6 +32,7 @@ You can sometimes represent similar ideas in multiple types:
 42.0
 '42'
 ```
+
 These are all distinct values with distinct types and thus distinct interpretations.
 
 Sometimes the interpretation of the type allows useful, but unexpected values.

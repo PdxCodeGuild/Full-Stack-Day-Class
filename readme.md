@@ -59,14 +59,15 @@
 1. Group Practice: [Distance Converter](/practice/distance-converter.md)
 1. Checked Practice: [21](/practice/21.md)
 1. Individual Practice: [Taxes](/practice/taxes.md)
-1. [Calling Type Methods](/notes/py-type-methods-calling.md)
-1. Optional Arguments
-1. [Basic String Methods](/notes/py-string-methods-basic.md)
-1. Standard Library Docs
-1. [Function Signatures](/notes/function-signatures.md)
-1. Indexing
-1. Slicing
 1. [Boolean Operators](/notes/py-operators-boolean.md)
+1. Demo: [Bool Game](/demos/bool-game.md)
+1. [Lists](/notes/py-lists.md)
+1. [Sequence Operators](/notes/py-indexing-slicing.md)
+1. [Calling Type Methods](/notes/py-type-methods-calling.md)
+1. [Basic String Methods](/notes/py-string-methods-basic.md)
+1. [Optional Arguments](/notes/py-functions-calling-optional.md)
+1. [Function Signatures](/notes/function-signatures.md)
+1. [Standard Library Docs](/notes/py-standard-library-docs.md)
 1. [Git Branching and Merging](/notes/git-branching-merging.md)
 1. Demo: Camping Packing Game
 1. Group Practice: [I-E Spelling](/practice/spelling.md)
@@ -89,7 +90,6 @@
 1. Group Practice:
 1. Checked Practice: Function Refactor
 1. Optional: Practice: Merge Refactor
-1. Lists
 1. List Comprehensions
 1. Tuples
 1. [Advanced Function Calling](/notes/py-functions-calling-adv.md)
@@ -359,7 +359,7 @@
 
 ## Industry
 
-1. [Companies](/notes/companies.md)
+1. [Companies](/notes/dev-companies.md)
 1. [Development Roles](/notes/dev-roles.md)
 1. Resume Writing
 1. Interview

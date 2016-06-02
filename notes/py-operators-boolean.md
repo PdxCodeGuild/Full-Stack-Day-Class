@@ -24,7 +24,7 @@ c = True
 a and (b or c)  #> True
 ```
 
-These operators do not modify the behavior of the equals operator.
+These operators do not modify the behavior of other operators!
 If you want to check for multiple kinds of equality, you need multiple equals operators.
 
 ```py

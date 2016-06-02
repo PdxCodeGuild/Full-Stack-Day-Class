@@ -1,6 +1,6 @@
 # Basic Casting
 
-Python gives you types to change the type of a value, keeping the meaning _as close as possible_.
+Python gives you built-in functions to change the type of a value, keeping the meaning _as close as possible_.
 These functions are called **casting functions**.
 
 The functions are named after the type you _want_.
