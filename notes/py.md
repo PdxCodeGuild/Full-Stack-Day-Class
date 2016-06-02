@@ -19,8 +19,12 @@ Then, install Python 3 and setup the Python command.
 brew install python3
 echo "alias python='python3'" >> .bashrc
 echo "alias python2='\python'" >> .bashrc
+echo "alias pip='pip3'" >> .bashrc
+echo "alias pip2='\pip'" >> .bashrc
 alias python='python3'
 alias python2='\python'
+alias pip='pip3'
+alias pip2='\pip'
 ```
 
 ### Windows 7 and 10
