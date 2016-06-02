@@ -67,6 +67,7 @@
 1. Indexing
 1. Slicing
 1. [Boolean Operators](/notes/py-operators-boolean.md)
+1. [Git Branching and Merging](/notes/git-branching-merging.md)
 1. Demo: Camping Packing Game
 1. Group Practice: [I-E Spelling](/practice/spelling.md)
 1. Checked Practice: [Pig Latin](/practice/pig-latin.md)
@@ -81,7 +82,6 @@
 1. Group Practice:
 1. Checked Practice:
 1. Individual Practice:
-1. [Git Branching and Merging](/notes/git-branching-merging.md)
 1. [Functions as Structure](/notes/py-functions-defining_as_structure.md)
 1. [Stubbing](/notes/stubbing.md)
 1. [Advanced Problem Solving](/notes/problem-solving-adv.md)
@@ -99,6 +99,7 @@
 1. [Filtering](/notes/filtering.md)
 1. [Searching](/notes/searching.md)
 1. [Searching for Solutions](/notes/googling.md)
+1. [Using Python 2](/notes/py-using2.md)
 1. [Advanced Debugging](/notes/debugging-adv.md)
 1. Doctests
 1. Demo:
@@ -356,8 +357,10 @@
 1. Individual Practice:
 1. Checked Practice:
 
-## Job Search and Interviewing
+## Industry
 
+1. [Companies](/notes/companies.md)
+1. [Development Roles](/notes/dev-roles.md)
 1. Resume Writing
 1. Interview
 1. Negotiation

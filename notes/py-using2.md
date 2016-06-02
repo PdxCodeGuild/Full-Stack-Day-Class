@@ -1,4 +1,5 @@
 # Using Python 2
+
 Much of the code you find when googling for Python problems is written in Python 2.
 There were some breaking changes.
 Here is an overview of them.
@@ -7,66 +8,82 @@ See the [Python docs](https://docs.python.org/release/3.1.2/whatsnew/3.0.html#co
 If you see things like `print hi` or `raw_input` or `iteritems` or `xrange`, you'll have to follow these changes.
 
 ## Changes
+
 ### Print is a Function
+
 Python 2
-```python
+
+```py
 print 'Hi', name
 ```
 
 Python 3
-```python
+```py
 print('Hi', name)
 ```
 
 ### Input was Renamed
+
 Python 2
-```python
+
+```py
 name = raw_input()
 ```
 
 Python 3
-```python
+
+```py
 name = input()
 ```
 
 ### Dict Iterating Functions Renamed
+
 Python 2
-```python
+
+```py
 d.iteritems()
 d.iterkeys()
 d.itervalues()
 ```
 
 Python 3
-```python
+
+```py
 d.items()
 d.keys()
 d.values()
 ```
 
 ### XRange
+
 Python 2
-```python
+
+```py
 xrange(4)
 ```
 
 Python 3
-```python
+
+```py
 range(4)
 ```
 
 ### Integer Division Truncation
+
 Python 2
-```python
+
+```py
 3 / 1  #> 0
 ```
 
 Python 3
-```python
+
+```py
 3 / 1  #> 0.333
 ```
 
 ## Running Bigger Python 2 Programs
+
 If you come across a complete Python 2 program you want to run, you have a few options.
 
 If you just care about running the program and not modifying it, just run it using `python2`.
