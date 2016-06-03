@@ -3,6 +3,7 @@
 Save your solution as `practice/pig-latin.py`.
 
 Create a program asks for a _single_ English word and translates it to **Pig Latin**.
+It prints out the input word and the resulting translation like the example below.
 
 Rules:
 
@@ -10,10 +11,10 @@ Rules:
 1. Add "ay" to the end of that.
 1. If the first letter is a vowel, just ad "yay" to the end.
 
-> hat
-> athay
-> apple
-> appleyay
+> Word? hat
+> hat in Pig Latin is athay
+> Word? apple
+> apple in Pig Latin is appleyay
 
 ## Advanced
 

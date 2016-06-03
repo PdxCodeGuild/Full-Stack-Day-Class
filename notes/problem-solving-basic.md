@@ -3,9 +3,10 @@
 It starts out intimidating to write code from scratch to solve a problem.
 Think about these things before you start working on it.
 
-1. Think of your nouns.
-Your nouns will be variables.
-1. Think about what data types will let you perform those steps easily.
+1.  Think of your nouns.
+    Your nouns will be variables.
+
+1.  Think about what data types will let you perform those steps easily.
 
 Then _aggressively_ break your problem down into these steps and work on them one at a time.
 

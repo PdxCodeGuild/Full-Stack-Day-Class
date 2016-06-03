@@ -1,5 +1,4 @@
 """Asks for a name and age, then greets the user with their age next year."""
-
 # 1. Setup
 # No setup for this problem.
 

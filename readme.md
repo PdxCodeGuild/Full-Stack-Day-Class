@@ -62,18 +62,19 @@
 1. [Boolean Operators](/notes/py-operators-boolean.md)
 1. Demo: [Bool Game](/demos/bool-game.md)
 1. [Lists](/notes/py-lists.md)
-1. [Sequence Operators](/notes/py-indexing-slicing.md)
+1. [Sequence Operators](/notes/py-operators-sequence.md)
 1. [Calling Type Methods](/notes/py-type-methods-calling.md)
-1. [Basic String Methods](/notes/py-string-methods-basic.md)
 1. [Optional Arguments](/notes/py-functions-calling-optional.md)
+1. [Basic String Methods](/notes/py-string-methods-basic.md)
+1. [String Formatting](/notes/py-string-format.md)
 1. [Function Signatures](/notes/function-signatures.md)
 1. [Standard Library Docs](/notes/py-standard-library-docs.md)
 1. [Git Branching and Merging](/notes/git-branching-merging.md)
-1. [Cheat Sheet](https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf)
-1. Demo: Camping Packing Game
-1. Group Practice: [I-E Spelling](/practice/spelling.md)
+1. [Cheat Sheet](/notes/mementopython3-english.pdf)
+1. Demo: [Phone Number](/demos/phone-number.md)
+1. Group Practice: [Last Join](/practice/last-join.md)
 1. Checked Practice: [Pig Latin](/practice/pig-latin.md)
-1. Individual Practice: Count Vowels
+1. Individual Practice: [I-E Spelling](/practice/spelling.md)
 1. [Functions](/notes/py-functions-defining.md)
 1. [Interfaces and Scope](/notes/scope-interfaces.md)
 1. [Main Function](/notes/js-functions-main.md)
@@ -105,7 +106,7 @@
 1. Doctests
 1. Demo:
 1. Demo: Tic-Tac-Toe
-1. Group Practice: [Last Join](/practice/last-join.md)
+1. Group Practice:
 1. Checked Practice: [Credit Card Validator](/practice/credit.md)
 1. Individual Practice: Make Initials
 1. [File IO](/notes/py-io-file.md)

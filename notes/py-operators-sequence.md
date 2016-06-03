@@ -2,6 +2,18 @@
 
 All sequences, like strings and lists, have a few useful operators.
 
+## Length
+
+Many sequences have a **length**.
+You can use the built-in function `len()` to get it.
+
+```py
+name = 'David'
+len(name)  #> 5
+names = ['David', 'Helen']
+len(names)  #> 2
+```
+
 ## Indexing and Slicing
 
 Sequences have the **subscript operator** or **get operator**, `[]`.

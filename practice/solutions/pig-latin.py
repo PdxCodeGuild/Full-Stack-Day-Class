@@ -9,4 +9,4 @@ if word[0] not in VOWELS:
 else:
     out_word = word + 'yay'
 
-print(out_word)
+print('{} in Pig Latin is {}'.format(word, out_word))

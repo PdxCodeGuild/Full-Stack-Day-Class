@@ -1,5 +1,4 @@
 """Convert a volume in gallons to liters."""
-
 # 1. Setup
 liters_per_gallon = 3.785411784
 
