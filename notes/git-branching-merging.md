@@ -120,7 +120,7 @@ They're not Python code and won't run.
 Now you need to finish making the merge commit.
 Run `git add FILE` to mark that you've resolved the conflict.
 
-Once `git status` shows only "changes to be committed" / all green, run `git commit -m"Merge BRANCH"`.
+Once `git status` shows only "changes to be committed" / all green, run `git commit`.
 
 Then remember to delete your finalized branch.
 
@@ -132,7 +132,7 @@ Now repeat until the speculative work is done:
 
 1. Make changes using your editor to the working directory.
 1. Stage those changes in the index using `git add FILES...`.
-1. Commit those staged changes to your history of the feature branch using `git commit -m"MESSAGE"`.
+1. Commit those staged changes to your history of the feature branch using `git commit`.
 
 Now that the feature branch is done:
 
