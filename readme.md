@@ -69,6 +69,7 @@
 1. [Function Signatures](/notes/function-signatures.md)
 1. [Standard Library Docs](/notes/py-standard-library-docs.md)
 1. [Git Branching and Merging](/notes/git-branching-merging.md)
+1. [Cheat Sheet](https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf)
 1. Demo: Camping Packing Game
 1. Group Practice: [I-E Spelling](/practice/spelling.md)
 1. Checked Practice: [Pig Latin](/practice/pig-latin.md)
