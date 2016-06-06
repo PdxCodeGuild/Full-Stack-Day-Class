@@ -6,13 +6,15 @@ Feel free to hand draw mockups and include them if that helps you plan, but they
 
 Your proposal serves a few important purposes:
 
-1. Front-load decision making.
-Figure out _now_ how you're going to solve your problems.
-Do some prototyping and research.
-1. Guidance _for you_.
-When you're working on the project, you can look at it and know what to do next.
-1. Safety check that it meets the requirements below.
-I am _not_ evaluating the business savvy of your project (although I'd be happy to give my two cents, if you ask).
+1.  Front-load decision making.
+    Figure out _now_ how you're going to solve your problems.
+    Do some prototyping and research.
+
+1.  Guidance _for you_.
+    When you're working on the project, you can look at it and know what to do next.
+
+1.  Safety check that it meets the requirements below.
+    I am _not_ evaluating the business savvy of your project (although I'd be happy to give my two cents, if you ask).
 
 ## Requirements
 
@@ -22,6 +24,7 @@ Your capstone proposal must:
 * Be plain text or Markdown
 * Describe a [MVP](/notes/capstone-mvp.md) that meets [the capstone requirements](/notes/capstone-intro.md#requirements)
 * Describe a project that you can finish in time
+* Be kept up-to-date as your project expands or evolves
 
 ## Rubric
 

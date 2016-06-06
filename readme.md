@@ -359,6 +359,14 @@
 1. Individual Practice:
 1. Checked Practice:
 
+## Capstone Presentations
+
+1. [Capstone Readme](/notes/capstone-readme.md)
+1. [Capstone Submission](/notes/capstone-submission.md)
+1. [Show and Tell](/notes/capstone-show-and-tell.md)
+1. [Demo Day](/notes/capstone-demo-day.md)
+1. [Post-Course Work](/notes/course-post.md)
+
 ## Industry
 
 1. [Companies](/notes/dev-companies.md)

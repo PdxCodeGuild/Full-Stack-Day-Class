@@ -24,7 +24,7 @@ Your capstone _must_ at least touch upon all of the major areas in the course th
 * JS
 * HTML
 * CSS / Layout
-* Documentation (docstrings, read me)
+* Documentation (relevant comments, docstrings, [readme](/notes/capstone-readme.md))
 * Testing
 * Proper language style
 
@@ -40,18 +40,21 @@ The formal schedule for working on your capstone is:
 * End of Week 6: [Proposal](/notes/capstone-proposal.md) due at end of day
 * Mid Week 7: Approved proposal
 * Week 9: Class becomes just capstone work
-* Last Day of Class: Capstone show-and-tell
+* Last Day of Class: Capstone [show-and-tell](/notes/capstone-show-and-tell.md)
 * End of Last Day of Class: Capstone due at end of day
 
 Even after the capstone has been "due", you should continue to work on it.
-PDX Code Guild will setup a demo day for recruiters at Portland area.
+PDX Code Guild will setup a demo day for the public.
 
-* 3-4 Weeks after Last Class: Demo Day for Recruiters
+* 3-4 Weeks after Last Class: [Demo Day](/notes/capstone-demo-day.md) for Recruiters
 
 From this point forward, if you finish projects early, please work on your capstone (as many of you already have).
 Brainstorm ideas, plan out implementations, etc.
 
 We will be setting aside the entire day that the proposal is due to work on it.
 Start work on it before then.
+
+As you do any work on your capstone, push it to its GitHub repo.
+It's an easy way to backup your work and it's how you'll turn it in.
 
 Once it begins around week 9, the tone of the class will shift from being a classroom setting, to more of a co-working space with me and each other as a resource.
