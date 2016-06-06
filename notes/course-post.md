@@ -29,4 +29,4 @@ As a graduate of Code Guild, you are welcome to:
 
 * Email me at any time for assistance
 * Use the public Code Guild facilities as a workspace
-* Come to our demo days and public code meet-ups
+* Come to our demo days and public code meet-ups ([Meetup](http://www.meetup.com/Portland-Programmer-Network/) and [Calagator](http://calagator.org))
