@@ -6,5 +6,5 @@
 * Justin Epperly - [Shirt Factory](https://github.com/justinglobal/shirt_factory/blob/master/proposal.md)
 * Kyle Hubbard - [D3-Based Data Visualizations of Open Access Academic Journal Metadata](https://github.com/bizzcat/D3-visualizations/blob/master/proposal.md)
 * Matthew Klump - [FX Alarm](https://github.com/mklump/codeguild_finalproject_fxalarm/blob/master/README.md)
-* Matthew Voelpel - FavIt
+* Matthew Voelpel - [FavIt](https://github.com/matvop/FavIt/blob/master/proposal.md)
 * Peter Dziuba - [What-Should-I-Eat](https://github.com/PeterDziuba/What-Should-I-Eat/blob/master/proposal.md)
