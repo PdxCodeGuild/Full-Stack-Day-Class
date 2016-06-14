@@ -21,15 +21,16 @@ Merely using topic does not automatically constitute "understanding";
 the use must contribute to the project meaningfully, show why the topic is useful, and demonstrate its usage via the methods taught in this class.
 
 * Python language basics
-* Django models for persistent storage
 * Use of Django templating and views
 * Design of reasonable Django routes
 * Incorporating user input to views
 * Isolated Python logic layer
-* Javascript language basics
-* jQuery DOM manipulation and event handling
+* Django models for persistent storage
+* Proper Python application and repo packaging
 * Semantic HTML structure
 * CSS style and layout
+* Javascript language basics
+* jQuery DOM manipulation and event handling
 * Code structuring techniques throughout
 * Documentation via relevant comments, docstrings, and a [readme](/notes/capstone-readme.md)
 * Unit testing of functional parts
