@@ -35,6 +35,7 @@ the use must contribute to the project meaningfully, show why the topic is usefu
 * Documentation via relevant comments, docstrings, and a [readme](/notes/capstone-readme.md)
 * Unit testing of functional parts
 * Proper language style throughout
+* Maintains a living proposal document
 
 I will reject project proposals that do not have the ability to show understanding of all of these topic areas.
 
