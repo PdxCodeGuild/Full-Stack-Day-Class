@@ -16,19 +16,26 @@ I suggest thinking of a problem _you_ have in your day-to-day that you might be 
 
 ## Requirements
 
-Your capstone _must_ at least touch upon all of the major areas in the course that we cover.
+Your capstone _must_ demonstrate understanding of all of the major topics in the course, incorporated into a _cohesive_ single web app.
+Merely using topic does not automatically constitute "understanding";
+the use must contribute to the project meaningfully, show why the topic is useful, and demonstrate its usage via the methods taught in this class.
 
-* Python
-* Django
-* Databases
-* JS
-* HTML
-* CSS / Layout
-* Documentation (relevant comments, docstrings, [readme](/notes/capstone-readme.md))
-* Testing
-* Proper language style
+* Python language basics
+* Django models for persistent storage
+* Use of Django templating and views
+* Design of reasonable Django routes
+* Incorporating user input to views
+* Isolated Python logic layer
+* Javascript language basics
+* jQuery DOM manipulation and event handling
+* Semantic HTML structure
+* CSS style and layout
+* Code structuring techniques throughout
+* Documentation via relevant comments, docstrings, and a [readme](/notes/capstone-readme.md)
+* Unit testing of functional parts
+* Proper language style throughout
 
-I will reject project proposals that do not have the ability to touch upon all of these areas.
+I will reject project proposals that do not have the ability to show understanding of all of these topic areas.
 
 You are encouraged to _dive deep_ in areas of your interest.
 Commitment and striving for mastery in a topic area is appreciated by prospective employers.
