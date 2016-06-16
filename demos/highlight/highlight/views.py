@@ -12,6 +12,7 @@ def render_index(request):
 
 def _convert_colored_source_to_json_obj(colored_source):
     """Convert a ColoredSource instance into a JSON-encodable object."""
+    # This is the object that will appear in the JS.
     return {
         'language': colored_source.language_name,
         'source_html': colored_source.source_html,

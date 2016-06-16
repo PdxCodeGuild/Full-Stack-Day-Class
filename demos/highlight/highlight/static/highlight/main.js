@@ -42,6 +42,7 @@ function runSubmitSourceAndUpdate() {
   var formData = sourceForm.serialize();
   $.post(actionURL, formData).
     always(emptyResponseElements).
+    // Decode the JSON and call the following function with the resulting JS object.
     done(fillFromColoredSource).
     fail(fillError);
 }
