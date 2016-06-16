@@ -17,7 +17,7 @@ And a link to your proposal.
 
 ### Setup
 
-Are there any special running requirements other than cloning the repo and building the virtualenv?
+Are there any special running requirements other than cloning the repo and building the virtualenv with the packages in `requirements.txt`?
 Any media folders I need to make or setup?
 Do I need to make any Django users?
 Is there default data in the DB that I need setup?
