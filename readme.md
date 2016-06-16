@@ -184,6 +184,7 @@
 1. [Capstone Introduction](/notes/capstone-intro.md)
 1. [MVP](/notes/capstone-mvp.md)
 1. [Capstone Proposal](/notes/capstone-proposal.md)
+1. [Capstone Requirements](/notes/capstone-requirements.md)
 1. Demo: [Image Pipe Proposal](/demos/proposal.md)
 
 ## Interface Structure with HTML
@@ -310,6 +311,7 @@
 1. [Responses](/notes/django-responses.md)
 1. [Logic](/notes/django-logic.md)
 1. [Serving Locally](/notes/django-serving-locally.md)
+1. MVC and Isolation
 1. Demo:
 1. [Django Problem Solving](/notes/django-problem-solving.md)
 1. [Django Debugging](/notes/django-debugging.md)
@@ -358,6 +360,13 @@
 1. Group Practice: [Bus Stop Finder](/practice/bus-stop-finder.md)
 1. Individual Practice:
 1. Checked Practice:
+
+## Heroku Deployment
+
+1. Moving Parts
+1. Configuration Levels
+1. Keeping Secrets
+1. Heroku
 
 ## Capstone Presentations
 
