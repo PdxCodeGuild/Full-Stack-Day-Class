@@ -1,12 +1,12 @@
 # Course Requirements
 
-This is a pass / distinction / no credit course.
+This is a **pass / distinction / no certificate** course.
 
 Although it might seem overbearing on the first day, out of respect for you, we want to make sure you completely understand all of the requirements you will be held to in order to pass.
 
 ## Completion Requirements
 
-To pass the course and receive your certificate, you must complete four requirements.
+To pass the course and earn your certificate, you must complete four requirements.
 
 If you are currently failing any of the requirements, I will email you a written warning.
 If you do not return to passing all of the requirements within 14 days or by the end of class, whichever is sooner, **you will be removed from the course**.
