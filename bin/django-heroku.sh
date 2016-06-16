@@ -55,7 +55,7 @@ EOF
 
 heroku create "$NAME"
 heroku addons:create heroku-postgresql:hobby-dev
-heroku config:set DJANGO_SECRET_KEY=$(python -c "import random; import string; print (''.join( [random.SystemRandom().choice(string.digits + string.ascii_letters + string.punctuation).replace('\"', '').replace('\'','') for i in range(50)]))")
+heroku config:set DJANGO_SECRET_KEY=$(python -c "import random as r; import string as s; print(''.join(r.SystemRandom().choice(list(set(s.printable) - set(s.whitespace) - {'\"', '\''})) for _ in range(50)))")
 echo $'# Environment variables that cause local Heroku runs to contact production DB.' > .env
 echo "DATABASE_URL=$(heroku config:get DATABASE_URL)" >> .env
 echo $'\n.env' >> .gitignore
