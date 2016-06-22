@@ -1,6 +1,6 @@
 # March 16th to June 9th Day Class Capstone Proposals
 
-* Andrew Theis - [SeekHue](https://github.com/Atheis4/SeekHue/blob/master/seek_hue.md)
+* Andrew Theis - [SeekHue](https://github.com/atheis4/seekhue/blob/master/seekhue.md)
 * Chris Knight - [Aromatherapy.care](https://github.com/luxveritas/oils/blob/master/README.md)
 * Erin Fough - [Bias-Tracker](https://github.com/shedwyn/bias-tracker/blob/master/general_notes/Proposal_formal.md)
 * Justin Epperly - [Shirt Factory](https://github.com/justinglobal/shirt_factory/blob/master/proposal.md)
