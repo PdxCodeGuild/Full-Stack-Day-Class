@@ -1,8 +1,9 @@
 # PDX Code Guild Day Class Syllabus
 
-* [March 16th to June 9th Day Class Schedule](/sessions/2016-03-16/schedule.md)
-* [March 16th to June 9th Hot Tips](/sessions/2016-03-16/tips)
-* [March 16th to June 9th Capstone Proposals](/sessions/2016-03-16/capstones.md)
+## June 7th to September 30th Day Class
+
+* [Schedule](/sessions/2016-06-07/schedule.md)
+* [Hot Tips](/sessions/2016-06-07/tips)
 
 ## Intro
 
