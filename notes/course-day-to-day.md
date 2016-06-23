@@ -17,7 +17,7 @@ The flow of each day will look like:
 1. More Practice, Lecture, or Help
 1. Hot Tips
 
-Every Friday I will do 15 minute one-on-ones with student individually.
+Every Friday I will do 15 minute one-on-ones with students individually.
 
 ## Standup
 
@@ -55,6 +55,8 @@ Please observe [good group working philosophy](/notes/group-work.md).
 Checked practice problems are worked on individually and are given formal due dates.
 They are part of the course requirements.
 You turn them in via pushing your portfolio to GitHub.
+
+All due dates will be listed in a class schedule link at the top of the main syllabus.
 
 I will not tolerate direct plagiarism of checked practice code.
 

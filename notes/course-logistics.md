@@ -3,13 +3,13 @@
 ## Schedule
 
 This course is 12 weeks or 60 days long.
-Class is every week day.
+Class sessions are every week day.
 
-Each class is from 9:30 A.M. to 4:30 P.M with an hour-long lunch break from 12:30 P.M. to 1:30 P.M.
+Each class session is from 9:30 A.M. to 4:30 P.M with an hour-long lunch break from 12:30 P.M. to 1:30 P.M.
 
 ### Holidays
 
-PDX Code Guild doesn't hold class on the following holidays.
+PDX Code Guild doesn't hold class sessions on the following holidays.
 Holidays don't affect the length of the course; the end date is pushed back.
 
 * Independence Day
@@ -26,6 +26,13 @@ Holidays don't affect the length of the course; the end date is pushed back.
 My name is David Selassie.
 
 You are welcome to email me at any time: [david@pdxcodeguild.com](mailto:david@pdxcodeguild.com)
+
+All official course correspondence (problem feedback, attendance issues, etc.) will be through email.
+Please check it regularly.
+
+We will also have a channel on the [PDX Code Guild Slack](https://portlandcodeguild.slack.com/).
+Feel free to use it however you want.
+I'll post links to notes and demos there, but they'll be available on the main syllabus list.
 
 ## Parking
 
