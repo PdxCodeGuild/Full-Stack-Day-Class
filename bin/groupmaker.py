@@ -128,7 +128,8 @@ def calc_pair_to_count_of_groups_set(groups_set):
     [(('A', 'A'), 2), (('A', 'B'), 1), (('B', 'B'), 2)]
     """
     return reduce(sum_count_dict,
-                  map(calc_pair_to_count_of_groups, groups_set))
+                  map(calc_pair_to_count_of_groups, groups_set),
+                  {})
 
 
 def pair(name1, name2):
