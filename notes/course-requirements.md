@@ -21,15 +21,15 @@ You are required to uphold the [Code of Conduct](/notes/course-conduct.md) durin
 
 ### 2. Attendance
 
-You are required to attend **>90% of the class sessions**.
-There are _no exceptions_ to this rule because of the immersive and fast-moving nature of the course.
+You are required to attend **>= 90% of the class sessions**.
+The only exceptions are up to five days of excused absence already arranged before the course starts.
 Attendance is taken.
 
 Missing 15 minutes of class counts as a tardy.
 _Three_ tardies counts as an absence.
 Tardies count towards your attendance percentage.
 
-If you are not sure you can attend the required amount of class sessions, this is _not the course for you_.
+If you are not sure you can reliably attend the required amount of class sessions, this is _not the course for you_.
 That's totally fine!
 An immersive all-day format is not the only way to learn these skills.
 Let me know _now_, if you're concerned.
