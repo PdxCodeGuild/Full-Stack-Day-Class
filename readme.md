@@ -78,7 +78,7 @@
 1. Individual Practice: [I-E Spelling](/practice/spelling.md)
 1. [Functions](/notes/py-functions-defining.md)
 1. [Interfaces and Scope](/notes/scope-interfaces.md)
-1. [Main Function](/notes/js-functions-main.md)
+1. [Main Function](/notes/py-functions-main.md)
 1. [Function Naming](/notes/naming-functions.md)
 1. [Function Docstrings](/notes/py-docstrings-function.md)
 1. [Continuations](/notes/py-continuations.md)
