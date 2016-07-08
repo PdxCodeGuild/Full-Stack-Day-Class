@@ -1,5 +1,4 @@
-"""
-"""
+"""Convert a number in base-10 into a written out number in English."""
 num = int(input('A number between 1 and 99: '))
 
 tens = num // 10

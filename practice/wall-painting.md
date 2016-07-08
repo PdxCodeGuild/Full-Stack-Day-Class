@@ -20,4 +20,7 @@ Figure out then print how much it will cost to paint the wall with one coat.
 
 ## Super Advanced
 
-* Allow the user to enter multiple wall dimensions and it adds the total areas together before calculating the cost.
+*   You can only buy whole gallons of paint.
+    Figure out a way to round up so that you know how many whole gallons to buy.
+
+*   Allow the user to enter multiple wall dimensions and it adds the total areas together before calculating the cost.

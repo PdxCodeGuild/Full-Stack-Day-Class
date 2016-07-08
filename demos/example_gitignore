@@ -5,7 +5,11 @@ __pycache__
 venv
 
 # PyCharm Temporary Files
+.idea
 .cache
 
 # Django Default DB
 db.sqlite3
+
+# macOS
+.DS_Store

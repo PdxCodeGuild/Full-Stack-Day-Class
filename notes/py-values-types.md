@@ -22,8 +22,8 @@ A type is a _kind_ of value or a way to _interpret_ them.
 Three basic types are:
 
 * **Integers** are whole numbers.
-* **Strings** are ordered sequences of characters.
-* Floating point numbers or **Floats** are decimal numbers.
+* **Strings** are ordered sequences of characters in single quotes `''`.
+* Floating point numbers or **floats** are decimal numbers.
 
 You can sometimes represent similar ideas in multiple types:
 
@@ -40,4 +40,10 @@ A string can have _no_ characters in it, called the **empty string**:
 
 ```py
 ''
+```
+
+A string literal that contains an apostrophe will break unless you escape the apostrophe with a backslash `\`.
+
+```py
+'can\'t'
 ```

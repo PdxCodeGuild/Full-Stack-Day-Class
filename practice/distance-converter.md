@@ -17,9 +17,10 @@ Support converting between `mi`, `km`, `ft`, and `m`.
 
 ## Advanced
 
-* Also support converting between `in` and `cm`.
-* Also support converting between `gal` and `L`.
-  Error if someone tries to convert between volume and distance.
+*   Also support converting between `in` and `cm`.
+
+*   Also support converting between `gal` and `L`.
+    Error if someone tries to convert between volume and distance.
 
 ## Super Advanced
 

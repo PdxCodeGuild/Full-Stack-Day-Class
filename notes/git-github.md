@@ -47,3 +47,5 @@ Local History                  Remote History
 
 You _only_ are synchronizing commits.
 Uncommitted changes in the working directory aren't synced.
+
+GitHub has [some instructions](https://help.github.com/articles/caching-your-github-password-in-git/) you can follow to not have to type in your password every time.

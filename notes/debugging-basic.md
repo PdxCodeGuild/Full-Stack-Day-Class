@@ -50,6 +50,7 @@ dollars_per_gallon = 2.80
 people_on_trip = 4
 cost_per_person = miles / mpg / dollars_per_gallon / people_on_trip
 ```
+
 If you print out intermediate values, it will be easier to see what you messed up.
 
 ```py
@@ -66,3 +67,8 @@ print(cost_per_person)
 ```
 
 Remove these debug prints when you're done.
+
+### Play with the REPL
+
+In order to double check your mental model, try simple things out in the [REPL](/notes/py-repl.md).
+Make a baby version of your problem and check all of the input and output variables.
