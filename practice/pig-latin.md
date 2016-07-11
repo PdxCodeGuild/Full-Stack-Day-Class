@@ -21,9 +21,20 @@ Rules:
 
 ## Advanced
 
-* Properly handle capitalization
-* Properly handle punctuation
+Properly maintain the position of capitalization and punctuation.
+
+> Word? Cat
+>
+> Cat in Pig Latin is Atcay
+>
+> Word? hat.
+>
+> hat. in Pig Latin is athay.
 
 ## Super Advanced
 
-* Handle words that start with multiple consonants
+Handle words that start with multiple consonants by moving all of the consonants to the end.
+
+> Word? string
+>
+> string in Pig Latin is ingstray
