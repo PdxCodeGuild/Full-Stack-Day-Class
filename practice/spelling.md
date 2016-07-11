@@ -1,4 +1,4 @@
-# Practice: Spelling
+# Practice: I-E Spelling
 
 Save your solution as `practice/spelling.py`.
 
@@ -8,10 +8,17 @@ Then print out the input word and if it follows the rule, like the example below
 Try to search for the index of any instances of `ie` in the string, then see if the preceding letter is `c`.
 
 > Word? believe
+>
 > believe does follow the rule
+>
 > Word? ceiling
+>
 > ceiling does follow the rule
+>
 > Word? science
+>
 > science doesn't follow the rule
+>
 > Word? weird
+>
 > weird doesn't follow the rule

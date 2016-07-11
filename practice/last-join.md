@@ -13,15 +13,19 @@ It then joins them by `, `, ` and `, and `, and ` depending if there are two or 
 Count the number of original words and print out the new joined version like the examples below.
 
 > Words? one two three four
+>
 > 4 words: one, two, three, and four
 >
 > Words? one two three
+>
 > 3 words: one, two, and three
 >
 > Words? one two
+>
 > 2 words: one and two
 >
 > Words? one
+>
 > 1 words: one
 
 ## Advanced

@@ -12,8 +12,11 @@ Rules:
 1. If the first letter is a vowel, just ad "yay" to the end.
 
 > Word? hat
+>
 > hat in Pig Latin is athay
+>
 > Word? apple
+>
 > apple in Pig Latin is appleyay
 
 ## Advanced
