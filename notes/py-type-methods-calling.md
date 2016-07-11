@@ -8,7 +8,7 @@ You use the **dot operator** to reach inside of the type name, and pick out a fu
 
 ```py
 str.upper('hello')  #> 'HELLO'
-float.is_integer(3.0)  #> False
+float.is_integer(3.0)  #> True
 ```
 
 You'll be using type methods so often that there's a **short form** for writing them.

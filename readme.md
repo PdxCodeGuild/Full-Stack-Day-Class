@@ -69,12 +69,12 @@
 1. Demo: [Bool Game](/demos/bool-game.md)
 1. [Lists](/notes/py-lists.md)
 1. [Sequence Operators](/notes/py-operators-sequence.md)
+1. [Optional and Keyword Arguments](/notes/py-functions-calling-optional.md)
 1. [Calling Type Methods](/notes/py-type-methods-calling.md)
-1. [Optional Arguments](/notes/py-functions-calling-optional.md)
-1. [Basic String Methods](/notes/py-string-methods-basic.md)
-1. [String Formatting](/notes/py-string-format.md)
 1. [Function Signatures](/notes/function-signatures.md)
 1. [Standard Library Docs](/notes/py-standard-library-docs.md)
+1. [Basic String Methods](/notes/py-string-methods-basic.md)
+1. [String Formatting](/notes/py-string-format.md)
 1. [Cheat Sheet](/notes/mementopython3-english.pdf)
 1. [Debuggers](/notes/debuggers.md)
 1. [Git Branching and Merging](/notes/git-branching-merging.md)
@@ -91,7 +91,7 @@
 1. Group Practice:
 1. Checked Practice:
 1. Individual Practice:
-1. [Functions as Structure](/notes/py-functions-defining_as_structure.md)
+1. [Functions as Structure](/notes/py-functions-structure.md)
 1. [Stubbing](/notes/stubbing.md)
 1. [Advanced Problem Solving](/notes/problem-solving-adv.md)
 1. Demo:

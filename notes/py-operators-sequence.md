@@ -54,7 +54,7 @@ Remember, `[]` is just an operator that returns a value, so you can put them any
 ```py
 x = [[1, 2], [3, 4]]
 x[1][0]  #> 3
-['a', 'b', 'c'][[1, 2, 3][1]]  #> 2
+['a', 'b', 'c'][[1, 2, 3][1]]  #> 'c'
 ```
 
 ## Concatenation

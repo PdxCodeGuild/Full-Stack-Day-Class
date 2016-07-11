@@ -28,6 +28,13 @@ it's better to be specific than short.
 * `full_name` is better than `name`
 * `word_without_punctuation` is better than `word`
 
+## Context
+
+Also realize the context of your program and current code section and use that to avoid needing longer names.
+
+* `first` is fine instead of `first_name` if you're already only dealing with names
+* `song` is fine instead of `playlist_song` if you're already only dealing with a single playlist
+
 ## Parallel Construction
 
 Your programs often have multiple related variables or functions, have the names show how they relate.
