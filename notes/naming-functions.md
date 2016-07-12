@@ -16,6 +16,13 @@ it's better to be specific than short.
 * `lookup_phone_number_by_name()` is better than `to_phone()`
 * `prompt_for_command()` is better than `get_command()`
 
+## Context
+
+Also realize the context of your program to avoid needing longer names.
+
+* `is_broken()` is fine instead of `is_link_broken()` if the topic of your program is just links
+* `play()` is fine instead of `play_song()` if there's nothing else that could be played
+
 ## Parallel Construction
 
 Your programs often have multiple related variables or functions, have the names show how they relate.

@@ -5,9 +5,12 @@ First, remind your self the ideas of [basic problem solving](/notes/problem-solv
 ## 1. Define
 
 Define all of your functions.
+Stub.
 
 ## 2. Main
 
+Write out the main steps.
+They will look like solving the following three problems:
 
 ## 3. Input
 

@@ -6,7 +6,7 @@ That means that variables newly defined in a function only exist in that functio
 It also turns out that variables defined outside a function _can_ be accessed from inside a function.
 This code runs without error.
 
-```python
+```py
 name = 'David'
 def greeting():
     return 'Hello, ' + name
@@ -20,7 +20,7 @@ Don't do this!
 
 To ensure that this structure causes an error, wrap the main part of your code in a function called `main()` and then immediately call it.
 
-```python
+```py
 def greeting():
     return 'Hello, ' + name  # Throws NameError
 
@@ -33,7 +33,7 @@ main()
 
 Instead, ensure that your functions only take inputs via arguments.
 
-```python
+```py
 def greeting(name):
     return 'Hello, ' + name
 

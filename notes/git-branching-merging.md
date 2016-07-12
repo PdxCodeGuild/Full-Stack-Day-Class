@@ -123,22 +123,3 @@ Run `git add FILE` to mark that you've resolved the conflict.
 Once `git status` shows only "changes to be committed" / all green, run `git commit`.
 
 Then remember to delete your finalized branch.
-
-## Basic Branching Workflow
-
-1. Before you start some speculative work, make a feature branch using `git checkout -b BRANCH`.
-
-Now repeat until the speculative work is done:
-
-1. Make changes using your editor to the working directory.
-1. Stage those changes in the index using `git add FILES...`.
-1. Commit those staged changes to your history of the feature branch using `git commit`.
-
-Now that the feature branch is done:
-
-1. Checkout `master` with `git checkout master`.
-1. Merge in your changes from your feature branch `git merge BRANCH`.
-1. Delete the finalized feature branch with `git branch -d BRANCH`.
-1. Push those new commits in `master` to remote history using `git push`.
-
-Make a new branch for each practice problem you work on from now on.

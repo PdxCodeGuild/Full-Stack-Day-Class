@@ -53,7 +53,7 @@
 1. Individual Practice: [Basic Git](/practice/git-basic.md)
 1. [Git Remotes and GitHub](/notes/git-github.md)
 1. [Git Ignore](/notes/git-ignore.md)
-1. [Git Workflow](/notes/git-workflow-basic.md)
+1. [Git Basic Workflow](/notes/git-workflow-basic.md)
 1. Demo: [Git Remotes](/demos/git-remotes.md)
 1. Individual Practice: [Git Remotes](/practice/git-remotes.md)
 1. [Booleans](/notes/py-booleans.md)
@@ -77,7 +77,6 @@
 1. [String Formatting](/notes/py-string-format.md)
 1. [Cheat Sheet](/notes/mementopython3-english.pdf)
 1. [Debuggers](/notes/debuggers.md)
-1. [Git Branching and Merging](/notes/git-branching-merging.md)
 1. Demo: [Phone Number](/demos/phone-number.md)
 1. Group Practice: [Last Join](/practice/last-join.md)
 1. Checked Practice: [Pig Latin](/practice/pig-latin.md)
@@ -87,20 +86,17 @@
 1. [Main Function](/notes/py-functions-main.md)
 1. [Function Naming](/notes/naming-functions.md)
 1. [Function Docstrings](/notes/py-docstrings-function.md)
-1. Demo:
-1. Group Practice:
-1. Checked Practice:
-1. Individual Practice:
 1. [Functions as Structure](/notes/py-functions-structure.md)
 1. [Stubbing](/notes/stubbing.md)
 1. [Advanced Problem Solving](/notes/problem-solving-adv.md)
-1. Demo:
-1. Group Practice:
-1. Checked Practice: Function Refactor
-1. Optional: Practice: Merge Refactor
+1. [Git Branching and Merging](/notes/git-branching-merging.md)
+1. [Git Branching Workflow](/notes/git-workflow-branching.md)
+1. Demo: Written-Out Numbers Refactor
+1. Group Practice: Distance Converter Refactor
+1. Checked Practice: Pig Latin Refactor
+1. Individual Practice: Refactor Everything
 1. List Comprehensions
 1. Tuples
-1. [Advanced Function Calling](/notes/py-functions-calling-adv.md)
 1. Advanced String Methods
 1. Sequence Functions
 1. [Mapping](/notes/mapping.md)
@@ -108,15 +104,13 @@
 1. [Searching](/notes/searching.md)
 1. [Searching for Solutions](/notes/googling.md)
 1. [Using Python 2](/notes/py-using2.md)
-1. [Advanced Debugging](/notes/debugging-adv.md)
 1. Doctests
-1. Demo:
+1. [Advanced Debugging](/notes/debugging-adv.md)
 1. Demo: Tic-Tac-Toe
-1. Group Practice:
+1. Group Practice: Table Print
 1. Checked Practice: [Credit Card Validator](/practice/credit.md)
 1. Individual Practice: Make Initials
 1. [File IO](/notes/py-io-file.md)
-1. Demo:
 1. Demo:
 1. Practice: Sort File
 1. Practice: Tabs to Spaces
@@ -125,7 +119,6 @@
 1. Dict Comprehensions
 1. [Function Values](/notes/py-functions-values.md)
 1. [Sorting](/notes/sorting.md)
-1. Demo:
 1. Demo: [Class Roster](/demos/class-roster.md)
 1. Group Practice: Phone Book
 1. Checked Practice:
@@ -146,6 +139,7 @@
 1. Optional: Practice: [Voting Booth](/practice/voting-booth.md)
 1. Optional: Practice:
 1. Optional: Practice:
+1. Mutability
 1. Structured Data
 1. [Joining](/notes/joining.md)
 1. [Data Problem Solving](/notes/problem-solving-data-transformations.md)

@@ -1,9 +1,10 @@
 # Functions as Structure
 
-**Each step** in your program should be a single function.
+Just like variables and their names help in understanding how a program works, functions and their names can be used to help in the same way.
 
-* Functions have names and so reading code explains itself.
-* Test parts in isolation.
-* Practice and eye for reuse and generality.
+Make **each step** in your program a separate function.
+There is no shame in using a function only once.
 
-No shame in using a function once.
+* Functions have names and so code explains itself.
+* You can call and test each part in isolation without running the whole program easily.
+* Highlights generality; you can see steps that almost repeat each other and more easily see similarities.

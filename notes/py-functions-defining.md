@@ -1,4 +1,5 @@
 # Functions
+
 We want to write our own functions.
 Why?
 
@@ -10,13 +11,14 @@ Before you can use a function, you have to **define** it.
 First comes `def`, then the **name** of the function, then a list of **input arguments** in `()`, a `:`, then an indented block of instructions.
 That block can have a **return statement**, which specifies what value the function should _output_.
 
-```python
+```py
 def calc_road_trip_time(miles, mph):
     return miles / mph
 ```
 
 Then, anywhere later in that code you can call the function you made!
-```python
+
+```py
 travel_time_1 = calc_road_trip_time(100, 50)
 travel_time_2 = calc_road_trip_time(130, 55)
 ```
@@ -25,7 +27,8 @@ Each call to your function causes the Python to jump up to the body of the funct
 Then once the function is done, the return value is placed back at the call site.
 
 So for the above example, it's as if
-```python
+
+```py
 miles = 100
 mph = 50
 travel_time_1 = miles / mph
@@ -42,7 +45,7 @@ Think about your problem in terms of little steps that have inputs and outputs.
 Functions don't have to take in any arguments if there's nothing in the program that would change their output.
 You've seen `input()` as an example.
 
-```python
+```py
 def gettysburg_address():
     return 'Four score and seven...'
 ```
