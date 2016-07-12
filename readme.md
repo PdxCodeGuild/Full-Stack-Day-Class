@@ -1,9 +1,9 @@
 # PDX Code Guild Day Class Syllabus
 
-## June 7th to September 30th Day Class
+## July 7th to September 30th Day Class
 
-* [Schedule](/sessions/2016-06-07/schedule.md)
-* [Hot Tips](/sessions/2016-06-07/tips)
+* [Schedule](/sessions/2016-07-07/schedule.md)
+* [Hot Tips](/sessions/2016-07-07/tips)
 
 ## Intro
 
