@@ -10,6 +10,7 @@
 | 2016-07-11 | BOC | Monday | [Wall Painting](/practice/wall-painting.md) Due |
 | 2016-07-11 | BOC | Monday | [21](/practice/21.md) Due |
 | 2016-07-12 | BOC | Tuesday | [Pig Latin](/practice/pig-latin.md) Due |
+| 2016-07-13 | BOC | Wednesday | [Pig Latin Refactor](/practice/pig-latin-func.md) Due |
 | 2016-09-05 | | Monday | Labor Day: No Class |
 | 2016-09-30 | | Friday | Last Day of Class |
 | 2016-09-30  | 9:45 A.M. | Friday | Capstone Show-and-Tell |
