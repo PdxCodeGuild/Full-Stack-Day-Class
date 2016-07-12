@@ -2,82 +2,111 @@
 
 
 def prompt_for_number():
-    """Prompt and return user for a number in digits."""
-    return int(input('A number between 1 and 99: '))
+    """Prompt the user for a number in base-10 and return it as an int."""
+    return int(input('A number between 0 and 99: '))
 
 
 def get_tens_digit(num):
-    """REturn the tens digit of a number."""
+    """Return the tens digit of a number.
+
+    The number must be less than 100.
+    """
     return num // 10
 
 
 def get_ones_digit(num):
-    """REturn the ones digit of a number."""
+    """Return the ones digit of a number."""
     return num % 10
 
 
-def tens_digit_to_word(tens):
+def tens_digit_to_word(tens_digit):
     """From the tens digit, return the word representing that."""
-    if tens == 9:
+    if tens_digit == 9:
         tens_word = 'ninety'
-    elif tens == 8:
+    elif tens_digit == 8:
         tens_word = 'eighty'
-    elif tens == 7:
+    elif tens_digit == 7:
         tens_word = 'seventy'
-    elif tens == 6:
+    elif tens_digit == 6:
         tens_word = 'sixty'
-    elif tens == 5:
+    elif tens_digit == 5:
         tens_word = 'fifty'
-    elif tens == 4:
-        tens_word = 'fourty'
-    elif tens == 3:
+    elif tens_digit == 4:
+        tens_word = 'forty'
+    elif tens_digit == 3:
         tens_word = 'thirty'
-    elif tens == 2:
+    elif tens_digit == 2:
         tens_word = 'twenty'
+    else:
+        tens_word = ''
     return tens_word
 
 
-def ones_digit_to_word(ones):
+def ones_digit_to_word(ones_digit):
     """From the ones digit, return the word representing that."""
-    if ones == 9:
+    if ones_digit == 9:
         ones_word = 'nine'
-    elif ones == 8:
+    elif ones_digit == 8:
         ones_word = 'eight'
-    elif ones == 7:
+    elif ones_digit == 7:
         ones_word = 'seven'
-    elif ones == 6:
+    elif ones_digit == 6:
         ones_word = 'six'
-    elif ones == 5:
+    elif ones_digit == 5:
         ones_word = 'five'
-    elif ones == 4:
+    elif ones_digit == 4:
         ones_word = 'four'
-    elif ones == 3:
+    elif ones_digit == 3:
         ones_word = 'three'
-    elif ones == 2:
+    elif ones_digit == 2:
         ones_word = 'two'
-    elif ones == 1:
+    elif ones_digit == 1:
         ones_word = 'one'
+    else:
+        ones_word = 'zero'
     return ones_word
 
 
-def assemble_words(tens, ones, tens_word, ones_word):
+def assemble_word_regular(tens, ones, tens_word, ones_word):
+    """Convert a regular number (<= 10 or >= 20) to words."""
+    if ones == 0:
+        return tens_word
     if tens == 0:
-        output = ones_word
-    elif tens == 1:
-        if ones == 1:
-            output = 'eleven'
-        elif ones == 2:
-            output = 'twelve'
-        elif ones == 3:
-            output = 'thirteen'
-        else:
-            output = ones_word + 'teen'
+        return ones_word
     else:
-        output = tens_word + '-' + ones_word
+        return tens_word + '-' + ones_word
+
+
+def assemble_words_irregular(ones, ones_word):
+    """Convert an irregular number (> 10 and < 20) to words."""
+    if ones == 1:
+        output = 'eleven'
+    elif ones == 2:
+        output = 'twelve'
+    elif ones == 3:
+        output = 'thirteen'
+    else:
+        output = ones_word + 'teen'
+    return output
+
+
+def assemble_words(tens, ones, tens_word, ones_word):
+    """Convert any number to words.
+
+    Performs any irregular conversions.
+    """
+    if tens == 1:
+        output = assemble_words_irregular(ones, ones_word)
+    else:
+        output = assemble_word_regular(tens, ones, tens_word, ones_word)
     return output
 
 
 def main():
+    """Convert a number in base-10 into a written out number in English.
+
+    Ask for the number, find its digits, then assemble them into a compound English number, then print it out.
+    """
     num = prompt_for_number()
 
     tens = get_tens_digit(num)
