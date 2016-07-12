@@ -1,1 +1,0 @@
-# Functions as Structure
