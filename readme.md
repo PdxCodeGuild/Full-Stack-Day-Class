@@ -91,10 +91,10 @@
 1. [Advanced Problem Solving](/notes/problem-solving-adv.md)
 1. [Git Branching and Merging](/notes/git-branching-merging.md)
 1. [Git Branching Workflow](/notes/git-workflow-branching.md)
-1. Demo: Written-Out Numbers Refactor
-1. Group Practice: Distance Converter Refactor
-1. Checked Practice: Pig Latin Refactor
-1. Individual Practice: Refactor Everything
+1. Demo: [Written-Out Numbers Refactor](/demos/written-numbers-func.md)
+1. Group Practice: [Distance Converter Refactor](/practice/distance-converter-func.md)
+1. Checked Practice: [Pig Latin Refactor](/practice/pig-latin-func.md)
+1. Individual Practice: [Refactor Everything](/practice/func-everything.md)
 1. List Comprehensions
 1. Tuples
 1. Advanced String Methods
