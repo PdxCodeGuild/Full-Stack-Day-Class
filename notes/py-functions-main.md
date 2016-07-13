@@ -46,3 +46,18 @@ main()
 
 Don't forget to immediately call `main()` at the end of your file.
 Otherwise you've just defined a function and not said "go"!
+
+## Gated Main
+
+One extra complication we'll get in the habit of right now.
+Instead of calling main directly, call it in this magic if statement.
+This will be boilerplate at the bottom of all of your single-file Python code.
+
+```py
+if __name__ == '__main__':
+    main()
+```
+
+This is because there are a few different kinds of situations in which Python might run your code.
+You only want the case in which your code is the actual program being run to run your main, not just if some other piece of code wants to reference your functions.
+We'll talk more about this later surrounding importing.
