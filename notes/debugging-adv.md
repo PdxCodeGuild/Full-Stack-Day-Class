@@ -17,64 +17,56 @@ E.g. Solve the "item-level" problem before the "list-level" problem.
 Solve how to pick out the year from a single date and put that in a function.
 Only then solve converting a list of dates to a list of years using the function you just wrote.
 
-Don't make the "list-level" version of your problem the most basic version
+Don't make the "list-level" version of your problem the most basic version.
 
 ```py
 def slice_initials_list_from_full_names(full_names):
-  initials_list = []
-  for full_name in full_names:
-    first_last = full_name.split()
-    initials = ''.join([name[0] for name in first_last])
-    initials_list.append(initials)
-  return initials_list
+    """Given a list of full names, return a list of initials.
+
+    >>> slice_initials_list_from_full_names(['Rachel Raccoon', 'Joe Plumber'])
+    ['RR', 'JP']
+    """
+    initials_list = []
+    for full_name in full_names:
+        first_last = full_name.split()
+        initials = ''.join([name[0] for name in first_last])
+        initials_list.append(initials)
+    return initials_list
 
 slice_initials_list_from_full_names(['Rachel Raccoon', 'Joe Plumber'])
 ```
 
-Instead, work on the "item-level" first, and use it on the "list-level"
+Instead, work on the "item-level" first, and use it on the "list-level".
 
 ```py
 def slice_initials_from_full_name(full_name):
-  first_last = full_name.split()
-  return ''.join([name[0] for name in first_last])
+    """Given a full name, return the initials.
+
+    >>> slice_initials_from_full_name('Rachel Raccoon')
+    'RR'
+    """
+    first_last = full_name.split()
+    return ''.join([name[0] for name in first_last])
+
 
 def slice_initials_list_from_full_names(full_names):
-  return [
-    slice_initials_from_full_name(full_name)
-    for full_name
-    in full_names
-  ]
+    """Given a list of full names, return a list of initials.
 
-slice_initials_list_from_full_names(['Rachel Raccoon', 'Joe Plumber'])
-```
-
-## Double-Check Mental Model
-
-Data is invisible unless you print it.
-_Print out_ the result of each individual operation to double check it is returning what you expect.
-
-* Ensure you can print out your data in a readable format; write a function to do so if necessary
-* Double check that operators and library functions are behaving as you expect
-* Double check _inputs_, not just outputs; you can't get the right answer if you're starting with junk
-* Do this on an operation-by-operation basis
-* Avoid long strings of operations; assign to variables after each step to print
-
-Why doesn't this work?
-
-```py
-if
-```
-
-Break out each part and inspect individually
-
-```py
-
+    >>> slice_initials_list_from_full_names(['Rachel Raccoon', 'Joe Plumber'])
+    ['RR', 'JP']
+    """
+    return [
+        slice_initials_from_full_name(full_name)
+        for full_name
+        in full_names
+    ]
 ```
 
 ## Test Isolated Pieces
 
 Test each sub-problem or instruction in a sub-problem _in isolation_.
 
+* Write doctests and run them
 * Manually run and print out results of each sub-problem (easy, since each is a separate function)
 * Use input "literals" to test; avoid having to type in setup
 
@@ -85,15 +77,36 @@ input_str = input('Type a pig latin sentence: ')
 print(convert_sentence_to_pig_latin(input_str))
 ```
 
-Test each part on it's own first
+Test each part on it's own first.
+Either by doctests or print debugging in the module.
 
 ```py
+def convert_word_to_pig_latin(english_word):
+    """Convert a single English word to Pig Latin.
+
+    >>> convert_word_to_pig_latin('cat')
+    'atcay'
+    >>> convert_word_to_pig_latin('apple')
+    'appleyay'
+    """
+    ...
+
+
 print(convert_word_to_pig_latin('cat'))
 print(convert_word_to_pig_latin('apple'))
 ```
 
-Then work up to testing the whole program
+Then work up to testing the whole program.
 
 ```py
+def convert_sentence_to_pig_latin(english_sentence):
+    """Convert an English sentence as a string to Pig Latin.
+
+    >>> convert_sentence_to_pig_latin('the cat jumps')
+    'ethay atcay umpsjay'
+    """
+    ...
+
+
 print(convert_sentence_to_pig_latin('the cat jumps'))
 ```

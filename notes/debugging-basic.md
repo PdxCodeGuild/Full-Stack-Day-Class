@@ -73,5 +73,5 @@ Remove these debug prints when you're done.
 In order to double check your mental model, try simple things out in the [REPL](/notes/py-repl.md).
 Make a baby version of your problem and check all of the input and output variables.
 
-`bpython -i PY_FILE` to get an interactive prompt after parsing file.
+`bpython -i PY_FILE` (or just `python`) to get an interactive prompt after parsing file.
 Then you can inspect your variables and call any functions to see if they work.

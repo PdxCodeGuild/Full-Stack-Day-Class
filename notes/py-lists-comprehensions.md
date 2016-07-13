@@ -21,7 +21,9 @@ If you operation is kind of complex, write a function and call it in the list co
 
 ```py
 def lookup_phone_number_by_name(name):
+    """Return the phone number of a person."""
     ...
+
 
 names = ['David', 'Helen', 'Anne']
 phone_numbers = [lookup_phone_number_by_name(name) for name in names]

@@ -18,7 +18,7 @@ def get_tens_digit(num):
 
 Will show which ones outputs don't match expected values in docstrings.
 
-Write doctests for every function that's not input, output, or main.
+Write doctests for every function that's not input or main.
 
 Try to come up with tests that use all of the lines of the function.
 Realize if statements split up control flow.
