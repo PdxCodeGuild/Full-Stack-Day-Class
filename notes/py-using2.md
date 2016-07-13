@@ -5,7 +5,7 @@ There were some breaking changes.
 Here is an overview of them.
 See the [Python docs](https://docs.python.org/release/3.1.2/whatsnew/3.0.html#common-stumbling-blocks) for a more complete list.
 
-If you see things like `print hi` or `raw_input` or `iteritems` or `xrange`, you'll have to follow these changes.
+If you see things like `print hi` or `raw_input()` or `iteritems()` or `xrange()`, you'll have to follow these changes.
 
 ## Changes
 
@@ -18,6 +18,7 @@ print 'Hi', name
 ```
 
 Python 3
+
 ```py
 print('Hi', name)
 ```

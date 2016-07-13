@@ -1,9 +1,11 @@
 # Advanced Debugging
+
 Use the following three ideas to help you debug issues in your code.
 
 They might seem to make problems become longer and more complex, but **I cannot stress strongly enough** that these techniques will help.
 
 ## Be Aggressively Reductionist
+
 Break every problem down into a hierarchy of _sub-problems_ until you're at a level where the solution exists.
 Each of these little solutions should be _separate functions_ with explicit inputs and outputs.
 
@@ -16,7 +18,8 @@ Solve how to pick out the year from a single date and put that in a function.
 Only then solve converting a list of dates to a list of years using the function you just wrote.
 
 Don't make the "list-level" version of your problem the most basic version
-```python
+
+```py
 def slice_initials_list_from_full_names(full_names):
   initials_list = []
   for full_name in full_names:
@@ -29,7 +32,8 @@ slice_initials_list_from_full_names(['Rachel Raccoon', 'Joe Plumber'])
 ```
 
 Instead, work on the "item-level" first, and use it on the "list-level"
-```python
+
+```py
 def slice_initials_from_full_name(full_name):
   first_last = full_name.split()
   return ''.join([name[0] for name in first_last])
@@ -45,6 +49,7 @@ slice_initials_list_from_full_names(['Rachel Raccoon', 'Joe Plumber'])
 ```
 
 ## Double-Check Mental Model
+
 Data is invisible unless you print it.
 _Print out_ the result of each individual operation to double check it is returning what you expect.
 
@@ -55,34 +60,40 @@ _Print out_ the result of each individual operation to double check it is return
 * Avoid long strings of operations; assign to variables after each step to print
 
 Why doesn't this work?
-```python
+
+```py
 if
 ```
 
 Break out each part and inspect individually
-```python
+
+```py
 
 ```
 
 ## Test Isolated Pieces
+
 Test each sub-problem or instruction in a sub-problem _in isolation_.
 
 * Manually run and print out results of each sub-problem (easy, since each is a separate function)
 * Use input "literals" to test; avoid having to type in setup
 
 Instead of running your whole program
-```python
+
+```py
 input_str = input('Type a pig latin sentence: ')
 print(convert_sentence_to_pig_latin(input_str))
 ```
 
 Test each part on it's own first
-```python
+
+```py
 print(convert_word_to_pig_latin('cat'))
 print(convert_word_to_pig_latin('apple'))
 ```
 
 Then work up to testing the whole program
-```python
+
+```py
 print(convert_sentence_to_pig_latin('the cat jumps'))
 ```

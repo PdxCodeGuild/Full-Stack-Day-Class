@@ -1,13 +1,16 @@
 # Practice: Case Conversion
 
-Save your solution as `practice/case.py`.
+Save your solution as `practice/case.py` in a branch called `case` and make a GitHub pull request.
 
 Write a program that prompts the user for a word in `snake_case`, then converts and prints it out in `CamelCase`.
 Also do the reverse conversion.
 
 Useful hints:
+
 * `str.replace` can be called in a loop.
 * It can also be called to make the string longer: `'rubber'.replace('b', '1b')`
+
+Write doctests for your functions.
 
 ## Advanced
 

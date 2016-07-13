@@ -1,11 +1,13 @@
-## Mapping
+# Mapping
+
 **Mapping** is taking a collection and doing _a single same thing to each item_.
 
 E.g. Turning a list of `YYYY-MM-DD` dates into a list of `YYYY` years.
 Turn a mapping of ages into birth years.
 
 This is best done with _comprehensions_.
-```python
+
+```py
 dates = ['2016-02-04', '1987-05-09']
 years = [date.split('-')[0] for date in dates]
 

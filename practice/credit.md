@@ -4,17 +4,24 @@ Save your solution as `practice/credit-card.py`.
 
 Write a function which returns whether a string containing a credit card number is valid as a boolean.
 Write as many sub-functions as necessary to solve the problem.
+Write doctests for each function.
 
 Steps to validate a credit card number:
 
-1. Slice off the last digit.
-That is the **check digit**.
-1. Reverse the digits.
-1. Multiply the odd reversed digits by two.
-1. Subtract nine from numbers over nine.
-1. Sum all subtracted values.
-1. Take the 1s digit of that sum.
-1. If that matches the check digit, the whole card number is valid.
+1.  Slice off the last digit.
+    That is the **check digit**.
+
+1.  Reverse the digits.
+
+1.  Multiply the even-indexed reversed digits by two.
+
+1.  Subtract nine from numbers over nine.
+
+1.  Sum all subtracted values.
+
+1.  Take the 1s digit of that sum.
+
+1.  If that matches the check digit, the whole card number is valid.
 
 For example, the worked out steps would be:
 

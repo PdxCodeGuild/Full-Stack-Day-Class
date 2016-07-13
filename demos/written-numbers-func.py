@@ -71,7 +71,7 @@ def assemble_word_regular(tens, ones, tens_word, ones_word):
     """Convert a regular number (<= 10 or >= 20) to words."""
     if ones == 0:
         return tens_word
-    if tens == 0:
+    elif tens == 0:
         return ones_word
     else:
         return tens_word + '-' + ones_word
@@ -105,7 +105,8 @@ def assemble_words(tens, ones, tens_word, ones_word):
 def main():
     """Convert a number in base-10 into a written out number in English.
 
-    Ask for the number, find its digits, then assemble them into a compound English number, then print it out.
+    Ask for the number, find its digits, then assemble them into a compound
+    English number, then print it out.
     """
     num = prompt_for_number()
 

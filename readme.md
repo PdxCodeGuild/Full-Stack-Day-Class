@@ -68,7 +68,7 @@
 1. [Boolean Operators](/notes/py-operators-boolean.md)
 1. Demo: [Bool Game](/demos/bool-game.md)
 1. [Lists](/notes/py-lists.md)
-1. [Sequence Operators](/notes/py-operators-sequence.md)
+1. [Sequence Operators](/notes/py-sequence-operators.md)
 1. [Optional and Keyword Arguments](/notes/py-functions-calling-optional.md)
 1. [Calling Type Methods](/notes/py-type-methods-calling.md)
 1. [Function Signatures](/notes/function-signatures.md)
@@ -95,62 +95,61 @@
 1. Group Practice: [Distance Converter Refactor](/practice/distance-converter-func.md)
 1. Checked Practice: [Pig Latin Refactor](/practice/pig-latin-func.md)
 1. Individual Practice: [Refactor Everything](/practice/func-everything.md)
-1. List Comprehensions
-1. Tuples
-1. Advanced String Methods
-1. Sequence Functions
+1. [If Expressions](/notes/py-if-expressions.md)
+1. [List Comprehensions](/notes/py-lists-comprehensions.md)
+1. [Mutability](/notes/mutability.md)
+1. [Tuples](/notes/py-tuples.md)
+1. [Sequence Functions](/notes/py-sequence-funcs.md)
 1. [Mapping](/notes/mapping.md)
 1. [Filtering](/notes/filtering.md)
-1. [Searching](/notes/searching.md)
+1. [Doctests](/notes/py-doctests.md)
+1. [Advanced Debugging](/notes/debugging-adv.md)
 1. [Searching for Solutions](/notes/googling.md)
 1. [Using Python 2](/notes/py-using2.md)
-1. Doctests
-1. [Advanced Debugging](/notes/debugging-adv.md)
-1. Demo: Tic-Tac-Toe
-1. Group Practice: Table Print
-1. Checked Practice: [Credit Card Validator](/practice/credit.md)
-1. Individual Practice: Make Initials
+1. Demo:
+1. Group Practice: [Credit Card Validator](/practice/credit.md)
+1. Checked Practice: [Programming Case Conversion](/practice/case.md)
+1. Individual Practice: [Sum Pairs](/practice/sum-pairs.md)
 1. [File IO](/notes/py-io-file.md)
 1. Demo:
 1. Practice: Sort File
 1. Practice: Tabs to Spaces
-1. Practice:
 1. [Dicts](/notes/py-dicts.md)
 1. Dict Comprehensions
-1. [Function Values](/notes/py-functions-values.md)
-1. [Sorting](/notes/sorting.md)
-1. Demo: [Class Roster](/demos/class-roster.md)
-1. Group Practice: Phone Book
-1. Checked Practice:
-1. Individual Practice:
-1. [For Loops](/notes/py-for-loops.md)
-1. While Loops
-1. Demo: Fizz Buzz
-1. Demo:
-1. Group Practice: [Programming Case Conversion](/practice/case.md)
-1. Checked Practice: Farkle
-1. Individual Practice:
+1. Practice:
 1. [Reducing](/notes/reducing.md)
 1. [Grouping](/notes/grouping.md)
 1. [Picking Data Structures](/notes/problem-solving-data-structures.md)
 1. [Advanced Variable Naming](/notes/naming-variables-adv.md)
+1. [Function Values](/notes/py-functions-values.md)
+1. [Sorting](/notes/sorting.md)
+1. [Searching](/notes/searching.md)
+1. Demo: [Class Roster](/demos/class-roster.md)
+1. Group Practice: [Table Pretty Print](/practice/table-pretty-print.md)
+1. Checked Practice: Tic-Tac-Toe
+1. Group Practice: Phone Book
+1. Checked Practice:
+1. Individual Practice:
+1. [For Loops](/notes/py-for-loops.md)
+1. [Tuple Unpacking](/notes/py-tuples-unpacking.md)
+1. While Loops
+1. Demo: Fizz Buzz
+1. Demo:
+1. Group Practice:
+1. Checked Practice: Farkle
+1. Individual Practice:
 1. Demo:
 1. Demo:
 1. Optional: Practice: [Voting Booth](/practice/voting-booth.md)
 1. Optional: Practice:
 1. Optional: Practice:
-1. Mutability
 1. Structured Data
 1. [Joining](/notes/joining.md)
 1. [Data Problem Solving](/notes/problem-solving-data-transformations.md)
 1. Demo:
 1. Group Practice:
 1. Group Practice: [Connect Four](/practice/connect-four.md)
-1. Optional Practice: [Sum Pairs](/practice/sum-pairs.md)
-1. [Using Modules and Importing](/notes/py-modules-import.md)
-1. Demo:
-1. Practice: [Word Count](/practice/word-count.md)
-1. Checkpoint Practice: [Rain](/practice/rain.md)
+1. Optional Practice:
 1. [Basic Objects and Classes](/notes/py-classes-basic.md)
 1. [Class Init](/notes/py-classes-init.md)
 1. [Data Design](/notes/py-classes-design.md)
