@@ -17,10 +17,15 @@ Then, install Python 3 and setup the Python command.
 
 ```bash
 brew install python3
-echo "alias python='python3'" >> .bashrc
-echo "alias python2='\python'" >> .bashrc
-echo "alias pip='pip3'" >> .bashrc
-echo "alias pip2='\pip'" >> .bashrc
+echo "alias python='python3'" >> ~/.bashrc
+echo "alias python2='\python'" >> ~/.bashrc
+echo "alias pip='pip3'" >> ~/.bashrc
+echo "alias pip2='\pip'" >> ~/.bashrc
+cat <<EOF >> ~/.profile
+if [[ \$- == *i* ]]; then
+    [[ "\$SHELL" == *bash && -r ~/.bashrc ]] && source ~/.bashrc
+fi
+EOF
 alias python='python3'
 alias python2='\python'
 alias pip='pip3'
@@ -28,7 +33,6 @@ alias pip2='\pip'
 ```
 
 ### Windows 7 and 10
-
 
 ![](py.images/0000.png)
 [Download](https://www.python.org/downloads/) the Python 3 installer and run it.
@@ -48,7 +52,6 @@ To verify your install, please launch powershell.
 
 ![](py.images/0007.png)
 ![](py.images/0008.png)
-
 
 ![](py.images/0009.png)
 **pip** is the python package manager. This will become increasingly important later. To update **pip** please run `pip install --upgrade pip`
