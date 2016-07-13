@@ -32,4 +32,4 @@ For example, the worked out steps would be:
 1. `1  8  9  9  7  6  7  5  5  3  5  6  1  5  8`
 1. 85
 1. 5
-1. Valid!
+1. True
