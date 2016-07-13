@@ -56,6 +56,7 @@ Fill in your real name and email.
 git config --global user.name 'YOUR NAME'
 git config --global user.email 'YOUR EMAIL ADDRESS'
 git config --global core.editor 'atom --wait'
+git config --global push.default simple
 ```
 
 ## Commands
