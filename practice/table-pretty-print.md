@@ -1,6 +1,6 @@
 # Practice: Table Pretty Print
 
-Save your solution as `practice/table-print.py`.
+Save your solution as `practice/table-pretty-print.py`.
 
 Write a program that reads a text file with the following format:
 

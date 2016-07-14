@@ -27,7 +27,17 @@ friend_names = ['Kate', 'Al']
 contact_info = ('123 Main St', '507-555-1234')
 ```
 
-You can cast a list to a tuple with the `tuple()` function.
+You can cast a sequence to a tuple with the `tuple()` function.
+
+Tuples are immutable.
+Trying to modify them is an exception.
+
+```py
+contact_info = ('123 Main St', '507-555-1234')
+contact_info[0] = '456 Water Ave'  # Throws TypeError
+```
+
+Check out the [standard library docs for tuples](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range) for an overview of all the things you can do.
 
 Also, realize there are four different ways to use parentheses now:
 

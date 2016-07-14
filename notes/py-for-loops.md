@@ -13,8 +13,7 @@ for cost in receipt:
 
 Think carefully before using them, though.
 90% of the things you want to do with a for loop, you already have functions to do.
-
-The above would be better written as
+The above would be better written using `sum()`, though.
 
 ```py
 receipt = [3.00, 2.50, 10.75]

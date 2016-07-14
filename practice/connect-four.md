@@ -1,6 +1,6 @@
 # Practice: Connect Four
 
-Save your solution as `practice/connect-four.py`.
+Save your solution as `practice/connect-four.py`  in a branch called `connect-four` and make a GitHub pull request.
 
 [Connect Four](https://en.wikipedia.org/wiki/Connect_Four) is a board game.
 Players take turns placing tokens of their color into a vertical grid.
@@ -14,30 +14,8 @@ Assume the playing board is made of columns numbered 1 through 7.
 The file will have one line for each move (players alternate).
 The number in that line is the column the current player placed a token in.
 
-Use the following example move file.
-Save it in something like `4-moves.txt`
-
-```
-4
-3
-5
-6
-4
-4
-5
-3
-6
-2
-7
-7
-3
-7
-4
-5
-6
-5
-```
-
+Use the following [example move file](/practice/connect-four-moves.txt).
+Save it in something like `connect-four-moves.txt`
 This moves file recreates [this game](https://en.wikipedia.org/wiki/File:Connect_Four.gif).
 
 *   Think about how to figure out how far that token will fall in a given column.
