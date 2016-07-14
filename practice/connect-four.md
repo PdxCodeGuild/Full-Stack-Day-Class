@@ -16,6 +16,7 @@ The number in that line is the column the current player placed a token in.
 
 Use the following example move file.
 Save it in something like `4-moves.txt`
+
 ```
 4
 3
@@ -36,15 +37,21 @@ Save it in something like `4-moves.txt`
 6
 5
 ```
+
 This moves file recreates [this game](https://en.wikipedia.org/wiki/File:Connect_Four.gif).
 
-* Think about how to figure out how far that token will fall in a given column.
-* Think about how to place a token in a column.
-* Think about how to concisely store the tokens that have been dropped in the board.
-* Create a board class.
-* Read in moves from the file.
-* After each move, print out a representation of the board.
-You can use `R` and `Y` to represent the pieces.
+*   Think about how to figure out how far that token will fall in a given column.
+
+*   Think about how to place a token in a column.
+
+*   Think about how to concisely store the tokens that have been dropped in the board.
+
+*   Create a board class.
+
+*   Read in moves from the file.
+
+*   After each move, print out a representation of the board.
+    You can use `R` and `Y` to represent the pieces.
 
 ## Advanced
 

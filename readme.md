@@ -110,44 +110,34 @@
 1. Group Practice: [Credit Card Validator](/practice/credit.md)
 1. Checked Practice: [Programming Case Conversion](/practice/case.md)
 1. Individual Practice: [Sum Pairs](/practice/sum-pairs.md)
-1. [File IO](/notes/py-io-file.md)
-1. Demo:
-1. Practice: Sort File
-1. Practice: Tabs to Spaces
+1. [None](/notes/py-none.md)
 1. [Dicts](/notes/py-dicts.md)
-1. Dict Comprehensions
-1. Practice:
+1. [Sets](/notes/py-sets.md)
+1. [Picking Data Structures](/notes/problem-solving-data-structures.md)
+1. [For Loops](/notes/py-for-loops.md)
+1. [Tuple Unpacking](/notes/py-tuples-unpacking.md)
 1. [Reducing](/notes/reducing.md)
 1. [Grouping](/notes/grouping.md)
-1. [Picking Data Structures](/notes/problem-solving-data-structures.md)
 1. [Advanced Variable Naming](/notes/naming-variables-adv.md)
 1. [Function Values](/notes/py-functions-values.md)
 1. [Sorting](/notes/sorting.md)
 1. [Searching](/notes/searching.md)
+1. [File IO](/notes/py-io-file.md)
 1. Demo: [Class Roster](/demos/class-roster.md)
 1. Group Practice: [Table Pretty Print](/practice/table-pretty-print.md)
-1. Checked Practice: Tic-Tac-Toe
-1. Group Practice: Phone Book
-1. Checked Practice:
-1. Individual Practice:
-1. [For Loops](/notes/py-for-loops.md)
-1. [Tuple Unpacking](/notes/py-tuples-unpacking.md)
-1. While Loops
+1. Checked Practice: [Rain](/practice/rain.md)
+1. Individual Practice: [Voting Booth](/practice/voting-booth.md)
 1. Demo: Fizz Buzz
-1. Demo:
-1. Group Practice:
+1. Group Practice: Tic-Tac-Toe
 1. Checked Practice: Farkle
-1. Individual Practice:
-1. Demo:
-1. Demo:
-1. Optional: Practice: [Voting Booth](/practice/voting-booth.md)
-1. Optional: Practice:
-1. Optional: Practice:
+1. Optional: Practice: Phone Book
+1. Practice: Sort File
+1. Practice: Tabs to Spaces
 1. Structured Data
 1. [Joining](/notes/joining.md)
 1. [Data Problem Solving](/notes/problem-solving-data-transformations.md)
 1. Demo:
-1. Group Practice:
+1. Group Practice: [Restaurant Reviews](/practice/reviews.md)
 1. Group Practice: [Connect Four](/practice/connect-four.md)
 1. Optional Practice:
 1. [Basic Objects and Classes](/notes/py-classes-basic.md)
@@ -158,7 +148,7 @@
 1. Demo: [Rosters](/demos/rosters.md)
 1. Demo: [Geometry](/demos/geometry.md)
 1. Practice: [Blackjack Hand](/practice/blackjack-hand.md)
-1. Checked Group Practice: [Restaurant Reviews](/practice/reviews.md)
+1. Checked Group Practice:
 1. [Encapsulation](/notes/py-classes-encapsulation.md)
 1. [Type Methods](/notes/py-classes-methods.md)
 1. Demo:
@@ -174,6 +164,8 @@
 1. Demo: [Test Geometry](/demos/geometry-test.md)
 1. Practice: [Test Case Conversion](/practice/case-test.md)
 1. Practice: [Test Tic-Tac-Toe Interface](/practice/interface-test.md)
+1. While Loops
+1. UI Loops
 
 ## Building a Web App
 

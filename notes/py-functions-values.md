@@ -1,7 +1,9 @@
 # Function Values
+
 Did you ever accidentally forget to add `()` after a function?
 Get strange errors?
-```python
+
+```py
 name = input
 print(name)  # <built-in function input>
 ```
@@ -9,8 +11,10 @@ print(name)  # <built-in function input>
 Turns out functions are just values that you can store in variables too!
 Then call them later!
 
-This gives a generic way to perform an operation.
-```python
+These values represent _instructions_.
+So if you ever need to send instructions to someone else, you can wrap them up in a function.
+
+```py
 def add_one(x):
   return x + 1
 
@@ -26,7 +30,8 @@ add_two_then_do_something(1, add_five)  # 8
 
 As of now, you should _avoid making your functions to take in other functions as arguments_.
 Mostly, it's better to make separate functions than taking in one as an argument:
-```python
+
+```py
 def add_two_then_add_one(x):
   return x + 2 + 1
 
