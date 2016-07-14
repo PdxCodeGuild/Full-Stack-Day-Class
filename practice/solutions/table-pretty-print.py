@@ -1,58 +1,126 @@
-header_to_rows = {
-  'Fruits': ['apple', 'orange', 'pineapple'],
-  'Names': ['Alice', 'Bob'],
-  'Animals': ['Dog', 'Cat', 'Ferret', 'Hamster']
-}
+"""Reads in a text file, which is a matrix of words, then pretty prints them so each column is of equal width with
+borders.
+"""
 
 
-def find_fit_width(row, header):
-    lens = [len(cell) for cell in row + [header]]
-    return max(lens)
+def read_file_into_rows(filename):
+    """Read a given file and parse each line into space separated rows.
+
+    The return value will be a list of rows of cells.
+
+    [['row1item1', 'row1item2'], ['row2item1', 'row2item2']]
+    """
+    with open(filename) as f:
+        return parse_lines_into_rows(f)
 
 
-def pad_row_width(row, width):
-    return [cell.ljust(width) for cell in row]
+def parse_lines_into_rows(lines):
+    r"""Convert a list of lines into a list of rows of cells.
+
+    Remove blank lines.
+
+    >>> parse_lines_into_rows(['how now\n', 'brown\n', '\n'])
+    [['how', 'now'], ['brown']]
+    """
+    return [
+        line.strip().split()
+        for line
+        in lines
+        if line.strip() != ''
+    ]
 
 
-def find_fit_height(rows):
-    lens = [len(row) for row in rows]
-    return max(lens)
+def transpose(matrix):
+    """Transpose a list of lists.
+
+    >>> transpose([[1, 2], [3, 4]])
+    [[1, 3], [2, 4]]
+    """
+    return [list(x) for x in zip(*matrix)]
 
 
-def pad_row_height(row, length):
-    needed_rows = length - len(row)
-    return row + ['' for _ in range(needed_rows)]
+def pad_cols(cols):
+    """Pad a list of columns with spaces to the longest cell in each column.
+
+    >>> pad_cols([['a', 'aa'], ['bbb', 'b']])
+    [['a ', 'aa'], ['bbb', 'b  ']]
+    """
+    return [pad(col) for col in cols]
 
 
-def pad_table(header_to_rows):
-    fit_height = find_fit_height(header_to_rows.values())
-    vert_padded_table = {
-        header: pad_row_height(row, fit_height)
-        for header, row
-        in header_to_rows.items()
-    }
-    padded_table = {
-        header.ljust(find_fit_width(row, header)): pad_row_width(row, find_fit_width(row, header))
-        for header, row
-        in vert_padded_table.items()
-    }
-    return padded_table
+def calc_max_len(l):
+    """Calculate the longest length in a list.
+
+    >>> calc_max_len(['', 'a', 'aa'])
+    2
+    """
+    return max([len(cell) for cell in l])
 
 
-def print_padded_rect_table(padded_header_to_rows):
-    header_row_pairs = padded_header_to_rows.items()
-    headers = [header for header, row in header_row_pairs]
-    table_header = ' '.join(headers)
-    print(table_header)
-    rows = [row for header, row in header_row_pairs]
-    for cells_across in zip(*rows):
-        table_row = ' '.join(cells_across)
-        print(table_row)
+def pad(col):
+    """Pad a list so all strings are the length of the longest.
+
+    >>> pad(['a', 'aa', 'aaa'])
+    ['a  ', 'aa ', 'aaa']
+    """
+    max_len = calc_max_len(col)
+    return [cell.ljust(max_len) for cell in col]
 
 
-def pretty_print_table(header_to_rows):
-    print_padded_rect_table(pad_table(header_to_rows))
+def border_cols(cols):
+    """
+
+    >>> border_cols([['aa', 'a'], ['bbb', 'b']])
+    [['--', 'aa', 'a', '--'], ['---', 'bbb', 'b', '---']]
+    """
+    return [border_col(col) for col in cols]
+
+
+def border_col(col):
+    """Add a beginning and ending border of dashes to a list of cells.
+
+    The border will be as long as the longest cell.
+
+    >>> border_col(['aa', 'a'])
+    ['--', 'aa', 'a', '--']
+    """
+    border_str = '-' * calc_max_len(col)
+    return [border_str] + col + [border_str]
+
+
+def print_rows(bordered_rows):
+    """Given a list of rows (which is a matrix), print it out with pipes between each cell.
+
+    >>> print_rows([['a', 'b'], ['c', 'd']])
+    |a|b|
+    |c|d|
+    """
+    for row in bordered_rows:
+        joinable_row = [''] + row + ['']
+        print('|'.join(joinable_row))
+
+
+def pretty_print_table(rows):
+    """Pretty an entire table with left justified columns.
+
+    >>> pretty_print_table([['a', 'aa'], ['bbb', 'b']])
+    |---|--|
+    |a  |aa|
+    |bbb|b |
+    |---|--|
+    """
+    cols = transpose(rows)
+    padded_cols = pad_cols(cols)
+    bordered_padded_cols = border_cols(padded_cols)
+    bordered_padded_rows = transpose(bordered_padded_cols)
+    print_rows(bordered_padded_rows)
+
+
+def main():
+    """Read in a table file and pretty print it."""
+    rows = read_file_into_rows('test-table.txt')
+    pretty_print_table(rows)
 
 
 if __name__ == '__main__':
-    pretty_print_table(header_to_rows)
+    main()
