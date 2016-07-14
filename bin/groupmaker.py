@@ -3,6 +3,7 @@
 with the fewest times before.
 """
 import argparse
+import sys
 from collections import Iterable
 from functools import reduce
 from itertools import (chain, combinations_with_replacement, filterfalse,
@@ -296,7 +297,7 @@ def print_name_count_matrix(names, count_matrix):
     +----+-----+-----+-----+
     """
     table = [[name] + counts for name, counts in zip(names, count_matrix)]
-    print(tabulate(table, names, tablefmt='psql'))
+    print(tabulate(table, names, tablefmt='psql'), file=sys.stderr)
 
 
 def parse_students_file(students_file):
@@ -358,7 +359,7 @@ if __name__ == '__main__':
         dest='verbosity',
         action='count',
         default=0,
-        help='print out group formation debugging to stderr')
+        help='print out historical pair counts to stderr before calculating new groups')
     parser.add_argument('student_file_path',
                         metavar='STUDENT_FILE',
                         help='file containing student names, one per line')
