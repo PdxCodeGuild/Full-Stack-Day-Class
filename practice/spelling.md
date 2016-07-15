@@ -1,6 +1,6 @@
 # Practice: I-E Spelling
 
-Save your solution as `practice/spelling.py`.
+Save your solution in a Python file in `practice/` in a branch and make a GitHub pull request all named `spelling`.
 
 Create a program asks for a _single_ English word and checks if it follows the rule "I before E except after C".
 Then print out the input word and if it follows the rule, like the example below.

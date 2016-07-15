@@ -1,6 +1,6 @@
 # Practice: Sum Pairs
 
-Save your solution as `practice/sum-pairs.py` in a branch called `sum-pairs` and make a GitHub pull request.
+Save your solution in a Python file in `practice/` in a branch and make a GitHub pull request all named `sum-pairs`.
 
 Write a function named `find_sum_pairs`.
 It takes two arguments:

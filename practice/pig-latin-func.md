@@ -1,6 +1,6 @@
 # Practice: Pig Latin Refactor
 
-Save your solution over your existing `practice/pig-latin.py` in a branch named `pig-latin-func` and create a pull request on GitHub for that branch.
+Save your solution over the existing `practice/pig-latin.py` in a branch and make a GitHub pull request all named `pig-latin-func`.
 
 Convert your [Pig Latin Practice](/practice/pig-latin.md) to use functions.
 

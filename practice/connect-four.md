@@ -1,6 +1,6 @@
 # Practice: Connect Four
 
-Save your solution as `practice/connect-four.py`  in a branch called `connect-four` and make a GitHub pull request.
+Save your solution in a Python file in `practice/` in a branch and make a GitHub pull request all named `connect-four`.
 
 [Connect Four](https://en.wikipedia.org/wiki/Connect_Four) is a board game.
 Players take turns placing tokens of their color into a vertical grid.
@@ -23,8 +23,6 @@ This moves file recreates [this game](https://en.wikipedia.org/wiki/File:Connect
 *   Think about how to place a token in a column.
 
 *   Think about how to concisely store the tokens that have been dropped in the board.
-
-*   Create a board class.
 
 *   Read in moves from the file.
 

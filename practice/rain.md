@@ -1,5 +1,7 @@
 # Practice: Rain
 
+Save your solution in a Python file in `practice/` in a branch and make a GitHub pull request all named `rain`.
+
 The city of Portland has rain gauges that keep track of rainfall.
 [A website](http://or.water.usgs.gov/non-usgs/bes/) has text data tables the history of all the daily measurements at these gauges.
 

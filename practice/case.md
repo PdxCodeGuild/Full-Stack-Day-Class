@@ -1,6 +1,6 @@
 # Practice: Case Conversion
 
-Save your solution as `practice/case.py` in a branch called `case` and make a GitHub pull request.
+Save your solution in a Python file in `practice/` in a branch and make a GitHub pull request all named `case`.
 
 Write a program that prompts the user for a word in `snake_case`, then converts and prints it out in `CamelCase`.
 Also do the reverse conversion.

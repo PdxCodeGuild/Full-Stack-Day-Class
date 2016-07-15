@@ -1,6 +1,6 @@
 # Practice: Taxes
 
-Save your solution as `practice/taxes.py`.
+Save your solution in a Python file in `practice/` in a branch and make a GitHub pull request all named `taxes`.
 
 Income tax in Oregon is **progressive**.
 That means the more you make, the larger fraction of that _additional_ income you pay.

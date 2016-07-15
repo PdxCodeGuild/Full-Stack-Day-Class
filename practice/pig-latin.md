@@ -1,6 +1,6 @@
 # Practice: Pig Latin
 
-Save your solution as `practice/pig-latin.py`.
+Save your solution in a Python file in `practice/` in a branch and make a GitHub pull request all named `pig-latin`.
 
 Create a program asks for a _single_ English word and translates it to **Pig Latin**.
 It prints out the input word and the resulting translation like the example below.
