@@ -127,19 +127,16 @@
 1. Group Practice: [Table Pretty Print](/practice/table-pretty-print.md)
 1. Checked Practice: [Rain](/practice/rain.md)
 1. Individual Practice: [Connect Four](/practice/connect-four.md)
-1. Group Practice: Tic-Tac-Toe
-1. Checked Practice: Farkle
-1. Optional: Practice: Phone Book
-1. Practice: Sort File
-1. Practice: Tabs to Spaces
 1. [Writing Good Tests](/notes/testing-writing.md)
-1. Structured Data
+1. [Structured Data](/notes/structured-data.md)
+1. [Named Tuples](/notes/py-tuples-named.md)
 1. [Joining](/notes/joining.md)
 1. [Data Problem Solving](/notes/problem-solving-data-transformations.md)
+1. [JSON](/notes/json.md)
 1. Demo:
 1. Group Practice: [Restaurant Reviews](/practice/reviews.md)
+1. Checked Practice: [Log Parsing](/practice/log-parsing.md)
 1. Individual Practice:
-1. Optional Practice:
 1. [Basic Objects and Classes](/notes/py-classes-basic.md)
 1. [Class Init](/notes/py-classes-init.md)
 1. [Data Design](/notes/py-classes-design.md)
@@ -165,6 +162,11 @@
 1. UI Loops
 1. Practice: [Voting Booth](/practice/voting-booth.md)
 1. Demo: [Class Roster](/demos/class-roster.md)
+1. Practice: Tic-Tac-Toe
+1. Practice: Farkle
+1. Practice: Phone Book
+1. Practice: Sort File
+1. Practice: Tabs to Spaces
 
 ## Building a Web App
 
@@ -339,7 +341,6 @@
 
 ## APIs and Web Interfaces
 
-1. [JSON](/notes/json.md)
 1. [AJAX](/notes/ajax.md)
 1. Demo: [Highlight](/demos/highlight.md)
 1. [APIs](/notes/apis.md)
