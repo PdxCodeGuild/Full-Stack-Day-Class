@@ -134,7 +134,7 @@ def calc_pair_to_count_of_groups_set(groups_set):
 
 
 def pair(name1, name2):
-    """Manually pair two names in order for compairson to a pair count dict.
+    """Manually pair two names in order for comparison to a pair count dict.
 
     >>> pair('B', 'A')
     ('A', 'B')
@@ -173,20 +173,28 @@ def calc_names_count_matrix(names, groups_set):
 
 
 def score_group(group, historical_pair_to_count):
-    """Given a group and a historical pair counts, return how many times
-    group members have been paired together before.
+    """Given a group and a historical pair counts, return a score of how many times group members have been paired
+    together before.
+
+    The higher the score, the more frequently they've been grouped together.
 
     >>> score_group(
     ...     ['A', 'B', 'C'],
     ...     {('A', 'B'): 1, ('A', 'C'): 1})
-    2
+    4
     """
-    return sum(historical_pair_to_count.get(pair, 0) for pair in pairs(group))
+    return sum(
+        historical_pair_to_count.get(pair, 0)
+        for pair
+        in pairs(group)
+    ) ** 2
 
 
 def score_groups(groups, historical_pair_to_count):
-    """Given a set of groups and a historical pair counts, return how many
-    times group members have been paired together before.
+    """Given a set of groups and a historical pair counts, return a score of how many times group members have been paired
+    together before
+
+    The higher the score, the more frequently they've been grouped together.
 
     >>> score_groups(
     ...     [['A', 'B'], ['C', 'D']],
@@ -283,11 +291,12 @@ def print_groups_file(groups):
                                 if student is not None) for group in groups))
 
 
-def print_name_count_matrix(names, count_matrix):
+def print_name_count_matrix(names, count_matrix, file=sys.stderr):
     """Print a matrix of names and counts.
 
     >>> print_name_count_matrix(['A', 'B', 'C'],
-    ...                         [[0, 1, 1], [1, 0, 2], [1, 2, 0]])
+    ...                         [[0, 1, 1], [1, 0, 2], [1, 2, 0]],
+    ...                         sys.stdout)
     +----+-----+-----+-----+
     |    |   A |   B |   C |
     |----+-----+-----+-----|
@@ -297,7 +306,7 @@ def print_name_count_matrix(names, count_matrix):
     +----+-----+-----+-----+
     """
     table = [[name] + counts for name, counts in zip(names, count_matrix)]
-    print(tabulate(table, names, tablefmt='psql'), file=sys.stderr)
+    print(tabulate(table, names, tablefmt='psql'), file=file)
 
 
 def parse_students_file(students_file):
