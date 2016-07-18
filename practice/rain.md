@@ -17,10 +17,11 @@ TEXT HEADER...
 --------------------------
 25-MAR-2016     0    0   0
 24-MAR-2016     6    0   1
+23-MAR-2016     -    -   -
 MORE...
 ```
 
-The amounts are in hundredths of inches.
+The amounts are in hundredths of inches or are a `-` if the sensor was broken.
 
 Please download the following URL to a local file, and read that file: `https://raw.githubusercontent.com/PdxCodeGuild/Full-Stack-Day-Class/master/practice/sunnyside.rain`.
 
@@ -33,6 +34,7 @@ You will have to slice out the header lines from all the lines you read.
 Remember, the header has a totally different format.
 You can split a string by whitespace into a list of strings using `str.split()`.
 You will also have to slice out the date and daily total from each of those lists of strings.
+If there are any days with `-` for data, explicitly drop them from your dataset.
 
 ## Advanced
 
