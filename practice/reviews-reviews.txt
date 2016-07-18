@@ -1,0 +1,6 @@
+{"user_name": "Abby", "business_name": "Dicks Burgers", "rating": 5, "text": "Open late night!"}
+{"user_name": "Bobby", "business_name": "Dicks Burgers", "rating": 4, "text": "Super tasty, but such a long line!"}
+{"user_name": "Carmen", "business_name": "Dicks Burgers", "rating": 2, "text": "Gross meat."}
+{"user_name": "Helen", "business_name": "Voodoo Donuts", "rating": 1, "text": "I do not like bubblegum on my donuts."}
+{"user_name": "Bobby", "business_name": "Voodoo Donuts", "rating": 5, "text": "Pink building is so cute!"}
+{"user_name": "Abby", "business_name": "Voodoo Donuts", "rating": 2, "text": "Diabetes inducing."}

@@ -102,6 +102,8 @@
 1. [Sequence Functions](/notes/py-sequence-funcs.md)
 1. [Mapping](/notes/mapping.md)
 1. [Filtering](/notes/filtering.md)
+1. Enums
+1. [Testing](/notes/testing.md)
 1. [Doctests](/notes/py-doctests.md)
 1. [Advanced Debugging](/notes/debugging-adv.md)
 1. [Searching for Solutions](/notes/googling.md)
@@ -116,27 +118,27 @@
 1. [Sets](/notes/py-sets.md)
 1. [Tuple Unpacking](/notes/py-tuples-unpacking.md)
 1. [Reducing](/notes/reducing.md)
-1. [Grouping](/notes/grouping.md)
 1. [Advanced Variable Naming](/notes/naming-variables-adv.md)
 1. [Function Values](/notes/py-functions-values.md)
 1. [Sorting](/notes/sorting.md)
 1. [Searching](/notes/searching.md)
 1. [Picking Data Structures](/notes/problem-solving-data-structures.md)
-1. [File IO](/notes/py-io-file.md)
 1. Demo:
 1. Group Practice: [Table Pretty Print](/practice/table-pretty-print.md)
-1. Checked Practice: [Rain](/practice/rain.md)
+1. Checked Practice:
 1. Individual Practice: [Connect Four](/practice/connect-four.md)
 1. [Writing Good Tests](/notes/testing-writing.md)
 1. [Structured Data](/notes/structured-data.md)
 1. [Named Tuples](/notes/py-tuples-named.md)
+1. [Grouping](/notes/grouping.md)
 1. [Joining](/notes/joining.md)
 1. [Data Problem Solving](/notes/problem-solving-data-transformations.md)
 1. [JSON](/notes/json.md)
+1. [File IO](/notes/py-io-file.md)
 1. Demo:
 1. Group Practice: [Restaurant Reviews](/practice/reviews.md)
-1. Checked Practice: [Log Parsing](/practice/log-parsing.md)
-1. Individual Practice:
+1. Checked Practice: [Rain](/practice/rain.md)
+1. Individual Practice: [Log Parsing](/practice/log-parsing.md)
 1. [Basic Objects and Classes](/notes/py-classes-basic.md)
 1. [Class Init](/notes/py-classes-init.md)
 1. [Data Design](/notes/py-classes-design.md)
@@ -152,7 +154,6 @@
 1. Practice:
 1. Practice: [Tic-Tac-Toe Interface](/practice/interface.md)
 1. [Modules](/notes/py-modules-create.md)
-1. [Testing](/notes/testing.md)
 1. [PyTest](/notes/py-pytest.md)
 1. Demo: Test Table Print
 1. Demo: [Test Geometry](/demos/geometry-test.md)
