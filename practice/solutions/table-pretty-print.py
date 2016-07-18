@@ -68,7 +68,7 @@ def pad(col):
 
 
 def border_cols(cols):
-    """
+    """Adds border line entries to each column.
 
     >>> border_cols([['aa', 'a'], ['bbb', 'b']])
     [['--', 'aa', 'a', '--'], ['---', 'bbb', 'b', '---']]

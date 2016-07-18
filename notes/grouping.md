@@ -16,8 +16,10 @@ my_books = [
 ]
 author_to_books = {}
 for book in my_books:
+    thing_to_group_on = book['author']
+
     if book['author'] not in author_to_books:
         author_to_books[book['author']] = []
 
-    author_to_books[book['author']] += [book]
+    author_to_books[thing_to_group_on] += [book]
 ```

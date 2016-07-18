@@ -1,6 +1,7 @@
 # Doctests
 
-Inline tests. Look like an interactive session starting with >>>.
+Inline tests.
+Look like an interactive session starting with >>>.
 
 ```py
 def get_tens_digit(num):

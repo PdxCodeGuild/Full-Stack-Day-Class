@@ -4,8 +4,11 @@
 
 Make a new branch for each practice problem you work on from now on.
 
-1. Before you start some speculative work, make a feature branch using `git checkout -b BRANCH`.
-1. If you ever change which problem you're working on, list the branches with `git branch` then check out the relevant one using `git checkout BRANCH` before committing.
+1.  Before you start some speculative work, make a feature branch _off of master_.
+    Checkout master `git checkout master`.
+    Then make a new branch `git checkout -b BRANCH`.
+
+1.  If you ever change which problem you're working on, list the branches with `git branch` then check out the relevant one using `git checkout BRANCH` before committing.
 
 ## Working
 

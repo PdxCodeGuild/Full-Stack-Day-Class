@@ -25,6 +25,20 @@ There's no `var` or `;` or anything.
 
 Basically every programming language contains versions of those data structures, so an instance of your data can be loaded into memory from a string in any language.
 
+In Python, you use the `json` module to transform between JSON string and object and back.
+`json.dumps()` and `json.loads()` are the main functions that marshall between objects and strings.
+
+```py
+import json
+
+contact_info = {'phone': '507-555-9895', 'address': '123 Main St.'}
+json.dumps(contact_info)  #> '{"phone": "507-555-9895", "address": "123 Main St."}'
+
+json_str = '{"name": "David", "phone": "507-555-9895", "siblings": 2.0, "female": false, "citiesLivedIn": [{"name": "Portland"}, {"name": "Oakland"}]}'
+complex_info = json.loads(json_str)
+complex_info  #> {'name': 'David', 'phone': '507-555-9895', 'siblings': 2.0, 'female': False, 'citiesLivedIn': [{'name': 'Portland'}, {'name': 'Oakland'}]}
+```
+
 You'll also have ~3 data structures with your data:
 
 1. Django models

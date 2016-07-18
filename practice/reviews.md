@@ -40,4 +40,7 @@ Once you've done that, write out functions that answer the following questions e
 
 ## Advanced
 
-* Build a simple command line UI that invokes those functions
+* Return all businesses that mention a word in any of their reviews.
+* Return all businesses that mention a word in any of their reviews sorted by how many times that word appears.
+
+You're on your way to building a search engine.

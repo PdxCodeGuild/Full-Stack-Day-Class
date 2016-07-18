@@ -1,11 +1,13 @@
-## Joining
+# Joining
+
 **Joining** is _following links_ between related data.
 It might require aggregating along the way.
 
 E.g. We have a list of books with authors, a list of authors with cities they live in, look up what books were written in a city.
 
 This is best done with _lookup dicts_ that you've already made that group by what links you're using.
-```python
+
+```py
 book_data = [
     {'title': 'Moby Dick', 'author': 'Herman Melville'},
     {'title': 'Harry Potter', 'author': 'J. K. Rowling'},
@@ -17,7 +19,9 @@ author_data = [
 ]
 
 city_to_authors = grouping_function_you_wrote(author_data)
+city_to_authors  #> {'London': [{'author': 'J. K. Rowling', 'city': 'London'}], 'New York City': [{'author': 'Herman Melville', 'city': 'New York City'}]}
 author_to_books = grouping_function_you_wrote(book_data)
+author_to_books  #> {'J. K. Rowling': [{'title': 'Harry Potter', 'author': 'J. K. Rowling'}], 'Herman Melville': [{'title': 'Moby Dick', 'author': 'Herman Melville'}, {'title': 'Bartleby', 'author': 'Herman Melville'}]}
 
 books_written_in_nyc = []
 for author in city_to_authors['New York City']:

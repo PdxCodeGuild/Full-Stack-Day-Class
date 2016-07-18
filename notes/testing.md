@@ -1,4 +1,5 @@
 # Automated Testing
+
 You've been writing code by breaking your problems down into steps, putting each step in a function, then calling that function in isolation, printing the result, and manually checking if the answer is correct.
 
 Let's get the computer to check this for you!
@@ -19,8 +20,10 @@ def test_convert_feet_to_miles():
 test_convert_feet_to_miles()
 ```
 
-## Why?
+## Why
+
 Why write test code?
+
 * Rigor -- Python checks that output is correct, perfectly, every time
 * Speed -- Python can compare outputs faster than you can
 * Completeness -- Instead of just having one print statement for the most recent thing you've been testing, continually test all your work
@@ -30,6 +33,7 @@ Why write test code?
 The simpler a function is, the easier it is to test.
 
 ## Running Tests
+
 We could write out all of these test functions and run them manually like we did above.
 
 But don't.
