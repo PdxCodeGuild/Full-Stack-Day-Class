@@ -359,7 +359,8 @@ if __name__ == '__main__':
         dest='verbosity',
         action='count',
         default=0,
-        help='print out historical pair counts to stderr before calculating new groups')
+        help='print out historical pair counts to stderr before calculating '
+             'new groups')
     parser.add_argument('student_file_path',
                         metavar='STUDENT_FILE',
                         help='file containing student names, one per line')
