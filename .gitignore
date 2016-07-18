@@ -3,4 +3,5 @@ wip
 .idea
 .cache
 __pycache__
-studentrepos
+repos
+current
