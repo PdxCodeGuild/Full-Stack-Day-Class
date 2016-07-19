@@ -60,3 +60,7 @@ import urllib.request
 with urllib.request.urlopen('http://www.gutenberg.org/ebooks/1342.txt.utf-8') as pride_and_prejudice_file:
   lines = [byte_line.decode('utf-8') for byte_line in pride_and_prejudice_file]
 ```
+
+Read up on using [Pip and PyPI](/notes/py-pip.md) and installing third-party packages.
+Use the `beautifulsoup` package to parse the HTML of that page.
+You shouldn't hard code in any input other than the listing URL.
