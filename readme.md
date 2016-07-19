@@ -136,37 +136,31 @@
 1. [JSON](/notes/json.md)
 1. [File IO](/notes/py-io-file.md)
 1. Demo:
-1. Group Practice: [Restaurant Reviews](/practice/reviews.md)
+1. Group Practice: [Reviews](/practice/reviews.md)
 1. Checked Practice: [Rain](/practice/rain.md)
-1. Individual Practice: [Log Parsing](/practice/log-parsing.md)
+1. Individual Practice: [Site Metrics](/practice/site-metrics.md)
+1. [Modules](/notes/py-modules-create.md)
 1. [Basic Objects and Classes](/notes/py-classes-basic.md)
 1. [Class Init](/notes/py-classes-init.md)
 1. [Data Design](/notes/py-classes-design.md)
 1. [Class String Representation](/notes/py-classes-repr.md)
 1. [Value Classes](/notes/py-classes-value.md)
 1. Demo: [Rosters](/demos/rosters.md)
-1. Demo: [Geometry](/demos/geometry.md)
-1. Practice: [Blackjack Hand](/practice/blackjack-hand.md)
-1. Checked Group Practice:
+1. Group Practice: [Geometry](/practice/geometry.md)
+1. Checked Practice: [Blackjack Hand](/practice/blackjack-hand.md)
 1. [Encapsulation](/notes/py-classes-encapsulation.md)
 1. [Type Methods](/notes/py-classes-methods.md)
-1. Practice: [ATM](/practice/atm.md)
-1. Practice:
-1. Practice: [Tic-Tac-Toe Interface](/practice/interface.md)
-1. [Modules](/notes/py-modules-create.md)
 1. [PyTest](/notes/py-pytest.md)
-1. Demo: Test Table Print
-1. Demo: [Test Geometry](/demos/geometry-test.md)
-1. Practice: [Test Case Conversion](/practice/case-test.md)
-1. Practice: [Test Tic-Tac-Toe Interface](/practice/interface-test.md)
+1. Group Practice: [ATM Interface](/practice/atm.md)
+1. Checked Practice: [Tic-Tac-Toe Interface](/practice/ttt-interface.md)
+1. Inheritance
 1. While Loops
 1. UI Loops
 1. Practice: [Voting Booth](/practice/voting-booth.md)
 1. Demo: [Class Roster](/demos/class-roster.md)
-1. Practice: Tic-Tac-Toe
 1. Practice: Farkle
 1. Practice: Phone Book
-1. Practice: Sort File
+1. Generators
 1. Practice: Tabs to Spaces
 
 ## Building a Web App
