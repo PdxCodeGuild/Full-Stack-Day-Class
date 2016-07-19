@@ -26,6 +26,7 @@ from itertools import chain
 friend_names = ['David', 'Helen']
 enemy_names = ['Fido', 'Otis']
 all_names = list(chain(friend_names, enemy_names))
+chain(*list_of_lists)
 all_names  #> ['David', 'Helen', 'Fido', 'Otis']
 
 import statistics
