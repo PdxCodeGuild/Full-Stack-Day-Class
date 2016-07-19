@@ -40,7 +40,7 @@ Note that if your final goal is groups of some derived value (and not the input 
 
 ```py
 author_to_titles = {
-    author: [book[title] for book in books]
+    author: [book['title'] for book in books]
     for author, books
     in author_to_books
 }
