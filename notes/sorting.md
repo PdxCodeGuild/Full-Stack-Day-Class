@@ -1,21 +1,19 @@
 # Sorting
 
 Often you want things in order.
+Producing that order is called **sorting**.
 Lists are the main data structure that preserves order, so the operations are focused around them.
-`sorted` returns a sorted list version of what you give it.
+`sorted()` returns a sorted list version of what you give it.
 
-`sorted([3, 1, 2])` -> `[1, 2, 3]`
-`sorted([3, 1, 2], reverse=True)` -> `[1, 2, 3]`
+```py
+sorted([3, 1, 2])  #> [1, 2, 3]
+sorted([3, 1, 2], reverse=True)  #> [1, 2, 3]
+```
 
 Check out [the docs](https://docs.python.org/3/library/functions.html#sorted) for it.
 
-## Nested Sorting
-
-When sorting nested lists, the first value is what is sorted by.
-Ties look to the second value to break them.
-Just like sorting words and letters.
-
-`sorted([[3, 2], [3, 1], [1, 9]])` -> `[[1, 9], [3, 1], [3, 1]]`
+If you want to find the biggest or smallest item in a list, don't sort it!
+Instead [reduce](/notes/reducing.md).
 
 ## Key Sorting
 
@@ -94,11 +92,10 @@ def get_second(pair):
 sorted(items, key=get_second)
 ```
 
-## Min and Max
+## Nested Sorting
 
-Turns out other sorting-like functions also do this.
+When sorting nested lists, the first value is what is sorted by.
+Ties look to the second value to break them.
+Just like sorting words and letters.
 
-`max(['guns', 'butter'], key=len)` -> `'butter'`
-`min(['guns', 'butter'], key=len)` -> `'guns'`
-
-Check out [the docs](https://docs.python.org/3/library/functions.html) on them.
+`sorted([[3, 2], [3, 1], [1, 9]])` -> `[[1, 9], [3, 1], [3, 1]]`

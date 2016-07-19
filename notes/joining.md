@@ -1,11 +1,18 @@
 # Joining
 
-**Joining** is _following links_ between related data.
-It might require aggregating along the way.
+**Joining** is _following links_ between related data to produce derived groups.
 
 E.g. We have a list of books with authors, a list of authors with cities they live in, look up what books were written in a city.
 
-This is best done with _lookup dicts_ that you've already made that group by what links you're using.
+This is best done by [mapping](/notes/mapping.md) into _lookup dicts_ then further [grouping](/notes/grouping.md) on those lookup dicts.
+
+1.  Generate lookup dicts that will link between the data you want to join.
+    This is made super easy if you name your dicts like `x_to_y` and `y_to_z` because then you can follow from `x` to `z`.
+
+1.  Write a grouping key function.
+    It will take in your items you want to be grouping and use a daisy chain of lookup dicts to find the derived value you want to group upon.
+
+1.  Perform a grouping using that function.
 
 ```py
 book_data = [
@@ -14,16 +21,25 @@ book_data = [
     {'title': 'Bartleby', 'author': 'Herman Melville'},
 ]
 author_data = [
-    {'author': 'J. K. Rowling', 'city': 'London'},
-    {'author': 'Herman Melville', 'city': 'New York City'},
+    {'name': 'J. K. Rowling', 'city': 'London'},
+    {'name': 'Herman Melville', 'city': 'New York City'},
 ]
 
-city_to_authors = grouping_function_you_wrote(author_data)
-city_to_authors  #> {'London': [{'author': 'J. K. Rowling', 'city': 'London'}], 'New York City': [{'author': 'Herman Melville', 'city': 'New York City'}]}
-author_to_books = grouping_function_you_wrote(book_data)
-author_to_books  #> {'J. K. Rowling': [{'title': 'Harry Potter', 'author': 'J. K. Rowling'}], 'Herman Melville': [{'title': 'Moby Dick', 'author': 'Herman Melville'}, {'title': 'Bartleby', 'author': 'Herman Melville'}]}
+# 1. Setup All Lookup Dicts
+author_name_to_city = {
+    author['name']: author['city']
+    for author
+    in author_data
+}
 
-books_written_in_nyc = []
-for author in city_to_authors['New York City']:
-    books_written_in_nyc += author_to_books[author]
+# 2. Write Grouping Key Function
+def get_city_for_book(book):
+    return author_to_city[book['author']]
+
+# 3. Group Requested Items
+city_to_books = {
+    city: list(books)
+    for city, books
+    in groupby(book_data, get_city_for_book)
+}
 ```
