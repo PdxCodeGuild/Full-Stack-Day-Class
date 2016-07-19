@@ -26,3 +26,9 @@ Realize if statements split up control flow.
 
 Can make a PyCharm Python Test / Doctest run config and select the script you want to run.
 Can run just specific test cases individually. Can debug!
+
+Comparison is stupid, only compares printed versions.
+Beware unordered containers and sort.
+See [warnings section](https://docs.python.org/3.5/library/doctest.html) of doctest docs.
+
+If you have multi-line input, use `...` on continuation lines.

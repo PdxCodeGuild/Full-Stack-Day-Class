@@ -24,3 +24,5 @@ def lookup_phone(name):
 ```
 
 Skim [PEP-257](https://www.python.org/dev/peps/pep-0257/) for proper docstring style.
+I'm going to be anal about docstrings.
+It's easy to do right and no professional code doesn't follow a style guide.
