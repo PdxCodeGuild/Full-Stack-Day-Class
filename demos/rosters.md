@@ -6,4 +6,4 @@ We need to store each student's name and email address.
 
 The program will send out an introductory email to everyone introducing the instructor and telling everyone how many students are in the class.
 
-[Source](/demos/rosters.py)
+[Source](/demos/rosters)
