@@ -15,15 +15,18 @@
 1. [Portfolio](/notes/course-portfolio.md)
 1. [Working with Others](/notes/group-work.md)
 
+## Terminal Use
+
+1. [Filesystem](/notes/filesystem.md)
+1. [Command Line Interface](/notes/cli.md)
+1. Demo: [CLI](/demos/cli.md)
+1. Individual Practice: [CLI](/practice/cli.md)
+
 ## Programming in Python
 
 1. [Programming Philosophy](/notes/programming-philosophy.md)
 1. [Stored Program Computer](/notes/stored-program-computer.md)
 1. [Python](/notes/py.md)
-1. [Filesystem](/notes/filesystem.md)
-1. [Command Line Interface](/notes/cli.md)
-1. Demo: [CLI](/demos/cli.md)
-1. Individual Practice: [CLI](/practice/cli.md)
 1. [Values and Types](/notes/py-values-types.md)
 1. [Operators and Expressions](/notes/py-operators-expressions.md)
 1. [Variables](/notes/py-variables.md)
@@ -46,16 +49,6 @@
 1. Group Practice: [Change Return](/practice/change-return.md)
 1. Checked Practice: [Wall Painting](/practice/wall-painting.md)
 1. Individual Practice: [Madlib](/practice/madlib.md)
-1. [Version Control](/notes/version-control.md)
-1. [Basic Git](/notes/git-basic.md)
-1. [Commit Size](/notes/git-commit-size.md)
-1. Demo: [Basic Git](/demos/git-basic.md)
-1. Individual Practice: [Basic Git](/practice/git-basic.md)
-1. [Git Remotes and GitHub](/notes/git-github.md)
-1. [Git Ignore](/notes/git-ignore.md)
-1. [Git Basic Workflow](/notes/git-workflow-basic.md)
-1. Demo: [Git Remotes](/demos/git-remotes.md)
-1. Individual Practice: [Git Remotes](/practice/git-remotes.md)
 1. [Booleans](/notes/py-booleans.md)
 1. [Comparison Operators](/notes/py-operators-comparison.md)
 1. [Advanced Assignment](/notes/py-assignment-adv.md)
@@ -89,8 +82,6 @@
 1. [Functions as Structure](/notes/py-functions-structure.md)
 1. [Stubbing](/notes/stubbing.md)
 1. [Advanced Problem Solving](/notes/problem-solving-adv.md)
-1. [Git Branching and Merging](/notes/git-branching-merging.md)
-1. [Git Branching Workflow](/notes/git-workflow-branching.md)
 1. Demo: [Written-Out Numbers Refactor](/demos/written-numbers-func.md)
 1. Group Practice: [Distance Converter Refactor](/practice/distance-converter-func.md)
 1. Checked Practice: [Pig Latin Refactor](/practice/pig-latin-func.md)
@@ -164,6 +155,21 @@
 1. Practice: Phone Book
 1. Generators
 1. Practice: Tabs to Spaces
+
+## Using Git
+
+1. [Version Control](/notes/version-control.md)
+1. [Basic Git](/notes/git-basic.md)
+1. [Commit Size](/notes/git-commit-size.md)
+1. Demo: [Basic Git](/demos/git-basic.md)
+1. Individual Practice: [Basic Git](/practice/git-basic.md)
+1. [Git Remotes and GitHub](/notes/git-github.md)
+1. [Git Ignore](/notes/git-ignore.md)
+1. [Git Basic Workflow](/notes/git-workflow-basic.md)
+1. Demo: [Git Remotes](/demos/git-remotes.md)
+1. Individual Practice: [Git Remotes](/practice/git-remotes.md)
+1. [Git Branching and Merging](/notes/git-branching-merging.md)
+1. [Git Branching Workflow](/notes/git-workflow-branching.md)
 
 ## Building a Web App
 
