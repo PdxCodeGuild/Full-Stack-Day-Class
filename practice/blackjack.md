@@ -34,7 +34,12 @@ An ace is worth 1 when the hand it's a part of would be over 21 if it was worth 
 
 ## Advanced
 
-Bring in your dealer hitting logic from the [21 practice problem](/practice/21.md) in it's own module.
-Update it to use the classes here.
+*   Bring in your dealer hitting logic from the [21 practice problem](/practice/21.md) in it's own module.
+    Update it to use the classes here.
 
-Then add in a UI so a single user can play versus the dealer.
+*   Add in a UI so a single user can play versus the dealer.
+
+*   Allow multiple hands to be played with the same deck.
+
+*   Add a "card counting assistant".
+    When given the option to draw another card, print out the probability that your next card will keep you under 21.
