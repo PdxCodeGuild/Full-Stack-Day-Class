@@ -11,7 +11,8 @@ module.exports = {
       "unordered-list-marker-style": "*",
       "fenced-code-flag": {
         "allowEmpty": true
-      }
+      },
+      "no-emphasis-as-heading": false
     },
     "remark-validate-links": {}
   }
