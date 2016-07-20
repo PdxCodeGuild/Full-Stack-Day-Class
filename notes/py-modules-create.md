@@ -1,8 +1,10 @@
 # Modules
+
 You can write your own modules to structure your own code.
 Conveniently, every Python file is already a module!
 
 If your project looks like
+
 ```
 project/
     main.py
@@ -10,7 +12,8 @@ project/
 ```
 
 If `logic.py` is
-```python
+
+```py
 def think_hard():
     return 42
 
@@ -20,7 +23,8 @@ class Bandit:
 ```
 
 Then in `main.py` you can import any Python files in the same directory with the other file name _without the `.py`_.
-```python
+
+```py
 import logic
 
 answer = logic.think_hard()
@@ -39,9 +43,11 @@ Python style requires that files that are going to be imported as modules to be 
 It's actually a little bit more than style, you _can't_ import files with any symbols other than underscore.
 
 ## Nested Modules
+
 You can also introduce more structure by using directories as modules.
 
 If your project looks like
+
 ```
 project/
     main.py
@@ -54,40 +60,52 @@ project/
 Where `__init__.py` is a blank file that marks the directory as a module.
 
 Then from `main.py` you can then import those inner Python files
-```python
+
+```py
 import logic.thinking
 answer = logic.thinking.think_hard()
 ```
 
 You _can not do_
-```python
+
+```py
 import logic
 answer = logic.thinking.think_hard()
 ```
+
 Only individual _files_ can be imported.
 
 ## Importing is Executing
+
 When you import a module, Python has to run that file to create all of the values.
 That means if you have a main function call at the bottom, it will run it _on import_!
 
 If you have an `a.py` that looks like
-```python
+
+```py
 print("I'm in A")
 ```
+
 And a `b.py` that looks like
-```python
+
+```py
 import a
 
 print("I'm in B")
 ```
+
 Then running `b.py` will print out
+
 > I'm in A
+>
 > I'm in B
 
-To prevent this from happening, you can wrap any function calls at the bottom of your source in
-```python
+This is why we have been using a [gated main](/notes/py-functions-main.md#gatedmain).
+
+```py
 if __name__ == '__main__':
     main()
 ```
+
 That code will _not execute upon import_ but will run if you call the Python file directly.
 This is important during testing.

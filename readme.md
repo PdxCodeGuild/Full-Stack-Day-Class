@@ -139,15 +139,18 @@
 1. Group Practice: [Reviews](/practice/reviews.md)
 1. Checked Practice: [Rain](/practice/rain.md)
 1. Individual Practice: [Site Metrics](/practice/site-metrics.md)
-1. [Modules](/notes/py-modules-create.md)
 1. [Basic Objects and Classes](/notes/py-classes-basic.md)
 1. [Class Init](/notes/py-classes-init.md)
 1. [Data Design](/notes/py-classes-design.md)
+1. [Entity-Relation Diagrams](/notes/entity-relation.md)
 1. [Class String Representation](/notes/py-classes-repr.md)
+1. [Class Equality](/notes/py-classes-eq.md)
 1. [Value Classes](/notes/py-classes-value.md)
+1. [Modules](/notes/py-modules-create.md)
 1. Demo: [Rosters](/demos/rosters.md)
 1. Group Practice: [Geometry](/practice/geometry.md)
-1. Checked Practice: [Blackjack Hand](/practice/blackjack-hand.md)
+1. Checked Practice: [Blackjack](/practice/blackjack.md)
+1. Individual Practice:
 1. [Encapsulation](/notes/py-classes-encapsulation.md)
 1. [Type Methods](/notes/py-classes-methods.md)
 1. [PyTest](/notes/py-pytest.md)
@@ -157,7 +160,6 @@
 1. While Loops
 1. UI Loops
 1. Practice: [Voting Booth](/practice/voting-booth.md)
-1. Demo: [Class Roster](/demos/class-roster.md)
 1. Practice: Farkle
 1. Practice: Phone Book
 1. Generators

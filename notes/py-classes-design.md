@@ -1,9 +1,11 @@
 # Data Design
+
 You now have a way of representing labeled, structured data in your programs.
 This is very powerful.
 
 Before, we could use tuples to represent structured data.
 But we have to remember how things are stored in each tuple each time we use it.
+
 ```python
 rain_measurements = [
     ("2016-01-01", 0.5),
@@ -16,6 +18,7 @@ for pair in rain_measurements:
 
 Now, the data structure _documents itself_!
 The fields are named and remind you how to use it at each point.
+
 ```python
 class RainMeasurement:
     def __init__(self, date, amount_inches):
@@ -34,8 +37,10 @@ for measurement in rain_measurements:
 ```
 
 ## Nested Structures
+
 This is an especially powerful tool when you place instance of classes _within_ each other.
-```python
+
+```py
 class CodeGuildClass:
     def __init__(self, start_date, students):
         self.start_date = start_date
@@ -54,4 +59,5 @@ num_students  #> 2
 ```
 
 ## Entity-Relation Diagrams
+
 Use [entity-relation diagrams](/notes/entity-relation.md).
