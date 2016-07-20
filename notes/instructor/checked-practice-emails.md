@@ -7,9 +7,11 @@ Hey XXX!
 
 Good work on your code for the XXX practice problem! It is satisfactory.
 
-I posted some minor feedback as comments on the diff of your pull request XXX . I suggest you spend some time implementing it to practice good habits. Once you're done with any cleanup, merge your pull request into master, delete that feature branch, `pull master` locally, and delete the feature branch locally.
+I posted some minor feedback as comments on the diff of your pull request XXX . I suggest you spend some time implementing it to practice good habits.
 
-Please let me know if you have any further questions or feedback.
+Once you're done with any cleanup, merge your pull request into master, delete that feature branch, `pull master` locally, and delete the feature branch locally.
+
+Please let me know if you have any questions or feedback.
 
 Best,
 David
@@ -40,6 +42,24 @@ I don't see any changes to your XXX practice problem pushed to GitHub and a revi
 Did you forget to push your changes? Are they committed as part of a feature branch named XXX? Did you push that branch?
 
 Please let me know if you have any questions about my previous feedback or are having trouble finishing the assignment.
+
+Best,
+David
+```
+
+## Distinction
+
+```
+Hey XXX,
+
+Excellent work on your code for the XXX practice problem! This code earns distinction for demonstrating great use of all the techniques we've learned thus far.
+
+I posted some minor and advanced feedback as comments on the diff of your pull request XXX . I suggest you spend some time implementing it to continue practicing good habits.
+
+Once you're done with any cleanup, merge your pull request into master, delete that feature branch, `pull master` locally, and delete the feature branch locally.
+
+Please let me know if you have any questions or feedback.
+
 
 Best,
 David
