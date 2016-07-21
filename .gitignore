@@ -1,7 +1,7 @@
 .DS_Store
-wip
+/scratch
 .idea
 .cache
 __pycache__
 repos
-current
+/current
