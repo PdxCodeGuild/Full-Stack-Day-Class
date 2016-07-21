@@ -141,13 +141,19 @@
 1. Demo: [Rosters](/demos/rosters.md)
 1. Group Practice: [Geometry](/practice/geometry.md)
 1. Checked Practice: [Blackjack](/practice/blackjack.md)
-1. Individual Practice:
+1. Individual Practice: [Adventure Game](/practice/adventure.md)
 1. [Encapsulation](/notes/py-classes-encapsulation.md)
 1. [Type Methods](/notes/py-classes-methods.md)
 1. [PyTest](/notes/py-pytest.md)
 1. Group Practice: [ATM Interface](/practice/atm.md)
 1. Checked Practice: [Tic-Tac-Toe Interface](/practice/ttt-interface.md)
-1. Inheritance
+1. [Dependencies](/notes/py-app-dependencies.md)
+1. [Virtualenv](/notes/py-virtualenv.md)
+1. [Pip and PyPI](/notes/py-pip.md)
+1. [App Requirements](/notes/py-app-requirements.md)
+1. [App Structure](/notes/py-app-structure.md)
+1. Demo: [Web Getter](/demos/web-getter)
+1. Individual Practice: [Rotate Image](/practice/rotate-image.md)
 1. While Loops
 1. UI Loops
 1. Practice: [Voting Booth](/practice/voting-booth.md)
@@ -155,6 +161,11 @@
 1. Practice: Phone Book
 1. Generators
 1. Practice: Tabs to Spaces
+1. Inheritance
+1. Demo:
+1. Group Practice:
+1. Checked Practice:
+1. Individual Practice:
 
 ## Using Git
 
@@ -170,6 +181,8 @@
 1. Individual Practice: [Git Remotes](/practice/git-remotes.md)
 1. [Git Branching and Merging](/notes/git-branching-merging.md)
 1. [Git Branching Workflow](/notes/git-workflow-branching.md)
+1. Demo: Git Branches
+1. Individual Practice: Git Branches
 
 ## Building a Web App
 
@@ -279,16 +292,6 @@
 1. Checked Practice: [Validator](/practice/validator.md)
 1. Demo: [Palette](/demos/palette.md)
 1. Checked Practice: [Whack-A-Mole](/practice/whack-a-mole.md)
-
-## Python Applications
-
-1. [Dependencies](/notes/py-app-dependencies.md)
-1. [Virtualenv](/notes/py-virtualenv.md)
-1. [Pip and PyPI](/notes/py-pip.md)
-1. [App Requirements](/notes/py-app-requirements.md)
-1. [App Structure](/notes/py-app-structure.md)
-1. Demo: [Web Getter](/demos/web-getter)
-1. Individual Practice: [Rotate Image](/practice/rotate-image.md)
 
 ## Django Web Framework Programming
 

@@ -5,7 +5,7 @@ Save your solution in a directory in `practice/` in a branch and make a GitHub p
 Let's start modeling a game of [blackjack](https://en.wikipedia.org/wiki/Blackjack).
 
 Make a `Card` value class with a suit and a rank, both as strings, and a `Hand` value class with a list of cards.
-Implement top-level functions that:
+In the `hand` module, implement top-level functions that:
 
 * Add a card to a hand
 * Score a hand
@@ -14,7 +14,7 @@ Implement top-level functions that:
 
 Make a `Deck` value class with a list of cards.
 Initialize it with all cards in order.
-Implement top-level functions that
+In the `deck` module, implement top-level functions that
 
 * Return a new deck that is shuffled
 * Draw a card off the top of a deck
@@ -34,12 +34,13 @@ An ace is worth 1 when the hand it's a part of would be over 21 if it was worth 
 
 ## Advanced
 
-*   Bring in your dealer hitting logic from the [21 practice problem](/practice/21.md) in it's own module.
-    Update it to use the classes here.
+*   Bring in your dealer hitting logic from the [21 practice problem](/practice/21.md) into a top-level function it's own module `dealer`.
+    Update it to take in a `Hand` instance and return whether to hit.
+
+*   Add a "card counting assistant" top-level function in a module `advisor`.
+    Have it take in a deck and a hand and print out the probability that you will bust.
+    You can find the [expectation value](http://www.wikihow.com/Calculate-an-Expected-Value) of the score of your hand given one more card; basically the sum of the probability of the card multiplied by the resulting score of the hand with that card.
 
 *   Add in a UI so a single user can play versus the dealer.
 
 *   Allow multiple hands to be played with the same deck.
-
-*   Add a "card counting assistant".
-    When given the option to draw another card, print out the probability that your next card will keep you under 21.
