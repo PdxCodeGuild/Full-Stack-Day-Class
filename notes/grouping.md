@@ -46,3 +46,15 @@ author_to_titles = {
 }
 author_to_titles  #> {'Herman Melville': ['Moby Dick', 'Bartleby'], 'J. K. Rowling': ['Harry Potter']}
 ```
+
+If you don't want to have to remember to do all the casting on the result, copy and paste this function into your code.
+
+```py
+from itertools import groupby
+
+def group_by(iterable, key):
+    """Place each item in iterable into a bucket based on the calling the key
+    function on the item.
+    """
+    return {group: list(items) for group, items in groupby(iterable, key)}
+```
