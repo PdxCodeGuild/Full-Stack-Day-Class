@@ -6,16 +6,27 @@ It is a kind of [reduction](/notes/reducing.md).
 E.g. Bucket a list of books by author.
 Bucket names by what class list they appear in.
 
-This is best done with `itertools.groupby()`.
-Check out the [documentation](https://docs.python.org/3/library/itertools.html#itertools.groupby) for it.
+This is best done with this _group by_ function or aggregating dicts.
+Copy and paste this into any programs where you need to do grouping.
+
+```py
+def group_by(iterable, key):
+    """Place each item in an iterable into a bucket based on calling the key
+    function on the item."""
+    group_to_items = {}
+    for item in iterable:
+        group = key(item)
+        if group not in group_to_items:
+            group_to_items[group] = []
+        group_to_items[group].append(item)
+    return group_to_items
+```
 
 1. Determine what your input list or sequence is.
 1. Write a function that takes in one item from the input and returns what group to put it in, called a **grouping key**.
-1. Call `groupby()` and do some simple conversion to a dict of lists. (It actually returns nested iterators.)
+1. Call `group_by()`.
 
 ```py
-from itertools import groupby
-
 my_books = [
     {'title': 'Moby Dick', 'author': 'Herman Melville'},
     {'title': 'Harry Potter', 'author': 'J. K. Rowling'},
@@ -24,15 +35,15 @@ my_books = [
 
 # 2. Calculate Grouping Key
 def get_author(book):
+    """Given a book as a dict, return just the author.
+
+    >>> get_author({'title': 'Harry Potter', 'author': 'J. K. Rowling'})
+    'J. K. Rowling'
+    """
     return book['author']
 
-# 3. Call and Convert
-author_to_books = {
-    group_key: list(grouped_items)
-    for group_key, grouped_items
-    # 1. Specify Input
-    in groupby(my_books, get_author)
-}
+# 3. Group
+author_to_books = group_by(my_books, get_author)
 author_to_books  #> {'Herman Melville': [{'title': 'Moby Dick', 'author': 'Herman Melville'}, {'title': 'Bartleby', 'author': 'Herman Melville'}], 'J. K. Rowling': [{'title': 'Harry Potter', 'author': 'J. K. Rowling'}]}
 ```
 
@@ -45,16 +56,4 @@ author_to_titles = {
     in author_to_books
 }
 author_to_titles  #> {'Herman Melville': ['Moby Dick', 'Bartleby'], 'J. K. Rowling': ['Harry Potter']}
-```
-
-If you don't want to have to remember to do all the casting on the result, copy and paste this function into your code.
-
-```py
-from itertools import groupby
-
-def group_by(iterable, key):
-    """Place each item in iterable into a bucket based on the calling the key
-    function on the item.
-    """
-    return {group: list(items) for group, items in groupby(iterable, key)}
 ```
