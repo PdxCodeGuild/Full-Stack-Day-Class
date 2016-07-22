@@ -31,7 +31,10 @@ Each line in these files is a single object of that kind.
 * [User Data](/practice/reviews-users.txt)
 * [Review Data](/practice/reviews-reviews.txt)
 
-Once you've done that, write out functions that answer the following questions each.
+Once you've done that, make named tuples for each of the types, and transfer the data into instances of them.
+Only use the named tuple instances from here on out.
+
+Then, write out functions that answer the following questions each.
 
 * Return all reviews for a single business
 * Return the mean rating of a single business

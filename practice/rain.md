@@ -36,6 +36,9 @@ You can split a string by whitespace into a list of strings using `str.split()`.
 You will also have to slice out the date and daily total from each of those lists of strings.
 If there are any days with `-` for data, explicitly drop them from your dataset.
 
+Avoid using un-named "pairs" outside of dictionaries.
+If you need to group together individual instances of a date and a rainfall amount, use a named tuple.
+
 ## Advanced
 
 *   Find and print the day of the year with the most rain on average.
