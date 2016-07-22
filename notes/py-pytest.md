@@ -1,6 +1,10 @@
-# PyTest
+# Pytest
 
-Pytest is the testing framework we'll be using to run tests.
+Pytest is a testing framework.
+It has code to find test functions, run them, and check that the output is correct.
+
+Like [doctests](/notes/py-doctests.md), but much more flexible and robust.
+
 It is not part of the standard library, but you can easily install it using `pip install pytest`.
 
 ## Structuring Test Code
