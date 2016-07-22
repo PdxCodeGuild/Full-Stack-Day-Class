@@ -23,8 +23,10 @@ def group_by(iterable, key):
 ```
 
 1. Determine what your input list or sequence is.
-1. Write a function that takes in one item from the input and returns what group to put it in, called a **grouping key**.
-1. Call `group_by()`.
+1. Write a **grouping function** that takes in one item from the input and returns what group to put it in, called a **grouping key**.
+1. Call `group_by(input_list, grouping_function)`.
+
+Then out comes a dictionary from grouping key to a list of all the input items in that bucket.
 
 ```py
 my_books = [
