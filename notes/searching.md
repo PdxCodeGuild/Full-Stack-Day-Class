@@ -23,9 +23,9 @@ This is basically a [mapping](/notes/mapping.md) with a dictionary in mind becau
 ```py
 
 contact_infos = [
-    ('David', '507-555-9895', '123 Main St.'),
-    ('Helen', '507-555-1234', '987 Ash St.'),
-    ('Abby', '507-555-7777', '456 Water St.'),
+    ('David', '503-555-9895', '123 Main St.'),
+    ('Helen', '503-555-1234', '987 Ash St.'),
+    ('Abby', '503-555-7777', '456 Water St.'),
 ]
 
 phone_to_contact = {
@@ -33,7 +33,7 @@ phone_to_contact = {
     for contact_info
     in contact_infos
 }
-phone_to_contact['507-555-9895']
+phone_to_contact['503-555-9895']
 ```
 
 If there are multiple answers, this is a [grouping](/notes/grouping.md).

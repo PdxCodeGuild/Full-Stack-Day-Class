@@ -27,14 +27,14 @@ Before we had to write every time:
 ```py
 me = AddressBookEntry()
 me.name = 'David'
-me.phone_number = '507-555-9895'
+me.phone_number = '503-555-9895'
 ```
 
 Now we magically use the magic init method to do that for us.
 
 ```py
-me = AddressBookEntry('David', '507-555-9895')
-you = AddressBookEntry('Helen', '507-555-1234')
+me = AddressBookEntry('David', '503-555-9895')
+you = AddressBookEntry('Helen', '503-555-1234')
 print(me.name)  # David
 print(you.name)  # Helen
 ```
@@ -44,7 +44,7 @@ You now _need_ to pass all of those _other_ arguments when you call the type nam
 
 ```py
 me = AddressBookEntry()  # throws TypeError
-you = AddressBookEntry('Helen', '507-555-1234')
+you = AddressBookEntry('Helen', '503-555-1234')
 ```
 
 Magic functions are called "magic" because Python has them fill magical roles.

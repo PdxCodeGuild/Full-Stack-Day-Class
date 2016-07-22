@@ -34,8 +34,8 @@ class AddressBookEntry:
 Python will magically call this function for you whenever the first argument to `==` is that type.
 
 ```py
-me = AddressBookEntry('David', '507-555-9895')
-you = AddressBookEntry('Helen', '507-555-2131')
+me = AddressBookEntry('David', '503-555-9895')
+you = AddressBookEntry('Helen', '503-555-2131')
 
 # These two lines run the same code:
 me == you  #> False

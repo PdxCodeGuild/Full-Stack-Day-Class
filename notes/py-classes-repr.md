@@ -8,7 +8,7 @@ class AddressBookEntry:
     self.name = name
     self.phone_number = phone_number
 
-me = AddressBookEntry('David', '507-555-9895')
+me = AddressBookEntry('David', '503-555-9895')
 print(me)  # <__main__.AddressBookEntry object at 0x1043772e8>
 ```
 
@@ -28,8 +28,8 @@ class AddressBookEntry:
             self.phone_number
         )
 
-me = AddressBookEntry('David', '507-555-9895')
-print(me)  # AddressBookEntry('David', '507-555-9895')
+me = AddressBookEntry('David', '503-555-9895')
+print(me)  # AddressBookEntry('David', '503-555-9895')
 ```
 
 You should _always_ write a magic repr method.
@@ -39,9 +39,9 @@ What should you string representation look like?
 It should be an unambiguous _literal_ representation of all the data in an instance of your class.
 I recommend it look like a call to your class' constructor.
 
-> AddressBookEntry('David', '507-555-9895')
+> AddressBookEntry('David', '503-555-9895')
 >
-> AddressBookEntry(name='David', phone_number='507-555-9895')
+> AddressBookEntry(name='David', phone_number='503-555-9895')
 
 You should remember that any attributes you're interpolating into the string representation should be reprs themselves!
 Use `{!r}` instead of just `{}` in your formatting string.

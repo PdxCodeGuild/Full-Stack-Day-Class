@@ -45,11 +45,11 @@ class AddressBookEntry:
 me = AddressBookEntry()
 you = AddressBookEntry()
 me.name = 'David'
-me.phone_number = '507-555-9895'
+me.phone_number = '503-555-9895'
 you.name = 'Helen'
-you.phone_number = '507-555-1234'
-print(me.name, me.phone_number)  # David 507-555-9895
-print(you.name, you.phone_number)  # Helen 507-555-1234
+you.phone_number = '503-555-1234'
+print(me.name, me.phone_number)  # David 503-555-9895
+print(you.name, you.phone_number)  # Helen 503-555-1234
 ```
 
 Remember, the class just defines the structure, the template, what labels are valid.

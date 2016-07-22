@@ -14,7 +14,7 @@ class PhoneNumber:
     def has_area_code(self):
         """Return if the stored number has an area code.
 
-        >>> pn = PhoneNumber('5075559895')
+        >>> pn = PhoneNumber('5035559895')
         >>> pn.has_area_code()
         True
         >>> pn = PhoneNumber('5559895')

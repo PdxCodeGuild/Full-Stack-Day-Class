@@ -9,7 +9,7 @@ Single item tuples need a trailing comma to distinguish them from grouping paren
 Empty tuples are created using the `tuple()` cast function.
 
 ```py
-('David', '507-555-9895')
+('David', '503-555-9895')
 (2016, 7, 13)
 ('Alice', )
 tuple()
@@ -24,7 +24,7 @@ E.g. A list of friends is a list because it doesn't matter exactly how many ther
 
 ```py
 friend_names = ['Kate', 'Al']
-contact_info = ('123 Main St', '507-555-1234')
+contact_info = ('123 Main St', '503-555-1234')
 ```
 
 You can cast a sequence to a tuple with the `tuple()` function.
@@ -33,7 +33,7 @@ Tuples are immutable.
 Trying to modify them is an exception.
 
 ```py
-contact_info = ('123 Main St', '507-555-1234')
+contact_info = ('123 Main St', '503-555-1234')
 contact_info[0] = '456 Water Ave'  # Throws TypeError
 ```
 

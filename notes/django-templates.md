@@ -138,8 +138,8 @@ class AddressBookEntry:
 def render_template(request):
     template_arguments = {
         'friends': [
-            AddressBookEntry('David', '507-555-9895'),
-            AddressBookEntry('Helen', '507-555-1234'),
+            AddressBookEntry('David', '503-555-9895'),
+            AddressBookEntry('Helen', '503-555-1234'),
         ]
     }
     return render(request, 'template.html', template_arguments)

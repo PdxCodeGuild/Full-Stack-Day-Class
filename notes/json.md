@@ -10,7 +10,7 @@ That literal can only contain strings, numbers, booleans, arrays, and other obje
 ```json
 {
     "name": "David",
-    "phone": "507-555-9895",
+    "phone": "503-555-9895",
     "siblings": 2.0,
     "female": false,
     "citiesLivedIn": [
@@ -31,12 +31,12 @@ In Python, you use the `json` module to transform between JSON string and object
 ```py
 import json
 
-contact_info = {'phone': '507-555-9895', 'address': '123 Main St.'}
-json.dumps(contact_info)  #> '{"phone": "507-555-9895", "address": "123 Main St."}'
+contact_info = {'phone': '503-555-9895', 'address': '123 Main St.'}
+json.dumps(contact_info)  #> '{"phone": "503-555-9895", "address": "123 Main St."}'
 
-json_str = '{"name": "David", "phone": "507-555-9895", "siblings": 2.0, "female": false, "citiesLivedIn": [{"name": "Portland"}, {"name": "Oakland"}]}'
+json_str = '{"name": "David", "phone": "503-555-9895", "siblings": 2.0, "female": false, "citiesLivedIn": [{"name": "Portland"}, {"name": "Oakland"}]}'
 complex_info = json.loads(json_str)
-complex_info  #> {'name': 'David', 'phone': '507-555-9895', 'siblings': 2.0, 'female': False, 'citiesLivedIn': [{'name': 'Portland'}, {'name': 'Oakland'}]}
+complex_info  #> {'name': 'David', 'phone': '503-555-9895', 'siblings': 2.0, 'female': False, 'citiesLivedIn': [{'name': 'Portland'}, {'name': 'Oakland'}]}
 ```
 
 You'll also have ~3 data structures with your data:

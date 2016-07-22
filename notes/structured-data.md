@@ -13,7 +13,7 @@ Each entry is meant to be interpreted differently.
 
 ```py
 enum_item = (4, 'David')
-contact_info = ('507-555-9895', '123 Main St.')
+contact_info = ('503-555-9895', '123 Main St.')
 ```
 
 For tuples, this requires you to remember what the zeroth index is, the first index, etc.
@@ -24,7 +24,7 @@ Another common way of structuring heterogenous data is using dictionaries, with 
 
 ```py
 contact_info = {
-    'phone': '507-555-9895',
+    'phone': '503-555-9895',
     'address': '123 Main St.',
 }
 contact_info['phone'] ...
@@ -36,7 +36,7 @@ Avoid this.
 
 ```py
 my_contact_info = {
-    'phone': '507-555-9895',
+    'phone': '503-555-9895',
     'address': '123 Main St.',
 }
 helen_contact_info = {
