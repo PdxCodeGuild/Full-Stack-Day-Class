@@ -26,7 +26,7 @@ the use must contribute to the project meaningfully, be produced by you personal
 Your goal is to demonstrate to me that you understand and can use the skills taught in the class.
 If I look at your provided code and can't see that, then that does not constitute a satisfactory capstone.
 
-Code found from external sources is not exempt from all of the above requirements (e.g. code structuring techniques and proper style).
+Code based upon external sources (StackOverflow, blog post snippets, etc.) is not exempt from all of the above requirements (e.g. code structuring techniques and proper style).
 
 I will reject project proposals that do not have the ability to show understanding of all of these topic areas.
 
