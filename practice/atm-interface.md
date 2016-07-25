@@ -25,17 +25,19 @@ My classes can't do that since internal variables are not part of the defined be
 
 ## Advanced
 
-Implement a user interface in a module `main` that lets a user pick each of those actions for a given account and updates the account.
-After each action it will print the balance.
-
 Write a program that functions as a simple ATM for two accounts:
 
 1. Checking account
 1. Savings account
 
-With each advanced feature, either add additional doctests for
+Implement a user interface in a module `main` that lets a user pick each of those actions for a given account and updates the account.
+After each action it will print the balance.
 
-*   Add a function called `get_standing` have it return a bool with whether the account has less than $1000 in it.
+## Super Advanced
+
+Adds some advanced features to the account class.
+
+*   Add a function called `get_standing()` have it return a bool with whether the account has less than $1000 in it.
 
 *   Predatorily charge a transaction fee every time a withdrawal or deposit happens if the account is in bad standing.
 
@@ -46,3 +48,5 @@ With each advanced feature, either add additional doctests for
 
 *   Allow the user to open more than one account.
     Let them perform all of the above operations by account number.
+
+With each advanced feature, of course add doctests, but also expand the `TestAccountBehavior` with new behavior test functions.
