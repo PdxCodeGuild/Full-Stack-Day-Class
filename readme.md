@@ -149,7 +149,8 @@
 1. [Encapsulation](/notes/py-classes-encapsulation.md)
 1. [Basic Inheritance](/notes/py-classes-inheritance-basic.md)
 1. [Pytest](/notes/py-pytest.md)
-1. Group Practice: [ATM Interface](/practice/atm.md)
+1. Demo:
+1. Group Practice: [ATM Interface](/practice/atm-interface.md)
 1. Checked Practice: [Tic-Tac-Toe Interface](/practice/ttt-interface.md)
 1. [Dependencies](/notes/py-app-dependencies.md)
 1. [Virtualenv](/notes/py-virtualenv.md)
