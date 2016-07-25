@@ -6,7 +6,8 @@ There are a few totally different kinds of tasks that feel like "searching".
 ## Extrema
 
 Looking for the "most" of a kind of value is actually a kind of [reduction](/notes/reducing.md).
-Use [min()](https://docs.python.org/3/library/functions.html#min) and [max()](https://docs.python.org/3/library/functions.html#max) with optionally the `key` keyword argument.
+Use [min()](https://docs.python.org/3/library/functions.html#min) and [max()](https://docs.python.org/3/library/functions.html#max), both with optionally the `key` keyword argument.
+The `key` argument works with the same meaning as it does in [sorted()](/notes/sorting.md).
 
 ```py
 heaviest_pumpkin = max(pumpkin_weights)
