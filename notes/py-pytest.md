@@ -1,11 +1,33 @@
 # Pytest
 
-Pytest is a testing framework.
-It has code to find test functions, run them, and check that the output is correct.
-
-Like [doctests](/notes/py-doctests.md), but much more flexible and robust.
+Pytest is another testing framework like [Doctests](/notes/py-doctests.md).
+Similarly, it has code to find test functions, run them, and check that the output is correct.
+It allows for much more flexible and robust testing behavior, but is generally more verbose for simple things.
 
 It is not part of the standard library, but you can easily install it using `pip install pytest`.
+
+We won't be writing Pytests for now, but we will be running some pre-written ones to validate behavior.
+
+As a quick introduction, instead of writing in-docstring doctests.
+
+```py
+def convert_feet_to_miles(feet):
+    """Convert an amount in feet to miles.
+
+    >>> convert_feet_to_miles(5280)
+    1.0
+    """
+    return feet / 5280
+```
+
+You write an explicit function named `test_` something that runs the test and asserts a true statement at the end.
+
+```py
+def test_convert_feet_to_miles():
+    found = converter.convert_feet_to_miles(5280)
+    expected = 1
+    assert found == expected
+```
 
 ## Structuring Test Code
 
@@ -25,6 +47,8 @@ E.g. If your feature code is in `converter.py`
 
 ```python
 def convert_feet_to_miles(feet):
+    """Convert an amount in feet to miles.
+    """
     return feet / 5280
 
 if __name__ == '__main__':
