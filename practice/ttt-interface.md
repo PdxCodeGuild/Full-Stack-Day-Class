@@ -75,3 +75,8 @@ Finish implementing all three of those classes so the `main()` tests successfull
 Either run `py.test` from the `ttt-interface` directory, or setup a PyCharm test Run Configuration.
 
 You should still write doctests for your functions that test internal implementation.
+
+Once you're done with all three, look at how the implementations of the different functions varied.
+Note how some operations were very easy with one data structure and much more tedious with a different one.
+See how that matches up with your expectations and my [data structure problem solving](/notes/problem-solving-data-structures.md) notes.
+This should show you how important it is to pick the right data structure that fits your problem!
