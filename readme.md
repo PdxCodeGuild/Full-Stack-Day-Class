@@ -145,6 +145,8 @@
 1. Group Practice: [Geometry](/practice/geometry.md)
 1. Checked Practice: [Blackjack](/practice/blackjack.md)
 1. Individual Practice: [Adventure Game](/practice/adventure.md)
+1. [Catching Exceptions](/notes/py-exceptions-catching.md)
+1. [Raising Exceptions](/notes/py-exceptions-raising.md)
 1. [Type Methods](/notes/py-classes-methods.md)
 1. [Encapsulation](/notes/py-classes-encapsulation.md)
 1. [Basic Inheritance](/notes/py-classes-inheritance-basic.md)
