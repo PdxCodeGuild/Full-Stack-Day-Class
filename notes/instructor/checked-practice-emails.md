@@ -32,6 +32,23 @@ Best,
 David
 ```
 
+## No Submission
+
+```
+Hey XXX,
+
+I don't see a branch containing your solution to the XXX practice problem pushed to GitHub and it was due today.
+
+Did you forget to push your changes? Are they committed as part of a feature branch named `XXX`? Did you make an appropriately named pull request also named `XXX` for that branch?
+
+As of now you have XXX late assignments. As a reminder, only three late assignments are allowed in the class. If you ever need an extension on an problem, that's fine, but please let me know before it is due.
+
+Please let me know if you have any questions about my previous feedback or are having trouble finishing the assignment.
+
+Best,
+David
+```
+
 ## No Updates
 
 ```
@@ -39,7 +56,7 @@ Hey XXX,
 
 I don't see any changes to your XXX practice problem pushed to GitHub and a revision of it was due today.
 
-Did you forget to push your changes? Are they committed as part of a feature branch named XXX? Did you push that branch?
+Did you forget to push your changes? Are they committed as part of a feature branch named `XXX`? Did you push that branch?
 
 Please let me know if you have any questions about my previous feedback or are having trouble finishing the assignment.
 
@@ -60,6 +77,19 @@ Once you're done with any cleanup, merge your pull request into master, delete t
 
 Please let me know if you have any questions or feedback.
 
+
+Best,
+David
+```
+
+## Tutoring
+
+```
+Hey XXX,
+
+I'd like you to schedule some tutoring time with Chris Jones or Katie Dover this or next week. You should work on XXX.
+
+Chris and Katie are CCd here. Shoot them an email to work out scheduling.
 
 Best,
 David
