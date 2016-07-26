@@ -14,9 +14,9 @@ PROJECT_NAME/
         MORE_YOUR_SOURCE.py
 ```
 
-The top level `PROJECT` directory is the **project root**.
+The top level `PROJECT_NAME` directory is the **project root**.
 
-If you are on macOS or Linux, I have a bash script that will perform all of these steps for you: [app-init.sh](/bin/app-init.sh).
+If you are on macOS or Linux, I have a bash script that will perform all of the following steps for you: [app-init.sh](/bin/app-init.sh).
 
 ## 1. Create Project Root
 
@@ -33,6 +33,8 @@ Then setup a [Git ignore](/notes/git-ignore.md) file so you won't commit your vi
 **Don't commit your virtualenv!**
 
 Save [this example file](/demos/example_gitignore) in `.gitignore` in your project root.
+
+If this project is part of your portfolio repo, it's okay that there's an inner `.gitignore`: they just union.
 
 ## 3. Create Virtualenv
 

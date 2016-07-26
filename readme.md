@@ -155,17 +155,20 @@
 1. Demo:
 1. Group Practice: [ATM Interface](/practice/atm-interface.md)
 1. Checked Practice: [Tic-Tac-Toe Interface](/practice/ttt-interface.md)
+1. Generators
+1. Individual Practice:
+
+## Python Applications
+
 1. [Dependencies](/notes/py-app-dependencies.md)
 1. [Virtualenv](/notes/py-virtualenv.md)
 1. [Pip and PyPI](/notes/py-pip.md)
 1. [App Requirements](/notes/py-app-requirements.md)
 1. [App Structure](/notes/py-app-structure.md)
-1. Demo: [Web Getter](/demos/web-getter)
-1. Group Practice:
-1. Checked Practice:
+1. [Virtualenvs and PyCharm](/notes/py-virtualenv-pycharm.md)
+1. Demo: [Web Getter](/demos/web-getter.md)
 1. Individual Practice: [Rotate Image](/practice/rotate-image.md)
-1. Generators
-1. Individual Practice:
+1. Group Practice: [Mini Capstone](/practice/mini-capstone.md)
 
 ## Using Git
 

@@ -59,15 +59,13 @@ Inside, all `python` and `pip` commands will use _their virtualenv versions_ and
 ## Modifying Packages
 
 Once a virtualenv has been activated, all [Pip commands](/notes/py-pip.md) modify that virtualenv.
-
-Inside the virtualenv, you shouldn't need to use `pip3` if you were before.
+You don't need to worry about running `pip3` once activated.
 
 ## Running Python
 
 Once a virtualenv has been activated, you can use `python` to run Python code.
 It will have access to all the installed packages in the virtualenv.
-
-Inside the virtualenv, you shouldn't need to use `python3` if you were before.
+You don't need to worry about running `python3` once activated.
 
 ## Freeze
 
