@@ -14,7 +14,8 @@
 | 2016-07-15 | BOC | Friday | [Case Conversion](/practice/case.md) Due |
 | 2016-07-20 | BOC | Wednesday | [Rain](/practice/rain.md) Due |
 | 2016-07-25 | BOC | Monday | [Blackjack](/practice/blackjack.md) Due |
+| 2016-07-28 | BOC | Thursday | [Tic-Tac-Toe Interface](/practice/ttt-interface.md) Due |
 | 2016-09-05 | | Monday | Labor Day: No Class |
 | 2016-09-30 | | Friday | Last Day of Class |
-| 2016-09-30  | 9:45 A.M. | Friday | Capstone Show-and-Tell |
-| 2016-09-30  | EOD | Friday | Capstone Due |
+| 2016-09-30 | 9:45 A.M. | Friday | Capstone Show-and-Tell |
+| 2016-09-30 | EOD | Friday | Capstone Due |
