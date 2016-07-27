@@ -158,18 +158,6 @@
 1. Generators
 1. Individual Practice:
 
-## Python Applications
-
-1. [Dependencies](/notes/py-app-dependencies.md)
-1. [Virtualenv](/notes/py-virtualenv.md)
-1. [Pip and PyPI](/notes/py-pip.md)
-1. [App Requirements](/notes/py-app-requirements.md)
-1. [App Structure](/notes/py-app-structure.md)
-1. [Virtualenvs and PyCharm](/notes/py-virtualenv-pycharm.md)
-1. Demo: [Web Getter](/demos/web-getter.md)
-1. Individual Practice: [Rotate Image](/practice/rotate-image.md)
-1. Group Practice: [Mini Capstone](/practice/mini-capstone.md)
-
 ## Using Git
 
 1. [Version Control](/notes/version-control.md)
@@ -186,6 +174,18 @@
 1. [Git Branching Workflow](/notes/git-workflow-branching.md)
 1. Demo: Git Branches
 1. Individual Practice: Git Branches
+
+## Python Applications
+
+1. [Dependencies](/notes/py-app-dependencies.md)
+1. [Virtualenv](/notes/py-virtualenv.md)
+1. [Pip and PyPI](/notes/py-pip.md)
+1. [App Requirements](/notes/py-app-requirements.md)
+1. [App Structure](/notes/py-app-structure.md)
+1. [Virtualenvs and PyCharm](/notes/py-virtualenv-pycharm.md)
+1. Demo: [Web Getter](/demos/web-getter.md)
+1. Individual Practice: [Rotate Image](/practice/rotate-image.md)
+1. Group Practice: [Mini Capstone](/practice/mini-capstone.md)
 
 ## Building a Web App
 
