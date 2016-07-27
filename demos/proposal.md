@@ -1,4 +1,5 @@
 # Proposal: Image Pipe
+
 **Image Pipe** is a web app that allows artists to upload single images.
 
 Pairs of new images from different artists will be combined together at half opacity each, to produce **mashup** images.
@@ -7,19 +8,24 @@ Once an image has been mashed-up, it won't be paired again.
 The main page of the site will show a feed of mashed-up images with their pair of artists.
 
 ## Specific Functionality
+
 ### Main / Gallery Page
+
 The main / gallery page will show a vertical list of mashups with artists' names below each.
 The ten most recent mashups will be displayed on the page.
 
 In the header, there will be a link to the upload page.
 
 ### Upload Page
+
 The upload page will have a form where the user can fill in their name as the artists and upload an image and then submit both.
 
 There will be a confirmation alert if the image is uploaded successfully.
 
 ## Data Model
+
 ### Image
+
 Each Image is one un-modified image uploaded by a user.
 
 * Unique ID
@@ -31,6 +37,7 @@ Each Image is one un-modified image uploaded by a user.
 Images will need to be looked up by most recent upload timestamp, artist name, and mashed-up flag.
 
 ### Mashup
+
 Each Mashup is a combination of two Images and are the products of the web app.
 
 * Unique ID
@@ -42,6 +49,7 @@ Each Mashup is a combination of two Images and are the products of the web app.
 Mashups will need to be looked up by ID and most recent creation timestamp.
 
 ## Technical Components
+
 The Mashup generation module will be a Python module that uses the [Pillow](http://pillow.readthedocs.io/en/3.2.x/) library to combine two images at half opacity.
 
 Image and Mashup data models will be stored and searched using Django Models in a PostgreSQL database.
@@ -60,6 +68,7 @@ A background mashup queueing component will be kicked off when a new Image is up
 It will not delay the acknowledgement of successful Image uploading.
 
 ## Schedule
+
 * Mashup generation module - easy - 1 day
 * Image and Mashup DB storage - medium - 2 days
 * Mashup file endpoint - easy - 1 day
@@ -70,6 +79,7 @@ It will not delay the acknowledgement of successful Image uploading.
 * Background mashup queueing - hard - 5 days
 
 ## Further Work
+
 * A JSON endpoint to return relevant Mashup objects.
 * Infinite scrolling of the main page using that endpoint.
 * Add a Artist table and require login to upload.
