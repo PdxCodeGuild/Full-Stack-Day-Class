@@ -17,9 +17,12 @@ Then, take a break.
 
 ### Hints
 
-* What do you wish your computer did for you?
-* What's a problem you've had in the last few weeks that was very manual and a computer could automate?
-* What's a game you like to play?
+*   What do you wish your computer did for you?
+
+*   What's a problem you've had in the last few weeks that was very manual and a computer could automate?
+
+*   What's a game you like to play or activity you participate in?
+    Is there a way you could make it more convienent or recreate it?
 
 ## 2. Reality Check
 
