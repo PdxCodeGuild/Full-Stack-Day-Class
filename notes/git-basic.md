@@ -59,6 +59,18 @@ git config --global core.editor 'atom --wait'
 git config --global push.default simple
 ```
 
+Then run the following commands to enable your shell prompt to display the Git branch you're on.
+
+```bash
+curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh > ~/.git-prompt.sh
+cat <<EOF >> ~/.bashrc
+source ~/.git-prompt.sh
+GIT_PS1_SHOWDIRTYSTATE=1
+GIT_PS1_SHOWUNTRACKEDFILES=1
+PS1='\u@\h \W$(__git_ps1 " (%s)") \\$ '
+EOF
+```
+
 ## Commands
 
 Git gives you a suite of command line tools to manage this history.
