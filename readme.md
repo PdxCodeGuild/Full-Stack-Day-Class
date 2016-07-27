@@ -14,6 +14,7 @@
 1. [Certificate Requirements](/notes/course-requirements.md)
 1. [Portfolio](/notes/course-portfolio.md)
 1. [Working with Others](/notes/group-work.md)
+1. [Note Conventions](/notes/notes-conventions.md)
 
 ## Terminal Use
 
@@ -177,10 +178,10 @@
 
 ## Python Applications
 
-1. [Dependencies](/notes/py-app-dependencies.md)
-1. [Virtualenv](/notes/py-virtualenv.md)
 1. [Pip and PyPI](/notes/py-pip.md)
+1. [Dependencies](/notes/py-app-dependencies.md)
 1. [App Requirements](/notes/py-app-requirements.md)
+1. [Virtualenv](/notes/py-virtualenv.md)
 1. [App Structure](/notes/py-app-structure.md)
 1. [Virtualenvs and PyCharm](/notes/py-virtualenv-pycharm.md)
 1. Demo: [Web Getter](/demos/web-getter.md)

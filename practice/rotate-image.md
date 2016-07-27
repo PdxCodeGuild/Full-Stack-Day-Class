@@ -2,7 +2,7 @@
 
 Save your solution in a directory in `practice/` in a branch and make a GitHub pull request all named `rotate`.
 
-Pillow is a Python package for working with images.
+[Pillow](https://python-pillow.org) is a Python package for working with images.
 Create a full [Python application](/notes/py-app-structure.md) that has a [virtualenv](/notes/py-virtualenv.md) with Pillow installed in it.
 
 Create a program `rotate.py` in your application that uses Pillow to open an image, rotate it 45 degrees, and save the rotated version.

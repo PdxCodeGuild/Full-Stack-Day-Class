@@ -10,6 +10,9 @@ When you **activate** a virtualenv, any commands that deal with Python or packag
 You should create a virtualenv for each separate project or problem you're working on that needs packages.
 See [app structure](/notes/py-app-structure.md) for more info.
 
+Realize that virtualenv commands are totaly unrelated to Git commands.
+Changing your Git branch will not modify your virtualenv; changing your virtualenv will not dirty or commit or change Git branches.
+
 ## Installing
 
 Virtualenv is also the name of the command to manage virtualenvs.
@@ -35,15 +38,12 @@ You'll not need to modify this directory by hand.
 ## Activate
 
 Once you've created a virtualenv, you can **activate** it.
-Run a script in the virtualenv directory.
+Source a script in the virtualenv directory.
 On bash:
 
 ```bash
-. venv/bin/activate
+source venv/bin/activate
 ```
-
-Note the space between the `.` and the script name.
-Period is a command to source a script.
 
 On PowerShell:
 
