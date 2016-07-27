@@ -6,15 +6,14 @@ In groups of about three, you'll be working on a larger Python project for the n
 
 Together, brainstorm an idea for what you want your project to do.
 
-At the beginning, there are no bad ideas!
-Literally write everything down on the whiteboard.
+**At the beginning, there are no bad ideas!**
+Literally write a super short version of every idea down on the whiteboard.
 Keep building upon existing ideas.
 _Don't_ flesh them out; keep expanding and saying "yes" and going places.
-Nothing is too hard yet.
+Nothing is too hard to complete yet.
 
 Do this for ~20 minutes.
 Then, take a break.
-When you come back pick two or three ideas that excite you most.
 
 ### Hints
 
@@ -24,10 +23,12 @@ When you come back pick two or three ideas that excite you most.
 
 ## 2. Reality Check
 
-I'm sure all three of your ideas are awesome.
+When you come back from break, pick two or three ideas that excite you most.
+
+I'm sure all three of your best ideas are awesome.
 But you might not be able to complete an implementation of all of them in a few days.
 
-Bring your ideas to me, and I'll vet and hone them with you into something that is doable in less than a week.
+Bring your ideas to me, and I'll vet and hone them with you into something that is doable in about a week.
 We will prioritize the most core features and make an [MVP](/notes/capstone-mvp.md) and name your project.
 
 ## 3. Divide and Conquer
@@ -35,9 +36,14 @@ We will prioritize the most core features and make an [MVP](/notes/capstone-mvp.
 Now that we have the features of your project, we need to divvy up work on it.
 I'll identify some big **moving parts** in your project and together we'll decide who will work on each big part.
 
-I'm going to make a [Trello board](https://trello.com) for each Mini Capstone assignment.
+I'm going to make a [Trello board](https://trello.com) for each Mini Capstone assignment and invite you to it.
 It's a super lightweight way to keep track of tasks.
-I'll make all of the starter tasks that
+
+I'll make all of the starter tasks for all the moving parts.
+Your team should make individual tasks for any sub-parts.
+You should move tasks through the pipeline on your own!
+
+Don't worry about following any formal task format or protocol.
 
 ## 4. Setup Logistics
 
@@ -73,3 +79,7 @@ Then follow basically the [Git branching workflow](/notes/git-workflow-branching
 
 **Work on your MVP features first and only work on other features once you're done.**
 I cannot stress how important it is to do this.
+We have a limited amount of time to work on this, and it's really satisfying to have something functional.
+If you dive too deep on one task, your group might not finish.
+
+You can still work on all the deep cool stuff later!
