@@ -56,7 +56,9 @@ Hey XXX,
 
 I don't see any changes to your XXX practice problem pushed to GitHub and a revision of it was due today.
 
-Did you forget to push your changes? Are they committed as part of a feature branch named `XXX`? Did you push that branch?
+Are they committed as part of a feature branch named `XXX`? Did you push that branch to GitHub?
+
+As of now you have XXX late assignments. As a reminder, only three late assignments are allowed in the class. If you ever need an extension on an problem, that's fine, but please let me know before it is due.
 
 Please let me know if you have any questions about my previous feedback or are having trouble finishing the assignment.
 
