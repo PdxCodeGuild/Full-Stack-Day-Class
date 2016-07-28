@@ -1,4 +1,4 @@
-# Checked Practice Response Emails
+# Response Emails
 
 ## Satisfactory
 
@@ -95,4 +95,10 @@ Chris and Katie are CCd here. Shoot them an email to work out scheduling.
 
 Best,
 David
+```
+
+## Attendance
+
+```
+As a reminder of class policy, you need to maintain at least a 90% attendance rate to stay in the class. Missing today puts you at XX%. If you do drop below 90% attendance, you have two weeks to work back up to that level of attendance.
 ```
