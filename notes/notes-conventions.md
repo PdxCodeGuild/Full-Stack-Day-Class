@@ -8,6 +8,21 @@ Things in `CONSTANT_CASE` that are not part of Python code (e.g. shell commands 
 pip install PACKAGE
 ```
 
+## Optional
+
+Any time a part of a string of text contains square brackets `[]`, that part of the text is optional.
+
+```
+http://host[:port]/
+```
+
+Except for inside of Python code!
+Square brackets mean something then.
+
+```py
+name_to_age['david']  # Not optional! Does something.
+```
+
 ## Values
 
 In Python code, when I put a comment chevron `#>` it means the previous line's value is equal to the literal after the comment chevron.
