@@ -1,4 +1,4 @@
-# Filesystem
+# Filesystem and Paths
 
 Since programs are stored in files, let's learn rigorously about how the computer manages files.
 You've probably dealt with files on your own computer already, but let's learn some technical terms and conventions.
@@ -27,6 +27,8 @@ All files and directories that live in a directory are indented one more level.
     System/
         ...
 ```
+
+## Paths
 
 A **path** is a text string specifying a file or directory.
 It is a series of directory names following the hierarchy, separated by `/`s, ending in a file name or directory name.

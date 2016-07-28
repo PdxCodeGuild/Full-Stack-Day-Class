@@ -18,7 +18,7 @@
 
 ## Terminal Use
 
-1. [Filesystem](/notes/filesystem.md)
+1. [Filesystem and Paths](/notes/filesystem.md)
 1. [Command Line Interface](/notes/cli.md)
 1. Keyboard Shortcuts
 1. Demo: [CLI](/demos/cli.md)
@@ -200,19 +200,19 @@
 
 ## Interface Structure with HTML
 
-1. [Front-End Tools](/notes/frontendtools.md)
-1. [Interface Principles](/notes/interfaceprinciples.md)
+1. [Front-End Tools](/notes/frontend-tools.md)
+1. [Front-End Goals and Languages](/notes/frontend-goals-languages.md)
 1. [HTML Basics](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction)
-1. [Semantic Elements](/notes/semanticelements.md)
-1. [Hierarchy](/notes/htmlhierarchy.md)
-1. Paths
-1. Demo: [Basic Elements](/demos/basichtml.md)
 1. [Element Reference](https://developers.whatwg.org)
+1. [Semantic Elements](/notes/html-semantics.md)
+1. [Element Hierarchy](/notes/html-hierarchy.md)
+1. [URLs and Paths](/notes/urls-paths.md)
 1. [Web Inspector Structure Basics](http://ruby.bastardsbook.com/chapters/web-inspecting-html/)
+1. Demo: [Basic Elements](/demos/html-basic.md)
 1. Practice: [Bio](/practice/bio.md)
 1. [Form Basics](http://learn.shayhowe.com/html-css/building-forms/)
-1. Demo: [Basic Forms](/demos/basicform.md)
-1. [Form Element Reference](/notes/formelements.md)
+1. [Form Element Reference](/notes/html-form-elements.md)
+1. Demo: [Basic Forms](/demos/html-form.md)
 1. Practice: [Food Preferences](/practice/food.md)
 
 ## Styling and Layout with CSS
@@ -300,7 +300,6 @@
 ## Django Web Framework Programming
 
 1. [Website Structure](/notes/website-structure.md)
-1. [URLs](/notes/urls.md)
 1. [HTTP Basics](/notes/http-basics.md)
 1. [Django Overview](/notes/djangooverview.md)
 1. [Web Framework](/notes/webframework.md)
@@ -327,6 +326,7 @@
 1. Checked Practice:
 1. Individual Practice:
 1. [Posting Forms](/notes/django-posting.md)
+1. [Query Strings](/notes/urls-query-strings.md)
 1. [Path Parameters](/notes/django-path-parameters.md)
 1. Demo: [Comments](/demos/comments.md)
 1. Group Practice: [Ice Cream Poll](/practice/ice-cream-poll.md)
