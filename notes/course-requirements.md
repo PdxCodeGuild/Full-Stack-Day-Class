@@ -93,3 +93,14 @@ A capstone is **distinguished** if it is satisfactory and also goes beyond the M
 This course can be passed **with distinction** if you turn in three or more distinguished checked practices, a distinguished capstone, and demonstrate a solid understanding of all topics covered in the class.
 
 Distinction is reserved for truly cream-of-the-crop students.
+
+## Progress Updates
+
+I will be emailing you written progress updates at the 25%, 50%, and 75% dates throughout the course.
+You'll also get a progress report upon graduation.
+They'll contain a summary of:
+
+* How I think you're progressing in the course.
+* Topics I think you should continue to study.
+* Your attendance record.
+* Any course requirements you are not satisfying or are close to not satisfying.
