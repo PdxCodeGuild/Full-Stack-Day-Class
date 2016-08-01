@@ -156,8 +156,9 @@
 1. Demo:
 1. Group Practice: [ATM Interface](/practice/atm-interface.md)
 1. Checked Practice: [Tic-Tac-Toe Interface](/practice/ttt-interface.md)
-1. Generators
-1. Individual Practice:
+1. [Generators and Yield](/notes/py-generators.md)
+1. Context Managers
+1. Decorators
 
 ## Using Git
 
