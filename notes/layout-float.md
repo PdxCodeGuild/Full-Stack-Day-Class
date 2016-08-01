@@ -1,9 +1,11 @@
 # Floats
+
 The most basic layout tool is **float**.
 This causes an element to be fixed to a top corner of the parent element.
 The remaining inline elements flow _around_ the floated element.
 
 CSS:
+
 ```css
 section {
     width: 150px;
@@ -15,6 +17,7 @@ img {
 ```
 
 HTML:
+
 ```html
 <section>
     <img src="elmo3.gif">
@@ -23,6 +26,7 @@ HTML:
 ```
 
 ## Quirks
+
 If you want to specify something to not flow around a float, and instead begin underneath it, you have to **clear** that element.
 [Read about clearing](http://learnlayout.com/clear.html).
 

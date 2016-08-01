@@ -1,7 +1,7 @@
 # Basic String Methods
 
 The Python string type gives you lots of built-in methods to manipulate strings.
-Here are some of the major ones, in addition to [sequence operators](/notes/py-operators-sequence.md).
+Here are some of the major ones, in addition to [sequence operators](/notes/py-sequence-operators.md).
 
 There are also tons more you can read about in the [string type docs](https://docs.python.org/3/library/stdtypes.html#string-methods).
 

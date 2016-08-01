@@ -82,7 +82,7 @@ git branch -d BRANCH
 
 ## Diff-ing Versions
 
-Your `git diff` [commands](/notes/git-basics.md) also work with branch names, in addition to commit hashes.
+Your `git diff` [commands](/notes/git-basic.md) also work with branch names, in addition to commit hashes.
 
 ## Merge Conflicts
 

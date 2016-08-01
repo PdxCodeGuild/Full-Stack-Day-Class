@@ -21,4 +21,4 @@ In case of fire.
 
 Even if it's just _you_ writing a simple script, _use it_.
 
-We will use [Git](/notes/git-basics.md) as our version control system of choice.
+We will use [Git](/notes/git-basic.md) as our version control system of choice.

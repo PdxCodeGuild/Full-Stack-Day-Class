@@ -13,6 +13,7 @@
 ### Pixels
 
 ### Percentages
+
 Percentages are relative to the _parent element_.
 
 ```html
@@ -34,7 +35,8 @@ p {
 ```
 
 ### Ems
-Ems are relative to the _current text size_.
+
+Ems are relative to the _current element's_ text size.
 So if you have `1.0em` in an `h1` (which has big text) means something different that
 
 Use ems for typographic measurements and layout, e.g. line spacing, font size, paragraph margins. Use pixels for whole document layout, e.g. borders, section margins, etc.

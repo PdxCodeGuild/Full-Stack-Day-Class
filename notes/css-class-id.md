@@ -1,7 +1,9 @@
 # Classes and IDs
+
 CSS provides a few tools for organizing your style _independent_ of the structure of elements.
 
 ## Classes
+
 **Classes** are a way of "tagging" elements.
 Multiple elements in a document can belong to the same class.
 
@@ -16,6 +18,7 @@ Class names should be in `kebab-case` and can not start with a number:
 all lower case with words separated by `-`.
 
 ## IDs
+
 **IDs** are unique names for individual elements.
 Only one element per document can have an ID.
 

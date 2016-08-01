@@ -1,7 +1,9 @@
 # Box Model and Sizing
+
 The **box model** is the basis for how elements are sized and laid out.
 
 Every element has:
+
 * **Content** -- inner material
 * **Padding** -- space between core and border
 * **Border** -- visible outline outside of padding of some thickness
@@ -9,14 +11,16 @@ Every element has:
 
 The "visual size" of the element includes the content, padding, and border.
 
-![Box Model Diagram](/notes/boxmodel.png)
+![Box Model Diagram](/notes/layout-box-model.png)
 
 ## Content Size
+
 You can explicitly set the content size using the **width** and **height** properties.
 Remember, this sizes the inner content, so the whole element will appear _bigger_ if there is padding and a border.
 
 You can also specify **percent sizes**.
 They allow you to specify a percentage of the appropriate dimension of the _parent_ element.
+
 ```css
 p {
     width: 50%;
@@ -24,7 +28,9 @@ p {
 ```
 
 ## Padding, Border, and Margin Size
+
 They can be specified for _all sides_ using their simply-named properties:
+
 ```css
 p {
     padding: 5px;
@@ -34,6 +40,7 @@ p {
 ```
 
 There are also separate properties for each side for padding, border, and margin:
+
 ```css
 p {
     padding-top: 10px;

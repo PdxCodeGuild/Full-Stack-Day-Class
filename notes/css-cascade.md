@@ -1,7 +1,9 @@
 # The Cascade and Specificity
+
 All declarations in a ruleset **cascade** down the hierarchy of the document until they are overridden by a more **specific** ruleset.
 
 CSS:
+
 ```css
 body {
     color: blue;
@@ -9,6 +11,7 @@ body {
 ```
 
 HTML:
+
 ```html
 <body>
     This text will be blue.
@@ -21,6 +24,7 @@ HTML:
 
 Only the most specific value for conflicting property applies.
 To find the most specific ruleset, look at (in-order of precedence)
+
 1. Closest in the cascade
 1. Most ID selector matches
 1. Most Class selector matches
@@ -29,7 +33,9 @@ To find the most specific ruleset, look at (in-order of precedence)
 For more information on selector specificity check out [Getting to Know CSS](http://learn.shayhowe.com/html-css/getting-to-know-css/#combining-selectors).
 
 ## Example
+
 CSS:
+
 ```css
 body {
     color: blue;
@@ -50,6 +56,7 @@ p {
 ```
 
 HTML:
+
 ```html
 <body>
     This text will be blue.

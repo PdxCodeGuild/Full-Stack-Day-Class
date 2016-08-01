@@ -1,7 +1,9 @@
 # Practice: Pyramid
-Save your solution as `pyramid.html` and `pyramid.css`.
 
-Recreate [the following layout](/practice/pyramidsample.html) using just flexbox.
+Save your solution in a directory in `practice/` in a branch and make a GitHub pull request all named `pyramid`.
+Your HTML file should be named `index.html` and your CSS file named `site.css` in that directory.
+
+Recreate [the following layout](/practice/pyramid-sample.html) using just flexbox.
 You shouldn't use floats or percentage widths at all.
 
 * Each box should be a `div`

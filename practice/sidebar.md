@@ -1,5 +1,7 @@
 # Practice: Sidebar
-Save your solution as `sidebar.html` and `sidebar.css`.
+
+Save your solution in a directory in `practice/` named `pyramid`.
+Your HTML file should be named `index.html` and your CSS file named `site.css` in that directory.
 
 Recreate the following sample layout using just flexboxes.
 

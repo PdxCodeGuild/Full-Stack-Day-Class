@@ -1,4 +1,5 @@
-# CSS Patterns
+# CSS Problem Solving
+
 Here are some starter tips for planning out and writing your CSS.
 
 * Style the `body` if you want something to apply text styling to everything
@@ -10,6 +11,7 @@ Here are some starter tips for planning out and writing your CSS.
 
 Use the simplest selectors and rulesets possible.
 Avoid:
+
 * Specifying defaults on a type, then overriding most of them with classes
 * Classes when type selectors will do
 * IDs when structure selectors will do
@@ -17,6 +19,7 @@ Avoid:
 Read through [this front-end tutorial](http://learn.shayhowe.com/html-css/writing-your-best-code/) for more tips on how to write good HTML & CSS.
 
 ## "Normalizers" or "CSS Resets"
+
 Some people have produced CSS files that "reset" browser defaults or supposedly "normalize" CSS across different browsers.
 
 **You do not need these here.**

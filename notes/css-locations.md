@@ -1,7 +1,9 @@
 # Style Locations
+
 You can specify CSS in _three_ places in your HTML.
 
 ## Linked Style
+
 You can give the path to a separate CSS file to be included in your header.
 
 This is the preferred method for specifying style over a whole website.
@@ -13,6 +15,7 @@ This is the preferred method for specifying style over a whole website.
 ```
 
 ## Internal Style
+
 You can write out CSS that should only be used on the current page in your header.
 
 _Avoid_ unless you're prototyping a single page.
@@ -28,6 +31,7 @@ _Avoid_ unless you're prototyping a single page.
 ```
 
 ## Inline Style
+
 You can also specify style on a single element in your HTML.
 
 _Avoid_ unless debugging.

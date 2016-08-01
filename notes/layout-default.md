@@ -1,4 +1,5 @@
 # Default Layout
+
 **Block elements** start on a new line and take the full horizontal width of their parent by default.
 They can have all of their dimensions explicitly set.
 
@@ -21,9 +22,10 @@ The web browser **flows** the page by going through the elements, gives them a w
 
 Notice that _width_ is top-down and _height_ is bottom-up.
 This is so you don't have to already know the height of your _content_; the whole point is the browser does that for you.
-This has consequences for [solving layout problems](/notes/layoutproblemsolving.md).
+This has consequences for [solving layout problems](/notes/problem-solving-layout.md).
 
 ## Margin Collapse
+
 _Vertical_ margins collapse.
 If two elements are after each other, the distance between the borders will be the maximum vertical margin.
 It's like specifying a minimum vertical distance between elements.
