@@ -227,7 +227,7 @@
 1. [CSS Problem Solving](/notes/problem-solving-css.md)
 1. Demo: [Basic Style](/demos/css-basic.md)
 1. [CSS Property Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
-1. Web Inspector Style Basics
+1. [Web Inspector Style Basics](/notes/web-inspecting-css.html)
 1. Group Practice: [Selector Puzzle](/practice/selector-puzzle.md)
 1. Checked Practice: [Bio Style](/practice/bio-style.md)
 1. [Box Model and Sizing](/notes/layout-box-model.md)
