@@ -95,7 +95,7 @@
 1. [Sequence Functions](/notes/py-sequence-funcs.md)
 1. [Mapping](/notes/mapping.md)
 1. [Filtering](/notes/filtering.md)
-1. Enums
+1. [Enums](/notes/py-enums.md)
 1. [Testing](/notes/testing.md)
 1. [Doctests](/notes/py-doctests.md)
 1. [Advanced Debugging](/notes/debugging-adv.md)
