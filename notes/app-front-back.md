@@ -1,5 +1,8 @@
 # Front-End vs Back-End
-There are two places you can put your code
+
+There are two places you can put your code:
+
+1. Python layer
 
 Keep the front end limited to just interface interactivity code.
 Do all of your data processing in the backed in python.

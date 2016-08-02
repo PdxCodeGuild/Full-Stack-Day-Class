@@ -4,7 +4,7 @@ An **MVP** is a **minimum viable product**.
 It is the core idea of your product or project.
 _Nothing else_.
 
-Your capstone will just be an MVP.
+Your capstone needs to start as an MVP.
 Even if you have grand dreams about working on your capstone full-time later, the first pass should just be this core idea.
 
 Be _very_ judicious in the scope of your project.

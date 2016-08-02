@@ -8,14 +8,11 @@ A web application has three big moving parts:
 
 ## Database
 
-This is where your data is persistently stored.
+This is the **persistent datastore**.
+Every other part of the app is _stateless_ and can't "remember" things.
 It is another program that somebody else wrote that lets you save and fetch data.
 
-We're gonna be focusing on **SQL databases**.
-SQL stands for **structured query language**.
-These databases use SQL for their interface, but we will use an [ORM](/notes/orm.md) to interface with them.
-
-E.g. [PostgreSQL](http://www.postgresql.org).
+We're gonna be using SQL or Structured Query Language databases, but we will use an [ORM](/notes/orm.md) to interface with them and will not be discussing SQL.
 
 ## Back-End
 
@@ -24,7 +21,7 @@ It serves dynamically generated web pages.
 When someone goes to `www.yourwebsite.com/show/ponies`, it will figure out what's on `/show/ponies`, maybe by talking to the database or other web sites, and return the content associated with it for display.
 
 This is the code you write in **Python**.
-It contains your **business logic**.
+It contains your _business logic_.
 You will use a **web framework** that handles all of the input and output;
 all you have to do is figure out how to generate output **content** for an input **path**.
 
@@ -33,4 +30,4 @@ all you have to do is figure out how to generate output **content** for an input
 This is the **HTML**, **CSS**, and **Javascript** that your web server returns.
 The HTML is the actual structured content that your server wants to show the user.
 The CSS describes the presentation of the content.
-The Javascript is code for the user's web browser to run to enable complex interactions with the user.
+The Javascript is code for the user's web browser to run to enable complex _interactions_ with the user.

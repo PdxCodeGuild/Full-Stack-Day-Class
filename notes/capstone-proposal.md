@@ -55,7 +55,7 @@ I literally mean _every_.
 
 ### Data Model
 
-What are the "nouns" you need to save across pages in your project MVP?
+What are the persistent "nouns" you need to save across pages in your project MVP?
 What do they represent?
 
 We'll be using a relational database which models things like a spreadsheet.

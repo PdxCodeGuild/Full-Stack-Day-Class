@@ -191,17 +191,17 @@
 
 ## Building a Web App
 
-1. [High-Level Structure of a Web App](/notes/app-overview.md)
-1. [Front-End vs Back-End](/notes/app-front-back.md)
 1. [Capstone Introduction](/notes/capstone-intro.md)
 1. [MVP](/notes/capstone-mvp.md)
 1. [Capstone Proposal](/notes/capstone-proposal.md)
 1. [Capstone Requirements](/notes/capstone-requirements.md)
+1. [High-Level Structure of a Web App](/notes/app-overview.md)
 1. Demo: [Image Pipe Proposal](/demos/proposal.md)
 
 ## Interface Structure with HTML
 
 1. [Front-End Tools](/notes/frontend-tools.md)
+1. [HTML in Atom](/notes/atom-html.md)
 1. [Front-End Goals and Languages](/notes/frontend-goals-languages.md)
 1. [HTML Basics](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction)
 1. [Element Reference](https://developers.whatwg.org)
@@ -218,6 +218,7 @@
 
 ## Styling and Layout with CSS
 
+1. [CSS in Atom](/notes/atom-css.md)
 1. [Basic CSS](/notes/css-basic.md)
 1. [Classes and IDs](/notes/css-class-id.md)
 1. [CSS Selectors](/notes/css-selectors.md)
@@ -243,6 +244,7 @@
 
 ## Intro to Javascript
 
+1. Javascript in Atom
 1. [Javascript Basics](/notes/js-basics.md)
 1. [Basic Types and Variables](/notes/js-types-vars.md)
 1. [Basic Objects and Arrays](/notes/js-objects-arrays.md)
@@ -310,6 +312,7 @@
 1. [Logic](/notes/django-logic.md)
 1. [Serving Locally](/notes/django-serving-locally.md)
 1. MVC and Isolation
+1. [Front-End vs Back-End](/notes/app-front-back.md)
 1. Demo:
 1. [Django Problem Solving](/notes/django-problem-solving.md)
 1. [Django Debugging](/notes/django-debugging.md)
