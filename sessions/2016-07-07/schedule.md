@@ -15,6 +15,9 @@
 | 2016-07-20 | BOC | Wednesday | [Rain](/practice/rain.md) Due |
 | 2016-07-25 | BOC | Monday | [Blackjack](/practice/blackjack.md) Due |
 | 2016-07-28 | BOC | Thursday | [Tic-Tac-Toe Interface](/practice/ttt-interface.md) Due |
+| 2016-08-04 | BOC | Thursday | [Bio](/practice/bio.md) Due |
+| 2016-08-04 | BOC | Thursday | [Food](/practice/food.md) Due |
+| 2016-08-18 | BOC | Thursday | [Capstone Proposal](/notes/capstone-proposal.md) Due |
 | 2016-09-05 | | Monday | Labor Day: No Class |
 | 2016-09-30 | | Friday | Last Day of Class |
 | 2016-09-30 | 9:45 A.M. | Friday | Capstone Show-and-Tell |
