@@ -5,7 +5,7 @@ Your HTML file should be named `index.html` and your CSS file named `site.css` i
 
 Recreate the following sample layout using just flexboxes.
 
-![Sidebar Layout](/practice/sidebar.jpg)
+![Sidebar Layout](/practice/sidebar.jpeg)
 
 *   A sidebar that is 20% of the page width, with:
 
