@@ -229,8 +229,8 @@
 1. Demo: [Basic Style](/demos/css-basic.md)
 1. [CSS Property Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 1. [Web Inspector Style Basics](/notes/web-inspecting-css.html)
-1. Group Practice: [Selector Puzzle](/practice/selector-puzzle.md)
 1. Checked Practice: [Bio Style](/practice/bio-style.md)
+1. Individual Practice: Selector Puzzle
 1. [Box Model and Sizing](/notes/layout-box-model.md)
 1. [Default Layout](/notes/layout-default.md)
 1. [Hierarchical Layout](/notes/layout-hierarchy.md)

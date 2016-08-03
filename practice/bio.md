@@ -7,6 +7,7 @@ Write up a short bio webpage for yourself or someone famous.
 Include:
 
 * A written introduction
+* A link to their favorite Wikipedia article in that introduction
 * A picture of them (or a placeholder)
 * A list of places where they've lived
 * A quote from them

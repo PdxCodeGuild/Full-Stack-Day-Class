@@ -12,6 +12,7 @@ Fill out the `class` attribute with a space separated list of class names on the
 ```html
 <p class="warning">Don't touch a hot stove!</p>
 <p class="warning bordered">Don't eat soap!</p>
+<h2 class="warning">Don't lose your house keys!</h2>
 ```
 
 Class names should be in `kebab-case` and can not start with a number:

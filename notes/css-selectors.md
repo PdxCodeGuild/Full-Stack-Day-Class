@@ -108,8 +108,12 @@ HTML:
 
 ```html
 <blockquote class="yellow">Not.</blockquote>
-<p class="yellow blue">Blue!</p>
+<p class="yellow blue">Green!</p>
 <blockquote class="yellow">
     <p class="blue">Not.</p>
 </blockquote>
 ```
+
+## Advanced Selectors
+
+Read through the [Mozilla CSS selectors reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Selectors) for more exciting ones.

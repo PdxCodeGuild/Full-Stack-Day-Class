@@ -1,6 +1,6 @@
 # The Cascade and Specificity
 
-All declarations in a ruleset **cascade** down the hierarchy of the document until they are overridden by a more **specific** ruleset.
+All declarations in a rule set **cascade** down the hierarchy of the document until they are overridden by declarations from a more **specific** rule set.
 
 CSS:
 
@@ -23,7 +23,8 @@ HTML:
 ```
 
 Only the most specific value for conflicting property applies.
-To find the most specific ruleset, look at (in-order of precedence)
+Conflicts are not "the whole rule set or nothing".
+To find the most specific rule set, look at (in-order of precedence):
 
 1. Closest in the cascade
 1. Most ID selector matches
