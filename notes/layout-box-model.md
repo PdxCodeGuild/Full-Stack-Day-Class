@@ -49,3 +49,16 @@ p {
 ```
 
 For more detailed information consult the [Box Model Chapter](http://learn.shayhowe.com/html-css/opening-the-box-model/) of Learn to Code HTML & CSS.
+
+## Box Sizing
+
+If you want the browser to calculate the sum of widths of borders and paddings for your, you can change the `box-sizing` property to `border-box`.
+Then `width` will set the inner content width taking into account borders and padding.
+
+![Box Sizing Diagram](/notes/layout-box-model-sizing.png)
+
+```css
+div {
+    box-sizing: border-box;
+}
+```
