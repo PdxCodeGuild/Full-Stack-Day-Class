@@ -1,2 +1,3 @@
+# pip install flake8 pep8-naming flake8-quotes flake8-import-order flake8-docstrings
 [flake8]
 ignore = D400,D205,D105
