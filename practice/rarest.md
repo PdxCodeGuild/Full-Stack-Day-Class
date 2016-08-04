@@ -1,5 +1,8 @@
 # Practice: Rarest
 
+Save your solution in a directory in `practice/` named `rarest`.
+Your HTML file should be named `index.html` and your JS file named `site.js` in that directory.
+
 Given an object that maps names to ages, write a function `rarest(obj)` find and return just the rarest age.
 
 ```js
