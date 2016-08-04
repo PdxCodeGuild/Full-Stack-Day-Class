@@ -1,0 +1,23 @@
+body {
+    display: flex;
+}
+
+nav {
+    width: 30%;
+}
+
+main {
+    flex: 1;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.three-col {
+    display: flex;
+}
+
+.three-col p {
+    flex: 1;
+}
