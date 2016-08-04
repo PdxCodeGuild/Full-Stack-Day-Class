@@ -17,6 +17,8 @@
 | 2016-07-28 | BOC | Thursday | [Tic-Tac-Toe Interface](/practice/ttt-interface.md) Due |
 | 2016-08-04 | BOC | Thursday | [Bio](/practice/bio.md) Due |
 | 2016-08-04 | BOC | Thursday | [Food](/practice/food.md) Due |
+| 2016-08-04 | BOC | Thursday | [Bio Style](/practice/bio-style.md) Due |
+| 2016-08-05 | BOC | Friday | [Pyramid](/practice/pyramid.md) Due |
 | 2016-08-18 | BOC | Thursday | [Capstone Proposal](/notes/capstone-proposal.md) Due |
 | 2016-09-05 | | Monday | Labor Day: No Class |
 | 2016-09-30 | | Friday | Last Day of Class |
