@@ -7,7 +7,7 @@ Recreate the following sample layout using just flexboxes.
 
 ![Sidebar Layout](/practice/sidebar.jpeg)
 
-*   A sidebar that is 20% of the page width, with:
+*   A sidebar that is 30% of the page width, with:
 
     * A site title
     * A vertical list of nav links

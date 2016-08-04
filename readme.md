@@ -225,10 +225,10 @@
 1. [The Cascade and Specificity](/notes/css-cascade.md)
 1. [CSS Values](/notes/css-values.md)
 1. [Style Locations](/notes/css-locations.md)
-1. [CSS Problem Solving](/notes/problem-solving-css.md)
-1. Demo: [Basic Style](/demos/css-basic.md)
 1. [CSS Property Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 1. [Web Inspector Style Basics](/notes/web-inspecting-css.html)
+1. [CSS Problem Solving](/notes/problem-solving-css.md)
+1. Demo: [Basic Style](/demos/css-basic.md)
 1. Checked Practice: [Bio Style](/practice/bio-style.md)
 1. Individual Practice: Selector Puzzle
 1. [Box Model and Sizing](/notes/layout-box-model.md)
@@ -250,36 +250,35 @@
 1. [Basic Objects and Arrays](/notes/js-objects-arrays.md)
 1. [Basic Operators](/notes/js-operators.md)
 1. [Control Statements](/notes/js-branching.md)
-1. [Functions](/notes/py-functions-defining.md)
-1. Errors
-1. Casting
-1. Global Objects
-1. Calling Prototype Methods
+1. [Functions](/notes/js-functions.md)
+1. [Errors](/notes/js-errors.md)
+1. [Type Conversion](/notes/js-type-conversion.md)
+1. [Global Objects](/notes/js-objects-global.md)
+1. [Calling Prototype Methods](/notes/js-prototypes-methods-calling.md)
 1. [Basic Strings](/notes/js-strings.md)
 1. [Anonymous Functions](/notes/js-functions-anon.md)
 1. [Lodash](/notes/js-lodash.md)
-1. [Iterating](/notes/js-iterating.md)
 1. [For Loops](/notes/js-for-loops.md)
 1. [Data Transformations](/notes/problem-solving-data-transformations-js.md)
 1. [Debug Output](/notes/js-io-debug.md)
 1. [Style Guide](/notes/js-style.md)
 1. [JS in the Browser](/notes/js-browser.md)
-1. WebStorm?
-1. Demo: [Leet Speek](/demos/leet-speak.md)
 1. [Web Inspector Debugger](/notes/js-web-inspector-debugger.md)
 1. [JS Debugging](/notes/debugging-js.md)
-1. Group Practice: [Taxes](/practice/taxes.md)
-1. Individual Practice: [Rarest](/practice/rarest.md)
-1. Checked Practice: [Sum Pairs](/practice/sum-pairs.md)
+1. Demo: [Leet Speek](/demos/leet-speak.md)
+1. Group Practice: [Rarest](/practice/rarest.md)
+1. Checked Practice: [Caesar Cipher](/practice/caesar.md)
+1. Individual Practice:
 1. [Object Methods](/notes/js-object-methods.md)
 1. [Constructors](/notes/js-constructors.md)
 1. [Prototypes](/notes/js-prototypes.md)
 1. [Prototype Methods](/notes/js-prototypes-methods.md)
+1. [Prototypes and For-In Loops](/notes/js-for-loops-prototypes.md)
 1. [JS Objects Review](/notes/js-objects-review.md)
 1. Demo:
 1. Group Practice: GeoJS
-1. Individual Practice:
 1. Checked Practice:
+1. Individual Practice:
 
 ## Front-End via Javascript
 
@@ -289,13 +288,13 @@
 1. [Element Creation](/notes/js-dom-creation.md)
 1. [DOM Manipulation](/notes/js-dommanipulation.md)
 1. [Events and Callbacks](/notes/js-events-callbacks.md)
-1. Demo: [Todo](/demos/todo.md)
 1. [Front-End Problem Solving](/notes/problem-solving-front-end.md)
-1. Group Practice: [Picture Album](/practice/album.md)
-1. Individual Practice: [Visual Dice](/practice/visual-dice.md)
-1. Checked Practice: [Validator](/practice/validator.md)
+1. Demo: [Todo](/demos/todo.md)
 1. Demo: [Palette](/demos/palette.md)
+1. Group Practice: [Picture Album](/practice/album.md)
+1. Checked Practice: [Validator](/practice/validator.md)
 1. Checked Practice: [Whack-A-Mole](/practice/whack-a-mole.md)
+1. Individual Practice: [Visual Dice](/practice/visual-dice.md)
 
 ## Django Web Framework Programming
 

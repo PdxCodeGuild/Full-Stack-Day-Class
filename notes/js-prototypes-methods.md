@@ -1,6 +1,8 @@
 # Prototype Methods
+
 Prototypes are especially powerful when combined with object methods to make **prototype methods**.
 You can have some functions that work on lots of specific instances.
+
 ```js
 var animalProto = {
     makeNoise: function() {

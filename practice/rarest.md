@@ -1,5 +1,7 @@
 # Practice: Rarest
-Given an object that maps names to ages, find the rarest age.
+
+Given an object that maps names to ages, write a function `rarest(obj)` find and return just the rarest age.
+
 ```js
 var namesToAges = {
     "Alyssa": 22,

@@ -1,5 +1,7 @@
 # Basic Operators
+
 ## Math
+
 All of the math operators are the same.
 E.g. `+`, `-`, `%`.
 
@@ -11,7 +13,7 @@ E.g. `+`, `-`, `%`.
 `+` works as string concatenation.
 
 ```js
-"How now, " + "brown cow?"  //> "How now, brown cow?"
+'How now, ' + 'brown cow?'  //> 'How now, brown cow?'
 ```
 
 All of the same advanced assignment operators work.
@@ -34,12 +36,13 @@ Consider using `x += 1`.
 `++` and `--` act strange in compound statements.
 
 ## Comparison
+
 * `===` is equals (notice it's **triple equals**)
 * `!==` is not equals (notice it's **not triple equals**)
 
 ```js
-var x = "David";
-var y = "Helen";
+var x = 'David';
+var y = 'Helen';
 x === y;  //> false
 x !== y;  //> true
 ```
@@ -56,6 +59,7 @@ They are [almost the same](http://www.impressivewebs.com/why-use-triple-equals-j
 _Avoid_ using the double versions.
 
 ## Boolean Logic
+
 * `&&` is and
 * `||` is or
 * `!` is not (it prefixes what you want to negate)

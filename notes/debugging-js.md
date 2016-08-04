@@ -1,4 +1,5 @@
 # JS Debugging
+
 First, take to heart the ideas in the [advanced debugging notes](/notes/debugging-adv.md).
 
 JS is very "forgiving".

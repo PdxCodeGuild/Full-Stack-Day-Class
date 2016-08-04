@@ -1,4 +1,5 @@
 # Debug Output
+
 You can use `console.dir()` to log _objects_ to the browser console.
 
 ```js
@@ -20,6 +21,7 @@ console.dir(productToPrice);
 ```
 
 If you want to have something that looks more like the object literal printed, use `console.log()`.
+
 ```js
 console.log(productToPrice);
 ```
