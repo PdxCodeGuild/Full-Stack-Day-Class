@@ -1,10 +1,11 @@
 # CSS in Atom
 
-*   [linter-stylelint](https://atom.io/packages/linter-stylelint)
+We will be using Atom to edit our front-end CSS code.
 
-    * Uncheck "Disable when no config file found"
-    * Check "Use standard"
+Install the following packages:
 
-*   [formatter-jsbeautify](https://atom.io/packages/formatter-jsbeautify)
+* [linter-stylelint](https://atom.io/packages/linter-stylelint)
 
-    * Set "Arguments passed to the formatter CSS" to `-s, 2`
+Then save [the config that enforces our style](/.stylelintrc.js) in `.stylelintrc.js` in your `codeguild/` directory.
+Note, this is a hidden file.
+The package will automatically pick up the configuration in that file.

@@ -30,3 +30,11 @@ console.log('Hello!');
 ```
 
 This will feel clunky at first, as we're not interacting with the HTML, but will feel natural when doing so.
+
+## Reloading
+
+In Chrome, if you make changes to your JS and want them to be shown in the debugger:
+
+1. Ensure the developer tools / web inspector is open.
+1. Make sure you're not a break point.
+1. Click-and-hold on the refresh button and select "Empty Cache and Hard Reload".

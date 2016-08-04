@@ -5,11 +5,4 @@ In this class, we will use the [Google JS style guide](https://google.github.io/
 
 Read it and follow its guidance.
 
-## Linter
-
-You can get an Atom package which will check for
-
-Install the Atom package [linter-eslint](https://atom.io/packages/linter-eslint).
-
-Then save [the config that enforces the Google style](/.eslintrc.js) in `.eslintrc.js` in your `codeguild/` directory.
-Note, this is a hidden file.
+Make sure your [JS linter](/notes/atom-js.md) is working properly in Atom.

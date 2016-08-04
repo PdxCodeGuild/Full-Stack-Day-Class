@@ -226,6 +226,7 @@
 1. [CSS Values](/notes/css-values.md)
 1. [Style Locations](/notes/css-locations.md)
 1. [CSS Property Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+1. [CSS Code Style](/notes/css-style.md)
 1. [Web Inspector Style Basics](/notes/web-inspecting-css.html)
 1. [CSS Problem Solving](/notes/problem-solving-css.md)
 1. Demo: [Basic Style](/demos/css-basic.md)
@@ -242,10 +243,10 @@
 1. Individual Practice: [Bio Layout](/practice/bio-layout.md)
 1. [Other Layout Techniques](/notes/layout-other.md)
 
-## Intro to Javascript
+## Intro to JavaScript
 
-1. Javascript in Atom
-1. [Javascript Basics](/notes/js-basics.md)
+1. [JavaScript in Atom](/notes/atom-js.md)
+1. [JavaScript Basics](/notes/js-basics.md)
 1. [Basic Types and Variables](/notes/js-types-vars.md)
 1. [Basic Objects and Arrays](/notes/js-objects-arrays.md)
 1. [Basic Operators](/notes/js-operators.md)
