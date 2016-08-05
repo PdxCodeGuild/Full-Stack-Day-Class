@@ -43,7 +43,7 @@ Did you forget to push your changes? Are they committed as part of a feature bra
 
 As of now you have XXX late assignments. As a reminder, only three late assignments are allowed in the class. If you ever need an extension on an problem, that's fine, but please let me know before it is due.
 
-Please let me know if you have any questions about my previous feedback or are having trouble finishing the assignment.
+Please let me know if you have any questions or are having trouble finishing the assignment.
 
 Best,
 David
@@ -78,7 +78,6 @@ I posted some minor and advanced feedback as comments on the diff of your pull r
 Once you're done with any cleanup, merge your pull request into master, delete that feature branch, `pull master` locally, and delete the feature branch locally.
 
 Please let me know if you have any questions or feedback.
-
 
 Best,
 David
