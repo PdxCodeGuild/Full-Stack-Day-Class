@@ -3,10 +3,10 @@
 Save your solution in a directory in `practice/` in a branch and make a GitHub pull request all named `pyramid`.
 Your HTML file should be named `index.html` and your CSS file named `site.css` in that directory.
 
-Recreate [the following layout](/practice/pyramid-sample.html) using just flexbox.
+Recreate [the following page](/practice/pyramid-sample.html) using just flexbox and `div`s.
 You shouldn't use floats or percentage widths at all.
 
-* Each box should be a `div`
+* Each box should be a `div`; there should be no other elements in the `body`
 * Every box has a one pixel black border
 * "Row" boxes should have 20 pixels of spacing between each other and between the page edges
 * "Inner" boxes should have 10 pixels of spacing between themselves and the edge of the "row" box they are in
