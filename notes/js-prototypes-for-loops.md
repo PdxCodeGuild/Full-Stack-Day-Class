@@ -1,17 +1,21 @@
 # Prototypes and For-In Loops
 
-In order for this loop to work as is does in Python, you have to **guard** the for loop.
-That is adding a kind of cryptic if statement in it.
+So now there are two locations properties could come from:
+
+1. The object itself
+1. Any of its prototypes down the chain
+
+A [for-in loop](/notes/js-for-loops.md) goes through _both kinds_!
+
+If you want the loop to only go over properties that that object directly has, you have to **guard** the for loop.
 
 ```js
 var x = {a: 1, b: 2};
 var valuesTotal = 0;
 
-// This is the boilerplate you'll use to iterate through an object.
 for (var key in x) {
-    // This is required because some properties can come from the prototype.
-    // We'll discuss the details of this later.
-    if ({}.hasOwnProperty.call(foo, key)) {
+    // This will only run the body when the property is directly on x.
+    if ({}.hasOwnProperty.call(x, key)) {
         var value = x[key];
 
         valuesTotal += value;
@@ -33,3 +37,5 @@ _.forOwn(namesToAges, function(name) {
 ```
 
 If you want this loop to modify outside variables, though, you'll have to use `reduce()`.
+
+In general, for-in loops are only used on objects representing mapped data (as opposed to a structured object), and they don't have a prototype.

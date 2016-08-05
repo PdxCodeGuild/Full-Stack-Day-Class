@@ -277,9 +277,10 @@
 1. [Prototypes and For-In Loops](/notes/js-for-loops-prototypes.md)
 1. [JS Objects Review](/notes/js-objects-review.md)
 1. Demo:
-1. Group Practice: GeoJS
-1. Checked Practice:
+1. Group Practice: [Color](/practice/color.md)
+1. Checked Practice: [Completer](/practice/completer.md)
 1. Individual Practice:
+1. Private Variables and IIFEs
 
 ## Front-End via Javascript
 
@@ -296,6 +297,18 @@
 1. Checked Practice: [Validator](/practice/validator.md)
 1. Checked Practice: [Whack-A-Mole](/practice/whack-a-mole.md)
 1. Individual Practice: [Visual Dice](/practice/visual-dice.md)
+
+## APIs and Web Interfaces
+
+1. [AJAX](/notes/ajax.md)
+1. Demo: [Highlight](/demos/highlight.md)
+1. [APIs](/notes/apis.md)
+1. [HTTP APIs](/notes/http_apis.md)
+1. REST
+1. Demo: [Weather](/demos/weather.md)
+1. Group Practice: [Bus Stop Finder](/practice/bus-stop-finder.md)
+1. Individual Practice: GeoJS
+1. Checked Practice:
 
 ## Django Web Framework Programming
 
@@ -349,18 +362,6 @@
 1. Individual Practice: Loaner
 1. File Fields
 1. Demo:
-
-## APIs and Web Interfaces
-
-1. [AJAX](/notes/ajax.md)
-1. Demo: [Highlight](/demos/highlight.md)
-1. [APIs](/notes/apis.md)
-1. [HTTP APIs](/notes/http_apis.md)
-1. REST
-1. Demo: [Weather](/demos/weather.md)
-1. Group Practice: [Bus Stop Finder](/practice/bus-stop-finder.md)
-1. Individual Practice:
-1. Checked Practice:
 
 ## Heroku Deployment
 

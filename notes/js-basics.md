@@ -28,7 +28,7 @@ console.log(makeGreeting(name));
 Each statement must end with a `;`.
 
 Blocks of code are delineated by braces `{}`.
-Indentation is ignored by the interpreter.
+Indentation is ignored by the interpreter, but our [style guide](/notes/js-style.md) says blocks are indented two spaces.
 
 There are two kinds of comments.
 Single line comments start with `//` and comment out the remainder of the line.
