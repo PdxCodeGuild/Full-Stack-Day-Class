@@ -276,7 +276,7 @@
 1. [Prototype Methods](/notes/js-prototypes-methods.md)
 1. [Prototypes and For-In Loops](/notes/js-for-loops-prototypes.md)
 1. [JS Objects Review](/notes/js-objects-review.md)
-1. Demo:
+1. Demo: [Account](/demos/account.md)
 1. Group Practice: [Color](/practice/color.md)
 1. Checked Practice: [Completer](/practice/completer.md)
 1. Individual Practice:
