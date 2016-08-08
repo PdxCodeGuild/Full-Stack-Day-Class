@@ -12,6 +12,7 @@ Implement the following prototype methods:
 * `complete(prefix)` that returns an array of all valid completions that start with the given prefix
 
 Use JS's built-in [RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp) type to do matching.
+Yes, it's a little overkill, but I think it's useful to practice.
 
 ## Advanced
 

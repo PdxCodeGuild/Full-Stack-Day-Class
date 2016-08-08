@@ -22,7 +22,7 @@ elliotCat.noise;  //> 'Meow!'
 elliotCat.paws;  //> 4
 ```
 
-There is another way to give an object a prototype.
+There is another, much more common, way to give an object a prototype.
 You attach the prototype to the constructor function under the "magic" property `prototype`.
 
 ```js

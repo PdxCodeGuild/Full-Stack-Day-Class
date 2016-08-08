@@ -5,12 +5,12 @@ Functions are just values, so they can be assigned to properties just like any o
 
 ```js
 var animalNoises = {
-    makeDogNoise: function () {
-        return 'Woof!';
-    },
-    makeCatNoise: function () {
-        return "Meow!";
-    },
+  makeDogNoise: function() {
+    return 'Woof!';
+  },
+  makeCatNoise: function() {
+    return "Meow!";
+  },
 };
 animalNoises.makeDogNoise();  //> 'Woof!'
 animalNoises.makeCatNoise();  //> 'Meow!'
@@ -27,10 +27,10 @@ So you can do things like:
 
 ```js
 var davidsBankAccount = {
-    balance: 20,
-    deposit: function(amount) {
-        this.balance += amount;
-    }
+  balance: 20,
+  deposit: function(amount) {
+    this.balance += amount;
+  }
 };
 davidsBankAccount.balance;  //> 20
 davidsBankAccount.deposit(100);

@@ -27,3 +27,5 @@ var coltrain = new Dog();
 elliot.makeNoise();  //> 'Says: Meow!'
 coltrain.makeNoise();  //> 'Says: Wolf!'
 ```
+
+This is how all of those built-in methods on arrays and strings work.

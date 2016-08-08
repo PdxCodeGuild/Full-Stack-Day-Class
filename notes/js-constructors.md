@@ -6,11 +6,13 @@ It is also has a special variable `this` in scope that is the instance being pre
 
 ```js
 function BankAccount(startingBalance) {
-    this.balance = startingBalance;
-    this.deposit = function (amount) {
-        this.balance += amount;
-    };
-    // No return!
+  // `this` is an empty new object for you to setup.
+  this.balance = startingBalance;
+  this.deposit = function (amount) {
+      // In this object method, `this` refers to the current object _at the call_.
+      this.balance += amount;
+  };
+  // No return!
 }
 ```
 
@@ -26,7 +28,12 @@ var helensAccount = new BankAccount(100);
 helensAccount;  //> {"balance": 100, "deposit": function (amount) {...}}
 ```
 
-If you forget `new`, you don't get an error, unfortunately, you get `undefined` and pollute your global scope.
+If you forget `new`, you don't get an error, unfortunately.
+The function returns `undefined` since it didn't have a return value.
+Even worse, setting properties on `this` pollute your global scope.
+
+If you use `this` outside of a constructor function, you don't get errors; `this` refers to the global scope.
+Please never intentionally use it this way (no pun intended).
 
 Once you've made your objects, you can use them!
 
