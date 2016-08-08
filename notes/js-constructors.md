@@ -16,7 +16,7 @@ function BankAccount(startingBalance) {
 }
 ```
 
-Constructor functions should always be named the type of object they are making in upper-case `CamelCase`.
+Constructor functions should always be named the type of object they are making in `WordCase`.
 
 To use the constructor, you have to call it with the keyword `new`.
 The special naming is so you remember to call it with `new`.

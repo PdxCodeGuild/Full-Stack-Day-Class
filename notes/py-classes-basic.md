@@ -60,7 +60,7 @@ You also have to store the instances in variables to remember what how they're s
 
 Class names have the same rules as variable names.
 
-Proper Python style has classes in `CamelCase`:
+Proper Python style has classes in `WordCase`:
 words are capitalized and run together.
 
 The built in types `int`, `dict`, `set`, etc. don't follow this rule.
