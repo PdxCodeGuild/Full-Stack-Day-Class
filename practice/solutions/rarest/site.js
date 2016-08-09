@@ -1,21 +1,26 @@
 'use strict';
 
 /**
- * Return the object value that occurs least frequently.
+ * Return the property value that occurs least frequently in the given object.
  */
 function findRarestValue(obj) {
-  var origKeys = _.keys(obj);
-  var origValueToOrigKeys = _.groupBy(origKeys, function(origKey) {
-    return obj[origKey];
+  var values = _.values(obj);
+  var valueToCount = _.countBy(values);
+  return _.minBy(values, function(value) {
+    return valueToCount[value];
   });
-  var origValueToCount = _.mapValues(origValueToOrigKeys, function(origKeys) {
-    return origKeys.length;
+}
+
+/**
+ * Return the list of keys that all share the least frequently occuring value.
+ */
+function findRarestKeys(obj) {
+  var valueToKeys = _.groupBy(_.keys(obj), function(key) {
+    return obj[key];
   });
-  var origValues = _.values(obj);
-  var minCountKey = _.minBy(origValues, function(origValue) {
-    return origValueToCount[origValue];
+  return _.minBy(_.values(valueToKeys), function(keys) {
+    return keys.length;
   });
-  return minCountKey;
 }
 
 var namesToAges = {
@@ -31,3 +36,4 @@ var namesToAges = {
 };
 
 console.log(findRarestValue(namesToAges));
+console.log(findRarestKeys(namesToAges));

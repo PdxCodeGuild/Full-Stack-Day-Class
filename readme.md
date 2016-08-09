@@ -204,6 +204,7 @@
 1. [HTML in Atom](/notes/atom-html.md)
 1. [Front-End Goals and Languages](/notes/frontend-goals-languages.md)
 1. [HTML Basics](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction)
+1. HTML Style
 1. [Element Reference](https://developers.whatwg.org)
 1. [Semantic Elements](/notes/html-semantics.md)
 1. [Element Hierarchy](/notes/html-hierarchy.md)
@@ -226,7 +227,7 @@
 1. [CSS Values](/notes/css-values.md)
 1. [Style Locations](/notes/css-locations.md)
 1. [CSS Property Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
-1. [CSS Code Style](/notes/css-style.md)
+1. CSS Code Style
 1. [Web Inspector Style Basics](/notes/web-inspecting-css.md)
 1. [CSS Problem Solving](/notes/problem-solving-css.md)
 1. Demo: [Basic Style](/demos/css-basic.md)
