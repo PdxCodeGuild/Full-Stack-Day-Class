@@ -48,6 +48,7 @@ var fruitCompleter = new Completer();
 fruitCompleter.addCompletion('apple');
 fruitCompleter.addCompletion('avocado');
 fruitCompleter.addCompletion('anise');
+fruitCompleter.addCompletion('banana');
 // All completions have zero weight, so all are in alphabetical order.
 fruitCompleter.complete('a');  //> ['anise', 'apple', 'avocado']
 fruitCompleter.selectCompletion('avocado');
