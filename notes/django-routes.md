@@ -1,7 +1,7 @@
 # Routes
 
 **Routing** is specifying the mapping from a URL path pattern to a specific view function.
-This is done by pairing together [regular expressions](/notes/regular-expressions.md) matching the _just_ the [path](/notes/urls.md) of a URL to a view function with `django.conf.urls.url`.
+This is done by pairing together [regular expressions](/notes/regular-expressions.md) matching the _just_ the [path](/notes/urls-paths.md) of a URL to a view function with `django.conf.urls.url`.
 These parings have to live in `urls.py` in the application route in a list named `urlpatterns`.
 Give each of your routes a **short name**, which are useful for referring to the pages they render in code later.
 
