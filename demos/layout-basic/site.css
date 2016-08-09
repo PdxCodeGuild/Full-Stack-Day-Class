@@ -1,34 +1,35 @@
 html {
-    /*Let's have the body be layed out using flexbox.*/
-    display: flex;
-    /*Center the single flexbox inner item.*/
-    justify-content: center;
+  /* Let's have the body be layed out using flexbox. */
+  display: flex;
+
+  /* Center the single flexbox inner item. */
+  justify-content: center;
 }
 
 body {
-    /*Have the entire body be 75% of the full page width.*/
-    width: 75%;
+  /* Have the entire body be 75% of the full page width. */
+  width: 75%;
 }
 
 div.flex {
-    /*Have this main container div use flexboxes to layout columns.*/
-    display: flex;
+  /* Have this main container div use flexboxes to layout columns. */
+  display: flex;
 }
 
 nav {
-    /*Say that the nav should take up at most 100 pixels. Use max-width so if it should be smaller, it will reduce in size.*/
-    max-width: 100px;
+  /* Say that the nav should take up at most 100 pixels. Use max-width so if it should be smaller, it will reduce in size. */
+  max-width: 100px;
 }
 
 article {
-    /*Say that each article should expand by the same ratio in the flexbox: 1.*/
-    flex: 1;
+  /* Say that each article should expand by the same ratio in the flexbox: 1. */
+  flex: 1;
 }
 
 img.corner {
-    float: left;
+  float: left;
 }
 
 footer {
-    color: grey;
+  color: grey;
 }

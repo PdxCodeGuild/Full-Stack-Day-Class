@@ -2,4 +2,4 @@
 
 An HTML document demonstrating basic form structure.
 
-[Source](/demos/html-form.html)
+[Source](/demos/html-form)

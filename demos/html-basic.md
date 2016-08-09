@@ -2,4 +2,4 @@
 
 An HTML document demonstrating basic elements.
 
-[Source](/demos/html-basic.html)
+[Source](/demos/html-basic)

@@ -1,0 +1,39 @@
+body {
+  width: 500px;
+  height: 500px;
+}
+
+div {
+  border: solid 1px black;
+}
+
+body > div {
+  display: flex;
+  margin: 20px;
+  padding: 5px;
+}
+
+div > div {
+  margin: 5px;
+  height: 76px;
+}
+
+#first > div {
+  flex: 1;
+}
+
+#second-first {
+  flex: 4;
+}
+
+#second-second {
+  flex: 1;
+}
+
+#third {
+  justify-content: space-between;
+}
+
+#third > div {
+  width: 90px;
+}
