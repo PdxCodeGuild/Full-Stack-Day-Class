@@ -47,12 +47,22 @@ You'll need to use jQuery here to modify the existing page.
 
 ### 5. Main
 
-String together the input, transform, create, and modify steps for one action into a single function that usually take no arguments.
+String together the input, transform, create, and modify steps for one action into a single function that take no arguments.
 Use intermediate variables to pipe all of the data and elements around inside the main function.
 
 Don't use jQuery here.
 
 Each main function should just perform _one action_.
+
+#### "Split" Actions
+
+Realize when your "action" is actually a _set_ of actions.
+E.g. a "delete an item from the list" action is actually one action for each item!
+This is usually the case when you want to attach an event handler to a newly created item.
+
+In this case, it's okay for your main function to take an argument which is the element to work on.
+
+When you register the event handler, form a closure over the parameter.
 
 ### 6. Register
 
@@ -70,5 +80,3 @@ Put it in classes that you swap on and off.
 
 Have your JS "read" the HTML to figure out what to do.
 Don't hard code amounts.
-
-## "Multiple" Mains

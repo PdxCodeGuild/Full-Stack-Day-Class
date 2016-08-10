@@ -8,9 +8,12 @@ An element set gives you lots of functions to query and modify the selected DOM 
 Read through [the API docs](http://api.jquery.com) to become familiar with what kind of things you can do.
 I'll go over the basics, though.
 
-All of these functions use **mutative method chaining** style.
-That means that they modify their input in-place _and_ return the input.
+All of these functions use **method chaining** style.
+Setter functions modify their input in-place _and_ return the input.
+Getter functions return their found value.
 Strange, I know.
+
+A general pattern is the default function signature is the _getter_ and the "one longer argument" version is the _setter_.
 
 E.g. select all paragraphs, add a CSS class, and insert a new child span within each one.
 
@@ -21,24 +24,38 @@ $('p').addClass('yellow')
 
 ## Inner Text
 
+### Getter
+
 * `.text()`
+
+### Setter
 
 * `.text(newText)`
 
-## Classes
+## Form Value
 
-* `.hasClass(className)`
+### Getter
 
-* `.addClass(className)`
-* `.removeClass(className)`
-* `.toggleClass(className)`
-* `.removeClass()` -- all the classes
+* `.val()`
+
+### Setter
+
+* `.val(newValue)`
+
+```js
+$('input#name').val();  //> 'David'
+$('input#name').val('Helen');
+```
 
 ## CSS
 
 In addition to whole classes, you can get or modify specific CSS properties.
 
+### Getter
+
 * `.css(propertyName)`
+
+### Setter
 
 * `.css(propertyName, newValue)`
 
@@ -47,9 +64,26 @@ $('body').css('background-color');  //> 'blue'
 $('body').css('background-color', 'blue');  // Returns the element set
 ```
 
+## Classes
+
+### Getter
+
+* `.hasClass(className)`
+
+### Setter
+
+* `.addClass(className)`
+* `.removeClass(className)`
+* `.toggleClass(className)`
+* `.removeClass()` -- all the classes
+
 ## Attributes
 
+### Getter
+
 * `.attr(attrName)`
+
+### Setter
 
 * `.attr(attrName, newValue)` -- setter
 
@@ -73,18 +107,9 @@ $('body').css('background-color', 'blue');  // Returns the element set
 $('header').after($('<section></section>'));
 ```
 
-## Form Value
-
-* `.val()`
-
-* `.val(newValue)`
-
-```js
-$('input#name').val();  //> 'David'
-$('input#name').val('Helen');
-```
-
 ## Generic
+
+You can
 
 ```js
 $('div').each(function(index, element) {

@@ -28,7 +28,7 @@ function createDoneLink(reminderItem) {
     // Prevent clicking on the link from causing the browswer to change the
     // page.
     event.preventDefault();
-    crossOffReminder(reminderItem);
+    runCrossOffReminder(reminderItem);
   });
   return doneLink;
 }
@@ -70,7 +70,7 @@ function crossOffReminder(reminderItem) {
 // 5. Main Functions
 
 /**
- * Main functions which performs the action of adding a new reminder item with
+ * Main function which performs the action of adding a new reminder item with
  * what the user put in the text box.
  */
 function runAddReminder() {
@@ -78,6 +78,15 @@ function runAddReminder() {
   var reminderItem = createReminderItem(reminderString);
   addReminderItemToList(reminderItem);
   clearReminderInput();
+}
+
+/**
+ * Main function which crosses off a specific reminder item.
+ *
+ * Which reminder item should be "closed" in when registering the event handler.
+ */
+function runCrossOffReminder(reminderItem) {
+  crossOffReminder(reminderItem);
 }
 
 // 6. Register Functions
