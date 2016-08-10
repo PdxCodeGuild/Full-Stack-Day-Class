@@ -1,4 +1,5 @@
 # DOM Queries
+
 jQuery gives you one global function to find DOM nodes.
 It is `$`.
 Pass it a CSS selector to get an **element set** (also called a **jQuery object**) of all matching elements.

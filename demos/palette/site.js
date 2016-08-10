@@ -12,24 +12,30 @@ function getUnitColorString() {
 
 /**
  * Take a unit color value between 0 and 1 and return it as a byte color value between 0 and 255 as an "int".
+ *
+ * E.g. 0.75 -> 191
  */
 function renormalizeColorNumber(unitValue) {
-  return Math.round(unitValue * 255);
+  return _.round(unitValue * 255);
 }
 
 /**
  * Renormalize a unit color value stored as a string and return it as a string.
  *
  * This is to conveniently be able to create a CSS color.
+ *
+ * E.g. '0.75' -> '191'
  */
 function renormalizeColorString(unitValueString) {
-  var unitValue = Number(unitValueString);
+  var unitValue = _.toNumber(unitValueString);
   var byteValue = renormalizeColorNumber(unitValue);
-  return String(byteValue);
+  return _.toString(byteValue);
 }
 
 /**
- * Take the raw user input which looks like "0 1 0" and convert it to a CSS color string like "rgb(0, 255, 0)".
+ * Take the raw user input and convert it to a CSS color string.
+ *
+ * E.g. '0 1 0' -> 'rgb(0, 255, 0)'
  */
 function convertUnitColorStringToCSSColor(unitColorString) {
   var unitColorStringArray = _.split(unitColorString, ' ');
@@ -56,15 +62,9 @@ function isUnitColorValid(unitColor) {
  */
 function isUnitColorStringValid(unitColorString) {
   var unitColorStringArray = _.split(_.trim(unitColorString), ' ');
-  if (unitColorStringArray.length !== 3) {
-    return false;
-  }
-  var unitColorArray = _.map(unitColorStringArray, Number);
-  if (!_.every(unitColorArray, isUnitColorValid)) {
-    return false;
-  }
-
-  return true;
+  var unitColorNumArray = _.map(unitColorStringArray, _.toNumber);
+  var unitColorValidArray = _.map(unitColorNumArray, isUnitColorValid);
+  return unitColorValidArray === [true, true, true];
 }
 
 // 3. Create Functions

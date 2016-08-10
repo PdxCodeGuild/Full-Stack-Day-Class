@@ -287,7 +287,7 @@
 
 1. [Basic Document Object Model](/notes/js-dom.md)
 1. [jQuery](/notes/js-jquery.md)
-1. [DOM Queries](/notes/js-domqueries.md)
+1. [DOM Queries](/notes/js-dom-queries.md)
 1. [Element Creation](/notes/js-dom-creation.md)
 1. [DOM Manipulation](/notes/js-dommanipulation.md)
 1. [Events and Callbacks](/notes/js-events-callbacks.md)

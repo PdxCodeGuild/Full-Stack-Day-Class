@@ -1,0 +1,16 @@
+#color-picker {
+  width: 100px;
+}
+
+#color-picker > input {
+  width: 100%;
+}
+
+#color-swatch {
+  height: 100px;
+}
+
+/* Start off by hiding the error. */
+#format-error {
+  display: none;
+}

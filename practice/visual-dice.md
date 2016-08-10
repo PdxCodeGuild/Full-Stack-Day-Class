@@ -1,5 +1,7 @@
 # Practice: Visual Dice
-Save your solution as `visualdice.html`, `visualdice.css`, and `visualdice.js`.
+
+Save your solution in a directory in `practice/` named `visual-dice`.
+Your HTML file should be named `index.html`, your CSS file named `site.css`, and your JS file named `site.js` in that directory.
 
 Give the user a number input box with a button "roll".
 When they click that button, make that many 6-sided dice appear on the screen.
@@ -13,6 +15,7 @@ If they re-click the roll button, erase the dice and roll new ones.
 At the bottom of the screen, show the sum of all the dice currently out.
 
 ## Advanced
+
 Get rid of the input and button.
 Instead ask for a number of sides to the die and have an "add" button.
 When they click that, it adds that kind of die to the table.

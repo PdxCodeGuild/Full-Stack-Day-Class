@@ -25,3 +25,17 @@ Lots of them are very "functional" and will use [functions as values](/notes/js-
 
 I find using them to be cleaner and more consistent than their array prototype versions.
 I encourage you to use the Lodash versions instead.
+
+## Common functions
+
+* `forEach()`
+* `keys()`
+* `values()`
+* `map()`
+* `filter()`
+* `minBy()`
+* `groupBy()`
+* `countBy()`
+* `pad()`
+* `join()`
+* `without()`

@@ -1,4 +1,5 @@
 # Basic Document Object Model
+
 The browser provides a JS object "view" of the HTML called the **document object model** or **DOM**.
 This is the global `document` object.
 
@@ -11,6 +12,7 @@ These sub-object are called **nodes**.
 All of the nodes look like a tree.
 
 If you web page structure looks like:
+
 ```html
 <html>
     <body>
@@ -25,19 +27,32 @@ If you web page structure looks like:
 ```
 
 You'll get a node structure like:
-* Document
-  * `html` Element
-    * `body` Element
-      * `header` Element
-        * `h1` Element
-          * Inner Text - "Page!"
-      * `section` Element
-        * `id` Attribute
-          * Value - "s-one"
-        * `h2` Element
-          * `class` Attribute
-            * Value - "style"
-          * Inner Text - "Section!"
+
+*   Document
+
+    *   `html` Element
+
+        *   `body` Element
+
+      *   `header` Element
+
+          *   `h1` Element
+
+              *   Inner Text - "Page!"
+
+      *   `section` Element
+
+          *   `id` Attribute
+
+              *   Value - "s-one"
+
+        *   `h2` Element
+
+            *   `class` Attribute
+
+                *   Value - "style"
+
+            *   Inner Text - "Section!"
 
 `document` is actually a pretty complex object since you can have multiple children and ordering.
 
