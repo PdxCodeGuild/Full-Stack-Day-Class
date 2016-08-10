@@ -299,6 +299,12 @@
 1. Individual Practice: [Whack-A-Mole](/practice/whack-a-mole.md)
 1. Individual Practice: [Visual Dice](/practice/visual-dice.md)
 
+## Code Review
+
+1. [CR Purpose](/notes/cr-purpose.md)
+1. [Good Code](/notes/cr-good-code.md)
+1. [CR Guidelines](/notes/cr-guidelines.md)
+
 ## APIs and Web Interfaces
 
 1. [AJAX](/notes/ajax.md)
@@ -379,7 +385,7 @@
 1. [Demo Day](/notes/capstone-demo-day.md)
 1. [Post-Course Work](/notes/course-post.md)
 
-## Industry
+## Job Search
 
 1. [Companies](/notes/dev-companies.md)
 1. [Development Roles](/notes/dev-roles.md)
