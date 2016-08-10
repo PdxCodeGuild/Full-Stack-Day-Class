@@ -4,6 +4,7 @@
 
 * [Schedule](/sessions/2016-07-07/schedule.md)
 * [Hot Tips](/sessions/2016-07-07/tips)
+* [Student Repos](/sessions/2016-07-07/repos.md)
 
 ## Intro
 
