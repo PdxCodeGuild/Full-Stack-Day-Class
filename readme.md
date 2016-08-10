@@ -289,14 +289,14 @@
 1. [jQuery](/notes/js-jquery.md)
 1. [DOM Queries](/notes/js-dom-queries.md)
 1. [Element Creation](/notes/js-dom-creation.md)
-1. [DOM Manipulation](/notes/js-dommanipulation.md)
+1. [DOM Manipulation](/notes/js-dom-manipulation.md)
 1. [Events and Callbacks](/notes/js-events-callbacks.md)
 1. [Front-End Problem Solving](/notes/problem-solving-front-end.md)
 1. Demo: [Todo](/demos/todo.md)
 1. Demo: [Palette](/demos/palette.md)
 1. Group Practice: [Picture Album](/practice/album.md)
 1. Checked Practice: [Validator](/practice/validator.md)
-1. Checked Practice: [Whack-A-Mole](/practice/whack-a-mole.md)
+1. Individual Practice: [Whack-A-Mole](/practice/whack-a-mole.md)
 1. Individual Practice: [Visual Dice](/practice/visual-dice.md)
 
 ## APIs and Web Interfaces
