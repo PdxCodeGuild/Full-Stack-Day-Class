@@ -12,12 +12,18 @@ This causes it to ignore escape sequences for the _string literal_ itself so you
 r'Hello\.'  #> 'Hello\\.'
 ```
 
+To write them out in JS, use a regexp literal, which is the pattern surrounded by forward slashes `/`.
+
+```js
+var match = /Hello\./;
+```
+
 It's important to note that regular expressions are _not_ a standardized language.
 Each implementing language does them slightly differently.
 Regular expressions in JS are slightly different than those in Python.
 I'll describe the totally portable syntax here.
 
-There is also [more advanced syntax](https://docs.python.org/3/library/re.html).
+Check out the [Python docs](https://docs.python.org/3/library/re.html) and [JS docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) to see advanced patterns and provided methods.
 
 Use a [regexp debugging tool](https://regex101.com) to help you understand what you're matching.
 

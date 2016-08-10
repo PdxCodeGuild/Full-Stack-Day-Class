@@ -13,8 +13,8 @@ jQuery has `on()` function to register callbacks for specific events on specific
 You pass it an event name and then a callback function.
 
 ```js
-$("button").on("click", function () {
-    $("body").css("background", "blue");
+$('button').on('click', function() {
+  $('body').css('background', 'blue');
 });
 ```
 
@@ -23,8 +23,8 @@ There are [many event names](http://api.jquery.com/Types/#Event), but the big on
 The callback can take one optional argument, which is an object that contains facts about the event.
 
 ```js
-$("button").on("click", function (event) {
-    event.target.id();  //> "big-button"
+$('button').on('click', function(event) {
+  event.target.id();  //> "big-button"
 });
 ```
 
@@ -37,10 +37,10 @@ Clicking a link or submitting a form load a new page by default.
 In you callback, if you take in the event object, you can tell it to disable the default behavior with `event.preventDefault()`.
 
 ```js
-$("a").on("click", function (event) {
-    // Prevent this link from actually going anywhere.
-    event.preventDefault();
-    // Then do all of the other stuff you want in your callback.
+$('a').on('click', function(event) {
+  // Prevent this link from actually going anywhere.
+  event.preventDefault();
+  // Then do all of the other stuff you want in your callback.
 });
 ```
 
@@ -69,6 +69,8 @@ And you click on the `li`, events will be fired on:
 1. `body`
 1. `html`
 
+Realize that an event does not stop bubbling when a handler is found; it will always go all the way up the hierarchy.
+
 ## Ready
 
 What if the elements we want to register callbacks on don't exist yet?
@@ -79,9 +81,9 @@ jQuery lets you give `ready` a callback that can setup all of the handlers.
 
 ```js
 function registerEventHandlers() {
-    $("button").on("click", function () {
-        $("body").css("background", "blue");
-    });
-};
+  $('button').on('click', function () {
+    $('body').css('background', 'blue');
+  });
+}
 $(document).ready(registerEventHandlers);
 ```

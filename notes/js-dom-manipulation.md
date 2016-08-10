@@ -19,6 +19,12 @@ $('p').addClass('yellow')
   .append($('<span></span>'));
 ```
 
+## Inner Text
+
+* `.text()`
+
+* `.text(newText)`
+
 ## Classes
 
 * `.hasClass(className)`
@@ -36,6 +42,11 @@ In addition to whole classes, you can get or modify specific CSS properties.
 
 * `.css(propertyName, newValue)`
 
+```js
+$('body').css('background-color');  //> 'blue'
+$('body').css('background-color', 'blue');  // Returns the element set
+```
+
 ## Attributes
 
 * `.attr(attrName)`
@@ -44,7 +55,7 @@ In addition to whole classes, you can get or modify specific CSS properties.
 
 ## Elements
 
-* `.before(elementSet)`
+* `.before(elementSet)` -- call on sibling
 * `.after(elementSet)`
 
 * `.prepend(elementSet)` -- called on parent to add children
@@ -52,16 +63,32 @@ In addition to whole classes, you can get or modify specific CSS properties.
 
 * `.remove()`
 
+```html
+<body>
+  <header>...</header>
+</body>
+```
+
+```js
+$('header').after($('<section></section>'));
+```
+
 ## Form Value
 
 * `.val()`
 
 * `.val(newValue)`
 
+```js
+$('input#name').val();  //> 'David'
+$('input#name').val('Helen');
+```
+
 ## Generic
 
 ```js
 $('div').each(function(index, element) {
-    $(element).val();
+  index; //> 0; integer of the element in the selection
+  $(element).val();
 });
 ```

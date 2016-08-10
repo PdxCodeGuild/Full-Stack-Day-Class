@@ -4,7 +4,7 @@ The browser provides a JS object "view" of the HTML called the **document object
 This is the global `document` object.
 
 ```js
-document.url;  //> "http://www.google.com/"
+document.url;  //> 'http://www.google.com/'
 ```
 
 Every element (`<h2>`), attribute (`class="style"`), and inner text (`Section!`) is a sub-object on `document`.
@@ -34,25 +34,25 @@ You'll get a node structure like:
 
         *   `body` Element
 
-      *   `header` Element
+            *   `header` Element
 
-          *   `h1` Element
+                *   `h1` Element
 
-              *   Inner Text - "Page!"
+                    * Inner Text - "Page!"
 
-      *   `section` Element
+            *   `section` Element
 
-          *   `id` Attribute
+                *   `id` Attribute
 
-              *   Value - "s-one"
+                    * Value - "s-one"
 
-        *   `h2` Element
+                *   `h2` Element
 
-            *   `class` Attribute
+                    *   `class` Attribute
 
-                *   Value - "style"
+                        * Value - "style"
 
-            *   Inner Text - "Section!"
+                    *   Inner Text - "Section!"
 
 `document` is actually a pretty complex object since you can have multiple children and ordering.
 

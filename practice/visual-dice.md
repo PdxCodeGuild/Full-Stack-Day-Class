@@ -16,9 +16,15 @@ At the bottom of the screen, show the sum of all the dice currently out.
 
 ## Advanced
 
-Get rid of the input and button.
-Instead ask for a number of sides to the die and have an "add" button.
-When they click that, it adds that kind of die to the table.
+Add a "number of sides" input box.
+Change the "roll" button to a "add" button and a "reset" button.
+"Add" when clicked will add that many new dice of that number of sides to the screen.
+"Reset" will remove all dice.
 
 They can still click on a die to re-roll it, but add a little "X" to delete that die.
 Still show the sum.
+
+## Super Advanced
+
+Have your dice be rendered using `div`s with dot elements appropriately laid out for the number they're supposed to represent.
+Use CSS animations to "roll" dice as they appear.

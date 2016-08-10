@@ -28,6 +28,8 @@ If the content is currently invalid, the input box should be yellow.
 
 Search for an event that will happen whenever a user modifies an input box.
 
+Use [RegExps](/notes/regular-expressions.md) to do the validation.
+
 I know there are [input element attributes](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/Data_form_validation) that will allow the browser to do validation without any JavaScript, but do not use them for this problem.
 This is to practice the JS interaction structures.
 

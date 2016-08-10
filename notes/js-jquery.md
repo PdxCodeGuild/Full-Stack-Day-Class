@@ -14,7 +14,10 @@ To use jQuery, call the _function_ dollar sign `$`.
 It has a funny name, but it's just a function.
 You can use it to [select existing elements](/notes/js-dom-queries.md) or [create new ones](/notes/js-dom-creation.md).
 
+**Remember, it does these two totally separate things.**
+But both return **element sets**, a selection of some existing or new elements on the page.
+
 ```js
-var allItems = $("li").addClass("red");
-var newDiv = $("<div></div>");
+var allItems = $('li').addClass('red');
+var newDiv = $('<div></div>');
 ```
