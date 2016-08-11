@@ -22,6 +22,7 @@
 | 2016-08-05 | BOC | Friday | [Pyramid](/practice/pyramid.md) Due |
 | 2016-08-08 | BOC | Monday | [Caesar Cipher](/practice/caesar.md) Due |
 | 2016-08-10 | BOC | Wednesday | [Completer](/practice/completer.md) Due |
+| 2016-08-12 | BOC | Friday | [Validator](/practice/validator.md) Due |
 | 2016-08-18 | BOC | Thursday | [Capstone Proposal](/notes/capstone-proposal.md) Due |
 | 2016-09-05 | | Monday | Labor Day: No Class |
 | 2016-09-30 | | Friday | Last Day of Class |
