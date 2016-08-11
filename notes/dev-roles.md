@@ -58,6 +58,14 @@ Often not a expert in programming, but an expert in DB design and SQL and use.
 Deals with keeping the site secure.
 Comes up with tooling and conventions to prevent other developers from introducing security issues.
 
+## Quality Assurance / QA
+
+Usually not considered a development role.
+Some companies have separate departments tasked with testing software.
+They write tests, setup test automation suites, do analysis of performance, report to developers what is working and not.
+
+Many "legacy" tech companies have QA departments, but they are falling out of style for developer-driven testing.
+
 ## Product Manager / PM
 
 Not a development role, but so closely related, I'll mention it here.
@@ -65,7 +73,20 @@ Deals with planning and design of the features of the web product.
 Will prioritize features vs debugging vs refactoring for developers.
 Has a give-and-take with them about what features are worthwhile vs easy to implement.
 
-Although a "manager" usually is not technically the manager of developers.
+Although a "manager", usually is not technically the manager of developers.
+
+## Designer
+
+Not a development role, but can be technical.
+Tasked with designing the visual appearance and sometimes functionality of the product.
+Usually knows CSS and HTML well in order to prototype out things and understand what works for developers.
+Works closely with PMs and front-end developers.
+
+## User Interaction / UX Designer
+
+Not a development role, but can be technical.
+Subset of designer that is specifically tasked with planning out the ways users interact with the product.
+Works closely with PMs and front-end developers.
 
 ## Engineering Manager
 
@@ -74,7 +95,7 @@ Does all the usual manager stuff: 1-1s, performance reviews, etc.
 
 ## Data Scientist
 
-Usually not a proper "development" role.
+Usually not a proper development role.
 Does ad-hoc programming and analysis for PMs and business folks.
 Sometimes is in the pursuit of new product features, sometimes is just for company planning.
 Works closely with infrastructure or backend engineers to get data or produce a product.
