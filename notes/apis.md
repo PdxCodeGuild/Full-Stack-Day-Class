@@ -13,4 +13,4 @@ APIs that are accessed through the internet by making a HTTP request I'll call *
 E.g. Use the Google Maps API to find all of the cafes near a latitude and longitude.
 
 APIs that are just the interface for a library to surrounding code within a single programming language I'll call **library APIs**.
-E.g. Use the Sci-Py module API to calculate the standard deviation of this dataset.
+E.g. Use the DOM API to manipulate a web page without jQuery.

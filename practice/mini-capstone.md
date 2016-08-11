@@ -1,6 +1,6 @@
 # Practice: Mini Capstone
 
-In groups of about three, you'll be working on a larger Python project for the next few days.
+In groups of about three, you'll be working on a larger project for the next few days.
 
 ## 1. Brainstorm Idea
 
@@ -22,7 +22,7 @@ Then, take a break.
 *   What's a problem you've had in the last few weeks that was very manual and a computer could automate?
 
 *   What's a game you like to play or activity you participate in?
-    Is there a way you could make it more convienent or recreate it?
+    Is there a way you could make it more convenient or recreate it?
 
 ## 2. Reality Check
 

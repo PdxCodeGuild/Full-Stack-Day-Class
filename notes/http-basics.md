@@ -1,7 +1,7 @@
 # HTTP Basics
 
-HTTP. Hyper-Text Transport Protocol.
-HTTP is like a call and response protocol.
+Web browsers communicate via **HTTP** is **Hyper-Text Transport Protocol**.
+HTTP is a call and response protocol.
 
 The protocol has no memory on it's own.
 But servers and client do.
@@ -53,6 +53,7 @@ Age: "28"
 A response has two basic parts: a **status code** and a **body**.
 
 The status code is a number that represents how the server responded to the request:
+
 * `200 OK` means everything went fine
 * `301 MOVED PERMANENTLY`
 * `403 FORBIDDEN`
