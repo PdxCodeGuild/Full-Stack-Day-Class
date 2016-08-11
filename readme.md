@@ -306,7 +306,7 @@
 1. [AJAX Calls](/notes/ajax.md)
 1. Demo: [Weather](/demos/weather.md)
 1. Group Practice: [Bus Stop Finder](/practice/bus-stop-finder.md)
-1. Individual Practice: GeoJS
+1. Checked Practice: [Earthquake](/practice/earthquake.md)
 1. Group Practice: [Mini-Capstone](/practice/mini-capstone.md)
 
 ## Code Review
