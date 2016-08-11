@@ -9,13 +9,25 @@ When writing out regexps literals in Python, always use the `r` prefix, for "raw
 This causes it to ignore escape sequences for the _string literal_ itself so you don't have to double escape.
 
 ```py
-r'Hello\.'  #> 'Hello\\.'
+import re
+reg_exp = re.compile(r'Hello, (\w+)', re.I)
+match = reg_exp.search('Why hello, Alice.')
+# The position in the search string of the match.
+match.start()  #> 4
+# Captures starting at 1. 0 is the whole string matched.
+match.group(1)  #> 'Alice'
 ```
 
 To write them out in JS, use a regexp literal, which is the pattern surrounded by forward slashes `/`.
 
 ```js
-var match = /Hello\./;
+var regExp = /hello, (\w+)/i;
+// This returns the strangest thing. It's an array, but it has properties "index" and "input".
+var match = regExp.exec('Why hello, Alice.');
+// The position in the search string of the match.
+match.index;  //> 4
+// Captures starting at 1. 0 is the whole string matched.
+match[1];  //> 'Alice'
 ```
 
 It's important to note that regular expressions are _not_ a standardized language.
@@ -47,9 +59,9 @@ david s
 
 There are some special characters that don't match themselves.
 
-* `^` matches the beginning of a line
-* `$` matches the end of a line
-* `.` matches any character
+* Carrot `^` matches the beginning of a line
+* Dollar sign `$` matches the end of a line
+* Dot `.` matches any character
 
 ```re
 ^fire
@@ -68,12 +80,14 @@ fire$
 > fire wood
 
 ```re
-davi.
+davi. s
 ```
 
-> **david**
+> **david s**
 >
-> **davix**
+> **davix s**
+>
+> davidd s
 
 ## Repeats
 
@@ -90,6 +104,8 @@ hot?dogs?
 > **hodog**
 >
 > **hotdogs**
+>
+> **hotdog**
 
 ```re
 sna+cks
@@ -101,9 +117,19 @@ sna+cks
 >
 > **snaaaaaacks**
 
+```re
+sna*cks
+```
+
+> **snacks**
+>
+> **sncks**
+>
+> **snaaaaaacks**
+
 ## Escapes
 
-If you want literally any special characters use `\` in front of it.
+If you want literally any special characters use backslash `\` escape in front of it.
 
 ```re
 Hello\.
@@ -113,20 +139,71 @@ Hello\.
 >
 > Hellox
 
+## Character Classes
+
+Groups of characters that are used in the same sorts of ways are called **classes**.
+
+* `\d` matches digits
+* `\s` matches white space of all kinds
+* `\w` matches word or letter characters
+
+Each group still only matches one character, but repeat characters can be used on them.
+
+```re
+\d+\s\w
+```
+
+> **12 a**
+>
+> 12 ap
+>
+> **12\ta**
+>
+> 111 2
+
+## Character Sets
+
+If you want to be more discerning than a whole character class, you can use a **set**.
+Put all the characters you want to allow in square brackets `[]`.
+Each set still only matches one character, but repeat characters can be used on them.
+
+```re
+[bp]anana
+```
+
+> **banana**
+>
+> **panana**
+>
+> pbanana
+
+```re
+snack[sx]*
+```
+
+> **snacksxsssx**
+
 ## Captures
 
 You can group together parts of a match into a **capture**, which is like a "sub-match", using parentheses `()`.
 You can then use the repeat modifiers on the whole capture.
-When the regular expression library matches text, it will save which parts of the text match each capture by the order they appear (1, 2, etc.).
+
+More useful than that, is when the regular expression library matches text, it will save which parts of the text match each capture by the order they appear (1, 2, etc.).
+This is always one-indexed.
 
 ```re
 (hot+)+dogs
-(...)-(...)-(....)
 ```
 
 > **hotdogs**
 >
-> **hothothotdogs**
+> **hothotthotttdogs**
+
+```re
+(\d\d\d)-(\d\d\d)-(\d\d\d\d)
+```
+
+> **123-456-7890**
 
 ### Named Captures
 
@@ -138,19 +215,3 @@ It is still a sub-match specified in parentheses `()`, but with `?P<NAME>` first
 ```
 
 > **bob dole**
-
-## Classes
-
-Groups of characters that are used in the same sorts of ways are called **classes**.
-
-* `\d` matches digits
-* `\s` matches spaces of all kinds
-* `\w` matches word characters
-
-```re
-\d+\w\d+
-```
-
-> **1\t2**
->
-> **111 2**
