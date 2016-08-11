@@ -12,7 +12,7 @@ A satisfactory capstone **demonstrates personal understanding** of all of the to
 * Semantic HTML structure
 * CSS style
 * Flexbox layout
-* Javascript language basics
+* JavaScript language basics
 * jQuery DOM manipulation and event handling
 * Code structuring techniques throughout
 * Documentation via relevant comments, docstrings, and a [readme](/notes/capstone-readme.md)

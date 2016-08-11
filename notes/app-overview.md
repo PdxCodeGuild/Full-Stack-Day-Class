@@ -27,7 +27,7 @@ all you have to do is figure out how to generate output **content** for an input
 
 ## Front-End
 
-This is the **HTML**, **CSS**, and **Javascript** that your web server returns.
+This is the **HTML**, **CSS**, and **JavaScript** that your web server returns.
 The HTML is the actual structured content that your server wants to show the user.
 The CSS describes the presentation of the content.
-The Javascript is code for the user's web browser to run to enable complex _interactions_ with the user.
+The JavaScript is code for the user's web browser to run to enable complex _interactions_ with the user.

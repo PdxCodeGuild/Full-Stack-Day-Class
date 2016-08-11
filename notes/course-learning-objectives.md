@@ -18,11 +18,11 @@ This is an immersive, hands-on 12 week course to teach the technical and persona
     * Learn to create a basic static site
     * Learn layout techniques
 
-1.  Javascript
+1.  JavaScript
 
-    * Learn how to read, write, and debug Javascript
+    * Learn how to read, write, and debug JavaScript
     * Learn jQuery and Lo-Dash basics
-    * Augment a static website using Javascript
+    * Augment a static website using JavaScript
 
 1.  Django
 

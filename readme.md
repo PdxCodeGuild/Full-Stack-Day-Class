@@ -284,7 +284,7 @@
 1. Individual Practice: [three.js](/practice/threejs.md)
 1. Private Object Properties
 
-## Front-End via Javascript
+## Front-End via JavaScript
 
 1. [Basic Document Object Model](/notes/js-dom.md)
 1. [jQuery](/notes/js-jquery.md)

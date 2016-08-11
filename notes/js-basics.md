@@ -1,6 +1,6 @@
-# Javascript Basics
+# JavaScript Basics
 
-JS is another structured, procedural programming language.
+**JavaScript** or **JS** is another structured, procedural programming language.
 Statements are executed one at a time from top to bottom within a function and functions can call each other.
 
 This might _feel_ totally new, but it contains all of the same concepts as Python.
