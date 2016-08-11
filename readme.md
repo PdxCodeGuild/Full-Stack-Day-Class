@@ -281,7 +281,7 @@
 1. Demo: [Account](/demos/account.md)
 1. Group Practice: [Color](/practice/color.md)
 1. Checked Practice: [Completer](/practice/completer.md)
-1. Individual Practice:
+1. Individual Practice: [three.js](/practice/threejs.md)
 1. Private Object Properties
 
 ## Front-End via Javascript
