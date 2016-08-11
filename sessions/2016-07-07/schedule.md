@@ -15,7 +15,7 @@
 | 2016-07-20 | BOC | Wednesday | [Rain](/practice/rain.md) Due |
 | 2016-07-25 | BOC | Monday | [Blackjack](/practice/blackjack.md) Due |
 | 2016-07-28 | BOC | Thursday | [Tic-Tac-Toe Interface](/practice/ttt-interface.md) Due |
-| 2016-08-02 | BOC | Tuesday | [Mini-Capstone](/practice/mini-capstone.md) Ends |
+| 2016-08-02 | BOC | Tuesday | Python [Mini-Capstone](/practice/mini-capstone.md) Ends |
 | 2016-08-04 | BOC | Thursday | [Bio](/practice/bio.md) Due |
 | 2016-08-04 | BOC | Thursday | [Food](/practice/food.md) Due |
 | 2016-08-04 | BOC | Thursday | [Bio Style](/practice/bio-style.md) Due |
@@ -23,7 +23,10 @@
 | 2016-08-08 | BOC | Monday | [Caesar Cipher](/practice/caesar.md) Due |
 | 2016-08-10 | BOC | Wednesday | [Completer](/practice/completer.md) Due |
 | 2016-08-12 | BOC | Friday | [Validator](/practice/validator.md) Due |
+| 2016-08-17 | BOC | Wednesday | [Earthquake](/practice/earthquake.md) Due |
+| 2016-08-17 | BOC | Wednesday | Day Dedicated to [Capstone Proposal](/notes/capstone-proposal.md) Work |
 | 2016-08-18 | BOC | Thursday | [Capstone Proposal](/notes/capstone-proposal.md) Due |
+| 2016-08-23 | BOC | Tuesday | JavaScript [Mini-Capstone](/practice/mini-capstone.md) Ends |
 | 2016-09-05 | | Monday | Labor Day: No Class |
 | 2016-09-30 | | Friday | Last Day of Class |
 | 2016-09-30 | 9:45 A.M. | Friday | Capstone Show-and-Tell |
