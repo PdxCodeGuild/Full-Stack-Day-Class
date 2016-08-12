@@ -1,2 +1,3 @@
 [style]
-based_on_style = google
+based_on_style = pep8
+dedent_closing_brackets = true
