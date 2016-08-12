@@ -58,4 +58,4 @@ This is a unique identifier that allows the service to track who is making what 
 You'll have to follow the service-specific instructions to register and send with every request your key.
 
 **Never check in your keys.**
-For most dinky services it won't matter, but if you check in AWS keys and push them to GitHub there are bots that scrape for them and can rake up a $2K bill for you overnight.
+Follow my notes on [keeping secrets](/notes/secrets.md).

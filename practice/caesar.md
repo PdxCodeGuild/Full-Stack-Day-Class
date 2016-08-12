@@ -14,3 +14,4 @@ Each letter is "rotated" forward by that key number.
 
 Write a function `guessKey(encStr)` that uses letter frequency analysis to guess which key is correct.
 [That same page](http://www.cs.trincoll.edu/~crypto/historical/caesar.html) has a technique for deciding which key is "closest".
+Use the algorithm there as a guideline, but try to adapt it to the principles and structural ideas we've learned in the class.

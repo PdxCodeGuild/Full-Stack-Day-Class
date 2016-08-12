@@ -6,7 +6,7 @@ If JS is waiting for something to complete, it **blocks** or can't do anything e
 
 ```js
 $('button').on('click', function() {
-  // Browser is unresponsive while running this whole function when a click happens.
+  // Browser content is unresponsive while running this whole function when a click happens.
   var result = slowDownloadContent();
   var transformedResult = fastTransformResult(result);
   fastUpdateUI(transformedResult);
@@ -15,7 +15,11 @@ $('button').on('click', function() {
 
 Up until this point, we didn't really deal with anything "slow".
 Going out to the network and fetching some new content is relatively slow.
-If we want to enable our JS to do exciting things like that, we need a model that allows it.
+People perceive something as "instantaneous" if it happens within 200ms.
+If we want to enable our JS to do exciting things like that, we need an **asynchronous** model that allows it.
+
+The biggest source of "slow" things is waiting on network IO.
+Network IO is a convenient case where adding in simple event handling concurrency will work.
 
 A **promise** is an object that _will_ contain a useful value, but doesn't yet.
 An "empty" promise is **pending**.
@@ -37,7 +41,8 @@ $('button').on('click', function() {
 });
 ```
 
-But what if you have multiple slow steps that depend on each other?
+But what if you have multiple slow requests that depend on each other?
+We could be calling out to another network service with the result.
 Any then function that returns a promise will be passed into the next then function only when it's done!
 
 ```js
@@ -79,3 +84,31 @@ $('button').on('click', function() {
 ```
 
 There is [this pretty great article](http://www.html5rocks.com/en/tutorials/es6/promises/) about JS promises and some JS promise [API documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise).
+
+## Callbacks
+
+You have also encountered another way of doing asynchronous coding.
+For events, you registered callbacks.
+Other "slow" code can also be made asynchronous by introducing callbacks.
+
+The example above, if written in a callback style would look like:
+
+```js
+$('button').on('click', function() {
+  // This click function finishes fast!
+  // All it does is remember what it should go back to doing when the value has arrived.
+  downloadContent(function(result) {
+    slowTransformResult(result, function(transformedResult) {
+      fastUpdateUI(transformedResult);
+    });
+  });
+});
+```
+
+This works great for simple systems, but notice how it starts to get very nested very quickly.
+It also requires you to change the interface of your functions to take a callback argument, which is totally different than the interface for normal return values.
+This makes things get confusing quickly and people call this **callback hell**.
+
+**Avoid using callbacks.**
+Although lots of existing code works with them.
+Try to use APIs that return promises or turn your callbacks into promises.

@@ -302,6 +302,7 @@
 1. [APIs](/notes/apis.md)
 1. [HTTP Basics](/notes/http-basics.md)
 1. [HTTP APIs](/notes/apis-http.md)
+1. [Asynchronous Programming](/notes/async.md)
 1. [Promises](/notes/js-promise.md)
 1. [AJAX Calls](/notes/ajax.md)
 1. Demo: [Weather](/demos/weather.md)
@@ -375,7 +376,7 @@
 
 1. Moving Parts
 1. Configuration Levels
-1. Keeping Secrets
+1. [Keeping Secrets](/notes/secrets.md)
 1. Heroku
 
 ## Capstone Presentations

@@ -11,7 +11,7 @@ Make a `Completer` type.
 Implement a basic `Completer()` constructor that takes no arguments.
 Implement the following prototype methods:
 
-* `addCompletion(str)` that adds a valid completion
+* `addCompletion(str)` that adds a new, unique valid completion
 * `removeCompletion(str)` that removes a valid completion
 * `complete(prefix)` that returns an array of all valid completions that start with the given prefix, in any order
 
@@ -62,7 +62,7 @@ fruitCompleter.complete('a');  //> ['apple', 'avocado', 'anise']
 
 ## Super Advanced
 
-Try implementing a **fuzzy completer** which will take a possibly misspelled prefix and still give you completions.
+Implement a separate **fuzzy completer** `FuzzyCompleter` which will take a possibly misspelled prefix and still give you completions.
 I don't have a specific algorithm in mind for you to use, but come up with a function that specifically scores the "distance" between two prefixes.
 Looking at [edit distance](https://en.wikipedia.org/wiki/Edit_distance) should be a good starting place.
 

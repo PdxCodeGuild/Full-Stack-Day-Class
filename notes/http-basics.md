@@ -38,13 +38,13 @@ How "into" should be interpreted depends on the server.
 When you login to a web site, your web browser performs a POST request to submit your user name and password.
 
 ```
-http://register-to-vote.com/done_signup
+http://register-to-vote.com/submit_signup
 
-POST /done_signup
+POST /submit_signup
 
 
 Name: "David"
-Age: "28"
+Age: "18"
 ...
 ```
 
@@ -54,12 +54,15 @@ A response has two basic parts: a **status code** and a **body**.
 
 The status code is a number that represents how the server responded to the request:
 
-* `200 OK` means everything went fine
+* `200 OK`
 * `301 MOVED PERMANENTLY`
-* `403 FORBIDDEN`
 * `400 BAD REQUEST` your bad
-* `404 NOT FOUND` means that path wasn't FOUND
+* `403 FORBIDDEN`
+* `404 NOT FOUND` nothing at that path
 * `500 INTERNAL SERVER ERROR` my bad
 
 For a GET request, the body on a 200 contains the data at the resource;
 the page source, image data, etc.
+
+Even non-`200 OK` responses have bodies.
+Sometimes they contain error messages.
