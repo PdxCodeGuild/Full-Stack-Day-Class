@@ -3,7 +3,7 @@
 // Stolen and modified from https://github.com/walmartlabs/eslint-config-defaults
 module.exports = {
   "env": {"browser": true, "jquery": true},
-  "globals": {"_": true},
+  "globals": {"_": true, "Promise": true},
   "rules": {
     // Enforces getter/setter pairs in objects
     "accessor-pairs": 0,
