@@ -145,21 +145,19 @@ Groups of characters that are used in the same sorts of ways are called **classe
 
 * `\d` matches digits
 * `\s` matches white space of all kinds
-* `\w` matches word or letter characters
+* `\w` matches "word" characters (letters _and_ numbers)
 
 Each group still only matches one character, but repeat characters can be used on them.
 
 ```re
-\d+\s\w
+\d+\s\w+
 ```
 
-> **12 a**
+> **12 a5**
 >
-> 12 ap
+> 1f ap
 >
 > **12\ta**
->
-> 111 2
 
 ## Character Sets
 
@@ -182,6 +180,17 @@ snack[sx]*
 ```
 
 > **snacksxsssx**
+
+You can specify **ranges** of characters with dash `-`, so dash must be escaped in a character set.
+A super common range is all letters `[a-zA-Z]` since `\w` also includes digits.
+
+```re
+My Name Is: [a-zA-Z]+
+```
+
+> **My Name Is: David**
+>
+> My Name Is: C4t
 
 ## Captures
 
