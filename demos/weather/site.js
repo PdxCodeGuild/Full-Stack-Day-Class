@@ -1,6 +1,6 @@
 'use strict';
 
-var FORECAST_API_KEY = '';
+var FORECAST_API_KEY = ;
 
 /**
  * Update the location header with a new location.
@@ -23,7 +23,7 @@ function updateForecastParagraph(forecastText) {
  */
 function getForecast(lat, lng) {
   var PARAMS = {'units': 'us'};
-  var url = 'https://api.forecast.io/foecast/' + FORECAST_API_KEY + '/' + lat + ',' + lng;
+  var url = 'https://api.forecast.io/forecast/' + FORECAST_API_KEY + '/' + lat + ',' + lng;
   return Promise.resolve($.ajax({
     dataType: 'jsonp',
     url: url,
