@@ -21,6 +21,11 @@ Serving HTTP on 0.0.0.0 port 8000 ...
 
 You can now go to <http://localhost:8000/index.html> to view `index.html` and geolocation calls will succeed.
 
+## TriMet API Bug
+
+Looks like TriMet's servers don't properly implement JSONP and instead responds with raw JSON even when you ask for JSONP.
+Bottom line: change your `$.ajax()` call to use `dataType: 'json'` and jQuery will be able to parse the response properly.
+
 ## Advanced
 
 Add a Google Map that visually displays markers for each stop nearby.

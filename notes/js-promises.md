@@ -112,3 +112,58 @@ This makes things get confusing quickly and people call this **callback hell**.
 **Avoid using callbacks.**
 Although lots of existing code works with them.
 Try to use APIs that return promises or turn your callbacks into promises.
+
+## Callbacks into Promises
+
+Many functions you encounter will only accept callbacks.
+
+```js
+/**
+ * Look up a temperature at a latitude and longitude.
+ *
+ * On success, call the function successCallback with the found temperature as a single argument.
+ * On failure, call the function failureCallback with the error as a single argument.
+ */
+function lookupTemp(lat, lng, successCallback, failureCallback) {
+  ...
+}
+
+/**
+ * Update the HTML UI with the found temperature.
+ */
+function updateTempElement(temp) {
+  ...
+}
+
+/**
+ * Update the HTML UI with the encountered error.
+ */
+function updateErrorMessage(error) {
+  ...
+}
+
+// Then you would kick off the temperature lookup using.
+lookupTemp(lat, lng, updateTempElement, updateErrorMessage);
+```
+
+They're harder to work with, so if you want to convert them into promises, you can by wrapping them in a promise object manually.
+
+The `Promise` constructor takes a single argument which is a function that takes two arguments: `resolve` and `reject`, they will be functions that should be called when the code has found a return value or encountered an error.
+
+```js
+/**
+ * Wraps looking up a temperature in a promise.
+ */
+function lookupTempPromise(lat, lng) {
+  return new Promise(function(resolve, reject) {
+    // Call resolve(answer) when a return value is found.
+    // Call reject(error) when an error is encountered.
+    // lookupTemp will do that, so we can pass them in directly.
+    lookupTemp(lat, lng, resolve, reject);
+  });
+}
+
+lookupTemp(lat, lng).
+  then(updateTempElement).
+  catch(updateErrorMessage);
+```
