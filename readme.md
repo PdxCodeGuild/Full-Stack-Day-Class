@@ -391,7 +391,7 @@
 
 1. [Companies](/notes/dev-companies.md)
 1. [Development Roles](/notes/dev-roles.md)
-1. Resume Writing
+1. [Resume Writing](/notes/resume.md)
 1. Interview
 1. Negotiation
 1. References
