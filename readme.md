@@ -389,9 +389,10 @@
 
 ## Job Search
 
-1. [Companies](/notes/dev-companies.md)
-1. [Development Roles](/notes/dev-roles.md)
-1. [Resume Writing](/notes/resume.md)
+1. [Companies](/notes/job-companies.md)
+1. [Development Roles](/notes/job-roles.md)
+1. Job Searching
+1. [Resume Writing](/notes/job-resume.md)
 1. Interview
 1. Negotiation
 1. References
