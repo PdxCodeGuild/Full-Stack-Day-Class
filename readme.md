@@ -298,7 +298,6 @@
 1. Group Practice: [Picture Album](/practice/album.md)
 1. Checked Practice: [Validator](/practice/validator.md)
 1. Individual Practice: [Whack-A-Mole](/practice/whack-a-mole.md)
-1. Individual Practice: [Visual Dice](/practice/visual-dice.md)
 1. [APIs](/notes/apis.md)
 1. [HTTP Basics](/notes/http-basics.md)
 1. [HTTP APIs](/notes/apis-http.md)
@@ -309,6 +308,9 @@
 1. Group Practice: [Bus Stop Finder](/practice/bus-stop-finder.md)
 1. Checked Practice: [Earthquake](/practice/earthquake.md)
 1. Group Practice: [Mini-Capstone](/practice/mini-capstone.md)
+1. React
+1. Individual Practice: [Visual Dice](/practice/visual-dice.md)
+1. Individual Practice: Open-Source Issue
 
 ## Code Review
 
@@ -318,43 +320,43 @@
 
 ## Django Web Framework Programming
 
-1. [Website Structure](/notes/website-structure.md)
-1. [Django Overview](/notes/djangooverview.md)
-1. [Web Framework](/notes/webframework.md)
+1. [Website URL Structure](/notes/urls-site-structure.md)
+1. [Django Overview](/notes/django-overview.md)
 1. [Django Init](/notes/django-init.md)
 1. [Views](/notes/django-views.md)
 1. Package Importing
 1. [Routes](/notes/django-routes.md)
 1. [Regular Expressions](/notes/regular-expressions.md)
 1. [Responses](/notes/django-responses.md)
-1. [Logic](/notes/django-logic.md)
+1. [MVC and Isolation](/notes/django-logic.md)
 1. [Serving Locally](/notes/django-serving-locally.md)
-1. MVC and Isolation
-1. [Front-End vs Back-End](/notes/app-front-back.md)
 1. Demo:
-1. [Django Problem Solving](/notes/django-problem-solving.md)
-1. [Django Debugging](/notes/django-debugging.md)
-1. Group Practice:
-1. Checked Practice:
 1. Individual Practice:
 1. [Templates](/notes/django-templates.md)
 1. [Static Files](/notes/django-static-files.md)
-1. Demo:
 1. [Template Debugging](/notes/django-template-debugging.md)
+1. [Django Problem Solving](/notes/django-problem-solving.md)
+1. [Django Debugging](/notes/django-debugging.md)
+1. Demo:
 1. Group Practice:
 1. Checked Practice:
 1. Individual Practice:
 1. [Posting Forms](/notes/django-posting.md)
+1. CSRF
 1. [Query Strings](/notes/urls-query-strings.md)
 1. [Path Parameters](/notes/django-path-parameters.md)
 1. Demo: [Comments](/demos/comments.md)
 1. Group Practice: [Ice Cream Poll](/practice/ice-cream-poll.md)
 1. Checked Practice: [Jokes](/practice/jokes.md)
-1. Individual Practice: [Book Stats](/practice/book-stats.md)
 1. Individual Practice: [Multi-Madlib](/practice/multi-madlib.md)
-1. Individual Practice: [Image Serve](/practice/image-serve.md)
 1. [Serving JSON to AJAX](/notes/ajax-serving-json.md)
+1. [Front-End vs Back-End](/notes/app-front-back.md)
+1. Progressive Enhancement
 1. Demo: [Highlight](/demos/highlight.md)
+1. Group Practice: [Book Stats](/practice/book-stats.md)
+1. Checked Practice: ASCII Art
+1. Individual Practice: [Image Serve](/practice/image-serve.md)
+1. Checked Practice: [Open Source Issue](/practice/open-source.md)
 
 ## Django Database Programming
 
@@ -370,7 +372,6 @@
 1. Checked Practice: [Flutter](/practice/flutter.md)
 1. Individual Practice: Loaner
 1. File Fields
-1. REST
 
 ## Heroku Deployment
 

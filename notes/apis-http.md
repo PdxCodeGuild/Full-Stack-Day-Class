@@ -32,6 +32,14 @@ DELETE /users/USER_ID/friends/FRIEND_ID
 
 We won't be strictly writing REST APIs, but it's good to know the name and the concept.
 
+## HTTP Impedance Mismatch
+
+HTTP has a lot of concepts that procedural programming languages do not: verbs, headers, paths.
+Although they can map cleanly onto the idea of "values and function calls" that we've been using in JS and Python, they don't always.
+
+So using an HTTP API from a procedural programming language requires fitting things together in custom ways.
+Each API will do things slightly differently and there will be lots of edge cases for how you convert values and function calls back and forth.
+
 ## Native Wrappers
 
 If an API is popular enough or from a big enough organization, sometimes there will be a very nice JS or Python wrapper around making manual HTTP calls.
