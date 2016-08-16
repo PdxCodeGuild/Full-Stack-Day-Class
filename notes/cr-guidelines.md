@@ -17,6 +17,7 @@ If the code does look good, no need to hunt for comments.
 Let it breeze through!
 
 [This readme](https://github.com/thoughtbot/guides/tree/master/code-review) has an excellent overview of the right kind of attitude.
+Exercise [optimistic feedback](https://github.com/raganwald/presentations/blob/master/optimism.md).
 
 ## Checklists
 
