@@ -388,6 +388,11 @@
 1. [Demo Day](/notes/capstone-demo-day.md)
 1. [Post-Course Work](/notes/course-post.md)
 
+## Advanced Topics
+
+1. Computational Complexity
+1. Basic Security
+
 ## Job Search
 
 1. [Companies](/notes/job-companies.md)
