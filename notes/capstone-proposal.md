@@ -102,4 +102,4 @@ Init that repository with a readme.
 Write up your proposal as `proposal.md` and link to it from the readme.
 I don't care that you learn all of the fancy parts of [writing Markdown documentation](https://help.github.com/articles/basic-writing-and-formatting-syntax/), but just get some basic sections that follow the rubric above.
 
-Message me with a link to your capstone repo before the proposal is due.
+Email me the URL to your capstone repo on GitHub before the proposal is due.
