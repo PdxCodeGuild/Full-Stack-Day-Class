@@ -39,7 +39,7 @@ Hey XXX,
 
 I don't see a branch containing your solution to the XXX practice problem pushed to GitHub and it was due today.
 
-Did you forget to push your changes? Are they committed as part of a feature branch named `XXX`? Did you make an appropriately named pull request also named `XXX` for that branch?
+Did you forget to push your changes? Are they committed as part of a feature branch named `XXX`? Did you make an appropriately named pull request also named `XXX` for that branch? In the future, please preview your Pull Requests after you've completed a problem to ensure you're submitting the correct code.
 
 As of now you have XXX late assignments. As a reminder, only three late assignments are allowed in the class. If you ever need an extension on an problem, that's fine, but please let me know before it is due.
 
@@ -56,7 +56,7 @@ Hey XXX,
 
 I don't see any changes to your XXX practice problem pushed to GitHub and a revision of it was due today.
 
-Are they committed as part of a feature branch named `XXX`? Did you push that branch to GitHub?
+Are they committed as part of a feature branch named `XXX`? Did you push that branch to GitHub? In the future, please preview your Pull Requests after you've completed a problem to ensure you're submitting the correct code.
 
 As of now you have XXX late assignments. As a reminder, only three late assignments are allowed in the class. If you ever need an extension on an problem, that's fine, but please let me know before it is due.
 
