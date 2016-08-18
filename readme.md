@@ -5,6 +5,7 @@
 * [Schedule](/sessions/2016-07-07/schedule.md)
 * [Hot Tips](/sessions/2016-07-07/tips)
 * [Student Repos](/sessions/2016-07-07/repos.md)
+* [Student Capstones](/sessions/2016-07-07/capstones.md)
 
 ## Intro
 
@@ -323,15 +324,15 @@
 1. [Website URL Structure](/notes/urls-site-structure.md)
 1. [Django Overview](/notes/django-overview.md)
 1. [Django Init](/notes/django-init.md)
-1. [Views](/notes/django-views.md)
-1. Package Importing
+1. [Package Relative Importing](/notes/py-modules-importing-package.md)
+1. [Views and Responses](/notes/django-views.md)
 1. [Routes](/notes/django-routes.md)
 1. [Regular Expressions](/notes/regular-expressions.md)
-1. [Responses](/notes/django-responses.md)
+1. [Path Parameters](/notes/django-path-parameters.md)
 1. [MVC and Isolation](/notes/django-logic.md)
 1. [Serving Locally](/notes/django-serving-locally.md)
 1. Demo:
-1. Individual Practice:
+1. Checked Practice: Food Prices
 1. [Templates](/notes/django-templates.md)
 1. [Static Files](/notes/django-static-files.md)
 1. [Template Debugging](/notes/django-template-debugging.md)
@@ -344,7 +345,6 @@
 1. [Posting Forms](/notes/django-posting.md)
 1. CSRF
 1. [Query Strings](/notes/urls-query-strings.md)
-1. [Path Parameters](/notes/django-path-parameters.md)
 1. Demo: [Comments](/demos/comments.md)
 1. Group Practice: [Ice Cream Poll](/practice/ice-cream-poll.md)
 1. Checked Practice: [Jokes](/practice/jokes.md)
@@ -356,7 +356,6 @@
 1. Group Practice: [Book Stats](/practice/book-stats.md)
 1. Checked Practice: ASCII Art
 1. Individual Practice: [Image Serve](/practice/image-serve.md)
-1. Checked Practice: [Open Source Issue](/practice/open-source.md)
 
 ## Django Database Programming
 
@@ -390,8 +389,11 @@
 
 ## Advanced Topics
 
+1. Individual Practice: [Open Source Issue](/practice/open-source.md)
 1. Computational Complexity
 1. Basic Security
+1. Shell-Fu
+1. Client-Side Templated Web Applications
 
 ## Job Search
 
