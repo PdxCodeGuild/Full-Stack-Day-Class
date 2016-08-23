@@ -1,7 +1,6 @@
 # Path Parameters
 
-We've seen [query parameters](/notes/django-query-parameters.md) which are appended to the path of a URL.
-You can also parse fields out of the URL path directly.
+You can parse fields out of the URL path directly.
 These are called **path parameters**.
 
 In general, use path parameters if the parameter is the "subject" of the page.
@@ -23,8 +22,4 @@ def user_detail(request, user_name):
     user_name  #> 'david'
 ```
 
-## REST
-
-Some folks have tried to formalize how HTTP interfaces and websites should be laid out.
-One of those methods is called **REST**.
-[Read up on it](http://www.restapitutorial.com/lessons/whatisrest.html) if you're interested.
+Remember, named captures often introduce a lot of flexibility in the matched path, so be aware of them [eating up your longer routes](/notes/django-routes.md).

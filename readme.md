@@ -283,7 +283,7 @@
 1. Group Practice: [Color](/practice/color.md)
 1. Checked Practice: [Completer](/practice/completer.md)
 1. Individual Practice: [three.js](/practice/threejs.md)
-1. Private Object Properties
+1. IIFEs and Private Object Properties
 
 ## Front-End via JavaScript
 
@@ -293,6 +293,7 @@
 1. [Element Creation](/notes/js-dom-creation.md)
 1. [DOM Manipulation](/notes/js-dom-manipulation.md)
 1. [Events and Callbacks](/notes/js-events-callbacks.md)
+1. Progressive Enhancement
 1. [Front-End Problem Solving](/notes/problem-solving-front-end.md)
 1. Demo: [Todo](/demos/todo.md)
 1. Demo: [Palette](/demos/palette.md)
@@ -331,8 +332,8 @@
 1. [Path Parameters](/notes/django-path-parameters.md)
 1. [MVC and Isolation](/notes/django-logic.md)
 1. [Serving Locally](/notes/django-serving-locally.md)
-1. Demo:
-1. Checked Practice: Food Prices
+1. Demo: [Colors](/demos/colors.md)
+1. Group Practice: [Grocery](/practice/grocery.md)
 1. [Templates](/notes/django-templates.md)
 1. [Static Files](/notes/django-static-files.md)
 1. [Template Debugging](/notes/django-template-debugging.md)
@@ -340,10 +341,10 @@
 1. [Django Debugging](/notes/django-debugging.md)
 1. Demo:
 1. Group Practice:
-1. Checked Practice:
+1. Checked Practice: CSS Templating
 1. Individual Practice:
 1. [Posting Forms](/notes/django-posting.md)
-1. CSRF
+1. [CSRF](/notes/csrf.md)
 1. [Query Strings](/notes/urls-query-strings.md)
 1. Demo: [Comments](/demos/comments.md)
 1. Group Practice: [Ice Cream Poll](/practice/ice-cream-poll.md)
@@ -351,7 +352,6 @@
 1. Individual Practice: [Multi-Madlib](/practice/multi-madlib.md)
 1. [Serving JSON to AJAX](/notes/ajax-serving-json.md)
 1. [Front-End vs Back-End](/notes/app-front-back.md)
-1. Progressive Enhancement
 1. Demo: [Highlight](/demos/highlight.md)
 1. Group Practice: [Book Stats](/practice/book-stats.md)
 1. Checked Practice: ASCII Art
@@ -370,7 +370,7 @@
 1. Group Practice: [Sub-Todo](/practice/sub-todo.md)
 1. Checked Practice: [Flutter](/practice/flutter.md)
 1. Individual Practice: Loaner
-1. File Fields
+1. Media and File Fields
 
 ## Heroku Deployment
 
@@ -391,6 +391,7 @@
 
 1. Individual Practice: [Open Source Issue](/practice/open-source.md)
 1. Computational Complexity
+1. Garbage Collection
 1. Basic Security
 1. Shell-Fu
 1. Client-Side Templated Web Applications

@@ -8,7 +8,6 @@ Your web browser knows how to parse the URL and then **request** the data for th
 
 The structure of a website is up to you.
 There are lots of different ways to use HTML, HTTP, and browsers to make a website that does the right thing.
-REST.
 
 ## Impedance Mismatch
 
@@ -26,10 +25,21 @@ That's a challenge at first!
 
 ## General Site Patterns
 
-Routes are nouns.
-Have different HTTP verbs update those nouns.
+Routes are nouns + verbs.
+`GET` requests just retrieve data and never change it.
+`POST` requests can change data.
 
-Some special routes might just be verbs.
+```
+GET /products/PRODUCT_NAME/images
+POST /images
+POST /user/USER_ID/image
+```
+
+### REST
+
+Some folks have tried to formalize how HTTP interfaces and websites should be laid out.
+One of those methods is called **REST**.
+[Read up on it](http://www.restapitutorial.com/lessons/whatisrest.html) if you're interested, but I'm not going to require you to use it.
 
 ## Hierarchical Paths
 

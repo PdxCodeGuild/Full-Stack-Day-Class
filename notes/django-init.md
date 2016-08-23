@@ -31,8 +31,14 @@ Basically _all_ of the files you need to make are in this _inner_ directory.
 This is a common source of things not working.
 
 Use the following steps to setup your Django app.
-These should live alongside the [standard Python application files](/notes/py-app-structure.md).
 You should commit all of these files.
+
+If you are on macOS or Linux, I have a bash script that will perform all of the following steps for you: [django-init.sh](/bin/django-init.sh).
+
+## 0. Setup Python App
+
+First, follow the [standard Python application files](/notes/py-app-structure.md).
+Install the `django` package in your virtualenv.
 
 ## 1. Create Django App
 
@@ -61,7 +67,7 @@ INSTALLED_APPS = [
 
 ## 3. Update Git Ignore
 
-Ensure that your project root `.gitignore` file contains `db.sqlite3`.
+Ensure that your project root `.gitignore` file contains `db.sqlite3`, `staticfiles`, and `mediafiles`.
 Consult [this example file](/demos/example_gitignore) or [notes on Git ignore](/notes/git-ignore.md).
 
 ## 4. Create Views
@@ -75,9 +81,11 @@ touch DJANGO_APP_NAME/views.py
 ## 4. Create Models
 
 Create an empty `models.py` in the Django application root for your [models](/notes/django-models.md).
+Set up some of the initial built-in models by migrating right off the bat.
 
 ```bash
 touch DJANGO_APP_NAME/models.py
+python manage.py migrate
 ```
 
 Remember to [migrate](/notes/django-models.md#migrating) whenever you update your models.
@@ -98,4 +106,26 @@ Yes, it's redundant, but under `static` in your Django application root, you sho
 
 ```bash
 mkdir -p DJANGO_APP_NAME/static/DJANGO_APP_NAME
+mkdir -p staticfiles
+```
+
+Add to the bottom of `settings.py`.
+
+```py
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+```
+
+## 7. Create Media Files Directory
+
+If your Django application needs to handle user uploads or **media**, setup a local directory to store and server those files out of.
+
+```bash
+mkdir -p mediafiles
+```
+
+Then add to the bottom of `settings.py`.
+
+```py
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'mediafiles')
 ```

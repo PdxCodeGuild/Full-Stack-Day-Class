@@ -25,7 +25,7 @@ cat <<EOF > .eslintrc.js
 // Stolen and modified from https://github.com/walmartlabs/eslint-config-defaults
 module.exports = {
   "env": {"browser": true, "jquery": true},
-  "globals": {"_": true},
+  "globals": {"_": true, "Promise": true},
   "rules": {
     // Enforces getter/setter pairs in objects
     "accessor-pairs": 0,
@@ -359,9 +359,10 @@ perl -i -pe "s/^(INSTALLED_APPS = \[)/\1\n    '$NAME',/g" "$NAME/settings.py"
 echo $'\ndb.sqlite3' >> .gitignore
 echo $'STATIC_ROOT = os.path.join(BASE_DIR, \'staticfiles\')' >> "$NAME/settings.py"
 echo $'\nstaticfiles' >> .gitignore
+mkdir -p 'staticfiles'
 echo $'\nMEDIA_URL = \'/media/\'\nMEDIA_ROOT = os.path.join(BASE_DIR, \'mediafiles\')' >> "$NAME/settings.py"
 echo $'\nmediafiles' >> .gitignore
-mkdir -p "mediafiles"
+mkdir -p 'mediafiles'
 echo "\"\"\"$NAME Views.\"\"\"" > "$NAME/views.py"
 echo "\"\"\"$NAME Models.\"\"\"" > "$NAME/models.py"
 echo "\"\"\"$NAME Logic.\"\"\"" > "$NAME/logic.py"
