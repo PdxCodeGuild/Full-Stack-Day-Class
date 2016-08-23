@@ -86,3 +86,11 @@ We have a limited amount of time to work on this, and it's really satisfying to 
 If you dive too deep on one task, your group might not finish.
 
 You can still work on all the deep cool stuff later!
+
+## 6. Readme
+
+Ensure that your mini-capstone repo has a `readme.md` that describes:
+
+1. A high-level description of what the project does
+1. How someone could clone and run it themselves
+1. Any future work
