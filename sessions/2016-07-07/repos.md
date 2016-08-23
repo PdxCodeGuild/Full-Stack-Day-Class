@@ -6,7 +6,12 @@
 * Katie: [Portfolio](https://github.com/Kaylotura/-codeguild)
 * Stephen: [Portfolio](https://github.com/stephenmuller/codeguild)
 
-## Mini-Capstones
+## Python Mini-Capstones
 
-* JS Mini-Capstone: [Where the Flick](https://github.com/coreyadkins/wheretheflick)
-* JS Mini-Capstone: [Dinner App](https://github.com/Kaylotura/dinner-app)
+* Andrew, Corey, Katie: [Meme Bot](https://github.com/coreyadkins/memebot)
+* Eric, Stephen: [Network Poker](https://github.com/echase6/network_poker)
+
+## JS Mini-Capstones
+
+* Andrew, Corey, Stephen: [Where the Flick](https://github.com/coreyadkins/wheretheflick)
+* Eric, Katie: [Dinner App](https://github.com/Kaylotura/dinner-app)
