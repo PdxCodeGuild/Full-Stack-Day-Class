@@ -101,3 +101,41 @@ David
 ```
 As a reminder of class policy, you need to maintain at least a 90% attendance rate to stay in the class. Missing today puts you at XX%. If you do drop below 90% attendance, you have two weeks to work back up to that level of attendance.
 ```
+
+## Satisfactory Capstone Proposal
+
+```
+Hey XXX!
+
+Your proposal looks great and is satisfactory! There are a few minor bits of feedback I want to give:
+
+XXX
+
+Please update your capstone proposal with this minor feedback and commit it before you continue on.
+
+Your capstone proposal is checked off and you can formally start work on it. You should work on your project whenever you have free time in the course, even if it's just a very isolated part.
+
+This proposal is a "living document". As your capstone work progresses, please update the proposal to accurately describe the data model, features, and development schedule that your project actually has.
+
+Feel free to come with me for guidance or with questions at any time.
+
+Best,
+David
+```
+
+## Not Satisfactory Capstone Proposal
+
+```
+Hey XXX!
+
+Your proposal idea looks great! There are a few bits of feedback I want to give:
+
+XXX
+
+Please update your capstone proposal with this feedback and submit another revision by the beginning of class XXX. I want to make sure that your proposal contains a workable plan.
+
+Please let me know if you have any questions.
+
+Best,
+David
+```
