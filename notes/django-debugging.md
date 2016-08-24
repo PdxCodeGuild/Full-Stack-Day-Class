@@ -17,7 +17,7 @@ python manage.py shell
 ```
 
 That will drop you into a Python interpreter that has access to your app.
-Then you can import your app by name and call all of the functions to try stuff out.
+Then you can import your app _by name_ and call all of the functions to try stuff out.
 
 ```py
 >>> from DJANGO_APP_NAME import logic
@@ -29,4 +29,6 @@ Be careful.
 
 ## Routing
 
-T
+Double check that your routes are correct.
+Sometimes something might be broken but only because a route was forgotten or the regexp was never hit.
+Overview the [routing order](/notes/django-routes.md).

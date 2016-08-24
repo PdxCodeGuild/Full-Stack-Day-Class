@@ -332,13 +332,13 @@
 1. [Path Parameters](/notes/django-path-parameters.md)
 1. [MVC and Isolation](/notes/django-logic.md)
 1. [Serving Locally](/notes/django-serving-locally.md)
+1. [Django Problem Solving](/notes/django-problem-solving.md)
+1. [Django Debugging](/notes/django-debugging.md)
 1. Demo: [Colors](/demos/colors.md)
 1. Group Practice: [Grocery](/practice/grocery.md)
 1. [Templates](/notes/django-templates.md)
 1. [Static Files](/notes/django-static-files.md)
 1. [Template Debugging](/notes/django-template-debugging.md)
-1. [Django Problem Solving](/notes/django-problem-solving.md)
-1. [Django Debugging](/notes/django-debugging.md)
 1. Demo:
 1. Group Practice:
 1. Checked Practice: CSS Templating

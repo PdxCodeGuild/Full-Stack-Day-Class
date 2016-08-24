@@ -16,6 +16,8 @@ These live in `models.py`.
 **Views** are "interface" functions that define how input and output with the external world are handled.
 Things like JSON serializers and deserializers, type converters, all could go here.
 
+In general, views should not interface with models directly; they should go through a controller function.
+
 These live in `views.py`.
 
 ## Controllers

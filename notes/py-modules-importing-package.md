@@ -13,7 +13,7 @@ You're not running your code.
 Let's say your code has the following directory structure.
 
 ```
-YOUR_APP/
+YOUR_PACKAGE_OR_DJANGO_APP/
     models.py
     logic/
         __init__.py
@@ -22,7 +22,7 @@ YOUR_APP/
     views.py
 ```
 
-The `YOUR_APP` directory is the root of your package and has to start the input path.
+The `YOUR_PACKAGE_OR_DJANGO_APP` directory is the root of your package and has to start the input path.
 It is represented as dot `.` in package-relative imports.
 That feels like the use of dot `.` in filesystem paths.
 
