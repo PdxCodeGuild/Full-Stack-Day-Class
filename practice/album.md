@@ -1,6 +1,6 @@
 # Practice: Picture Album
 
-Save your solution in a directory in `practice/` named `album`.
+Save your solution in a directory in `practice/` and in a branch named `album`.
 Your HTML file should be named `index.html`, your CSS file named `site.css`, and your JS file named `site.js` in that directory.
 
 * Give the user a text box that they can enter image URLs into.

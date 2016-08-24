@@ -1,6 +1,6 @@
 # Practice: Bus Stop Finder
 
-Save your solution in a directory in `practice/` in a branch named `bus-stop`.
+Save your solution in a directory in `practice/` and in a branch named `bus-stop`.
 Your HTML file should be named `index.html`, your CSS file named `site.css`, and your JS file named `site.js` in that directory.
 Any keys should live in a `secrets.js`.
 

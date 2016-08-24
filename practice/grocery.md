@@ -1,7 +1,7 @@
 # Practice: Grocery
 
 Save your solution in a Django app, directory in `practice/`, and in a branch all named `grocery`.
-This means there will be a directory `practice/grocery/grocery`.
+This means there will be a directory `~/codeguild/practice/grocery/grocery`.
 
 Write a very simple HTTP API that returns the price of various items in the grocery in a few different currencies.
 

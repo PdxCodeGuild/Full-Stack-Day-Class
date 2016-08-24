@@ -1,6 +1,6 @@
 # Practice: Validator
 
-Save your solution in a directory in `practice/` in a branch and make a GitHub pull request all named `validator`.
+Save your solution in a directory in `practice/`, in a branch, and make a GitHub pull request all named `validator`.
 Your HTML file should be named `index.html`, your CSS file named `site.css`, and your JS file named `site.js` in that directory.
 
 Create a sign-up form for a user to fill out and submit via a button.

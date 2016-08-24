@@ -1,6 +1,6 @@
 # Practice: Whack-A-Mole
 
-Save your solution in a directory in `practice/` in a branch and make a GitHub pull request all named `mole`.
+Save your solution in a directory in `practice/` and in a branch named `mole`.
 Your HTML file should be named `index.html`, your CSS file named `site.css`, and your JS file named `site.js` in that directory.
 
 Make a 5x4 grid of hole images.

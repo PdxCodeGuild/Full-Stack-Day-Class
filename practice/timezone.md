@@ -12,7 +12,10 @@ Write a simple HTTP API for getting the local time at various locations around t
 
 Serialize all times as [ISO 8601 string format](http://arrow.readthedocs.io/en/latest/#arrow.arrow.Arrow.isoformat).
 
+If any of the latitude or longitude or time input data is improperly formatted, return a `400 BAD REQUEST`.
+Don't worry about having the route regular expressions match the ISO format; instead check for validity during parsing into an Arrow object.
+
 Use the following Python packages:
 
 * [arrow](http://arrow.readthedocs.io/en/latest/)
-* [pytzwhere](https://github.com/pegler/pytzwhere)
+* [tzwhere](https://github.com/pegler/pytzwhere)

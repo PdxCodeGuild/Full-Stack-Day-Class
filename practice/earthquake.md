@@ -1,6 +1,6 @@
 # Practice: Earthquake
 
-Save your solution in a directory in `practice/` in a branch and make a GitHub pull request all named `earthquake`.
+Save your solution in a directory in `practice/`, in a branch, and make a GitHub pull request all named `earthquake`.
 Your HTML file should be named `index.html`, your CSS file named `site.css`, and your JS file named `site.js` in that directory.
 
 The [USGS has feeds of earthquake locations](http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php).
