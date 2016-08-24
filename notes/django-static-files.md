@@ -1,4 +1,5 @@
 # Static Files
+
 **Static files** are files you're serving that don't change.
 Most images, CSS, or JS on your site isn't changing, so it can be served statically.
 
@@ -6,6 +7,7 @@ Instead of writing a boring view function for each of these static assets, Djang
 Put them in `static/DJANGO_APP_NAME` in your Django application root.
 
 Then, when you need to access their paths in other HTML, use the `static` templating tag.
+
 ```html
 {% load staticfiles %}
 <img src="{% static 'DJANGO_APP_NAME/logo.png' %}">

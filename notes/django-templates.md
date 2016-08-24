@@ -1,7 +1,9 @@
 # Templates
+
 If view functions respond with HTML, then the requesting browser can render it!
 
 The obvious way to do this is clunky:
+
 ```py
 from django.http import HttpResponse
 
@@ -14,6 +16,7 @@ Instead you can use **templates**, HTML files that contain some instructions for
 Then tell your view function to render the template.
 
 If we saved this in `templates/DJANGO_APP_NAME/greet.html` in your Django application root:
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -26,6 +29,7 @@ If we saved this in `templates/DJANGO_APP_NAME/greet.html` in your Django applic
 Then our view could **render** that template and fill in all of the values.
 You give each template a **context** dictionary of the variables the template needs to render.
 This context is like the "arguments" for running the template as a "function".
+
 ```py
 from django.shortcuts import render
 
@@ -35,6 +39,7 @@ def render_greeting(request):
 ```
 
 The resulting response content would be:
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -54,15 +59,18 @@ You're writing Django template code that needs to write HTML code.
 Templates live in the `templates/DJANGO_APP_NAME` directory in the Django application root.
 
 ## Basic Features
+
 For a full list of features, read the [Django template docs](https://docs.djangoproject.com/en/1.9/ref/templates/language/).
 
 ## Variables
+
 **Template variables** work just like Python string formatting.
 Use the name of the template variable in double braces `{{}}`.
 If a template variable has structure, you can reach inside the structure using a dot operator.
 Nested dictionaries, classes, and lists all work.
 
 In your view
+
 ```py
 class Color:
     def __init__(self, hex_string):
@@ -81,6 +89,7 @@ def render_template(request):
 ```
 
 In `template.html`:
+
 ```html
 <div>
     <h2 style="color: {{ facts.color.hex_string }};">{{ model }}<small>{{ facts.make }}</small></h2>
@@ -89,19 +98,23 @@ In `template.html`:
 ```
 
 ## Links
+
 Django gives you a way of not having to remember your routing patterns.
 Instead you should refer to other views by their [short name](/notes/django-routes.md) using the `url` tag.
 
 In your template:
+
 ```html
 <a href="{% url 'post' %}">Post a comment.</a>
 ```
 
 ## If Tag
+
 You can optionally output different HTML by using an `if` tag.
 It has exactly the same semantics as a [normal Python if statement](/notes/py-branching-blocks.md), although it has [fewer operators it supports](https://docs.djangoproject.com/en/1.9/ref/templates/builtins/#if).
 
 In your view:
+
 ```py
 def render_template(request):
     template_arguments = {
@@ -112,6 +125,7 @@ def render_template(request):
 ```
 
 In `template.html`:
+
 ```html
 {% if type == 'warning' %}
 <span class='yellow'>Warning: {{ message }}</span>
@@ -121,14 +135,17 @@ In `template.html`:
 <span>{{ message }}</span>
 {% endif %}
 ```
+
 This will only output one of the three `span`s.
 
 ## For Tag
+
 You can repeat sections of HTML by using a `for` loop tag.
 It has exactly the same semantics as a [normal Python for loop](/notes/py-for-loops.md):
 the `for` tag creates a new template variable with a given name for each item in the loop.
 
 In your view:
+
 ```py
 class AddressBookEntry:
     def __init__(self, name, phone_number):
@@ -146,6 +163,7 @@ def render_template(request):
 ```
 
 In `template.html`:
+
 ```html
 <ul>
     {% for friend in friends %}

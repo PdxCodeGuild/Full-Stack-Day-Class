@@ -380,12 +380,44 @@ django-admin startproject "$NAME" .
 perl -i -pe "s/^(INSTALLED_APPS = \[)/\1\n    '$NAME',/g" "$NAME/settings.py"
 echo $'STATIC_ROOT = os.path.join(BASE_DIR, \'staticfiles\')' >> "$NAME/settings.py"
 mkdir -p 'staticfiles'
+echo $'\n# Media files (user-uploaded images)\n# https://docs.djangoproject.com/en/1.10/topics/files/' >> "$NAME/settings.py"
 echo $'\nMEDIA_URL = \'/media/\'\nMEDIA_ROOT = os.path.join(BASE_DIR, \'mediafiles\')' >> "$NAME/settings.py"
 mkdir -p 'mediafiles'
 echo "\"\"\"$NAME Views.\"\"\"" > "$NAME/views.py"
 echo "\"\"\"$NAME Models.\"\"\"" > "$NAME/models.py"
 echo "\"\"\"$NAME Logic.\"\"\"" > "$NAME/logic.py"
 echo "\"\"\"$NAME Admin Configuration.\"\"\"" > "$NAME/admin.py"
+cat <<EOF > "$NAME/tests.py"
+"""$NAME Tests.
+
+This module has code to load doctests into the Django test framework.
+
+All modules that contain doctests need to be manually imported and added to DOCTEST_MODULES.
+If you add a new module or add sub-modules, they'll have to be added here too.
+"""
+import doctest
+
+from . import logic
+from . import models
+from . import views
+
+
+DOCTEST_MODULES = [
+    logic,
+    models,
+    views,
+]
+
+
+def load_tests(loader, tests, ignore):
+    """Add all known modules with doctests as unittest tests, which is what Django runs.
+
+    This function will be called by the unittest discovery code.
+    """
+    for module in DOCTEST_MODULES:
+        tests.addTests(doctest.DocTestSuite(module))
+    return tests
+EOF
 mkdir -p "$NAME/templates/$NAME"
 mkdir -p "$NAME/static/$NAME"
 python manage.py migrate

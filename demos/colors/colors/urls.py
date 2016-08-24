@@ -15,6 +15,9 @@ Including another URLconf
 """
 from django.conf.urls import url
 
+from . import views
+
+
 urlpatterns = [
-    url(r'^things/(?P<color>.+)', views.get_color, name='get_color'),
+    url(r'^things/(?P<color>.+)', views.render_colored_things, name='render_colored_things'),
 ]

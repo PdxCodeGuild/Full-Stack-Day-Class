@@ -1,6 +1,4 @@
 """colors Models."""
-
-
 THINGS_AND_COLORS = [
     ('chair', 'blue'),
     ('dog', 'yellow'),

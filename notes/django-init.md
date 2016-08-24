@@ -15,6 +15,7 @@ PROJECT_NAME/
         templates/
             DJANGO_APP_NAME/
                 ...
+        tests.py
         urls.py
         views.py
         wsgi.py
@@ -90,7 +91,16 @@ python manage.py migrate
 
 Remember to [migrate](/notes/django-models.md#migrating) whenever you update your models.
 
-## 5. Create Templates Directory
+## 5. Connect Doctests
+
+Django uses the standard library [unittest](https://docs.python.org/3.5/library/unittest.html) module for tests.
+Let's add code that converts doctests you write to unittests when all the tests are run.
+
+In `DJANGO_APP_NAME/tests.py` put the contents of [this test file](/demos/example_django_tests.py).
+
+You can then run tests with `python manage.py test`.
+
+## 6. Create Templates Directory
 
 Create an empty [templates](/notes/django-templates.md) directory for your HTML.
 Yes, it's redundant, but under `templates` in your Django application root, you should make another directory named your app name.
@@ -99,7 +109,7 @@ Yes, it's redundant, but under `templates` in your Django application root, you 
 mkdir -p DJANGO_APP_NAME/templates/DJANGO_APP_NAME
 ```
 
-## 6. Create Static Files Directory
+## 7. Create Static Files Directory
 
 Create an empty [static files](/notes/django-static-files.md) directory for images, CSS, and JS.
 Yes, it's redundant, but under `static` in your Django application root, you should make another directory named your app name.
@@ -115,7 +125,7 @@ Add to the bottom of `settings.py`.
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 ```
 
-## 7. Create Media Files Directory
+## 8. Create Media Files Directory
 
 If your Django application needs to handle user uploads or **media**, setup a local directory to store and server those files out of.
 
