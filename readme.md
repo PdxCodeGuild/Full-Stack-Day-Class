@@ -336,6 +336,8 @@
 1. [Django Debugging](/notes/django-debugging.md)
 1. Demo: [Colors](/demos/colors.md)
 1. Group Practice: [Grocery](/practice/grocery.md)
+1. Checked Practice: [Timezone](/practice/timezone.md)
+1. Individual Practice:
 1. [Templates](/notes/django-templates.md)
 1. [Static Files](/notes/django-static-files.md)
 1. [Template Debugging](/notes/django-template-debugging.md)
