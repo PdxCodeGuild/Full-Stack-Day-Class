@@ -349,19 +349,38 @@ module.exports = {
   }
 };
 EOF
-echo $'venv\n__pycache__\n\n.DS_Store' > .gitignore
+cat <<EOF > .gitignore
+# Pre-parsed Python
+__pycache__
+
+# Virtualenvs
+venv
+
+# PyCharm Temporary Files
+.idea
+.cache
+
+# Django Default DB
+db.sqlite3
+
+# Django Staged Static Files
+staticfiles
+
+# Django User-uploaded Files
+mediafiles
+
+# macOS
+.DS_Store
+EOF
 virtualenv venv
-. venv/bin/activate
+source venv/bin/activate
 pip install django
 pip freeze > requirements.txt
 django-admin startproject "$NAME" .
 perl -i -pe "s/^(INSTALLED_APPS = \[)/\1\n    '$NAME',/g" "$NAME/settings.py"
-echo $'\ndb.sqlite3' >> .gitignore
 echo $'STATIC_ROOT = os.path.join(BASE_DIR, \'staticfiles\')' >> "$NAME/settings.py"
-echo $'\nstaticfiles' >> .gitignore
 mkdir -p 'staticfiles'
 echo $'\nMEDIA_URL = \'/media/\'\nMEDIA_ROOT = os.path.join(BASE_DIR, \'mediafiles\')' >> "$NAME/settings.py"
-echo $'\nmediafiles' >> .gitignore
 mkdir -p 'mediafiles'
 echo "\"\"\"$NAME Views.\"\"\"" > "$NAME/views.py"
 echo "\"\"\"$NAME Models.\"\"\"" > "$NAME/models.py"
