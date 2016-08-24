@@ -6,7 +6,7 @@ Return a `404 NOT FOUND` if there are no things of that color.
 Use the following "database" of colored things:
 
 ```py
-THINGS = [
+THINGS_AND_COLORS = [
     ('chair', 'blue'),
     ('dog', 'yellow'),
     ('sky', 'blue'),

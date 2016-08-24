@@ -1,0 +1,1 @@
+"""colors Admin Configuration."""
