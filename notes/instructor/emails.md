@@ -54,7 +54,7 @@ David
 ```
 Hey XXX,
 
-I don't see any changes to your XXX practice problem pushed to GitHub and a revision of it was due today.
+I don't see any changes to your XXX practice problem pushed to GitHub and a revision of it was due today at the beginning of class.
 
 Are they committed as part of a feature branch named `XXX`? Did you push that branch to GitHub? In the future, please preview your Pull Requests after you've completed a problem to ensure you're submitting the correct code.
 
