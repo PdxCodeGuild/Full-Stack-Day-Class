@@ -14,7 +14,7 @@ When I refer to **time** below, I mean a full date, local time, and timezone inf
     2016-08-25T17:27:45.556703+00:00
     ```
 
-*   `GET /LAT,LNG/tz` returns the timezone at a given latitude and longitude as a short description string (e.g. `US/Pacific`).
+*   `GET /LAT,LNG/tz` returns the timezone at a given latitude and longitude as a short description string (e.g. `America/Los_Angeles`).
     If there is no timezone at that location, return a 404.
 
     ```
