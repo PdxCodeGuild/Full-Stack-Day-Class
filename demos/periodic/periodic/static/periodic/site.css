@@ -1,5 +1,18 @@
-.colorswatch {
-  width: 100px;
-  height: 100px;
+html {
+  font-family: sans-serif;
+}
+
+small {
+  color: darkgrey;
+}
+
+.cpk {
   border: 1px black solid;
+  border-radius: 5px;
+}
+
+.hover-mark {
+  background-color: lightyellow;
+  border: 1px darkgrey solid;
+  border-radius: 5px;
 }

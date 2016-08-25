@@ -1,15 +1,19 @@
 <!DOCTYPE html>
+{% load staticfiles %}
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Periodic Table</title>
+    <link rel="stylesheet" href="{% static 'periodic/site.css' %}">
   </head>
   <body>
     <h1>Periodic Table</h1>
-    <ul>
-      {% for element in elements %}
-      <li><a href="{% url 'element' element.symbol %}">{{ element.name }}</a></li>
-      {% endfor %}
-    </ul>
+    <nav>
+      <ul>
+        {% for element in elements %}
+        <li><a href="{% url 'element' element.symbol %}">{{ element.name }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
   </body>
 </html>

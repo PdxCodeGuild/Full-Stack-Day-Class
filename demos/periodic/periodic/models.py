@@ -1,6 +1,7 @@
 """periodic Models."""
 import json
 
+
 print('Loading data...', end='')
 
 with open('periodic/data.json') as data_file:

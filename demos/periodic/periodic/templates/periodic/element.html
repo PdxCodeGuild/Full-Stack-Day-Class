@@ -7,18 +7,18 @@
     <link rel="stylesheet" href="{% static 'periodic/site.css' %}">
   </head>
   <body>
-    <h1>{{ element.name }}</h1>
+    <h1 class="cpk" style="background-color: #{{ element.cpkHexColor }}">
+      {{ element.name }}
+      <small>{{ element.symbol }}</small>
+    </h1>
     <ul>
       <li>Number: {{ element.atomicNumber }}</li>
       <li>Mass: {{ element.atomicMass }}</li>
-      <li id="r-li">
-        <span id="atomic-r">Atomic Radius: {{ element.atomicRadius }}</span>
-        <span id="ionic-r">Ionic Radius: {{ element.ionRadius }}</span>
-      </li>
+      <li id="atomic-li">Atomic Radius: {{ element.atomicRadius }}</li>
+      <li id="ionic-li">Ionic Radius: {{ element.ionRadius }}</li>
     </ul>
-    <div class="colorswatch" style="background-color: #{{ element.cpkHexColor }}">
-    </div>
-    <script src="https://code.jquery.com/jquery-2.2.3.js"></script>
+
+    <script src="//code.jquery.com/jquery-2.2.3.js"></script>
     <script src="{% static 'periodic/element.js' %}"></script>
   </body>
 </html>
