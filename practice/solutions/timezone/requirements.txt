@@ -1,0 +1,5 @@
+arrow==0.8.0
+Django==1.10
+python-dateutil==2.5.3
+six==1.10.0
+tzwhere==2.3
