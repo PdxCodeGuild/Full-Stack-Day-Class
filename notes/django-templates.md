@@ -8,7 +8,7 @@ The obvious way to do this is clunky:
 from django.http import HttpResponse
 
 def render_greeting(request):
-    name = request.GET['name']
+    name = get_user_name()
     return HttpResponse('<!DOCTYPE html><html><body><h1>Hi, {}!</h1></body></html>'.format(name))
 ```
 
@@ -19,10 +19,14 @@ If we saved this in `templates/DJANGO_APP_NAME/greet.html` in your Django applic
 
 ```html
 <!DOCTYPE html>
-<html>
-    <body>
-        <h1>Hi, {{ name }}!</h1>
-    </body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Greeting</title>
+  </head>
+  <body>
+    <{{ title_type }}>Hi, {{ name }}!</{{ title_type }}>
+  </body>
 </html>
 ```
 
@@ -34,25 +38,32 @@ This context is like the "arguments" for running the template as a "function".
 from django.shortcuts import render
 
 def render_greeting(request):
-    arguments = {'name': request.GET['name']}
-    return render(request, 'DJANGO_APP_NAME/greet.html', arguments)
+    template_arguments = {
+        'name': get_user_name(),
+        'title_type': 'h2',
+    }
+    return render(request, 'DJANGO_APP_NAME/greet.html', template_arguments)
 ```
 
 The resulting response content would be:
 
 ```html
 <!DOCTYPE html>
-<html>
-    <body>
-        <h1>Hi, David!</h1>
-    </body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Greeting</title>
+  </head>
+  <body>
+    <h2>Hi, David!</h2>
+  </body>
 </html>
 ```
 
 Template variable names and context dictionary keys need to match.
 The template doesn't know or care what Python variable names you use in the view.
 
-Templates have no knowledge of HTML syntax.
+**Templates have no knowledge of HTML syntax.**
 They just interpolate strings.
 You're writing Django template code that needs to write HTML code.
 
@@ -102,10 +113,24 @@ In `template.html`:
 Django gives you a way of not having to remember your routing patterns.
 Instead you should refer to other views by their [short name](/notes/django-routes.md) using the `url` tag.
 
-In your template:
+In your routes:
+
+```py
+urlpatterns = [
+    url(r'^comment$', views.render_comment_form, name='comment_form'),
+]
+```
+
+In your template if you want to link to that route:
 
 ```html
-<a href="{% url 'post' %}">Post a comment.</a>
+<a href="{% url 'comment_form' %}">Post a comment.</a>
+```
+
+The resulting HTML would be:
+
+```html
+<a href="/comment">Post a comment.</a>
 ```
 
 ## If Tag
@@ -119,7 +144,7 @@ In your view:
 def render_template(request):
     template_arguments = {
         'message': 'You are on fire!',
-        'type': 'warning'
+        'type': 'warning',
     }
     return render(request, 'template.html', template_arguments)
 ```
@@ -169,5 +194,14 @@ In `template.html`:
     {% for friend in friends %}
     <li>{{ friend.name }} - {{ friend.phone_number }}</li>
     {% endfor %}
+</ul>
+```
+
+The resulting HTML would be:
+
+```html
+<ul>
+    <li>David - 503-555-9895</li>
+    <li>Helen - 503-555-1234</li>
 </ul>
 ```

@@ -11,9 +11,14 @@ PROJECT_NAME/
         settings.py
         static/
             DJANGO_APP_NAME/
+                YOUR_LOGO.png
+                YOUR_STYLE.css
+                YOUR_EVENT_HANDLERS.js
                 ...
         templates/
             DJANGO_APP_NAME/
+                YOUR_INDEX.html
+                YOUR_PROFILE_PAGE.html
                 ...
         tests.py
         urls.py
