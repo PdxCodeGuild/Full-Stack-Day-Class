@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Periodic Table</title>
+  </head>
+  <body>
+    <h1>Periodic Table</h1>
+    <ul>
+      {% for element in elements %}
+      <li><a href="{% url 'element' element.symbol %}">{{ element.name }}</a></li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>

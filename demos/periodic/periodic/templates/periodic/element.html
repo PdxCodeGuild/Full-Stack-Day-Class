@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Periodic Table - {{ element.name }}</title>
+    <link rel="stylesheet" href="{% static 'periodic/site.css' %}">
+  </head>
+  <body>
+    <h1>{{ element.name }}</h1>
+    <ul>
+      <li>Number: {{ element.atomicNumber }}</li>
+      <li>Mass: {{ element.atomicMass }}</li>
+      <li id="r-li">
+        <span id="atomic-r">Atomic Radius: {{ element.atomicRadius }}</span>
+        <span id="ionic-r">Ionic Radius: {{ element.ionRadius }}</span>
+      </li>
+    </ul>
+    <div class="colorswatch" style="background-color: #{{ element.cpkHexColor }}">
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.3.js"></script>
+    <script src="{% static 'periodic/element.js' %}"></script>
+  </body>
+</html>
