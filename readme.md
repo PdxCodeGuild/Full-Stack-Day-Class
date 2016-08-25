@@ -341,9 +341,9 @@
 1. [Templates](/notes/django-templates.md)
 1. [Static Files](/notes/django-static-files.md)
 1. [Template Debugging](/notes/django-template-debugging.md)
-1. Demo:
-1. Group Practice:
-1. Checked Practice: CSS Templating
+1. Demo: [Periodic Table](/demos/periodic.md)
+1. Group Practice: [Pantheon](/practice/pantheon.md)
+1. Checked Practice:
 1. Individual Practice:
 1. [Posting Forms](/notes/django-posting.md)
 1. [CSRF](/notes/csrf.md)
