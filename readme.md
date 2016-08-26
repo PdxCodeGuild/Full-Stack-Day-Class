@@ -347,7 +347,8 @@
 1. Individual Practice:
 1. [Posting Forms](/notes/django-posting.md)
 1. [CSRF](/notes/csrf.md)
-1. [Query Strings](/notes/urls-query-strings.md)
+1. [Query Parameters](/notes/django-query-parameters.md)
+1. [Advanced Website URL Structure](/notes/urls-site-structure-adv.md)
 1. Demo: [Comments](/demos/comments.md)
 1. Group Practice: [Ice Cream Poll](/practice/ice-cream-poll.md)
 1. Checked Practice: [Jokes](/practice/jokes.md)
