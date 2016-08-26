@@ -99,7 +99,16 @@ David
 ## Attendance
 
 ```
+Hey XXX,
+
+We've been missing you in class a lot of late!
+
 As a reminder of class policy, you need to maintain at least a 90% attendance rate to stay in the class. Missing today puts you at XX%. If you do drop below 90% attendance, you have two weeks to work back up to that level of attendance.
+
+Please let me know if you have any questions about the course policy.
+
+Best,
+David
 ```
 
 ## Satisfactory Capstone Proposal
@@ -113,7 +122,7 @@ XXX
 
 Please update your capstone proposal with this minor feedback and commit it before you continue on.
 
-Your capstone proposal is checked off and you can formally start work on it. You should work on your project whenever you have free time in the course, even if it's just a very isolated part.
+Your capstone proposal is checked off and you can formally start work on it. You should work on your capstone whenever you have free time in the course, even if it's just a very isolated part.
 
 This proposal is a "living document". As your capstone work progresses, please update the proposal to accurately describe the data model, features, and development schedule that your project actually has.
 
@@ -135,6 +144,25 @@ XXX
 Please update your capstone proposal with this feedback and submit another revision by the beginning of class XXX. I want to make sure that your proposal contains a workable plan.
 
 Please let me know if you have any questions.
+
+Best,
+David
+```
+
+## Quarterly Progress Report
+
+CC Sheri
+
+```
+Hey XXX!
+
+Each quarter of the course, I'll be emailing you a progress report to ensure you have a written record of your performance. This one is for the XXX quarter. My apologies that it's a week late.
+
+THINGS YOU'RE DOING WELL
+
+SUGGESTIONS FOR IMPROVEMENT
+
+Your attendance rate is currently XXX%. XXX of your assignments have been turned in late and XXX have received distinction. You're on track to earn a certificate for the course.
 
 Best,
 David
