@@ -1,0 +1,11 @@
+.male-background {
+  background-color: lightblue;
+}
+
+.female-background {
+  background-color: pink;
+}
+
+#map {
+  height: 200px;
+}

@@ -12,11 +12,11 @@ Each row / entry is a person and some simple facts about them.
 We're going to make a web interface for the dataset.
 Include a static style sheet that styles all of the pages.
 
-*   `GET /` will list of all countries and link each one to the below country listing page.
+*   `GET /` will list of all countries in alphabetical order and link each one to the below country listing page.
 
-*   `GET /country/COUNTRY_CODE` will list all industries known for a country and link each one to the below industry listing page.
+*   `GET /country/COUNTRY_CODE` will list all industries known for a country in alphabetical order and link each one to the below industry listing page.
 
-*   `GET /country/COUNTRY_CODE/industry/INDUSTRY` will list all persons in that industry and link each one to the below person description page.
+*   `GET /country/COUNTRY_CODE/industry/INDUSTRY` will list all persons in that industry in alphabetical order and link each one to the below person description page.
 
 *   `GET /persons/CUR_ID` will show a description page for a specific person.
     Render a HTML page in a pretty way that displays:

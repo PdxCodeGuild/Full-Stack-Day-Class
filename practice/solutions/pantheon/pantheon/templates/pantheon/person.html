@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pantheon - {{ person.name }}</title>
+    <link rel="stylesheet" href="{% static 'pantheon/site.css' %}">
+  </head>
+  <body class="{{ gender_class }}">
+    <h1>Pantheon - {{ person.name }}</h1>
+    <ul>
+      <li>Birth Year: {{ person.birthyear }}</li>
+      <li>Country: {{ person.countryName|title }}</li>
+      <li>Industry: {{ person.industry|title }}</li>
+      <li>Occupation: {{ person.occupation|title }}</li>
+    </ul>
+    <div id="map" data-lat="{{ person.LAT }}" data-lng="{{ person.LON }}"></div>
+
+    <script src="https://code.jquery.com/jquery-2.2.3.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key={{ google_maps_api_key }}"></script>
+    <script src="{% static 'pantheon/map.js' %}"></script>
+  </body>
+</html>

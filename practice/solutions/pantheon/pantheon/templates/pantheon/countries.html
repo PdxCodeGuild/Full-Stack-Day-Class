@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pantheon - Countries</title>
+    <link rel="stylesheet" href="{% static 'pantheon/site.css' %}">
+  </head>
+  <body>
+    <h1>Pantheon - Countries</h1>
+    <ul>
+      {% for country in countries %}
+      <li>
+        <a href="{% url 'industries' country.countryCode %}">
+          {% if country.countryName != '' %}
+          {{ country.countryName|title }}
+          {% else %}
+          {{ country.countryCode }}
+          {% endif %}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
