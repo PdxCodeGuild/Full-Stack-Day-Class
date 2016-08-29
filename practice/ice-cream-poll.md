@@ -1,10 +1,12 @@
-# Practice: Polls
+# Practice: Ice Cream Poll
 
-Save your solution in a `polls` directory.
+Save your solution in a Django app, directory in `practice/`, and in a branch all named `polls`.
+This means there will be a directory `~/codeguild/practice/polls/polls`.
 
-Have a site with two pages:
+Have a site with three pages:
 
 1. Poll submission
+1. Submission acknowledgement
 1. Summary
 
 On the poll submission page ask people what their favorite flavor of ice cream is:
@@ -14,8 +16,3 @@ On the poll submission page ask people what their favorite flavor of ice cream i
 * Strawberry
 
 On the summary page, have a table of flavors and percentages.
-
-## Advanced
-
-* Submit the polls using AJAX
-* Combine the submission and summary page and have the summary page dynamically re-query the server for the new summary after the new poll was submitted

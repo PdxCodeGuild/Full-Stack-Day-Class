@@ -27,6 +27,10 @@ def render_search_results(request):
 Note that your [route pattern](/notes/django-routes.md) should _not try to match the query string_, the part with the question mark, just like you don't try to match the `http://` part.
 Write the route pattern for just the [path part](/notes/urls-paths.md) of the URL.
 
+```py
+url(r'^search$', views.render_search_results, name='render_search_results')
+```
+
 Check out the [docs](https://docs.djangoproject.com/en/1.9/ref/request-response/#querydict-objects) for specifically how to use `QueryDict` objects.
 They are different than normal dicts, as they can have multiple values.
-You might need to lookup more [magic methods](http://rafekettler.com/magicmethods.html).
+You might need to read up on [magic methods](http://rafekettler.com/magicmethods.html) to understand their definition.

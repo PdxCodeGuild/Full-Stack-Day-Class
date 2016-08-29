@@ -5,7 +5,7 @@ Getting input from the user via forms is a two-page process.
 1. Display a form.
 1. Display an acknowledgement of success or error.
 
-Only use POST if the data change is persistent!
+Use POST if the data change is persistent!
 
 **Form submission** uses the default behavior of HTML forms.
 If you specify the `action` attribute and give it a path, when the submit event happens, the browser will create a HTTP POST request with all of the data in the form.
@@ -22,7 +22,7 @@ If your form HTML looks like:
 </form>
 ```
 
-Then you can recieve the form data via a route named `image_submit`:
+Then you can receive the form data via a route named `image_submit`:
 
 ```py
 from django.conf.urls import url
@@ -30,8 +30,8 @@ from django.conf.urls import url
 from . import views
 
 urlpatterns = [
-    url(r'^show_form$', views.render_form, name='image_form'),
-    url(r'^submission$', views.render_submit, name='image_submit'),
+    url(r'^image_form$', views.render_form, name='image_form'),
+    url(r'^image_form/submit$', views.render_submit, name='image_submit'),
 ]
 ```
 
@@ -39,11 +39,13 @@ And in your view, access the named data via the `request.POST` dictionary.
 Files, since they might be giant, are loaded via a separate `request.FILES` dictionary.
 
 ```py
-from . import logic
+from . import models
 
 def render_submit(request):
     title = request.POST['title']  # String in the name "title"
     image = request.FILES['image']  # Content as a file-like object
-    logic.save_image(image, title)
+
+    models.save_image(image, title)
+
     return HttpResponse('We got your submission!')
 ```
