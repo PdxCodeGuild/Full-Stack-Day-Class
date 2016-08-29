@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Vote Summary</title>
+  </head>
+  <body>
+    <h1>Vote Summary</h1>
+    <table>
+      <tr><th>Candidate</th><th>Percentage Votes</th></tr>
+      {% for candidate, fraction in candidate_to_fraction.items %}
+      <tr><td>{{ candidate|title }}</td><td>{{ fraction|floatformat:1 }}</td></tr>
+      {% endfor %}
+    </table>
+    <nav>
+      <ul>
+        <li><a href="{% url 'ballot' %}">Vote</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>

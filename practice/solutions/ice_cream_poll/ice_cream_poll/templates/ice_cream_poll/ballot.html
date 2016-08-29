@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Ballot</title>
+  </head>
+  <body>
+    <h1>Ballot</h1>
+    <form action="{% url 'ballot_ack' %}" method="post">
+      {% csrf_token %}
+      <p><select name="candidate">
+        {% for candidate in candidates %}
+        <option value="{{ candidate }}">{{ candidate|title }}</option>
+        {% endfor %}
+      </select></p>
+      <p><input type="submit"></p>
+    </form>
+  </body>
+</html>
