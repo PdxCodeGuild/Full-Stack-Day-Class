@@ -1,23 +1,33 @@
 # Practice: Book Stats
 
-Save your solution in `practice/book-stats`.
-It should be a full-fledged Django and Python application.
+Save your solution in a Django app, directory in `practice/`, and in a branch all named `bookstats`.
+This means there will be a directory `~/codeguild/practice/bookstats/bookstats`.
 
-Make a "website" version of your [word count practice](/practice/word-count.md).
-No need to have the your site have HTML or CSS;
-just return raw text.
+Find a book on [Project Gutenberg](http://www.gutenberg.org).
+Download it as a UTF-8 text file.
+Do some pre-processing in your `models` module to expose a public interface that:
 
-It should have one page that takes one argument that is the word you want the count for, `/count?w=WORD`.
-Respond with a `200 OK` code and a body containing `WORD: COUNT`.
-If the word doesn't exist in the book, still respond with a `200 OK` code but return a zero count in the body.
+* `get_word_count(word)` returns the number of times a word is used in the book
+* `get_word_frequency(word)` returns the frequency of a word in the book (times used / total words)
 
-Place your word counting logic in a `logic.py` module in the application root.
-(Feel free to copy your solution from before and strip out all of the UI functions.)
-Have that module, _on import_ load the word counts.
-Have your view functions `from . import logic` and call the counting functions.
-Don't put the counting logic in the views.
+Now make a web interface to this data:
+
+*   `GET /` an index page with a search form that allows a user to put in a single word
+
+*   `GET /stats?word=WORD` responds with a JSON object with stats about that word
+
+    ```json
+    {
+      "word": "bats",
+      "word_count": 123,
+      "word_freq": 0.0005,
+    }
+    ```
+
+When the search on the index page is preformed, use AJAX to update the page with the found stats.
 
 ## Advanced
-Make a second page `/` that presents an HTML form that lets the user enter a word.
 
-Use events and [jQuery's AJAX](http://api.jquery.com/jQuery.ajax/) function to request the count for that word and dynamically update the page with the count.
+*   Allow the user to compare the stats of multiple words.
+    Whenever the user re-searches, it appends some new stats to the page.
+    Add a button to remove the stats of some word.

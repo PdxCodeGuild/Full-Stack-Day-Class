@@ -353,12 +353,12 @@
 1. Group Practice: [Ice Cream Poll](/practice/ice-cream-poll.md)
 1. Checked Practice: [Jokes](/practice/jokes.md)
 1. Individual Practice: [Multi-Madlib](/practice/multi-madlib.md)
-1. [Serving JSON to AJAX](/notes/ajax-serving-json.md)
+1. [AJAX Posting](/notes/django-posting-ajax.md)
 1. [Front-End vs Back-End](/notes/app-front-back.md)
 1. Demo: [Highlight](/demos/highlight.md)
 1. Group Practice: [Book Stats](/practice/book-stats.md)
-1. Checked Practice: ASCII Art
-1. Individual Practice: [Image Serve](/practice/image-serve.md)
+1. Checked Practice: [Image Filter](/practice/image-filter.md)
+1. Individual Practice: ASCII Art
 
 ## Django Database Programming
 
