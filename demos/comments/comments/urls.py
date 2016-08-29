@@ -1,7 +1,7 @@
 """comments URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
-    https://docs.djangoproject.com/en/1.9/topics/http/urls/
+    https://docs.djangoproject.com/en/1.10/topics/http/urls/
 Examples:
 Function views
     1. Add an import:  from my_app import views
@@ -20,6 +20,6 @@ from . import views
 
 urlpatterns = [
     url(r'^$', views.render_index, name='index'),
-    url(r'^submit/$', views.render_submit_form, name='submit_form'),
-    url(r'^submit/ack$', views.render_ack, name='ack'),
+    url(r'^comment_form$', views.render_comment_form, name='comment_form'),
+    url(r'^comment_form/submit$', views.render_comment_ack, name='comment_form_submit'),
 ]

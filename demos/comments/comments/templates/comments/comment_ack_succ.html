@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Comments - Posted</title>
+    <link rel="stylesheet" href="{% static 'comments/style.css' %}">
+  </head>
+  <body>
+    <h1>Comment Posted</h1>
+    <article class="comment">
+      <blockquote>{{ comment.text }}</blockquote>
+      <p>- {{ comment.author }}</p>
+    </article>
+    <nav>
+      <p><a href="{% url 'index' %}">Go to Index</a></p>
+    </nav>
+  </body>
+</html>

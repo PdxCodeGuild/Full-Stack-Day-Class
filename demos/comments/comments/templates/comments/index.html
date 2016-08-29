@@ -1,37 +1,42 @@
-{% load staticfiles %}
 <!DOCTYPE html>
+{% load staticfiles %}
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Comments</title>
-        <link rel="stylesheet" href="{% static 'comments/style.css' %}">
-    </head>
-    <body>
-        <h1>List of Comments
-        {% if not author == None %}
-        by {{ author }}
-        {% endif %}
-        </h1>
+  <head>
+    <meta charset="utf-8">
+    <title>Comments</title>
+    <link rel="stylesheet" href="{% static 'comments/site.css' %}">
+  </head>
+  <body>
+    <header>
+      <h1>Comments
+      {% if not author == None %}
+      by {{ author }}
+      {% endif %}
+      </h1>
+    </header>
 
-        {% for comment in comments %}
-        <section>
-            <blockquote>{{ comment.text }}</blockquote>
-            <p>— {{ comment.author }}</p>
-        </section>
-        {% endfor %}
+    <section>
+      {% for comment in comments %}
+      <article class="comment">
+        <blockquote>{{ comment.text }}</blockquote>
+        <p>- {{ comment.author }}</p>
+      </article>
+      {% endfor %}
+      {% if no_comments %}
+      <p>No comments!</p>
+      {% endif %}
+    </section>
 
-        <section>
-            <a href="{% url 'submit_form' %}">Post</a>
-        </section>
-
-        <section>
-            <h3>Authors</h3>
-            <ul>
-                <li><a href="{% url 'index' %}">All Authors</a></li>
-                {% for author in all_authors %}
-                <li><a href="{% url 'index' %}?author={{ author }}">{{ author }}</a></li>
-                {% endfor %}
-            </ul>
-        </section>
-    </body>
+    <nav>
+      <ul>
+        <li><a href="{% url 'comment_form' %}">Post</a></li>
+        <li><a href="{% url 'index' %}">All Comments</a></li>
+        <li>
+          <form action="{% url 'index' %}" method="get">
+            <label>Search <input type="text" name="author"></label><input type="submit">
+          </form>
+        </li>
+      </ul>
+    </nav>
+  </body>
 </html>
