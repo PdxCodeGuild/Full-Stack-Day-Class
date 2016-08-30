@@ -8,6 +8,7 @@ They are the nouns.
 ```py
 from django.db import models
 
+
 class User(models.Model):
     user_name = models.CharField()
     email = models.CharField()
@@ -34,4 +35,4 @@ david.save()
 ```
 
 This prevents you from needing to learn **SQL** or **structured query language**.
-That is the low-level, text based interface to databases and is very tedious to use.
+That is the low-level, text based interface to databases and can be tedious to use because it requires converting to and from language-native data types.

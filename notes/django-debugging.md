@@ -4,28 +4,52 @@ Debugging Django projects are just as easy as normal Python projects.
 
 ## Print
 
-`print` function calls still work!
+`print()` function calls still work!
 They still print to the terminal.
 Just make sure you hit the appropriate view that runs the code that prints.
 
-## Shell
+## Tests
 
-Django lets you run your application functions from the command line.
+You can still write doctests for Django logic and model functions.
+Do it!
 
-```bash
-python manage.py shell
-```
+Sometimes your logic or model functions will "not take arguments" because they're talking to the DB or some persistent data structure.
+Split apart that function into two parts so you can test it;
 
-That will drop you into a Python interpreter that has access to your app.
-Then you can import your app _by name_ and call all of the functions to try stuff out.
+1. Functional operation; explicit input and output
+1. Stateful wrapper; get global input and delegate to functional functions
+
+E.g. instead of:
 
 ```py
->>> from DJANGO_APP_NAME import logic
->>> logic.try_something()
+COUNTRIES = ...
+
+
+def get_all_unique_countries():
+    """Returns all unique countries previously added."""
+    return set(COUNTRIES)
 ```
 
-When we get to it, it's important to remember that if your function modifies the DB in your app, it will _also do so here_!
-Be careful.
+Do:
+
+```py
+def _uniq_countries(countries):
+    """Return a set of all unique countries from a list of countries.
+
+    >>> sorted(_uniq_countries(['USA', 'IN', 'IN']))
+    ['IN', 'USA']
+    """
+    return set(countries)
+
+
+def get_all_unique_countries():
+  """Returns all unique countries previously added."""
+  return _uniq_countries(COUNTRIES)
+```
+
+## Shell
+
+Use the [Django shell](/notes/django-shell.md) to try out your app functions in a REPL and see if they behave as you expect.
 
 ## Routing
 

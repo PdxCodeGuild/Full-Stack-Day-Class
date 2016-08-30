@@ -1,16 +1,20 @@
 # Practice: Sub-Todo
 
-Save your solution in a `sub-todo` directory.
+Save your solution in a Django app, directory in `practice/`, and in a branch all named `sub_todo`.
+This means there will be a directory `~/codeguild/practice/sub_todo/sub_todo`.
 
 Produce a todo list app that handles sub-items.
 Implement your app using Django models to fully persist the list data.
 
-* Buy Groceries +
-  - Milk X
-  - Spinach X
-* Clean House +
-  - Dishes X
-  - Laundry X
+*   Buy Groceries +
+
+    * Milk X
+    * Spinach X
+
+*   Clean House +
+
+    * Dishes X
+    * Laundry X
 
 Have a link at the top to a page to add a main item.
 Have each main item have a link `+` to add more sub-items.
@@ -23,15 +27,11 @@ Make two Django models named:
 
 Use the following URL structure and standard form POSTing:
 
-* `/` shows the todo list.
-* `/add` shows a form to add to the list.
-* `/submit` is POSTed a new main item, and shows the ack page.
-* `/MAIN_ITEM_ID/add` shows the form for adding a new sub-item to that main item.
-* `/MAIN_ITEM_ID/submit` is POSTed a new sub-item, and shows the ack page.
-* `/MAIN_ITEM_ID/SUB_ITEM_ID/delete` when GET, will delete that sub-item and possibly the main item if empty.
+* `GET /` shows the todo list
+* `GET /add` shows a form to add to the list
+* `POST /submit` is POSTed a new main item, and shows the ack page
+* `GET /MAIN_ITEM_ID/add` shows the form for adding a new sub-item to that main item
+* `POST /MAIN_ITEM_ID/submit` is POSTed a new sub-item, and shows the ack page
+* `DELETE /MAIN_ITEM_ID/SUB_ITEM_ID` when DELETE, will delete that sub-item and possibly the main item if empty
 
 Make sure the admin page is wired up and modifications there are reflected in the main page.
-
-## Advanced
-
-* Instead of using a HTTP GET request on `/MAIN_ITEM_ID/SUB_ITEM_ID/delete` use a HTTP DELETE request on `/MAIN_ITEM_ID/SUB_ITEM_ID`

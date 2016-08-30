@@ -16,6 +16,7 @@ Django uses magic string to show a short description of your class instances on 
 ```py
 from django.db import models
 
+
 class Business(models.Model):
     name = models.TextField()
     founded = models.DateField()
@@ -25,6 +26,7 @@ class Business(models.Model):
 
     def __repr__(self):
         return 'Business(name={!r}, founded={!r})'.format(self.name, self.founded)
+
 
 class Employee(models.Model):
     works_at = models.ForeignKey(Business)
@@ -83,11 +85,13 @@ That second argument ensures that when you delete either the child or the parent
 ```py
 from django.db import models
 
+
 class Person(models.Model):
     name = models.TextField()
 
     def __repr__(self):
         return 'Student(name={!r})'.format(self.name)
+
 
 class Resume(models.Model):
     person = models.OneToOneField(Person, related_name='person', on_delete=models.CASCADE)
@@ -95,6 +99,7 @@ class Resume(models.Model):
 
     def __repr__(self):
         return 'Resume(years_employed={!r})'.format(self.years_employed)
+
 
 david = Person(name='David')
 david.save()
@@ -111,6 +116,7 @@ On the _child_ entity model, add a `ForeignKey(parent_model_class, related_name=
 ```py
 from django.db import models
 
+
 class Student(models.Model):
     name = models.TextField()
     course = models.ForeignKey(Student, related_name='students')
@@ -118,11 +124,13 @@ class Student(models.Model):
     def __repr__(self):
         return 'Student(name={!r})'.format(self.name)
 
+
 class Course(models.Model):
     name = models.TextField()
 
     def __repr__(self):
         return 'Course(name={!r})'.format(self.name)
+
 
 day_class = Course(name='Day Class')
 day_class.save()
@@ -140,9 +148,11 @@ day_class.students.all()  #> [Student(name='David'), Student(name='Helen')]
 On the _child_ entity model, add a `ManyToManyField(other_model_class, related_name=field_name_on_other_model)`.
 
 You add links to the relationship by using `.add(other_model_instance)` on the field name.
+You _must_ save the model that you're linking to before adding it, otherwise you get an obtuse error about IDs.
 
 ```py
 from django.db import models
+
 
 class Author(models.Model):
     name = models.TextField()
@@ -150,12 +160,14 @@ class Author(models.Model):
     def __repr__(self):
         return 'Author(name={!r})'.format(self.name)
 
+
 class Book(models.Model):
     title = models.TextField()
     authors = models.ManyToManyField(Author, related_name='books')
 
     def __repr__(self):
         return 'Book(title={!r})'.format(self.title)
+
 
 herman = Author(name='Herman Melville')
 herman.save()

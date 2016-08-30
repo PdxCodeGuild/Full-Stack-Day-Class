@@ -8,6 +8,7 @@ For the admin site to work, there are some setup steps.
 ## 1. Setup Admin Database
 
 The admin app uses the database to manage users, so we need to ensure that it's setup.
+My [init script](/notes/django-init.md) does this for you.
 
 ```bash
 python manage.py migrate

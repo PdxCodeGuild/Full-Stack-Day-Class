@@ -7,8 +7,4 @@ A user can add songs to that playlist at the end.
 
 You can view playlists and the songs they contain.
 
-```html
-
-```
-
 [Source](/demos/playlists)
