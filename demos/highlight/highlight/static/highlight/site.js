@@ -1,12 +1,16 @@
 'use strict';
 
+// Select all elements involved in the interactivity up front.
+var sourceForm = $('#source-form');
+var langNameSpan = $('#lang-name');
+var codeDiv = $('#code');
+var errorP = $('#error');
+
 /**
  * Fill in the current page with the results of coloring some source text.
  */
 function fillFromColoredSource(coloredSourceObj) {
-  var langNameSpan = $('#lang-name');
   langNameSpan.text(coloredSourceObj.language);
-  var codeDiv = $('#code');
   codeDiv.html(coloredSourceObj.source_html);
 }
 
@@ -15,7 +19,6 @@ function fillFromColoredSource(coloredSourceObj) {
  * source text.
  */
 function fillError(response) {
-  var errorP = $('#error');
   errorP.text(response.responseText);
 }
 
@@ -24,12 +27,24 @@ function fillError(response) {
  * new data.
  */
 function emptyResponseElements() {
-  var langNameSpan = $('#lang-name');
   langNameSpan.empty();
-  var codeDiv = $('#code');
   codeDiv.empty();
-  var errorP = $('#error');
   errorP.empty();
+}
+
+/**
+ * Submit the code form and return a promise with the JSON colored source object.
+ */
+function submitForm() {
+  var actionURL = sourceForm.attr('action');
+  var submitMethod = sourceForm.attr('method');
+  var formData = sourceForm.serialize();
+  return Promise.resolve($.ajax({
+    dataType: 'json',
+    url: actionURL,
+    method: submitMethod,
+    data: formData
+  }));
 }
 
 /**
@@ -37,24 +52,20 @@ function emptyResponseElements() {
  * background and updates the page on return.
  */
 function runSubmitSourceAndUpdate() {
-  var sourceForm = $('#source-form');
-  var actionURL = sourceForm.attr('action');
-  var formData = sourceForm.serialize();
-  $.post(actionURL, formData).
-    always(emptyResponseElements).
+  // Empty the UI right away so that new data can be loaded.
+  emptyResponseElements();
+  submitForm().
     // Decode the JSON and call the following function with the resulting JS object.
-    done(fillFromColoredSource).
-    fail(fillError);
+    then(fillFromColoredSource).
+    catch(fillError);
 }
 
 /**
  * Register form submit event handler.
  */
 function registerGlobalEventHandlers() {
-  var sourceForm = $('#source-form');
   sourceForm.on('submit', function(event) {
     event.preventDefault();
-
     runSubmitSourceAndUpdate();
   });
 }

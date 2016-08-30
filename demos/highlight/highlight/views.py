@@ -1,4 +1,4 @@
-"""highlight Views"""
+"""highlight Views."""
 from django.http import JsonResponse
 from django.shortcuts import render
 
@@ -11,7 +11,7 @@ def render_index(request):
 
 
 def _convert_colored_source_to_json_obj(colored_source):
-    """Convert a ColoredSource instance into a JSON-encodable object."""
+    """Convert a ColoredSource instance into a JSON-encode-able object."""
     # This is the object that will appear in the JS.
     return {
         'language': colored_source.language_name,
@@ -24,7 +24,8 @@ def return_color(request):
     JSON of the guessed language and HTML colored source.
     """
     source_str = request.POST['source-str']
+
     colored_source = logic.color_source(source_str)
-    colored_source_json_obj = _convert_colored_source_to_json_obj(
-        colored_source)
+
+    colored_source_json_obj = _convert_colored_source_to_json_obj(colored_source)
     return JsonResponse(colored_source_json_obj)

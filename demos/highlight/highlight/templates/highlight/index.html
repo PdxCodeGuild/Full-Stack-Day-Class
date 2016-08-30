@@ -1,5 +1,5 @@
-{% load staticfiles %}
 <!DOCTYPE html>
+{% load staticfiles %}
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -8,9 +8,9 @@
     </head>
     <body>
         <section>
-            <form id="source-form" action="{% url 'color' %}">
-                <textarea name="source-str"></textarea>
-                <input type="submit">
+            <form id="source-form" action="{% url 'color' %}" method="post">
+                <p><textarea name="source-str"></textarea></p>
+                <p><input type="submit"></p>
             </form>
         </section>
         <section>
@@ -21,5 +21,5 @@
     </body>
     <script src="https://code.jquery.com/jquery-2.2.3.js"></script>
     <script src="{% static 'highlight/ajax_csrf_setup.js' %}"></script>
-    <script src="{% static 'highlight/main.js' %}"></script>
+    <script src="{% static 'highlight/site.js' %}"></script>
 </html>

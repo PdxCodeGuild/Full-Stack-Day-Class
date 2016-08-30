@@ -1,4 +1,4 @@
-"""highlight Models"""
+"""highlight Models."""
 
 
 class ColoredSource:
@@ -12,4 +12,5 @@ class ColoredSource:
     def __repr__(self):
         return 'ColoredSource({!r}, {!r})'.format(
             self.language_name,
-            self.source_html)
+            self.source_html,
+        )
