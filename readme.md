@@ -312,7 +312,6 @@
 1. Group Practice: [Mini-Capstone](/practice/mini-capstone.md)
 1. React
 1. Individual Practice: [Visual Dice](/practice/visual-dice.md)
-1. Individual Practice: Open-Source Issue
 
 ## Code Review
 
