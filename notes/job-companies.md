@@ -15,14 +15,14 @@ Sometimes being a "tech company" is more of a mindset.
 * Tesla makes cars
 * Amazon sells tangible things and employs more non-technical staff
 
-### Advantages
+Advantages:
 
 * Developers are top of the totem pole
 * Almost always work on public products used by hundreds of thousands of people
 * Generally have a culture of sharing code
 * Perks
 
-### Disadvantages
+Disadvantages:
 
 * Longer hours / no set hours
 * Sometimes unprofessional or poor work-life separation
@@ -33,30 +33,30 @@ The _vast majority_ of developers work at **non-tech companies**.
 These are places that generally have incorporated tech into their main business at a later date, even if at this point it is inseparable.
 Think Wells Fargo or Walmart or Multnomah County.
 
-### Advantages
+Advantages:
 
 * More professional company culture
 * Can learn non-technical or non-programming skills
 * Work on internal tools with slower-moving requirements
 
-### Disadvantages
+Disadvantages:
 
 * More bureaucracy
 * Less work visibility
 * Generally are more protective of code and property
-* Might be under-funded or staffed (but changing as developers are competitive)
+* Might be technically under-funded or staffed (but changing as finding developers is competitive)
 
 ## Startups
 
 New, small, fast-growth companies are **startups**.
 
-### Advantages
+Advantages:
 
 * Get to guide culture and technology from the start
 * Total independence
 * Usually more stock compensation
 
-### Disadvantages
+Disadvantages:
 
 * Requires a lot of breadth
 * Requires lots of self-motivation
@@ -67,13 +67,13 @@ New, small, fast-growth companies are **startups**.
 
 Large, established companies.
 
-### Advantages
+Advantages:
 
 * Surrounded by teachers and guidance
 * Great for learning established techniques
 * Usually higher salaries
 
-### Disadvantages
+Disadvantages:
 
 * Hard to change culture or technical direction
 * Usually less stock compensation

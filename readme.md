@@ -403,8 +403,8 @@
 
 1. [Companies](/notes/job-companies.md)
 1. [Development Roles](/notes/job-roles.md)
-1. Job Searching
+1. [Job Searching](/notes/job-searching.md)
 1. [Resume Writing](/notes/job-resume.md)
-1. Interview
+1. [Interviewing](/notes/job-interviewing.md)
 1. Negotiation
 1. References
