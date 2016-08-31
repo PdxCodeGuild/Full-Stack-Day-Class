@@ -1,7 +1,7 @@
 # Model Relations
 
 To link together separate entities in a relation, in general you add a field to the _many-ed_ model.
-Pass in a `related_name` kwarg to give the reverse relation a name.
+Always pass in a `related_name` kwarg to give the reverse relation a name; it will add a "field" with that name on the other end.
 
 Django then will give you back specific model instances for the _one-d_ link.
 For the _many-ed_ link, you get back something that acts like a `QuerySet` and you can request `.all()` of the models.
@@ -53,7 +53,7 @@ from django.db import models
 
 class Student(models.Model):
     name = models.TextField()
-    course = models.ForeignKey(Student, related_name='students')
+    course = models.ForeignKey(Course, related_name='students')
 
     def __repr__(self):
         return 'Student(name={!r})'.format(self.name)
