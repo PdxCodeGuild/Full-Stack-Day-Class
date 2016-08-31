@@ -27,7 +27,7 @@ python manage.py createsuperuser
 ```
 
 It seems to be picky that your password is secure.
-Feel free to use the password `brassmonkey` for your practice problems.
+Feel free to use the username:password `admin:brassmonkey` for your practice problems.
 
 ## 3. Register Models
 

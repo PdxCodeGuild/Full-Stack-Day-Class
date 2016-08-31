@@ -21,7 +21,7 @@ It accepts similar filters to `.filter()`.
 In general, only use it to select on ID, since you're guaranteed to only have a single item.
 
 ```py
-Business.objects.filter(id=1)  #> Business(name='PDX Code Guild', founded=2012)
+Business.objects.get(id=1)  #> Business(name='PDX Code Guild', founded=2012)
 ```
 
 ## Field Lookups
@@ -50,4 +50,12 @@ Employee.objects.filter(works_at__name__contains='PDX')  #> [Employee(works_at=B
 
 You can also use `.exclude()` and pass all the same arguments to _not_ the filter.
 
-To construct complicated logical queries, you can use a [Q object](https://docs.djangoproject.com/en/1.10/topics/db/queries/#complex-lookups-with-q-objects).
+To construct complicated logical queries, you can use a method chaining calling style to string together calls to `.filter()` and `.exclude()` to continually hone the result set.
+
+```py
+Employee.objects.filter(name__iexact='david')
+  .exclude(name_icontains='selassie')
+  .filter(works_at__name__contains='PDX')
+```
+
+To produce complicated "or" operations, use a [Q object](https://docs.djangoproject.com/en/1.10/topics/db/queries/#complex-lookups-with-q-objects).

@@ -25,13 +25,13 @@ Make two Django models named:
 * `MainItem`
 * `SubItem`
 
-Use the following URL structure and standard form POSTing:
+Use the following URL structure:
 
 * `GET /` shows the todo list
-* `GET /add` shows a form to add to the list
+* `GET /add` shows a form to add a main item to the list
 * `POST /submit` is POSTed a new main item, and shows the ack page
 * `GET /MAIN_ITEM_ID/add` shows the form for adding a new sub-item to that main item
 * `POST /MAIN_ITEM_ID/submit` is POSTed a new sub-item, and shows the ack page
-* `DELETE /MAIN_ITEM_ID/SUB_ITEM_ID` when DELETE, will delete that sub-item and possibly the main item if empty
+* `DELETE /MAIN_ITEM_ID/SUB_ITEM_ID` will delete that sub-item and possibly the main item if empty; jQuery AJAX calls can be used to send DELETE HTTP requests
 
 Make sure the admin page is wired up and modifications there are reflected in the main page.

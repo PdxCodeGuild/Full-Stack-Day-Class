@@ -366,6 +366,7 @@
 1. [Entity-Relation Diagrams](/notes/entity-relation.md)
 1. [Models](/notes/django-models.md)
 1. [Instantiating and Saving Models](/notes/django-saving-models.md)
+1. [Model Relations](/notes/django-model-relations.md)
 1. [Querying](/notes/django-querying.md)
 1. [Admin Site](/notes/django-admin.md)
 1. [Shell and Backend](/notes/django-shell.md)
