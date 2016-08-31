@@ -1,6 +1,6 @@
 # Django Overview
 
-First, remind yourself the full [structure of a web app](/notes/app-overview.md).
+First, remind yourself the full [structure of a web app](/notes/web-app-structure.md).
 
 **Django** is a Python library that includes a ton of generic, basic tools for making a dynamic web server.
 

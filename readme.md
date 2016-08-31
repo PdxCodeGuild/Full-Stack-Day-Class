@@ -197,7 +197,7 @@
 1. [MVP](/notes/capstone-mvp.md)
 1. [Capstone Proposal](/notes/capstone-proposal.md)
 1. [Capstone Requirements](/notes/capstone-requirements.md)
-1. [High-Level Structure of a Web App](/notes/app-overview.md)
+1. [High-Level Structure of a Web App](/notes/web-app-structure.md)
 1. Demo: [Image Pipe Proposal](/demos/proposal.md)
 
 ## Interface Structure with HTML
@@ -325,7 +325,7 @@
 1. [Website URL Structure](/notes/urls-site-structure.md)
 1. [Django Overview](/notes/django-overview.md)
 1. [Django Init](/notes/django-init.md)
-1. [Package Relative Importing](/notes/py-modules-importing-package.md)
+1. [Package Relative Importing](/notes/py-modules-import-package.md)
 1. [Views and Responses](/notes/django-views.md)
 1. [Routes](/notes/django-routes.md)
 1. [Regular Expressions](/notes/regular-expressions.md)

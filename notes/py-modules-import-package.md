@@ -1,6 +1,6 @@
 # Package Relative Importing
 
-We've thus far learned about [working directory relative importing](/notes/py-modules-importing.md).
+We've thus far learned about [working directory relative importing](/notes/py-modules-create.md).
 That only works when you are in control of what working directory you know your code will be run from.
 When you're writing a package that someone else is using, that is not the case.
 Then, you need to use **package-relative importing**.
