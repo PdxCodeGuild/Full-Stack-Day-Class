@@ -406,5 +406,4 @@
 1. [Job Searching](/notes/job-searching.md)
 1. [Resume Writing](/notes/job-resume.md)
 1. [Interviewing](/notes/job-interviewing.md)
-1. Negotiation
-1. References
+1. [Negotiation](/notes/job-negotiation.md)

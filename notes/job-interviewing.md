@@ -22,3 +22,11 @@ I was told to evaluate candidates on:
 * Would you want to work next to this person?
 
 Sometimes you will have whiteboard coding problems, sometimes collaborative document editing, sometimes pair programming.
+
+Avoid talking about compensation until you are given an offer and can negotiate.
+Even if they directly ask you.
+You can always say,
+
+> Them: What kind of salary are you looking to make in this position?
+>
+> You: I'd like to hold off discussing compensation until we're both sure that I'm the right fit for this role and your company.
