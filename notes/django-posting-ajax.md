@@ -48,7 +48,7 @@ This ensures that jQuery will include the CSRF token in any `$.ajax()` POSTs.
 <script src="{% static 'DJANGO_APP_NAME/main.js' %}"></script>
 ```
 
-## Prepare a Form
+## Prepare a Form / Template In Routes
 
 If you are submitting data out of a form, you can set it up like normal.
 Set its action to the JSON view.
@@ -59,6 +59,21 @@ We will override the default action in the JS.
     <textarea name="some-text"></textarea>
     <input type="submit">
 </form>
+```
+
+If your JS has to make requests that don't fit into the context of a form, you can template in your routes and other data via HTML attributes on any element.
+If you're using attributes just to store data, prefix them with `data-` and you can use `.data()` on an element set to get it back out.
+
+```html
+<a href="{% url 'JSON_VIEW_NAME' %}">Update current page</a>
+<body data-url="{% url 'JSON_VIEW_NAME' %}"></body>
+```
+
+Then in your JS, you can access that data:
+
+```js
+$('a').attr('href');
+$('body').data('url');
 ```
 
 ## JS AJAX Main
