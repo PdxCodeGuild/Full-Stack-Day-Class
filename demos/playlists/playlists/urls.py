@@ -1,7 +1,7 @@
 """playlists URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
-    https://docs.djangoproject.com/en/1.9/topics/http/urls/
+    https://docs.djangoproject.com/en/1.10/topics/http/urls/
 Examples:
 Function views
     1. Add an import:  from my_app import views
@@ -18,13 +18,14 @@ from django.contrib import admin
 
 from . import views
 
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-
     url(r'^$', views.render_index, name='index'),
     url(r'^add$', views.render_add_playlist, name='add_playlist'),
     url(r'^add/submit$', views.render_add_playlist_ack, name='add_playlist_submit'),
     url(r'^playlist/(?P<playlist_id>.+)/$', views.render_playlist, name='playlist'),
     url(r'^playlist/(?P<playlist_id>.+)/add$', views.render_add_song, name='add_song'),
     url(r'^playlist/(?P<playlist_id>.+)/add/submit$', views.render_add_song_ack, name='add_song_submit'),
+
 ]

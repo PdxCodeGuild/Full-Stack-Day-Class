@@ -1,3 +1,4 @@
+"""playlists Views."""
 from django.shortcuts import render
 
 from . import logic
