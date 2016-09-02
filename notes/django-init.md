@@ -121,7 +121,7 @@ DJANGO_SETTINGS_MODULE = DJANGO_APP_NAME.settings
 
 In `DJANGO_APP_NAME/conftest.py` put the contents of [this pytest configuration file](/demos/example_conftest.py).
 
-You can then run tests with `pytest` or in PyCharm by selecting a "Python tests -> py.test" run configuration and selecting your Django application root as the "target".
+You can then run tests with `pytest` or in PyCharm by adding a "Python tests -> py.test" run configuration and selecting your Django application root as the "target".
 
 ## 6. Create Templates Directory
 
