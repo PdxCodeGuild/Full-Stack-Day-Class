@@ -1,8 +1,7 @@
 # Single Purpose Components
 
 Similar to how I gave the suggestion of isolating your input, transform, and output sections of your normal Python code, there are similar suggestions for structuring your Django app.
-This structure is for organization, so that every component in your program has one purpose.
-When things have a single purpose, they tend to be more testable and composable.
+When every component in your program has one purpose, it makes your code more organized, testable and composable.
 
 ## Model
 
@@ -32,7 +31,7 @@ The handler functions live in `views.py` and the templates in `templates/DJANGO_
 
 ## Other Architectures
 
-[Django doesn't exactly fit a pre-existing architecture](https://docs.djangoproject.com/en/1.10/faq/general/#django-appears-to-be-a-mvc-framework-but-you-call-the-controller-the-view-and-the-view-the-template-how-come-you-don-t-use-the-standard-names).
+[Django doesn't exactly fit a well-named architecture](https://docs.djangoproject.com/en/1.10/faq/general/#django-appears-to-be-a-mvc-framework-but-you-call-the-controller-the-view-and-the-view-the-template-how-come-you-don-t-use-the-standard-names).
 It has some opinions, but it doesn't require full adherence.
 
 There are many different ways to structure your program: [model-view-controller](https://en.wikipedia.org/wiki/Model–view–controller), [model-view-adapter](https://en.wikipedia.org/wiki/Model–view–adapter), [model-view-viewmodel](https://en.wikipedia.org/wiki/Model–view–viewmodel), etc.
