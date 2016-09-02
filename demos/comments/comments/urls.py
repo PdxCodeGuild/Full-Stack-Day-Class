@@ -19,6 +19,8 @@ from . import views
 
 
 urlpatterns = [
+    # This route takes query parameters.
+    # Notice you don't try to pattern match them, just like you don't try to pattern match 'http://'.
     url(r'^$', views.render_index, name='index'),
     url(r'^comment_form$', views.render_comment_form, name='comment_form'),
     url(r'^comment_form/submit$', views.render_comment_ack, name='comment_form_submit'),

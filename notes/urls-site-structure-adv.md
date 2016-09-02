@@ -15,6 +15,7 @@ Remember, there are tons of different conventions (e.g. REST, required arguments
 *   Use path parameters if the thing your viewing has a "name" and the server already knows about it.
 
 *   Use query parameters if there are optional "arguments" to the view, especially if the argument is user supplied.
+    The `?` and query parameter string are not part of the routed path pattern.
     Never use a query parameter view to update data on the server.
 
 *   If you need to update data on the server, use a form and post.
