@@ -2,10 +2,10 @@
 
 We've learned a few different ways to use the URLs of our site:
 
-* Static Paths - `/login`
-* Path Parameters - `/profile/USER_ID`
-* Posting - `/post/form` and `/post/submit`
-* Query Parameters - `/search?query=snuggies`
+* Static Paths - `GET /login`
+* Path Parameters - `GET /profile/USER_ID`
+* Posting - `GET /post/form` and `POST /post/submit`
+* Query Parameters - `GET /search?query=snuggies`
 
 Here's a quick overview of the conventions surrounding when you use each.
 Remember, there are tons of different conventions (e.g. REST, required arguments as path params, etc.) but here are my guidelines.
@@ -18,4 +18,4 @@ Remember, there are tons of different conventions (e.g. REST, required arguments
     The `?` and query parameter string are not part of the routed path pattern.
     Never use a query parameter view to update data on the server.
 
-*   If you need to update data on the server, use a form and post.
+*   If you need to update data on the server, use a form and POST.
