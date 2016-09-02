@@ -29,6 +29,8 @@
 | 2016-08-23 | BOC | Tuesday | JavaScript [Mini-Capstone](/practice/mini-capstone.md) Ends |
 | 2016-08-29 | BOC | Monday | [Timezone](/practice/timezone.md) Due |
 | 2016-09-01 | 1:30 to 4:30 P.M. | Thursday | [Previous Class Demo Day](https://www.eventbrite.com/e/pdx-code-guild-3rd-anniversary-party-tickets-27184728254) |
+| 2016-09-06 | BOC | Tuesday | [Jokes](/practice/jokes.md) Due |
+| 2016-09-07 | BOC | Wednesday | [Flutter](/practice/flutter.md) Due |
 | 2016-09-05 | | Monday | Labor Day: No Class |
 | 2016-09-30 | | Friday | Last Day of Class |
 | 2016-09-30 | 9:45 A.M. | Friday | Capstone Show-and-Tell |
