@@ -329,7 +329,7 @@
 1. [Routes](/notes/django-routes.md)
 1. [Regular Expressions](/notes/regular-expressions.md)
 1. [Path Parameters](/notes/django-path-parameters.md)
-1. [MVC and Isolation](/notes/django-logic.md)
+1. [Single Purpose Components](/notes/django-components.md)
 1. [Serving Locally](/notes/django-serving-locally.md)
 1. [Django Problem Solving](/notes/django-problem-solving.md)
 1. [Django Debugging](/notes/django-debugging.md)
