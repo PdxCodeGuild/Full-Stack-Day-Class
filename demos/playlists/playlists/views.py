@@ -31,7 +31,7 @@ def render_add_playlist(request):
 def render_add_playlist_ack(request):
     new_playlist_name = request.POST['name']
 
-    logic.create_and_save_new_playlist(new_playlist_name)
+    logic.create_new_playlist(new_playlist_name)
 
     template_args = {
         'playlist_name': new_playlist_name,

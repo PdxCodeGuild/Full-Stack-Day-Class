@@ -4,10 +4,10 @@ Django applications have to follow a very specific source and module structure.
 
 ```text
 PROJECT_NAME/
-    manage.py
     DJANGO_APP_NAME/
         __init__.py
         admin.py
+        conftest.py
         settings.py
         static/
             DJANGO_APP_NAME/
@@ -20,7 +20,6 @@ PROJECT_NAME/
                 YOUR_INDEX.html
                 YOUR_PROFILE_PAGE.html
                 ...
-        tests.py
         urls.py
         views.py
         wsgi.py
@@ -28,6 +27,9 @@ PROJECT_NAME/
         YOUR_MODULE/
             ...
         ...
+    manage.py
+    pytest.ini
+    ...
 ```
 
 I will call the `DJANGO_APP_NAME` directory the **Django application root**.
@@ -98,12 +100,28 @@ Remember to [migrate](/notes/django-models.md#migrating) whenever you update you
 
 ## 5. Connect Doctests
 
-Django uses the standard library [unittest](https://docs.python.org/3.5/library/unittest.html) module for tests.
-Let's add code that converts doctests you write to unittests when all the tests are run.
+We'll be using the [py.test](http://docs.pytest.org/en/latest/) to run our doctests.
+First, install `pytest` and `pytest-django` then remember to re-freeze your requirements.
 
-In `DJANGO_APP_NAME/tests.py` put the contents of [this test file](/demos/example_django_tests.py).
+```bash
+pip install pytest pytest-django
+pip freeze > requirements.txt
+```
 
-You can then run tests with `python manage.py test`.
+To do that, we need to set up two files.
+
+Put the following in `pytest.ini` in your project root, replacing `DJANGO_APP_NAME` only with your actual name:
+
+```
+[pytest]
+addopts = --doctest-modules
+testpaths = DJANGO_APP_NAME
+DJANGO_SETTINGS_MODULE = DJANGO_APP_NAME.settings
+```
+
+In `DJANGO_APP_NAME/conftest.py` put the contents of [this pytest configuration file](/demos/example_conftest.py).
+
+You can then run tests with `pytest` or in PyCharm by selecting a "Python tests -> py.test" run configuration and selecting your Django application root as the "target".
 
 ## 6. Create Templates Directory
 

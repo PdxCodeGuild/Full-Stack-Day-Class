@@ -369,6 +369,7 @@
 1. [Querying](/notes/django-querying.md)
 1. [Admin Site](/notes/django-admin.md)
 1. [Shell and Backend](/notes/django-shell.md)
+1. [Testing with Models](/notes/django-models-testing.md)
 1. Demo: [Playlists](/demos/playlists.md)
 1. Group Practice: [Sub-Todo](/practice/sub-todo.md)
 1. Checked Practice: [Flutter](/practice/flutter.md)
