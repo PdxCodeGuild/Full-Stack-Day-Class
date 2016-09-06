@@ -387,12 +387,12 @@ echo "\"\"\"$NAME Views.\"\"\"" > "$NAME/views.py"
 echo "\"\"\"$NAME Models.\"\"\"" > "$NAME/models.py"
 echo "\"\"\"$NAME Logic.\"\"\"" > "$NAME/logic.py"
 echo "\"\"\"$NAME Admin Configuration.\"\"\"" > "$NAME/admin.py"
-cat <<EOF > "$NAME/pytest.ini"
+cat <<EOF > pytest.ini
 [pytest]
 addopts = --doctest-modules
 EOF
-echo "testpaths = $NAME" >> "$NAME/pytest.ini"
-echo "DJANGO_SETTINGS_MODULE = $NAME.settings" >> "$NAME/pytest.ini"
+echo "testpaths = $NAME" >> pytest.ini
+echo "DJANGO_SETTINGS_MODULE = $NAME.settings" >> pytest.ini
 cat <<EOF > "$NAME/conftest.py"
 """pytest Configuration."""
 import pytest
