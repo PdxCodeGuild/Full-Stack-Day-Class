@@ -28,6 +28,6 @@ When the search on the index page is preformed, use AJAX to update the page with
 
 ## Advanced
 
-*   Allow the user to compare the stats of multiple words.
-    Whenever the user re-searches, it appends some new stats to the page.
-    Add a button to remove the stats of some word.
+Allow the user to compare the stats of multiple words.
+Whenever the user re-searches, it appends some new stats to the page.
+Add a button to remove the stats of some word.

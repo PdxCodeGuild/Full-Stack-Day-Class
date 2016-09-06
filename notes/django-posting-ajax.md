@@ -31,9 +31,14 @@ As a way to distinguish it from the other routes, maybe call it `return_SOMETHIN
 ```py
 from django.http import JsonResponse
 
+from . import logic
 
-def return_comment_ack(request):
-    return JsonResponse()
+
+def return_comment(request, comment_id):
+    """JSON endpoint which returns a specific comment by ID."""
+    comment = logic.get_comment_by_id(comment_id)
+    comment_json = _json_encode_comment(comment)
+    return JsonResponse(comment_json)
 ```
 
 ## Include AJAX CSRF Setup
@@ -88,7 +93,10 @@ You can pluck out the destination URL and method from the form itself, so it act
 ```js
 var sourceForm = $('#my-form');
 
-function runSubmitAndUpdate() {
+/**
+ * Returns a promise containing the JSON object for submitting the form.
+ */
+function submitForm() {
   var actionURL = sourceForm.attr('action');
   var submitMethod = sourceForm.attr('method');
   var formData = sourceForm.serialize();

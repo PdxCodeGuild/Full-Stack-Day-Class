@@ -1,12 +1,12 @@
 # Front-End vs Back-End
 
-Now with the ability to make arbitrary AJAX calls, there are two places you can put almost any of your code:
+Now with the ability to template and make arbitrary AJAX calls, there are two places you can put almost any of your code:
 
 1. JS / Front-End
 1. Python / Back-End
 
-Keep the front end limited to just _interface interactivity_ code.
-Do all of your _business logic_ or data processing in the backed in Python.
+Keep the JS / front end limited to just _interface interactivity_ code.
+Do all of your _business logic_ or data processing in the back end in Python.
 
 Your goal is to move the least amount and complexity of data between server and your JS.
 Or between original dataset and DB.
