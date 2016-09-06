@@ -5,7 +5,7 @@ This means there will be a directory `~/codeguild/practice/bookstats/bookstats`.
 
 Find a book on [Project Gutenberg](http://www.gutenberg.org).
 Download it as a UTF-8 text file.
-Do some pre-processing in your `models` module to expose a public interface that:
+Do some pre-processing in your `models` module, then expose a public interface via `logic` that:
 
 * `get_word_count(word)` returns the number of times a word is used in the book
 * `get_word_frequency(word)` returns the frequency of a word in the book (times used / total words)

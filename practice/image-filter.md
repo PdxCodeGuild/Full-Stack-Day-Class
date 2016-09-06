@@ -10,7 +10,6 @@ It has a file upload form and a series of buttons underneath it, one for each av
 When a filter button is pressed, the filtered image is inserted into the current page as a preview.
 
 You'll need an "AJAX" filter image endpoint `POST /filter`.
-It's only sort of AJAX because it's responding with image data, not JSON or XML.
 It needs to take in the raw image file and the filter name in a POST body, and respond with the filtered image data in JPEG format.
 Look up how to to make a view respond with an appropriate content type so the browser knows your data is an image.
 
