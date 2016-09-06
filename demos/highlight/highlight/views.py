@@ -3,6 +3,7 @@ from django.http import JsonResponse
 from django.shortcuts import render
 
 from . import logic
+from . import models
 
 
 def render_index(request):
@@ -11,7 +12,11 @@ def render_index(request):
 
 
 def _convert_colored_source_to_json_obj(colored_source):
-    """Convert a ColoredSource instance into a JSON-encode-able object."""
+    """Convert a ColoredSource instance into a JSON-encode-able object.
+
+    >>> sorted(_convert_colored_source_to_json_obj(models.ColoredSource('html', '<html></html>')).items())
+    [('language', 'html'), ('source_html', '<html></html>')]
+    """
     # This is the object that will appear in the JS.
     return {
         'language': colored_source.language_name,
