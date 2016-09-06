@@ -1,7 +1,7 @@
 # Practice: Image Filter
 
-Save your solution in a Django app, directory in `practice/`, in a branch, and in a Pull Request all named `imagefilter`.
-This means there will be a directory `~/codeguild/practice/imagefilter/imagefilter`.
+Save your solution in a Django app, directory in `practice/`, in a branch, and in a Pull Request all named `image_filter`.
+This means there will be a directory `~/codeguild/practice/image_filter/image_filter`.
 
 Make a web interface for applying some visual filters to an uploaded image.
 
