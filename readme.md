@@ -160,7 +160,7 @@
 1. Checked Practice: [Tic-Tac-Toe Interface](/practice/ttt-interface.md)
 1. [Generators and Yield](/notes/py-generators.md)
 1. Context Managers
-1. Decorators
+1. [Decorators](/notes/py-decorators.md)
 
 ## Using Git
 
