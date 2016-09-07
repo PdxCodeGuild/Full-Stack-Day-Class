@@ -12,6 +12,8 @@ A new Flutt is given the timestamp of receiving the data.
 * `GET /post` shows a form to submit a Flutts
 * `POST /post/submit` accepts the new flut data and shows the ack page.
 
+Configure the admin interface to display Flutt model.
+
 ## Super Advanced
 
 Use the [Django user auth system](https://docs.djangoproject.com/en/1.9/topics/auth/) to provide:
