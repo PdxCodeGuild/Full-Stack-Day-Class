@@ -69,7 +69,7 @@ David
 ## Distinction
 
 ```
-Hey XXX,
+Hey XXX!
 
 Excellent work on your code for the XXX practice problem! This code earns distinction for demonstrating great use of all the techniques we've learned thus far.
 
@@ -156,7 +156,7 @@ CC Sheri
 ```
 Hey XXX!
 
-Each quarter of the course, I'll be emailing you a progress report to ensure you have a written record of your performance. This one is for the XXX quarter. My apologies that it's a week late.
+Each quarter of the course, I'll be emailing you a progress report to ensure you have a written record of your performance. This one is for the XXX quarter.
 
 THINGS YOU'RE DOING WELL
 
