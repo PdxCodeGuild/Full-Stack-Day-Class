@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Image Filter</title>
+  </head>
+  <body>
+    <!-- Remember to set enctype="multipart/form-data" if you're POSTing files. -->
+    <form action="{% url 'filter' %}" method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+      <p><input type="file" name="image"></p>
+      <p>
+        <!-- Buttons will post their value. -->
+        <button name="filter" value="gray">Gray</button>
+        <button name="filter" value="blur">Blur</button>
+        <button name="filter" value="invert">Invert</button>
+      </p>
+    </form>
+    <p><img id="preview"></p>
+  </body>
+  <script src="https://code.jquery.com/jquery-2.2.3.js"></script>
+  <script src="{% static 'image_filter/ajax_csrf_setup.js' %}"></script>
+  <script src="{% static 'image_filter/site.js' %}"></script>
+</html>
