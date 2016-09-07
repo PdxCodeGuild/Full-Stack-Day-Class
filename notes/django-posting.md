@@ -14,13 +14,15 @@ It will then perform that POST request and _load_ the response as a _new page_.
 If your form HTML looks like:
 
 ```html
-<form action="{% url 'image_submit' %}" method="post">
+<form action="{% url 'image_submit' %}" method="post" enctype="multipart/form-data">
     {% csrf_token %}
     <input type="text" name="title">
     <input type="file" name="image">
     <input type="submit">
 </form>
 ```
+
+If you don't specify `enctype="multipart/form-data"`, then the file data will not be sent to the server.
 
 Then you can receive the form data via a route named `image_submit`:
 

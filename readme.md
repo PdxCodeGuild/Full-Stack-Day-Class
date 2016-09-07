@@ -356,8 +356,8 @@
 1. [Front-End vs Back-End](/notes/app-front-back.md)
 1. Demo: [Highlight](/demos/highlight.md)
 1. Group Practice: [Book Stats](/practice/book-stats.md)
-1. Checked Practice: [Image Filter](/practice/image-filter.md)
-1. Individual Practice: ASCII Art
+1. Checked Practice:
+1. Individual Practice: [Image Filter](/practice/image-filter.md)
 
 ## Django Database Programming
 

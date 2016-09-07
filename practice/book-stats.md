@@ -10,6 +10,9 @@ Do some pre-processing in your `models` module, then expose a public interface v
 * `get_word_count(word)` returns the number of times a word is used in the book
 * `get_word_frequency(word)` returns the frequency of a word in the book (times used / total words)
 
+Make this pre-processing very stupid: just split by spaces.
+Doing interesting text normalization for statistics can get exceedingly complicated (c.f. [tokenization](http://nlp.stanford.edu/IR-book/html/htmledition/tokenization-1.html), [stop words](http://nlp.stanford.edu/IR-book/html/htmledition/dropping-common-terms-stop-words-1.html), [normalization](http://nlp.stanford.edu/IR-book/html/htmledition/normalization-equivalence-classing-of-terms-1.html), [lemmatization](http://nlp.stanford.edu/IR-book/html/htmledition/stemming-and-lemmatization-1.html)) but don't worry about that here.
+
 Now make a web interface to this data:
 
 *   `GET /` an index page with a search form that allows a user to put in a single word
