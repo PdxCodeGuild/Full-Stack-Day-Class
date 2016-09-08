@@ -6,6 +6,7 @@
 * [Hot Tips](/sessions/2016-07-07/tips)
 * [Student Repos](/sessions/2016-07-07/repos.md)
 * [Student Capstones](/sessions/2016-07-07/capstones.md)
+* [Capstone Trello Boards](https://trello.com/dayclass20160707)
 
 ## Intro
 
