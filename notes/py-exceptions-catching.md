@@ -18,6 +18,9 @@ x  #> 4
 
 Program flow continues after the except block in every case.
 
+Try to have your try blocks be as small as possible.
+Almost every line could throw an exception, and if you "cast your net too wide", exceptions that represent bugs will be caught and make it harder to know what went wrong.
+
 ## Code Structure
 
 Often you can prevent an exception from being thrown in the first place.
