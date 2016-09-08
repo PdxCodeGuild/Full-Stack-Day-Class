@@ -161,6 +161,7 @@
 1. [Generators and Yield](/notes/py-generators.md)
 1. Context Managers
 1. [Decorators](/notes/py-decorators.md)
+1. [Vararg and Kwarg Functions](/notes/py-functions-vararg-kwarg.md)
 
 ## Using Git
 
