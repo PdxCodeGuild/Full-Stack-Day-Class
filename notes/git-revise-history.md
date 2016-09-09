@@ -185,10 +185,14 @@ If you're just refactoring or moving files, or even undoing or removing function
 Instead revert or just move files.
 Git handles moving source very gracefully.
 
-1.  `git filter-branch \
-  --index-filter "git rm --cached -f --ignore-unmatch PATH" \
-  --prune-empty \
-  -- --all` will remove a path from all commits in all branches.
+1.  ```bash
+    git filter-branch \
+    --index-filter "git rm --cached -f --ignore-unmatch PATH" \
+    --prune-empty \
+    -- --all
+    ```
+
+    That will remove a path from all commits in all branches.
 
 1.  Ensure that things look good.
     Double check your program and tests run and that no other files are missing.
