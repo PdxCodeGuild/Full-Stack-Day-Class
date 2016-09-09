@@ -174,6 +174,23 @@ Note that if this commit is in multiple branches, you'll have to rebase all of t
 
 ## Filter unwanted files
 
-1. `git filter-branch --prune-empty \
+Git does give you the ability to permanently remove files from all of history.
+Only do this if a file is actually breaking Git:
+
+* Giant binary file
+* Committed virtualenv
+* Security keys
+
+If you're just refactoring or moving files, or even undoing or removing functionality, **don't use this feature**.
+Instead revert or just move files.
+Git handles moving source very gracefully.
+
+1.  `git filter-branch \
   --index-filter "git rm --cached -f --ignore-unmatch PATH" \
+  --prune-empty \
   -- --all` will remove a path from all commits in all branches.
+
+1.  Ensure that things look good.
+    Double check your program and tests run and that no other files are missing.
+
+1.  `git for-each-ref --format="%(refname)" refs/original/ | xargs -n 1 git update-ref -d` will then erase the backup branches created in case things went wrong.
