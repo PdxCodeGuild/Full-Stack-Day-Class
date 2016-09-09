@@ -180,6 +180,7 @@
 1. [Git Branching Workflow](/notes/git-workflow-branching.md)
 1. Demo: Git Branches
 1. Individual Practice: Git Branches
+1. [Git Revisionist History](/notes/git-revise-history.md)
 
 ## Python Applications
 
