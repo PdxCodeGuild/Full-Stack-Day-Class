@@ -24,3 +24,9 @@ When you are comparing a job description with your own skills, look at **high-le
 You have experience with Python and Django; you could work at a place that does Ruby and Rails.
 There are a good number of transferrable concepts, if not syntax.
 You also have project ownership and self-direction skills that are widely desired.
+
+Once you've met with someone for an informational interview, later you can ask them specifically about if they know if the company is hiring technical talent and if they can refer you.
+
+Also realize that many tech companies give out referral bonuses.
+It's possible that your friends might get a few thousand dollars if they refer you and are hired.
+As part of that process, remind them that that might be the case!

@@ -4,7 +4,7 @@
 There are a few different branches.
 
 Perhaps the most practical branch is the analysis of how many steps an algorithm will take to complete, called **runtime analysis**.
-There is an assumption that there are a small set of base operations that can be executed in one unit of time, usually allocation, math, assignment, lookup.
+There is an assumption that there are a small set of base operations that can be executed in one unit of time, usually allocation, math, assignment, lookup, equality of single values.
 (This is actually not true, but a useful approximation.)
 This is described as a function of **input length**, usually called _n_.
 
@@ -74,7 +74,7 @@ Sort of, but we can't use a list.
 If we use a set, we can.
 
 ```py
-nums = {1, 2, 5, 1, 22, 99}
+nums = {1, 2, 5, 22, 99}
 1 in nums  #> True
 ```
 
