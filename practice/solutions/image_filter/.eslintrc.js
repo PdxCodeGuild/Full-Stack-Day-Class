@@ -92,7 +92,7 @@ module.exports = {
     "no-redeclare": 0,
     // disallow use of assignment in return statement
     "no-return-assign": 0,
-    // disallow use of  urls.
+    // disallow use of `javascript:` urls.
     "no-script-url": 0,
     // disallow comparisons where both sides are exactly the same
     "no-self-compare": 0,
@@ -217,7 +217,7 @@ module.exports = {
     // specify the maximum depth that blocks can be nested
     "max-depth": 0,
     // specify the maximum length of a line in your program
-    "max-len": [2, 80, 4, {ignoreComments: true, ignoreUrls: true, ignorePattern: "^\s*var\s.+=\s*require\s*\("}],
+    "max-len": [2, 80, 4, {ignoreComments: true, ignoreUrls: true, ignorePattern: "^\\s*var\\s.+=\\s*require\\s*\\("}],
     // specify the maximum depth callbacks can be nested
     "max-nested-callbacks": 0,
     // limits the number of parameters that can be used in the function declaration.

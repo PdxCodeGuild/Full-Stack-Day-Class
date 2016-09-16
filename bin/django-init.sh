@@ -15,11 +15,11 @@ set -x
 
 mkdir "$NAME"
 cd "$NAME"
-cat <<EOF > .flake8
+cat <<'EOF' > .flake8
 [flake8]
 ignore = D400,D205,D105
 EOF
-cat <<EOF > .eslintrc.js
+cat <<'EOF' > .eslintrc.js
 "use strict";
 
 // Stolen and modified from https://github.com/walmartlabs/eslint-config-defaults
@@ -349,7 +349,7 @@ module.exports = {
   }
 };
 EOF
-cat <<EOF > .gitignore
+cat <<'EOF' > .gitignore
 # Pre-parsed Python
 __pycache__
 
@@ -393,7 +393,7 @@ addopts = --doctest-modules
 EOF
 echo "testpaths = $NAME" >> pytest.ini
 echo "DJANGO_SETTINGS_MODULE = $NAME.settings" >> pytest.ini
-cat <<EOF > "$NAME/conftest.py"
+cat <<'EOF' > "$NAME/conftest.py"
 """pytest Configuration."""
 import pytest
 
