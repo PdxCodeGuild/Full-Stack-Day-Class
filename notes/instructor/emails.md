@@ -167,3 +167,54 @@ Your attendance rate is currently XXX%. XXX of your assignments have been turned
 Best,
 David
 ```
+
+## Capstone Progress
+
+```
+Hey XXX!
+
+Every week, I'm going to be giving people a review of their capstone code and how well the project currently meets the requirements. It's totally fine that some things are unfinished! I just want you to be aware of them.
+
+Your project is looking great!
+
+Important Feedback:
+
+XXX
+
+Minor Feedback:
+
+XXX
+
+Other Ideas:
+
+XXX
+
+Here is a list of all of the capstone requirements and how the code currently addresses them. If a requirement is unsatisfactory, there's a little note on what needs to be improved.
+
+Satisfactory:
+* Python language basics
+* Use of Django templating and views
+* Design of Django routes
+* Incorporating user input to and from views
+* Isolated Python logic layer
+* Django models for persistent storage
+* Proper Python application and repo packaging
+* Semantic HTML structure
+* CSS style
+* Flexbox layout
+* JavaScript language basics
+* jQuery DOM manipulation and event handling
+* Code structuring techniques throughout
+* Documentation via relevant comments, docstrings, and a readme
+* Unit testing of functional parts
+* Proper language style throughout
+* Maintain a living proposal document
+
+Unsatisfactory:
+
+
+If you have any questions about this feedback, please let me know!
+
+Best,
+David
+```
