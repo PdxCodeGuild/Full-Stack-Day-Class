@@ -400,7 +400,7 @@
 1. [Runtime Analysis](/notes/runtime-analysis.md)
 1. [Garbage Collection](/notes/garbage-collection.md)
 1. Basic Security
-1. Shell-Fu
+1. [CLI Shell-Fu](/notes/cli-fu.md)
 1. Client-Side Templated Web Applications
 
 ## Job Search
