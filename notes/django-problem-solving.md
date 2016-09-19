@@ -30,7 +30,7 @@ Think about what nouns your program is going to need and write [model classes](/
 
 ## 7. Write Logic
 
-Work on your [core program logic](/notes/django-logic.md) in modules that don't use Django.
+Work on your [core program logic component](/notes/django-components.md) in modules that don't use Django.
 
 ## 8. Test Logic
 
