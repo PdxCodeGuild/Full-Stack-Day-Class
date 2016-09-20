@@ -399,7 +399,7 @@
 1. Individual Practice: [Open Source Issue](/practice/open-source.md)
 1. [Runtime Analysis](/notes/runtime-analysis.md)
 1. [Garbage Collection](/notes/garbage-collection.md)
-1. Basic Security
+1. [Basic Security](/notes/security.md)
 1. [CLI Shell-Fu](/notes/cli-fu.md)
 1. Client-Side Templated Web Applications
 
