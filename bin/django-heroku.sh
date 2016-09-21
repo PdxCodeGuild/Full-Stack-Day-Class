@@ -20,13 +20,21 @@ fi
 set -x
 
 cd "$NAME"
-. venv/bin/activate
+echo 'python-3.5.1' > runtime.txt
+source venv/bin/activate
 pip install gunicorn whitenoise psycopg2 dj-database-url django-storages boto
 pip freeze > requirements.txt
 echo "web: gunicorn $NAME.wsgi --log-file -" > Procfile
-echo 'python-3.5.1' > runtime.txt
-
-cat <<EOF >> "$NAME/settings.py"
+heroku create "$NAME"
+heroku addons:create heroku-postgresql:hobby-dev
+heroku config:set DJANGO_SECRET_KEY=$(cat /dev/urandom | LC_CTYPE=C tr -dc '[:print:]' | tr -d "[:blank:]'\"" | head -c 50)
+echo $'# Environment variables that cause local Heroku runs to contact production DB.' > .env
+heroku config -s >> .env
+cat <<'EOF' >> .gitignore
+# Heroku production secrets
+.env
+EOF
+cat <<'EOF' >> "$NAME/settings.py"
 # Heroku production settings
 # Will overwrite settings with production config vars from env variables if
 # Heroku is detected.
@@ -47,18 +55,12 @@ if 'DATABASE_URL' in os.environ:
 # http://django-storages.readthedocs.io/en/latest/backends/amazon-S3.html
 
 if 'AWS_ACCESS_KEY_ID' in os.environ:
+    INSTALLED_APPS.append('storages')
     DEFAULT_FILE_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
     AWS_ACCESS_KEY_ID = os.environ['AWS_ACCESS_KEY_ID']
     AWS_SECRET_ACCESS_KEY = os.environ['AWS_SECRET_ACCESS_KEY']
     AWS_STORAGE_BUCKET_NAME = os.environ['AWS_STORAGE_BUCKET_NAME']
 EOF
-
-heroku create "$NAME"
-heroku addons:create heroku-postgresql:hobby-dev
-heroku config:set DJANGO_SECRET_KEY=$(python -c "import random as r; import string as s; print(''.join(r.SystemRandom().choice(list(set(s.printable) - set(s.whitespace) - {'\"', '\''})) for _ in range(50)))")
-echo $'# Environment variables that cause local Heroku runs to contact production DB.' > .env
-echo "DATABASE_URL=$(heroku config:get DATABASE_URL)" >> .env
-echo $'\n.env' >> .gitignore
 heroku local:run python manage.py migrate
 heroku local:run python manage.py createsuperuser
 
