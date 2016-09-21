@@ -4,7 +4,7 @@
 Really, it does it all for a basic web app.
 All you have to do is fit their configuration conventions and push your code to them with Git.
 
-Super slicks.
+Super slick.
 Some people be hating on it.
 Not sure why; possibly because it makes things too easy or because it makes things too hard if you don't fit their app model.
 
@@ -14,6 +14,8 @@ If you have extra directory structure, you'll have to move things around before 
 
 If you are on macOS or Linux, I have a bash script that will perform all of the following steps for you: [django-heroku.sh](/bin/django-heroku.sh).
 There is also a tutorial on the [Heroku docs](https://devcenter.heroku.com/articles/getting-started-with-python#introduction).
+
+I have also implemented all of these steps in my [demo capstone](https://github.com/selassid/imagepipe) if you need a reference.
 
 ## 1. Runtime
 
