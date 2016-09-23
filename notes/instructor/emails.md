@@ -174,18 +174,19 @@ David
 Hey XXX!
 
 Every week, I'm going to be giving people a review of their capstone code and how well the project currently meets the requirements. It's totally fine that some things are unfinished! I just want you to be aware of them.
+I have been looking at the most recent commit on your `master` branch XXX.
 
-Your project is looking great!
+Your project is looking great! XXX
 
-Important Feedback:
-
-XXX
-
-Minor Feedback:
+Feedback to meet requirements:
 
 XXX
 
-Other Ideas:
+Optional, advanced feedback to hone skills:
+
+XXX
+
+Optional, minor feedback:
 
 XXX
 
