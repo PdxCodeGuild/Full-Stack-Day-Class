@@ -1,0 +1,14 @@
+{
+  "presets": [
+    "lint-recommended",
+    "lint-consistent"
+  ],
+  "plugins": {
+    "lint": {
+      "heading-increment": true,
+      "no-consecutive-blank-lines": true,
+      "no-missing-blank-lines": true,
+      "no-multiple-toplevel-headings": 1
+    }
+  }
+}
