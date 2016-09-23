@@ -387,7 +387,7 @@ echo "\"\"\"$NAME Views.\"\"\"" > "$NAME/views.py"
 echo "\"\"\"$NAME Models.\"\"\"" > "$NAME/models.py"
 echo "\"\"\"$NAME Logic.\"\"\"" > "$NAME/logic.py"
 echo "\"\"\"$NAME Admin Configuration.\"\"\"" > "$NAME/admin.py"
-cat <<EOF > pytest.ini
+cat <<'EOF' > pytest.ini
 [pytest]
 addopts = --doctest-modules
 EOF
