@@ -6,6 +6,7 @@
   "plugins": {
     "lint": {
       "heading-increment": true,
+      "list-item-indent": "mixed",
       "no-consecutive-blank-lines": true,
       "no-missing-blank-lines": true,
       "no-multiple-toplevel-headings": 1
