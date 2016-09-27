@@ -49,3 +49,7 @@ Also realize that there are lots of parts to your compensation that you can ask 
 * Other Benefits (opt out of employer health insurance and buy your own, etc.)
 
 Negotiate all of these things to get what you want.
+
+Also realize that you can re-negotiate these things once you've been working for a while.
+I know folks who have re-negotiated to working from home one day a week.
+Remember, it is much more expensive and uncertain for them to lose you, hire someone new, and train them, over keeping you at a lower productivity.
