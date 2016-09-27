@@ -16,7 +16,7 @@ Phrase your request as inquisitive and personally-focused.
 You'll be surprised at how easy it is to get people to meet with you.
 
 You can build your social network.
-Go to [meet ups](http://calagator.org) and chat it up with folks.
+Go to meet ups ([Meetup](http://www.meetup.com/Portland-Programmer-Network/) and [Calagator](http://calagator.org)) and chat it up with folks.
 Ask questions.
 Again, people love to talk about themselves.
 
@@ -30,3 +30,9 @@ Once you've met with someone for an informational interview, later you can ask t
 Also realize that many tech companies give out referral bonuses.
 It's possible that your friends might get a few thousand dollars if they refer you and are hired.
 As part of that process, remind them that that might be the case!
+
+Do check out [Portland Startups Switchboard](https://pdxstartups.switchboardhq.com).
+It is a local message board where smaller tech businesses post for help.
+Also you can post an offering for help too.
+It's a pretty small community, so there's a much better chance of your message making it to someone important locally than say Craigslist (although I have found a local job through their [software section](https://portland.craigslist.org/search/sof)) or another national job website.
+You can also check out [Portland Tech](http://portlandtech.org), [Mac's List](http://www.macslist.org), and [PDX Pipeline Jobs](http://pdxpipeline.com/jobs/).
