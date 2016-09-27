@@ -14,19 +14,24 @@ Find ways to keep educating yourself.
 
 Use those "excuses" learn more technical skills.
 
-* Different web frameworks and lanagugaes (Java / Dropwizard, Ruby / Rails, etc.)
+* Different web frameworks and languages (Java / Dropwizard, Ruby / Rails, Go)
 * Unit, integration, contract testing
-* Advanced Git
-* Systems programming (C, C++, Rust, Go, etc.)
-* Data analysis (R, Pandas, NumPy, Matlab, etc.)
-* Distributed data processing (Hadoop, Kafka, Storm, etc.)
-* Front-end frameworks (AngularJS, React, etc.)
-* Shell scripting, administration, and advanced command line tools (bash, grep, sed, etc.)
-* Mobile development (iOS: Swift, Objective-C, Android: Java, etc.)
-* Database types and interfaces (SQL, NoSQL, Elasticsearch, Cassandra, etc.)
-* Game programming (C, C++, D, OpenGL, etc.)
-* Service oriented architectures (Docker, Kubernetes, Zipkin, etc.)
-* Security techniques
+* Advanced Git or version control (Mercurial)
+* Systems programming (C, C++, Rust)
+* Data analysis (R, Pandas, NumPy, Matlab, Scala)
+* Machine Learning (SVM, K-Means, Decision Trees, etc.)
+* Distributed data processing (Hadoop, Kafka, Storm, Scalding)
+* Front-end frameworks (AngularJS, React)
+* Shell scripting, administration, and advanced command line tools (bash, sed, awk)
+* Mobile development (iOS: Swift, Objective-C, Android: Java)
+* Database types and interfaces (SQL, NoSQL, Elasticsearch, Cassandra)
+* Game programming (C, C++, D, OpenGL, Unity and C#)
+* Service oriented architectures (Docker, Kubernetes, Zipkin)
+* Security techniques (fuzzing, Valgrind)
+* Unified front-back-end architectures (Clojure / ClojureScript, Node / JavaScript, Meteor)
+* Cloud Deployment and Ecosystems (AWS, Google Cloud, Microsoft Azure)
+* "Serverless Apps" (AWS Lambda)
+* Blockchain / Distributed Storage / Computation (Bitcoin, Ethereum, IPFS)
 
 As a graduate of Code Guild, you are welcome to:
 
