@@ -5,7 +5,9 @@ set -e
 if (( $# < 1 ))
 then
     echo "USAGE: $0 NAME"
-    echo 'Sets up an existing Django project in dir NAME to use Heroku.'
+    echo 'Sets up an existing Django project in CWD under the dir NAME to use Heroku.'
+    echo
+    echo "E.g. If you have a Django app in ~/codeguild/PROJECT/PROJECT, run this script from ~/codeguild like `$0 PROJECT`."
     exit 1
 fi
 
