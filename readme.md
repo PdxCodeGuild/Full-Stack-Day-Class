@@ -402,6 +402,7 @@
 1. [Basic Security](/notes/security.md)
 1. [CLI Shell-Fu](/notes/cli-fu.md)
 1. [Client-Side Templated Web Applications](/notes/app-client-side.md)
+1. [Advanced Testing Concepts](/notes/testing-adv.md)
 
 ## Job Search
 
