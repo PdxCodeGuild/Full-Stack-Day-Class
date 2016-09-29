@@ -17,7 +17,7 @@ fi
 source venv/bin/activate
 pip install -r requirements.txt
 python manage.py migrate
-echo "from django.contrib.auth.models import User as U; U.objects.get(username='admin') or U.objects.create_superuser('admin', 'admin@localhost', 'brassmonkey')" | python manage.py shell
+echo "from django.contrib.auth.models import User as U; U.objects.filter(username='admin') or [U.objects.create_superuser('admin', 'admin@localhost', 'brassmonkey')]" | python manage.py shell
 python manage.py runserver
 deactivate
 
