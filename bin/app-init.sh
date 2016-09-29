@@ -15,7 +15,7 @@ set -x
 
 mkdir "$NAME"
 cd "$NAME"
-cat <<EOF > .gitignore
+cat <<'EOF' > .gitignore
 # Pre-parsed Python
 __pycache__
 
