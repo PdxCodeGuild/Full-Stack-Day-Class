@@ -30,18 +30,37 @@ python-3.5.1
 
 We need to install some extra dependencies that will allow your Django app to run in a more robust way and connect to external databases and data stores.
 Update your `requirements.txt` with the following.
+It needs to be committed, since only committed files are sent to Heroku.
 
 ```bash
-pip install gunicorn whitenoise psycopg2 dj-database-url django-storages boto3
+pip install gunicorn whitenoise dj-database-url django-storages boto3
 pip freeze > requirements.txt
 ```
 
 * [Gunicorn](http://gunicorn.org) is a way of running your web app via multiple processes so that it can handle concurrent requests.
 * [whitenoise](http://whitenoise.evans.io/en/stable/) properly implements serving static files from your Django process.
-* [psycopg2](http://initd.org/psycopg/) provides a DB interface to PostgreSQL.
 * [dj-database-url](https://pypi.python.org/pypi/dj-database-url) gives us a way to easily get PostgreSQL connection info.
 * [django-storages](http://django-storages.readthedocs.io/en/latest/) gives an interface for storing Django user-uploaded files to S3.
 * [boto3](http://boto3.readthedocs.io/en/latest/) is an AWS / S3 interface.
+
+There is also one more library, [psycopg2](http://initd.org/psycopg/) provides a DB interface to PostgreSQL.
+It's a pain to install because it requires compiling native code.
+
+If you're on macOS with Homebrew:
+
+```bash
+brew install postgresql
+LDFLAGS=-L/usr/local/opt/openssl/lib CPPFLAGS=-I/usr/local/opt/openssl/include PKG_CONFIG_PATH=/usr/local/opt/openssl/lib/pkgconfig pip install psycopg2
+pip freeze > requirements.txt
+```
+
+If you're on Linux, you'll have to do something like (depending on the system package manager):
+
+```bash
+apt-get install python3-dev postgresql
+pip install psycopg2
+pip freeze > requirements.txt
+```
 
 ## 3. Procfile
 

@@ -24,7 +24,18 @@ set -x
 cd "$NAME"
 echo 'python-3.5.1' > runtime.txt
 source venv/bin/activate
-pip install gunicorn whitenoise psycopg2 dj-database-url django-storages boto
+pip install gunicorn whitenoise dj-database-url django-storages boto
+if [[ "$OSTYPE" == darwin* ]]
+then
+    brew install postgresql
+    LDFLAGS=-L/usr/local/opt/openssl/lib CPPFLAGS=-I/usr/local/opt/openssl/include PKG_CONFIG_PATH=/usr/local/opt/openssl/lib/pkgconfig pip install psycopg2
+else [[ "$OSTYPE" == linux* ]]
+then
+    sudo apt-get install python3-dev
+    pip install psycopg2
+else
+    pip install psycopg2
+fi
 pip freeze > requirements.txt
 echo "web: gunicorn $NAME.wsgi --log-file -" > Procfile
 heroku create "$NAME"
