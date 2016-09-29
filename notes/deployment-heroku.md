@@ -151,3 +151,44 @@ Heroku gives you a convenient command to open a browser pointing at the server w
 ```bash
 heroku open
 ```
+
+## Environments
+
+There are now effectively _three_ ways you can run your web app:
+
+1.  Running server locally, talking to local DB, with dev secrets
+
+    Your dev secrets are in `.env-dev`.
+    The local DB is SQLite in `db.sqlite3`.
+
+    To run the server:
+
+    ```bash
+    env $(xargs < .env-dev) python manage.py runserver
+    ```
+
+1.  Running server in prod on Heroku, talking to Heroku prod DB, with prod secrets
+
+    Your prod secrets are accessible through the `heroku config` commands.
+
+    ```bash
+    heroku config -s
+    heroku config:set VAR=val
+    ```
+
+    The Heroku prod DB is hosted at the `DATABASE_URL` location in the prod secrets.
+
+    Whenever you `git push heroku master`, Heroku will run your code.
+
+
+1.  Running server locally, talking to Heroku prod DB, with prod secrets
+
+    A _copy_ of your prod secrets are in `.env`.
+    The `heroku local:run CMD` command prefix will automatically load them from `.env`.
+    The Heroku prod DB is hosted at the `DATABASE_URL` location in the prod secrets.
+
+    To run the server:
+
+    ```bash
+    heroku local:run python manage.py runserver
+    ```
