@@ -13,7 +13,8 @@ All of these files need to live in the _repo root_.
 If you have extra directory structure, you'll have to move things around before starting this.
 
 If you are on macOS or Linux, I have a bash script that will perform all of the following steps for you: [django-heroku.sh](/bin/django-heroku.sh).
-There is also a tutorial on the [Heroku docs](https://devcenter.heroku.com/articles/getting-started-with-python#introduction).
+Once you run that script, you have to commit and push all of the files and changes it makes to the `heroku` remote.
+There is also a tutorial on the [Heroku docs](https://devcenter.heroku.com/articles/getting-started-with-python#introduction) that this is based off of.
 
 I have also implemented all of these steps in my [demo capstone](https://github.com/selassid/imagepipe) if you need a reference.
 
@@ -21,6 +22,7 @@ I have also implemented all of these steps in my [demo capstone](https://github.
 
 Heroku looks in a file called `runtime.txt` for what kind of language environment it should set up.
 Tell it to configure Python 3 by putting the following in that file.
+It needs to be committed, since only committed files are sent to Heroku.
 
 ```
 python-3.5.1
@@ -73,6 +75,7 @@ web: gunicorn DJANGO_APP_NAME.wsgi --log-file -
 ```
 
 This command tells Heroku to run your server through Gunicorn and write all logs to standard out.
+It needs to be committed, since only committed files are sent to Heroku.
 
 ## 4. Make Heroku App and DB
 
@@ -90,7 +93,7 @@ heroku create DJANGO_APP_NAME
 heroku addons:create heroku-postgresql:hobby-dev
 ```
 
-Once you've created an app, all Heroku commands know about it by looking in the Git config.
+Once you've created an app, all Heroku commands know about it by noting that there is a `heroku` Git remote.
 
 ## 5. Setup Production Environment
 
@@ -132,6 +135,9 @@ This user will be publicly accessible if someone finds the admin interface of yo
 ## 8. Push Code to Heroku
 
 Whenever you want Heroku to run your code, you push the branch you want running to it.
+**All of the files these steps just added must be committed.**
+Heroku only knows about what is in Git, including config it's looking for!
+
 The initial setup added a `heroku` Git remote.
 
 ```bash
