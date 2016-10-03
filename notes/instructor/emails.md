@@ -1,5 +1,22 @@
 # Response Emails
 
+## First Day
+
+```
+Hello students!
+
+My name is David Selassie. I'll be your instructor for PDX Code Guild's Developer Bootcamp course. The first class is this XXX starting at XXX in the PDX Code Guild room of the PSU Startup Accelerator, 2828 SW Corbett Ave, Portland, OR. On the first floor, turn left down the hallway and the classroom is on the right at almost at the end of the first straightaway; please ask the front desk if you get lost.
+
+We will be going over expectations for the course, setting up laptops, and starting on basics. Please bring your laptop, charger, paper notebook, and pen for scratch work to each class session.
+
+Class sessions are every weekday from 9:30 A.M. until 4:30 P.M. through XXX or 12 weeks. We will have XXX off. Greater than 90% class session attendance is required to graduate. If there are any days that you already know you'll be absent, you can ask for a limited number of excused absences by emailing me specific dates before the first day of class.
+
+If you ever have any questions, email me back at this address. Looking forward to meeting you!
+
+Best,
+David
+```
+
 ## Satisfactory
 
 ```
@@ -174,7 +191,7 @@ David
 Hey XXX!
 
 Every week, I'm going to be giving people a review of their capstone code and how well the project currently meets the requirements. It's totally fine that some things are unfinished! I just want you to be aware of them.
-I have been looking at the most recent commit on your `master` branch, XXX.
+I have been looking at the most recent commit on your `master` branch, >>> XXX <<<.
 
 Your project is looking great! XXX
 
@@ -215,6 +232,44 @@ Unsatisfactory:
 
 
 If you have any questions about this feedback, please let me know!
+
+Best,
+David
+```
+
+## Course Evaluation
+
+```
+Hey Class!
+
+As we approach the end of the course, PDX Code Guild and I would like to get feedback on what you thought worked, didn't work, liked, didn't like, and any suggestions at all about the course content, course logistics, instruction, me, or the school. PDX Code Guild is still growing and honing its curriculum and priorities, and your feedback is crucial to improving.
+
+I've prepared an anonymous survey, that I'd like you to take:
+
+>>> Course Evaluation Survey <<<
+
+Please have your responses submitted by the end of the day XXX so I can read and summarize them. If you have any questions about the survey, or further feedback or comments come to mind at any time, don't hesitate to email me or Sheri.
+
+Best,
+David
+```
+
+## Satisfactory Capstone Feedback and Course Certificate
+
+CC Sheri
+
+```
+Hey XXX!
+
+Good work on your capstone! I have been looking at the most recent commit on your `master` branch, >>> XXX <<<, and your capstone is satisfactory /// distinguished /// ! I have no further feedback on it beyond my comments in previous emails. I encourage you to read back over the comments and try and implement them as a way to continue to practice and hone your skills.
+
+You've now completed all of the requirements for the course and have earned your certificate /// with distinction /// for PDX Code Guild's Developer Bootcamp! Be proud of your accomplishments! Mark it on your resume right now. Your attendance rate was XXX%. XXX of your assignments were turned in late and XXX received distinction.
+
+Your class' public demo day is on XXX at XXX P.M. Again, it is technically optional, but we strongly encourage you to attend, show off, and celebrate your work! We'll be in email contact closer to the date. Refer to the >>> demo day page in the course syllabus <<< if you have questions in the meantime.
+
+Please fill out the >>> anonymous course evaluation <<<, if you haven't, by the end of the day XXX. We really value your truthful feedback in order to improve the instruction and curriculum.
+
+Let me know if you have any questions or comments. Good luck in your future endeavors!
 
 Best,
 David
