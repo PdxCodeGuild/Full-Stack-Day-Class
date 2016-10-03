@@ -290,11 +290,11 @@ The following students passed the course and earned a certificate with distincti
 
 XXX
 
-The following students have submitted a capstone, but it is not satisfactory yet and so have not :
+The following students have submitted a capstone, but it is not satisfactory yet. They will have to submit another revision before their certificate status is determined:
 
 XXX - revision due XXX
 
-The following students started, but did not complete the course requirements:
+The following students started, but did not complete the course requirements and have not earned a certificate:
 
 XXX - did not XXX; last attended day was XXX
 
