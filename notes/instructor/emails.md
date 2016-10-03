@@ -274,3 +274,30 @@ Let me know if you have any questions or comments. Good luck in your future ende
 Best,
 David
 ```
+
+## Course Records
+
+```
+Hey Sheri,
+
+For the Day Class that started XXX and ended XXX, here are the course results for your records. If you ever need to look at my records for attendance, assignments, or course evaluations >>> look at my class spreadsheet <<<.
+
+The following students passed the course and earned a certificate:
+
+XXX
+
+The following students passed the course and earned a certificate with distinction:
+
+XXX
+
+The following students have submitted a capstone, but it is not satisfactory yet and so have not :
+
+XXX - revision due XXX
+
+The following students started, but did not complete the course requirements:
+
+XXX - did not XXX; last attended day was XXX
+
+Best,
+David
+```
