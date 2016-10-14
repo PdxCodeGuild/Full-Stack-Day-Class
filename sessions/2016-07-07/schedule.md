@@ -35,4 +35,4 @@
 | 2016-09-30 | | Friday | Last Day of Class |
 | 2016-09-30 | 9:45 A.M. | Friday | Capstone Show-and-Tell |
 | 2016-09-30 | EOD | Friday | Capstone Due |
-| 2016-10-18 | 6:30 to 8:30 P.M. | Tuesday | Public Demo Day |
+| 2016-10-18 | 6:30 to 8:30 P.M. | Tuesday | [Public Demo Day](https://www.eventbrite.com/e/pdx-code-guild-demo-day-tickets-28514108466) |
