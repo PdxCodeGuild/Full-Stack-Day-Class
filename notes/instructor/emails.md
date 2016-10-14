@@ -301,3 +301,24 @@ XXX - did not XXX; last attended day was XXX
 Best,
 David
 ```
+
+## Demo Day Reminder
+
+```
+Hey Class!
+
+Demo Day approaches! It is XXX. Arrive a little early at XXX P.M. in the main PDX Code Guild building (the brick one). >>> Here is an invitation <<< you can forward to anyone you would like to attend. Please have them RSVP using that invitation so we know how many guests to expect. If you're not planning on presenting, please send Sheri and I an email.
+
+As a reminder:
+
+You'll prepare a short presentation showing off your capstone to hiring managers, friends, family, and other students. Tell a clear, concise, and directed story that shows off what you've created in five minutes. Consult my >>> notes on Demo Day <<< for more information.
+
+Five minutes is exceedingly short! Practice your presentation multiple times before you give it live to understand how short that is. Practice giving it to someone who is unfamiliar with your project to gauge understanding. I also suggest presenting from a quick slide deck rather than using a live demo to avoid snafus, but if you have a functional project you're welcome to show that off!
+
+When you arrive early, double check that your laptop works with the projector and we'll come up with an order of the presenters (it will probably be alphabetical by full name). Another course has also finished and will be presenting the same evening, so there will be a few more presenters.
+
+Please let me know if you have any questions. >>> Sheri <<< and >>> Katie <<< are available to coach and practice your presentations with before the presentation if you'd like.
+
+Best,
+David
+```
